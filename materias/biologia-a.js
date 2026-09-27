@@ -1,493 +1,391 @@
 window.DB_SUBJECTS = window.DB_SUBJECTS || [];
 window.DB_SUBJECTS.push({
-  id: "historia",
-  name: "História",
-  emoji: "🏛️",
+  id: "biologia-a",
+  name: "Biologia A",
+  emoji: "🧬",
   contents: [
     {
-      id: "grandes-navegacoes",
-      title: "As Grandes Navegações",
+      id: "fungos",
+      title: "Fungos",
       sections: [
         {
-          heading: "1. Rota Portuguesa",
-          body: `Portugal foi pioneiro nas Grandes Navegações. Seu objetivo principal era encontrar novas rotas comerciais, especialmente uma rota marítima para chegar às regiões produtoras de especiarias, evitando as rotas controladas por outros povos.
+          heading: "Classificação dos fungos",
+          body: `Leveduriformes
+• Unicelular
 
-Périplo Africano (Príncipe Africano):
-A expansão portuguesa começou pela exploração da costa da África. Portugal passou a avançar gradualmente pelo litoral africano, buscando novas terras, riquezas e principalmente uma passagem marítima para chegar ao Oriente.
+Filamentosos
+• Pluricelulares (formam hifa)
 
-Navegação de cabotagem:
-Consiste em navegar mantendo-se próximo à costa. Isso era importante porque os navegadores ainda não possuíam conhecimento suficiente para realizar longas viagens em mar aberto com segurança. Assim, exploravam a costa aos poucos, reconhecendo novos territórios e criando mapas.`,
+Carnosos
+• Pluricelulares (formam hifas)`,
         },
         {
-          heading: "Conquistas e explorações portuguesas",
-          body: `Ceuta (1415): Portugal conquistou Ceuta, no norte da África. Esse acontecimento é considerado um marco inicial da expansão marítima portuguesa.
-
-Pedro (1435): registro da expedição presente nas anotações.
-
-Cabo da Boa Esperança (1488): Bartolomeu Dias conseguiu contornar o extremo sul da África. O local ficou conhecido como Cabo da Boa Esperança. A importância dessa viagem foi enorme porque demonstrou que era possível contornar a África e continuar pelo Oceano Índico em direção à Ásia.
-
-Calicute / Índia — Vasco da Gama (1498): Vasco da Gama realizou a viagem que permitiu aos portugueses chegar à Índia (Calicute) por uma rota marítima, contornando a África. Isso abriu uma importante rota comercial portuguesa para o Oriente.
-
-Brasil (1500): A frota portuguesa comandada por Pedro Álvares Cabral chegou ao território que posteriormente seria chamado de Brasil.
-
-Sequência para entender a rota portuguesa:
-África → contorno da África → Oceano Índico → Índia → Brasil
-
-A ideia principal é entender que Portugal avançou progressivamente pela costa africana até conseguir encontrar uma passagem para o Oriente.`,
-          visual: `
-<div class="flex flex-wrap items-center justify-center gap-2 text-xs sm:text-sm">
-  <div class="rounded-lg bg-cream border border-sand px-3 py-2 text-bark font-medium text-center">Ceuta<br/><span class="text-[10px] text-bark/60">1415</span></div>
-  <span class="text-ochre">→</span>
-  <div class="rounded-lg bg-cream border border-sand px-3 py-2 text-bark font-medium text-center">Cabo da Boa Esperança<br/><span class="text-[10px] text-bark/60">1488</span></div>
-  <span class="text-ochre">→</span>
-  <div class="rounded-lg bg-cream border border-sand px-3 py-2 text-bark font-medium text-center">Índia (Calicute)<br/><span class="text-[10px] text-bark/60">1498</span></div>
-  <span class="text-ochre">→</span>
-  <div class="rounded-lg bg-espresso text-cream px-3 py-2 font-medium text-center">Brasil<br/><span class="text-[10px] opacity-80">1500</span></div>
-</div>`,
+          heading: "Fungos no geral",
+          body: `• Eucariontes
+• Uni ou pluricelulares
+• Heterótrofos
+• Relações ecológicas:
+   – Decompositores (saprófagos)
+   – Parasitas (micose)
+   – Mutualistas`,
         },
         {
-          heading: "2. Rota Espanhola",
-          body: `Enquanto Portugal buscava chegar à Ásia contornando a África, a Espanha procurou uma alternativa: navegar para o oeste, atravessando o Oceano Atlântico.
+          heading: "Características",
+          body: `• Parede celular rica em quitina
+• Armazena glicogênio
+• Digestão extracorpórea
+• Hifas → unidades vegetativas e reprodutivas dos fungos
 
-Cristóvão Colombo — navegação:
-Cristóvão Colombo acreditava que poderia chegar à Ásia navegando para o oeste. Em 1492, ele realizou sua viagem financiada pela monarquia espanhola. Colombo chegou às ilhas do Caribe, mas acreditou inicialmente que havia chegado às proximidades da Ásia.
-
-Circum-navegação
-Antilhas (Caribe)
-Rio Amazonas (Américo Vespúcio)
-Batismo da "América"
-Oceano Pacífico
-Circum-navegação completa (Fernão de Magalhães e Sebastião El Cano)`,
-        },
-        {
-          heading: "Conquistas espanholas",
-          body: `Antilhas (1492): As Antilhas são um conjunto de ilhas localizado na região do Caribe. A chegada de Colombo às Antilhas marcou o início da expansão espanhola no continente americano.
-
-Batismo da "América" (1507): O nome América foi associado ao continente em homenagem a Américo Vespúcio. As viagens e relatos de Vespúcio contribuíram para a compreensão de que aquelas terras não eram simplesmente uma parte da Ásia, mas formavam um Novo Mundo.
-
-Oceano Pacífico (1513): Em 1513, o espanhol Vasco Núñez de Balboa atravessou o istmo do Panamá e avistou um grande oceano, que posteriormente ficou conhecido como Oceano Pacífico. Essa descoberta mostrou que havia outro grande oceano separando as terras americanas da Ásia.
-
-Circum-navegação (1519–1522): A expedição iniciada por Fernão de Magalhães tinha como objetivo encontrar uma passagem pelo continente americano para chegar às ilhas das especiarias navegando para o oeste. A expedição começou em 1519. Fernão de Magalhães morreu durante a viagem, mas sua expedição continuou sob o comando de Juan Sebastián Elcano. Em 1522, a expedição retornou à Espanha, completando a primeira circum-navegação do planeta.
-
-O que significa circum-navegação?
-Circum-navegar = dar uma volta completa ao redor da Terra por via marítima. Essa viagem foi muito importante porque comprovou, na prática, a dimensão do planeta e a existência de uma enorme extensão de oceanos.`,
-          visual: `
-<div class="flex flex-wrap items-center justify-center gap-2 text-xs sm:text-sm">
-  <div class="rounded-lg bg-cream border border-sand px-3 py-2 text-bark font-medium text-center">Antilhas<br/><span class="text-[10px] text-bark/60">1492</span></div>
-  <span class="text-ochre">→</span>
-  <div class="rounded-lg bg-cream border border-sand px-3 py-2 text-bark font-medium text-center">"América"<br/><span class="text-[10px] text-bark/60">1507 · Vespúcio</span></div>
-  <span class="text-ochre">→</span>
-  <div class="rounded-lg bg-cream border border-sand px-3 py-2 text-bark font-medium text-center">Oceano Pacífico<br/><span class="text-[10px] text-bark/60">1513 · Balboa</span></div>
-  <span class="text-ochre">→</span>
-  <div class="rounded-lg bg-espresso text-cream px-3 py-2 font-medium text-center">Circum-navegação<br/><span class="text-[10px] opacity-80">1519–1522</span></div>
-</div>`,
-        },
-        {
-          heading: "3. Tratado de Tordesilhas",
-          body: `Com Portugal e Espanha realizando suas próprias expedições e reivindicando novas terras, surgiu a necessidade de estabelecer uma divisão entre as áreas de exploração dos dois países. Por isso, foi assinado o Tratado de Tordesilhas, em 1494.
-
-O tratado estabeleceu uma linha imaginária para dividir as áreas de exploração entre Portugal e Espanha.
-
-Divisão territorial:
-Terras a leste da linha → Portugal
-Terras a oeste da linha → Espanha
-
-Essa divisão ajuda a explicar por que Portugal ficou com uma parte do território americano que posteriormente formaria o Brasil, enquanto grande parte da América ficou sob domínio espanhol.`,
-          visual: `
-<div class="flex rounded-lg overflow-hidden border border-sand max-w-xs mx-auto text-center text-xs font-semibold">
-  <div class="flex-1 bg-cream text-bark py-4">Espanha<br/><span class="font-normal text-[10px]">terras a oeste</span></div>
-  <div class="w-1 bg-ochre"></div>
-  <div class="flex-1 bg-espresso text-cream py-4">Portugal<br/><span class="font-normal text-[10px] opacity-80">terras a leste</span></div>
-</div>
-<p class="text-[10.5px] text-bark/50 text-center mt-2">Tratado de Tordesilhas — 1494</p>`,
-        },
-        {
-          heading: "Linha do tempo — para enxergar a matéria",
-          body: `PORTUGAL:
-1415 → Ceuta
-Navegação de cabotagem pela costa africana
-1435 → Pedro — registro da anotação
-1488 → Bartolomeu Dias / Cabo da Boa Esperança
-1498 → Vasco da Gama / chegada à Índia
-1500 → Brasil / Pedro Álvares Cabral
-
-ESPANHA:
-1492 → Colombo / chegada às Antilhas
-1494 → Tratado de Tordesilhas
-1507 → "América" / Américo Vespúcio
-1513 → Vasco Núñez de Balboa / Oceano Pacífico
-1519–1522 → Fernão de Magalhães e Juan Sebastián Elcano / circum-navegação`,
+Tipos de hifas
+Hifa septada → possui divisões/septos.
+Hifa asseptada → não possui septos.`,
           visual: `
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-  <div>
-    <p class="text-xs font-semibold text-espresso mb-2 text-center">🇵🇹 Portugal</p>
-    <div class="flex flex-col items-center gap-1 text-center">
-      <div class="w-full rounded-lg bg-cream border border-sand px-2 py-1.5 text-xs text-bark font-medium">1415 · Ceuta</div>
-      <span class="text-ochre text-xs">↓</span>
-      <div class="w-full rounded-lg bg-cream border border-sand px-2 py-1.5 text-xs text-bark font-medium">Cabotagem pela costa africana</div>
-      <span class="text-ochre text-xs">↓</span>
-      <div class="w-full rounded-lg bg-cream border border-sand px-2 py-1.5 text-xs text-bark font-medium">1435 · Pedro</div>
-      <span class="text-ochre text-xs">↓</span>
-      <div class="w-full rounded-lg bg-cream border border-sand px-2 py-1.5 text-xs text-bark font-medium">1488 · B. Dias / Cabo da Boa Esperança</div>
-      <span class="text-ochre text-xs">↓</span>
-      <div class="w-full rounded-lg bg-cream border border-sand px-2 py-1.5 text-xs text-bark font-medium">1498 · Vasco da Gama / Índia</div>
-      <span class="text-ochre text-xs">↓</span>
-      <div class="w-full rounded-lg bg-beige border border-sand px-2 py-1.5 text-xs text-bark font-semibold">1500 · Brasil / Cabral</div>
-    </div>
+  <div class="text-center">
+    <svg viewBox="0 0 220 70" class="w-full" xmlns="http://www.w3.org/2000/svg">
+      <rect x="10" y="20" width="200" height="30" rx="15" fill="none" stroke="#5C4630" stroke-width="2.5"/>
+      <line x1="55" y1="20" x2="55" y2="50" stroke="#A8763E" stroke-width="2"/>
+      <line x1="100" y1="20" x2="100" y2="50" stroke="#A8763E" stroke-width="2"/>
+      <line x1="145" y1="20" x2="145" y2="50" stroke="#A8763E" stroke-width="2"/>
+      <line x1="190" y1="20" x2="190" y2="50" stroke="#A8763E" stroke-width="2"/>
+    </svg>
+    <p class="text-xs text-bark/60 mt-1 font-medium">Hifa septada — possui divisões (septos)</p>
   </div>
-  <div>
-    <p class="text-xs font-semibold text-espresso mb-2 text-center">🇪🇸 Espanha</p>
-    <div class="flex flex-col items-center gap-1 text-center">
-      <div class="w-full rounded-lg bg-cream border border-sand px-2 py-1.5 text-xs text-bark font-medium">1492 · Colombo / Antilhas</div>
-      <span class="text-ochre text-xs">↓</span>
-      <div class="w-full rounded-lg bg-cream border border-sand px-2 py-1.5 text-xs text-bark font-medium">1494 · Tratado de Tordesilhas</div>
-      <span class="text-ochre text-xs">↓</span>
-      <div class="w-full rounded-lg bg-cream border border-sand px-2 py-1.5 text-xs text-bark font-medium">1507 · "América" / Vespúcio</div>
-      <span class="text-ochre text-xs">↓</span>
-      <div class="w-full rounded-lg bg-cream border border-sand px-2 py-1.5 text-xs text-bark font-medium">1513 · Balboa / Oceano Pacífico</div>
-      <span class="text-ochre text-xs">↓</span>
-      <div class="w-full rounded-lg bg-beige border border-sand px-2 py-1.5 text-xs text-bark font-semibold">1519–1522 · Magalhães / Elcano</div>
-    </div>
+  <div class="text-center">
+    <svg viewBox="0 0 220 70" class="w-full" xmlns="http://www.w3.org/2000/svg">
+      <rect x="10" y="20" width="200" height="30" rx="15" fill="none" stroke="#5C4630" stroke-width="2.5"/>
+      <circle cx="55" cy="35" r="4" fill="#A8763E"/>
+      <circle cx="100" cy="35" r="4" fill="#A8763E"/>
+      <circle cx="145" cy="35" r="4" fill="#A8763E"/>
+      <circle cx="190" cy="35" r="4" fill="#A8763E"/>
+    </svg>
+    <p class="text-xs text-bark/60 mt-1 font-medium">Hifa asseptada — sem septos (núcleos livres)</p>
   </div>
 </div>`,
         },
         {
-          heading: "8. O que você precisa entender",
-          body: `Não pense nessa matéria como uma lista de datas. Pense em duas estratégias diferentes para chegar ao Oriente:
-
-🇵🇹 PORTUGAL
-Portugal escolheu o caminho de contornar a África.
-Portugal → África → Cabo da Boa Esperança → Oceano Índico → Índia
-
-🇪🇸 ESPANHA
-A Espanha tentou chegar ao Oriente navegando para o oeste, pelo Atlântico.
-Espanha → Oceano Atlântico → América → tentativa de chegar à Ásia
-
-O resultado foi a chegada dos europeus ao continente americano e o início de uma nova fase de exploração, conquista e colonização.`,
+          heading: "Principais grupos",
+          body: `• Zigomicetos
+• Ascomicetos
+• Basidiomicetos
+• Deuteromicetos → fungos incompletos, não fazem reprodução sexuada.`,
         },
         {
-          heading: "9. Ouro da matéria",
-          body: `Portugal = caminho pelo LESTE, contornando a África.
-Espanha = caminho pelo OESTE, atravessando o Atlântico.
-1492 = Colombo chega às Antilhas.
-1494 = Tratado de Tordesilhas divide áreas entre Portugal e Espanha.
-1488 = Bartolomeu Dias contorna o extremo sul da África.
-1498 = Vasco da Gama chega à Índia.
-1500 = chegada portuguesa ao Brasil.
-1513 = Balboa avista o Oceano Pacífico.
-1519–1522 = primeira circum-navegação da Terra.
+          heading: "Condições para o desenvolvimento",
+          body: `• Água
+• Temperatura
+• Nutrientes`,
+        },
+        {
+          heading: "Reprodução",
+          body: `Assexuada
+• Esporulação
+• Brotamento
 
-A lógica geral é:
-Busca por novas rotas comerciais → Grandes Navegações → Portugal e Espanha exploram rotas diferentes → chegada dos europeus à América → disputa pelas novas terras → Tratado de Tordesilhas.`,
+Sexuada
+• Fusão de hifas
+• Plasmogamia → fusão de citoplasma
+• Cariogamia → fusão de núcleos`,
         },
       ],
       quiz: [
-        { q: "Como era chamada a navegação portuguesa que seguia próxima à costa?", options: ["Navegação de cabotagem", "Circun-navegação", "Navegação estelar", "Navegação por satélite"], correct: 0 },
-        { q: "Qual foi uma das primeiras conquistas portuguesas no Périplo Africano?", options: ["Ceuta", "Antilhas", "Rio Amazonas", "Oceano Pacífico"], correct: 0 },
-        { q: "Qual ponto marcou a passagem portuguesa para o Oceano Índico?", options: ["Cabo da Boa Esperança", "Rio Amazonas", "Antilhas", "Oceano Pacífico"], correct: 0 },
-        { q: "Qual cidade indiana foi alcançada pelos portugueses no Périplo Africano?", options: ["Calicute", "Ceuta", "Antilhas", "Havana"], correct: 0 },
-        { q: "Além da Índia, qual território a rota portuguesa também alcançou?", options: ["Brasil", "México", "Peru", "Cuba"], correct: 0 },
-        { q: "Qual era a estratégia da rota espanhola?", options: ["Circun-navegação", "Navegação de cabotagem", "Rota terrestre pela Ásia", "Travessia do deserto do Saara"], correct: 0 },
-        { q: "Quais territórios foram conquistas da rota espanhola no Caribe?", options: ["Antilhas", "Calicute", "Ceuta", "Cabo da Boa Esperança"], correct: 0 },
-        { q: "Quem explorou o Rio Amazonas e deu nome ao continente americano?", options: ["Américo Vespúcio", "Vasco da Gama", "Bartolomeu Dias", "Cristóvão Colombo"], correct: 0 },
-        { q: "Quem completou a primeira circun-navegação, após a morte de Fernão de Magalhães?", options: ["Sebastião El Cano", "Américo Vespúcio", "Pedro Álvares Cabral", "Bartolomeu Dias"], correct: 0 },
-        { q: "O que definiu o Tratado de Tordesilhas?", options: ["A divisão de terras entre Espanha e Portugal", "Uma aliança militar", "O fim das navegações", "A criação de uma moeda única"], correct: 0 },
-        { q: "Qual era o principal objetivo de Portugal com as Grandes Navegações?", options: ["Encontrar novas rotas comerciais para as regiões produtoras de especiarias", "Colonizar a Ásia militarmente", "Encontrar uma rota terrestre para a Índia", "Estabelecer comércio com a Oceania"], correct: 0 },
-        { q: "Por que Portugal buscava uma nova rota marítima, e não a rota tradicional?", options: ["Para evitar as rotas controladas por outros povos", "Porque a rota terrestre havia sido destruída", "Porque não existia rota terrestre", "Porque queria evitar o Oceano Atlântico"], correct: 0 },
-        { q: "A expansão portuguesa começou explorando qual região?", options: ["A costa da África", "A costa da Ásia", "O interior da Europa", "As ilhas do Caribe"], correct: 0 },
-        { q: "O que é a navegação de cabotagem?", options: ["Navegar mantendo-se próximo à costa", "Navegar apenas à noite", "Navegar sem o uso de mapas", "Navegar apenas em rios"], correct: 0 },
-        { q: "Por que os portugueses adotaram a navegação de cabotagem no início da expansão?", options: ["Porque ainda não tinham conhecimento suficiente para viagens seguras em mar aberto", "Porque era proibido se afastar da costa", "Porque não existiam caravelas", "Porque queriam evitar contato com outros povos"], correct: 0 },
-        { q: "Em que ano Portugal conquistou Ceuta, no norte da África?", options: ["1415", "1435", "1488", "1498"], correct: 0 },
-        { q: "Por que a conquista de Ceuta é importante para a história da expansão marítima?", options: ["É considerada um marco inicial da expansão marítima portuguesa", "Foi a primeira colônia portuguesa na América", "Marcou o fim das navegações portuguesas", "Foi o local onde nasceu Vasco da Gama"], correct: 0 },
-        { q: "Em que ano ocorreu o registro da expedição de Pedro, presente nas anotações da matéria?", options: ["1435", "1415", "1488", "1500"], correct: 0 },
-        { q: "Quem conseguiu contornar o extremo sul da África em 1488?", options: ["Bartolomeu Dias", "Vasco da Gama", "Pedro Álvares Cabral", "Cristóvão Colombo"], correct: 0 },
-        { q: "Como ficou conhecido o local contornado por Bartolomeu Dias em 1488?", options: ["Cabo da Boa Esperança", "Cabo Verde", "Cabo de Santa Maria", "Cabo do Índico"], correct: 0 },
-        { q: "Qual foi a importância da viagem de Bartolomeu Dias em 1488?", options: ["Demonstrou que era possível contornar a África e seguir pelo Oceano Índico até a Ásia", "Encerrou definitivamente as navegações portuguesas", "Provou que a Terra era redonda pela primeira vez", "Iniciou o Tratado de Tordesilhas"], correct: 0 },
-        { q: "Em que ano Vasco da Gama chegou à Índia contornando a África?", options: ["1498", "1488", "1500", "1492"], correct: 0 },
-        { q: "O que a chegada de Vasco da Gama à Índia, em 1498, permitiu a Portugal?", options: ["Abrir uma importante rota comercial portuguesa para o Oriente", "Encerrar o comércio de especiarias", "Iniciar a colonização da América", "Fundar a cidade de Calicute"], correct: 0 },
-        { q: "Em que ano a frota portuguesa comandada por Pedro Álvares Cabral chegou ao território que seria o Brasil?", options: ["1500", "1498", "1494", "1488"], correct: 0 },
-        { q: "Qual é a sequência correta para entender a rota portuguesa, segundo o conteúdo?", options: ["África → contorno da África → Oceano Índico → Índia → Brasil", "Brasil → Índia → África → Europa", "Índia → África → Brasil → Europa", "Europa → América → África → Índia"], correct: 0 },
-        { q: "Enquanto Portugal contornava a África, qual foi a estratégia adotada pela Espanha?", options: ["Navegar para o oeste, atravessando o Oceano Atlântico", "Navegar para o norte, em direção à Escandinávia", "Construir uma rota terrestre pela Ásia", "Aliar-se a Portugal na mesma rota"], correct: 0 },
-        { q: "Em que ano Cristóvão Colombo realizou sua viagem financiada pela monarquia espanhola?", options: ["1492", "1488", "1498", "1500"], correct: 0 },
-        { q: "O que Cristóvão Colombo acreditava ao chegar às ilhas do Caribe?", options: ["Que havia chegado às proximidades da Ásia", "Que havia chegado a um novo continente desconhecido", "Que havia contornado a África", "Que havia alcançado a Índia pela rota portuguesa"], correct: 0 },
-        { q: "O que são as Antilhas, mencionadas na chegada de Colombo em 1492?", options: ["Um conjunto de ilhas localizado na região do Caribe", "Uma cordilheira na América do Sul", "Uma região da costa africana", "Um arquipélago no Oceano Pacífico"], correct: 0 },
-        { q: "A chegada de Colombo às Antilhas, em 1492, marcou o início de quê?", options: ["Da expansão espanhola no continente americano", "Da expansão portuguesa na Ásia", "Do Tratado de Tordesilhas", "Da circum-navegação"], correct: 0 },
-        { q: "Em homenagem a quem o continente americano recebeu o nome 'América', em 1507?", options: ["Américo Vespúcio", "Cristóvão Colombo", "Fernão de Magalhães", "Vasco da Gama"], correct: 0 },
-        { q: "O que as viagens e relatos de Américo Vespúcio ajudaram a compreender?", options: ["Que aquelas terras formavam um Novo Mundo, e não parte da Ásia", "Que a Terra era plana", "Que a Índia ficava a oeste da Europa", "Que não existiam mais terras a serem descobertas"], correct: 0 },
-        { q: "Em que ano o espanhol Vasco Núñez de Balboa avistou o Oceano Pacífico?", options: ["1513", "1507", "1492", "1519"], correct: 0 },
-        { q: "O que Vasco Núñez de Balboa atravessou para avistar o Oceano Pacífico?", options: ["O istmo do Panamá", "O deserto do Atacama", "Os Andes", "O Golfo do México"], correct: 0 },
-        { q: "O que a descoberta do Oceano Pacífico, em 1513, revelou?", options: ["Que havia outro grande oceano separando a América da Ásia", "Que a Terra era menor do que se pensava", "Que a América não existia", "Que a rota portuguesa estava errada"], correct: 0 },
-        { q: "Quem iniciou a expedição de circum-navegação em 1519?", options: ["Fernão de Magalhães", "Vasco Núñez de Balboa", "Cristóvão Colombo", "Pedro Álvares Cabral"], correct: 0 },
-        { q: "Qual era o objetivo da expedição de Fernão de Magalhães, iniciada em 1519?", options: ["Encontrar uma passagem pelo continente americano para chegar às ilhas das especiarias navegando para o oeste", "Contornar a África até a Índia", "Conquistar o Brasil", "Fundar uma colônia nas Antilhas"], correct: 0 },
-        { q: "O que aconteceu com Fernão de Magalhães durante a expedição de circum-navegação?", options: ["Ele morreu durante a viagem", "Ele completou a viagem sozinho", "Ele desistiu e retornou à Espanha", "Ele se tornou rei da Espanha"], correct: 0 },
-        { q: "Quem assumiu o comando da expedição após a morte de Fernão de Magalhães?", options: ["Juan Sebastián Elcano", "Vasco Núñez de Balboa", "Cristóvão Colombo", "Pedro Álvares Cabral"], correct: 0 },
-        { q: "Em que ano a expedição retornou à Espanha, completando a primeira circum-navegação do planeta?", options: ["1522", "1519", "1513", "1494"], correct: 0 },
-        { q: "O que significa 'circum-navegar'?", options: ["Dar uma volta completa ao redor da Terra por via marítima", "Navegar apenas próximo à costa", "Atravessar um único oceano", "Navegar apenas em rios"], correct: 0 },
-        { q: "Por que a primeira circum-navegação foi tão importante?", options: ["Comprovou, na prática, a dimensão do planeta e a existência de uma enorme extensão de oceanos", "Marcou o fim das Grandes Navegações", "Provou que a Terra era plana", "Encerrou o comércio com a Ásia"], correct: 0 },
-        { q: "Em que ano foi assinado o Tratado de Tordesilhas?", options: ["1494", "1488", "1498", "1507"], correct: 0 },
-        { q: "Por que o Tratado de Tordesilhas foi necessário?", options: ["Porque Portugal e Espanha precisavam dividir as áreas de exploração entre si", "Porque a Espanha havia invadido Portugal", "Porque a Igreja proibiu as navegações", "Porque a Inglaterra exigiu uma divisão"], correct: 0 },
-        { q: "Segundo o Tratado de Tordesilhas, para quem ficariam as terras a leste da linha imaginária?", options: ["Portugal", "Espanha", "Inglaterra", "França"], correct: 0 },
-        { q: "Segundo o Tratado de Tordesilhas, para quem ficariam as terras a oeste da linha imaginária?", options: ["Espanha", "Portugal", "Inglaterra", "França"], correct: 0 },
-        { q: "A divisão do Tratado de Tordesilhas ajuda a explicar por que Portugal ficou com qual território na América?", options: ["O território que formaria o Brasil", "Todo o continente americano", "As Antilhas", "O istmo do Panamá"], correct: 0 },
-        { q: "Segundo o 'ouro da matéria', qual caminho Portugal escolheu para chegar ao Oriente?", options: ["O caminho pelo leste, contornando a África", "O caminho pelo oeste, atravessando o Atlântico", "Uma rota terrestre pela Ásia", "Nenhuma rota, apenas comércio local"], correct: 0 },
-        { q: "Segundo o 'ouro da matéria', qual caminho a Espanha escolheu para tentar chegar ao Oriente?", options: ["O caminho pelo oeste, atravessando o Atlântico", "O caminho pelo leste, contornando a África", "Uma rota pelo Ártico", "Uma rota terrestre pela Rússia"], correct: 0 },
-        { q: "Qual foi o resultado geral das duas estratégias de Portugal e Espanha?", options: ["A chegada dos europeus ao continente americano e o início de uma nova fase de exploração e colonização", "O fim total do comércio entre Europa e Ásia", "A unificação política entre Portugal e Espanha", "O abandono das navegações por ambos os países"], correct: 0 },
-        { q: "Qual é a lógica geral apresentada no 'ouro da matéria' para resumir todo o processo?", options: ["Busca por novas rotas → Grandes Navegações → Portugal e Espanha exploram rotas diferentes → chegada à América → disputa por terras → Tratado de Tordesilhas", "Tratado de Tordesilhas → Grandes Navegações → busca por rotas → chegada à América", "Chegada à América → Grandes Navegações → Tratado de Tordesilhas → busca por rotas", "Disputa por terras → Tratado de Tordesilhas → fim das navegações"], correct: 0 },
-        { q: "Na linha do tempo de Portugal, o que vem imediatamente após a conquista de Ceuta, em 1415?", options: ["A navegação de cabotagem pela costa africana", "A chegada ao Brasil", "O Tratado de Tordesilhas", "A chegada à Índia"], correct: 0 },
-        { q: "Na linha do tempo de Portugal, o que ocorre em 1498, logo após o Cabo da Boa Esperança?", options: ["A chegada de Vasco da Gama à Índia", "A chegada ao Brasil", "A conquista de Ceuta", "O Tratado de Tordesilhas"], correct: 0 },
-        { q: "Na linha do tempo da Espanha, o que ocorre logo após a chegada de Colombo às Antilhas, em 1492?", options: ["O Tratado de Tordesilhas, em 1494", "A circum-navegação, em 1519", "O batismo da América, em 1507", "A descoberta do Oceano Pacífico"], correct: 0 },
-        { q: "Na linha do tempo da Espanha, o que ocorre em 1513, entre o batismo da América e a circum-navegação?", options: ["Vasco Núñez de Balboa avista o Oceano Pacífico", "Colombo chega às Antilhas", "É assinado o Tratado de Tordesilhas", "Cabral chega ao Brasil"], correct: 0 },
-        { q: "Qual evento da rota espanhola ocorreu por último, cronologicamente, entre os apresentados?", options: ["A circum-navegação (1519–1522)", "A chegada às Antilhas (1492)", "O Tratado de Tordesilhas (1494)", "O batismo da América (1507)"], correct: 0 },
-        { q: "Qual evento da rota portuguesa ocorreu por último, cronologicamente, entre os apresentados?", options: ["A chegada ao Brasil (1500)", "A conquista de Ceuta (1415)", "O Cabo da Boa Esperança (1488)", "A chegada à Índia (1498)"], correct: 0 },
-        { q: "Colombo, Vasco da Gama e Cabral têm em comum o quê, segundo a matéria?", options: ["Todos participaram diretamente das Grandes Navegações dos séculos XV e XVI", "Todos nasceram no mesmo ano", "Todos participaram da circum-navegação", "Todos assinaram o Tratado de Tordesilhas"], correct: 0 },
-        { q: "Qual é a principal diferença entre a estratégia portuguesa e a espanhola nas Grandes Navegações?", options: ["Portugal contornou a África (leste); a Espanha atravessou o Atlântico (oeste)", "Ambas seguiram exatamente a mesma rota", "Portugal foi para o oeste e a Espanha para o leste", "Nenhuma das duas chegou a um novo território"], correct: 0 },
-        { q: "O nome 'América', dado ao continente em 1507, substituiu qual ideia inicial de Colombo sobre as terras encontradas?", options: ["A ideia de que eram parte da Ásia", "A ideia de que eram parte da África", "A ideia de que eram um continente desconhecido chamado Atlântida", "A ideia de que não existiam terras ali"], correct: 0 },
+        {
+          q: "Os fungos leveduriformes são caracterizados por serem:",
+          options: ["Unicelulares", "Pluricelulares formando hifas", "Autótrofos", "Possuidores de clorofila"],
+          correct: 0,
+        },
+        {
+          q: "Os fungos filamentosos são:",
+          options: ["Pluricelulares e formam hifa", "Unicelulares", "Autótrofos", "Desprovidos de parede celular"],
+          correct: 0,
+        },
+        {
+          q: "Quanto à nutrição, os fungos são classificados como:",
+          options: ["Heterótrofos", "Autótrofos", "Fotossintetizantes", "Quimiolitotróficos"],
+          correct: 0,
+        },
+        {
+          q: "A parede celular dos fungos é rica em:",
+          options: ["Quitina", "Celulose", "Peptidoglicano", "Queratina"],
+          correct: 0,
+        },
+        {
+          q: "Os fungos armazenam energia principalmente na forma de:",
+          options: ["Glicogênio", "Amido", "Celulose", "Apenas lipídios"],
+          correct: 0,
+        },
+        {
+          q: "Como ocorre a digestão nos fungos?",
+          options: ["Digestão extracorpórea", "Digestão intracelular apenas", "Fotossíntese", "Quimiossíntese"],
+          correct: 0,
+        },
+        {
+          q: "A hifa septada se diferencia da asseptada por:",
+          options: ["Possuir divisões/septos", "Ser exclusiva de leveduras", "Não ter função reprodutiva", "Ser encontrada apenas em zigomicetos"],
+          correct: 0,
+        },
+        {
+          q: "Qual grupo de fungos é descrito como incompleto, por não realizar reprodução sexuada?",
+          options: ["Deuteromicetos", "Ascomicetos", "Basidiomicetos", "Zigomicetos"],
+          correct: 0,
+        },
+        {
+          q: "Quais são as condições necessárias para o desenvolvimento dos fungos?",
+          options: ["Água, temperatura e nutrientes", "Luz solar, CO₂ e água", "Apenas luz solar", "Apenas nutrientes"],
+          correct: 0,
+        },
+        {
+          q: "Na reprodução sexuada dos fungos, a plasmogamia corresponde a:",
+          options: ["Fusão de citoplasma", "Fusão de núcleos", "Formação de esporos", "Brotamento"],
+          correct: 0,
+        },
       ],
     },
     {
-      id: "renascimento-cultural",
-      title: "Renascimento Cultural",
+      id: "briofitas",
+      title: "Briófitas",
       sections: [
         {
-          heading: "1. Definição",
-          body: `Transição da Idade Média para a Idade Moderna.`,
+          heading: "Principais grupos",
+          body: `• Musgos
+• Hepáticas
+• Antóceros`,
         },
         {
-          heading: "2. Antecedentes",
-          body: `Crise do Feudalismo (Nobreza).
-Formação dos Estados Nacionais (Absolutismo).
-Surgimento da Burguesia.`,
-          visual: `
-<div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
-  <div class="rounded-xl bg-cream border border-sand p-4 text-center">
-    <p class="font-display text-sm text-espresso mb-1">Crise do Feudalismo</p>
-    <p class="text-xs text-bark/70">Enfraquecimento da nobreza</p>
-  </div>
-  <div class="rounded-xl bg-cream border border-sand p-4 text-center">
-    <p class="font-display text-sm text-espresso mb-1">Estados Nacionais</p>
-    <p class="text-xs text-bark/70">Formação do Absolutismo</p>
-  </div>
-  <div class="rounded-xl bg-cream border border-sand p-4 text-center">
-    <p class="font-display text-sm text-espresso mb-1">Burguesia</p>
-    <p class="text-xs text-bark/70">Surgimento de uma nova classe social</p>
-  </div>
-</div>`,
+          heading: "Características",
+          body: `• Não possuem xilema ou floema
+• Dependentes da água para reprodução
+• Suas gametas usam a água para se deslocar.
+• Plantas são encontradas em ambientes úmidos e sombreados.`,
         },
         {
-          heading: "3. Maior intercâmbio cultural entre Ocidente e Oriente",
-          body: `Cruzadas e Queda do Império Bizantino (Rotas de comércio e intelectuais migraram para o Ocidente).
-Retomada da cultura clássica.`,
-        },
-        {
-          heading: "4. Mudança de mentalidade",
-          body: `Teocentrismo → Antropocentrismo:
-Produção de conhecimento ligada ao humano.
+          heading: "Fases",
+          body: `Fase dominante
+Gametófito → clorofilado
 
-Racionalismo: Ciência.
-Naturalismo: Explicação dos fenômenos naturais a partir de abstrações.
-Individualismo: Valorização do mérito / esforço / talento.`,
+Fase reprodutiva
+Esporófito → não é clorofilado`,
           visual: `
-<div class="flex flex-col items-center gap-3">
-  <div class="flex items-center gap-2">
-    <div class="rounded-lg bg-cream border border-sand px-3 py-2 text-xs font-medium text-bark text-center">Teocentrismo</div>
-    <span class="text-ochre text-lg">→</span>
-    <div class="rounded-lg bg-espresso text-cream px-3 py-2 text-xs font-medium text-center">Antropocentrismo</div>
-  </div>
-  <div class="flex flex-wrap justify-center gap-2 text-[11px]">
-    <span class="rounded-full bg-beige border border-sand px-3 py-1 text-bark">Racionalismo · Ciência</span>
-    <span class="rounded-full bg-beige border border-sand px-3 py-1 text-bark">Naturalismo</span>
-    <span class="rounded-full bg-beige border border-sand px-3 py-1 text-bark">Individualismo</span>
-  </div>
-</div>`,
+<svg viewBox="0 0 200 220" class="w-full max-w-[220px] mx-auto" xmlns="http://www.w3.org/2000/svg">
+  <path d="M100,210 C80,160 80,120 100,90 C120,120 120,160 100,210 Z" fill="#E4D9C4" stroke="#5C4630" stroke-width="2"/>
+  <line x1="100" y1="90" x2="100" y2="40" stroke="#A8763E" stroke-width="3"/>
+  <ellipse cx="100" cy="30" rx="12" ry="16" fill="none" stroke="#A8763E" stroke-width="2.5"/>
+  <circle cx="80" cy="130" r="5" fill="#5C4630"/>
+  <circle cx="120" cy="150" r="5" fill="#3E2F20"/>
+  <text x="106" y="26" font-size="9" fill="#A8763E" font-weight="600">Esporófito (2n)</text>
+  <text x="106" y="49" font-size="8.5" fill="#A8763E">não clorofilado</text>
+  <text x="8" y="128" font-size="8.5" fill="#5C4630">Anterídio ♂</text>
+  <text x="128" y="153" font-size="8.5" fill="#3E2F20">Arquegônio ♀</text>
+  <text x="45" y="204" font-size="9.5" fill="#5C4630" font-weight="600">Gametófito (n) — clorofilado</text>
+</svg>`,
         },
         {
-          heading: "5. A Arte Renascentista",
-          body: `Arte + Ciência.
-Busca pelo realismo / naturalismo.
-Desenvolvimento da tridimensionalidade.
+          heading: "Órgãos produtores de gametas",
+          body: `Masculino
+Anterídio → produz os gametas masculinos.
 
-O Mecenato: Patrocínio da arte e da ciência.
-Fases: Trecento, Quattrocento, Cinquecento.
-
-Uso do Mecenato:
-Monarca: Fazem uso do mecenato para consolidação de poder.
-Igreja: Uso de mecenato.`,
-          visual: `
-<div class="flex items-center justify-center gap-2 text-xs sm:text-sm">
-  <div class="rounded-lg bg-cream border border-sand px-3 py-2 text-bark font-medium text-center">Trecento<br/><span class="text-[10px] text-bark/60">século XIV</span></div>
-  <span class="text-ochre">→</span>
-  <div class="rounded-lg bg-cream border border-sand px-3 py-2 text-bark font-medium text-center">Quattrocento<br/><span class="text-[10px] text-bark/60">século XV</span></div>
-  <span class="text-ochre">→</span>
-  <div class="rounded-lg bg-espresso text-cream px-3 py-2 font-medium text-center">Cinquecento<br/><span class="text-[10px] opacity-80">século XVI</span></div>
-</div>`,
+Feminino
+Arquegônio → produz o gameta feminino.`,
         },
       ],
       quiz: [
-        { q: "O Renascimento representa a transição de qual período para qual outro?", options: ["Da Idade Média para a Idade Moderna", "Da Idade Antiga para a Idade Média", "Da Idade Moderna para a Idade Contemporânea", "Da Pré-História para a Idade Antiga"], correct: 0 },
-        { q: "Qual foi um antecedente do Renascimento relacionado à nobreza?", options: ["A crise do Feudalismo", "O fortalecimento total do Feudalismo", "A extinção da nobreza", "A criação de novas monarquias feudais"], correct: 0 },
-        { q: "O que caracterizou a formação dos Estados Nacionais nesse contexto?", options: ["O Absolutismo", "O Parlamentarismo", "A democracia direta", "O federalismo"], correct: 0 },
-        { q: "Qual classe social surge e ganha força nesse período?", options: ["A burguesia", "O clero apenas", "Os escravos", "Os camponeses feudais"], correct: 0 },
-        { q: "Quais eventos favoreceram o maior intercâmbio cultural entre Ocidente e Oriente?", options: ["As Cruzadas e a Queda do Império Bizantino", "As Grandes Navegações apenas", "A Revolução Francesa", "A Guerra dos Cem Anos"], correct: 0 },
-        { q: "O que aconteceu com as rotas de comércio e os intelectuais após esses eventos?", options: ["Migraram para o Ocidente", "Desapareceram completamente", "Ficaram isolados no Oriente", "Foram proibidos de circular"], correct: 0 },
-        { q: "Na mudança de mentalidade do Renascimento, o Racionalismo está ligado a:", options: ["Ciência", "Magia", "Superstição", "Misticismo"], correct: 0 },
-        { q: "O Individualismo renascentista valoriza:", options: ["O mérito, o esforço e o talento individual", "Apenas a riqueza herdada", "Apenas o nascimento nobre", "A obediência cega às tradições"], correct: 0 },
-        { q: "O que caracteriza o Mecenato na Arte Renascentista?", options: ["O patrocínio da arte e da ciência por monarcas e pela Igreja", "A proibição da arte", "O financiamento apenas por artistas pobres", "A censura total da ciência"], correct: 0 },
-        { q: "Quais são as três fases da arte renascentista citadas no conteúdo?", options: ["Trecento, Quattrocento e Cinquecento", "Barroco, Rococó e Neoclássico", "Gótico, Românico e Bizantino", "Clássico, Helenístico e Romano"], correct: 0 },
-        { q: "O Renascimento representa uma transição entre quais dois períodos históricos?", options: ["Da Idade Média para a Idade Moderna", "Da Idade Antiga para a Idade Média", "Da Idade Moderna para a Contemporânea", "Da Pré-História para a Antiguidade"], correct: 0 },
-        { q: "O enfraquecimento de qual grupo social está entre os antecedentes do Renascimento?", options: ["A nobreza, com a crise do Feudalismo", "O clero apenas", "Os camponeses", "Os artesãos urbanos"], correct: 0 },
-        { q: "A formação dos Estados Nacionais, um dos antecedentes do Renascimento, está associada a qual sistema político?", options: ["O Absolutismo", "O Parlamentarismo", "A democracia direta", "O federalismo moderno"], correct: 0 },
-        { q: "Qual classe social surge e se fortalece como antecedente do Renascimento?", options: ["A burguesia", "O clero", "A nobreza feudal", "Os servos"], correct: 0 },
-        { q: "Quais dois eventos históricos favoreceram o maior intercâmbio cultural entre Ocidente e Oriente?", options: ["As Cruzadas e a Queda do Império Bizantino", "A Revolução Francesa e a Guerra dos Cem Anos", "As Grandes Navegações e o Tratado de Tordesilhas", "A Reforma Protestante e a Contrarreforma"], correct: 0 },
-        { q: "Após as Cruzadas e a Queda do Império Bizantino, o সমষ্টি o que aconteceu com as rotas de comércio e os intelectuais?", options: ["Migraram para o Ocidente", "Foram completamente destruídos", "Permaneceram isolados no Oriente", "Foram proibidos de circular pela Igreja"], correct: 0 },
-        { q: "O que os pensadores do Renascimento retomaram culturalmente, a partir desse intercâmbio?", options: ["A cultura clássica (Greco-Romana)", "A cultura egípcia antiga", "A cultura viking", "A cultura persa"], correct: 0 },
-        { q: "A mudança de mentalidade do Renascimento é resumida em qual transição de pensamento?", options: ["Teocentrismo → Antropocentrismo", "Antropocentrismo → Teocentrismo", "Politeísmo → Monoteísmo", "Absolutismo → Parlamentarismo"], correct: 0 },
-        { q: "No Antropocentrismo, a produção de conhecimento passa a estar ligada a quê?", options: ["Ao ser humano", "Exclusivamente ao mundo divino", "Apenas à natureza selvagem", "Apenas aos animais"], correct: 0 },
-        { q: "O Racionalismo, uma das mudanças de mentalidade do Renascimento, está ligado a que área?", options: ["À Ciência", "À magia", "À astrologia apenas", "À superstição popular"], correct: 0 },
-        { q: "O que caracteriza o Naturalismo, segundo a mudança de mentalidade renascentista?", options: ["A explicação dos fenômenos naturais a partir de abstrações", "A rejeição total da natureza", "A crença exclusiva em fenômenos sobrenaturais", "A ausência de qualquer explicação científica"], correct: 0 },
-        { q: "O que o Individualismo valoriza, dentro da mudança de mentalidade renascentista?", options: ["O mérito, o esforço e o talento individual", "Apenas a riqueza herdada", "Apenas o nascimento nobre", "A obediência cega às tradições"], correct: 0 },
-        { q: "Na Arte Renascentista, quais dois campos passam a caminhar juntos?", options: ["Arte e Ciência", "Arte e Religião apenas", "Ciência e Política", "Religião e Política"], correct: 0 },
-        { q: "O que a Arte Renascentista buscava representar, em termos de estilo?", options: ["Realismo e naturalismo", "Abstração total", "Formas geométricas simples apenas", "Cores exclusivamente escuras"], correct: 0 },
-        { q: "Qual técnica se desenvolveu na Arte Renascentista para dar profundidade às pinturas?", options: ["A tridimensionalidade", "A monocromia", "A caligrafia", "A escultura em relevo apenas"], correct: 0 },
-        { q: "O que é o Mecenato, na Arte Renascentista?", options: ["O patrocínio da arte e da ciência", "A proibição da arte", "Um imposto cobrado dos artistas", "Um tipo de contrato comercial entre países"], correct: 0 },
-        { q: "Quais são as três fases da Arte Renascentista, segundo o conteúdo?", options: ["Trecento, Quattrocento e Cinquecento", "Barroco, Rococó e Neoclássico", "Gótico, Românico e Bizantino", "Antigo, Médio e Moderno"], correct: 0 },
-        { q: "Quem usava o Mecenato para consolidação de poder, segundo o conteúdo?", options: ["O Monarca", "Apenas os artistas", "Apenas os camponeses", "Os comerciantes de especiarias"], correct: 0 },
-        { q: "Além do Monarca, qual outra instituição também fazia uso do Mecenato?", options: ["A Igreja", "O Exército", "O Parlamento", "Os sindicatos"], correct: 0 },
-        { q: "Qual é a definição central do Renascimento apresentada no conteúdo?", options: ["Um movimento de transição entre a Idade Média e a Idade Moderna", "Um movimento exclusivamente religioso", "Um movimento político sem relação com a cultura", "Um movimento restrito à economia"], correct: 0 },
-        { q: "A crise do Feudalismo, citada como antecedente, afetou diretamente qual grupo?", options: ["A nobreza", "A burguesia", "O clero apenas", "Os intelectuais gregos"], correct: 0 },
-        { q: "O Absolutismo, ligado à formação dos Estados Nacionais, concentrava o poder em quem?", options: ["No rei", "No parlamento", "Na Igreja exclusivamente", "Nos camponeses"], correct: 0 },
-        { q: "O surgimento da burguesia está relacionado a qual antecedente do Renascimento?", options: ["Ao fortalecimento do comércio e das cidades", "Ao fim total do comércio", "À expansão do feudalismo", "À criação da Igreja Católica"], correct: 0 },
-        { q: "As Cruzadas foram um dos eventos que intensificaram o contato entre quais regiões?", options: ["Ocidente e Oriente", "Norte e Sul da Europa", "América e África", "Ásia e Oceania"], correct: 0 },
-        { q: "A Queda do Império Bizantino contribuiu para qual processo histórico ligado ao Renascimento?", options: ["A migração de intelectuais e rotas de comércio para o Ocidente", "O fim do comércio europeu", "A expansão do Império Otomano para a América", "A criação do Tratado de Tordesilhas"], correct: 0 },
-        { q: "Por que a retomada da cultura clássica foi importante para o Renascimento?", options: ["Porque valorizava a razão, a arte e o ser humano, inspirando os pensadores da época", "Porque proibia qualquer estudo da Antiguidade", "Porque só tratava de temas religiosos", "Porque rejeitava toda forma de arte"], correct: 0 },
-        { q: "O Racionalismo renascentista se opõe a qual forma de pensamento medieval?", options: ["À explicação baseada apenas na fé e na tradição", "À explicação baseada em fatos históricos", "À explicação baseada na observação da natureza", "À explicação baseada na lógica"], correct: 0 },
-        { q: "O Individualismo renascentista contrasta com qual característica típica da Idade Média?", options: ["A valorização coletiva e hierárquica da sociedade feudal", "A valorização do mérito pessoal", "A ausência de qualquer hierarquia social", "O fim da Igreja Católica"], correct: 0 },
-        { q: "Segundo o conteúdo, o que caracteriza especificamente o Antropocentrismo em relação à produção de conhecimento?", options: ["O conhecimento passa a ser produzido com foco no ser humano", "O conhecimento é banido", "O conhecimento continua ligado apenas ao clero", "O conhecimento se torna exclusivamente militar"], correct: 0 },
-        { q: "Como a Arte Renascentista une elementos que antes eram vistos separadamente?", options: ["Unindo arte e ciência em uma mesma produção cultural", "Separando totalmente arte de religião", "Unindo apenas política e religião", "Unindo exclusivamente comércio e guerra"], correct: 0 },
-        { q: "A tridimensionalidade desenvolvida na Arte Renascentista busca representar o quê?", options: ["A profundidade e o realismo das formas", "Apenas formas planas e simbólicas", "Exclusivamente temas religiosos", "Uma perspectiva puramente abstrata"], correct: 0 },
-        { q: "Como o Mecenato funcionava na prática, segundo o conteúdo?", options: ["Patrocinando financeiramente a produção artística e científica", "Proibindo qualquer produção artística", "Cobrando impostos dos artistas", "Financiando apenas obras religiosas"], correct: 0 },
-        { q: "Em que ordem cronológica aparecem as fases da Arte Renascentista?", options: ["Trecento, depois Quattrocento, depois Cinquecento", "Cinquecento, depois Quattrocento, depois Trecento", "Quattrocento, depois Trecento, depois Cinquecento", "As três fases ocorrem ao mesmo tempo"], correct: 0 },
-        { q: "Por que o Monarca tinha interesse em patrocinar artistas através do Mecenato?", options: ["Para consolidar seu poder", "Para empobrecer a nobreza", "Para enfraquecer a Igreja", "Para financiar guerras exclusivamente"], correct: 0 },
-        { q: "Qual é a relação entre o Mecenato da Igreja e a Arte Renascentista?", options: ["A Igreja também fazia uso do mecenato para patrocinar arte e ciência", "A Igreja proibia todo tipo de mecenato", "A Igreja só financiava textos religiosos, nunca arte", "A Igreja se opunha à ciência renascentista sem exceções"], correct: 0 },
-        { q: "O que a transição do Teocentrismo para o Antropocentrismo representa de mais essencial?", options: ["A mudança do centro das explicações de Deus para o ser humano", "A substituição da religião católica por outra religião", "O fim de qualquer crença religiosa na Europa", "A criação de um novo sistema político"], correct: 0 },
-        { q: "Qual conjunto de antecedentes históricos abriu caminho para o Renascimento?", options: ["Crise do Feudalismo, formação dos Estados Nacionais e surgimento da burguesia", "Apenas a criação da imprensa", "Apenas as Grandes Navegações", "Apenas a Reforma Protestante"], correct: 0 },
-        { q: "O Naturalismo renascentista está mais próximo de qual tipo de explicação?", options: ["Uma explicação baseada em abstrações e observação dos fenômenos naturais", "Uma explicação puramente mística", "Uma explicação baseada exclusivamente em textos religiosos", "Uma explicação baseada em superstições populares"], correct: 0 },
-        { q: "Como a burguesia contribuiu para o ambiente cultural do Renascimento?", options: ["Fortalecendo o comércio e financiando a cultura nas cidades", "Proibindo qualquer atividade comercial", "Isolando as cidades do restante da Europa", "Financiando apenas atividades militares"], correct: 0 },
-        { q: "Segundo o conteúdo, o Renascimento surgiu inicialmente em qual contexto de mudanças profundas?", options: ["Um contexto de crise do sistema feudal e transformações políticas e sociais", "Um contexto de estabilidade total sem mudanças", "Um contexto de guerra permanente sem trocas culturais", "Um contexto de isolamento total da Europa"], correct: 0 },
-        { q: "O que diferencia o pensamento medieval do pensamento renascentista em relação ao conhecimento?", options: ["O medieval era ligado ao divino; o renascentista, ao ser humano e à razão", "Ambos eram idênticos em sua base", "O medieval era mais científico que o renascentista", "O renascentista rejeitava toda forma de conhecimento"], correct: 0 },
-        { q: "A valorização do mérito e do talento individual, no Individualismo, se opõe a qual ideia medieval?", options: ["A ideia de que o destino social era definido apenas pelo nascimento", "A ideia de que todos eram totalmente iguais", "A ideia de que o mérito sempre foi valorizado", "A ideia de que não existia hierarquia social na Idade Média"], correct: 0 },
-        { q: "Como as rotas de comércio reabertas após as Cruzadas influenciaram o Renascimento?", options: ["Trouxeram novas ideias e riquezas que ajudaram a fomentar a cultura renascentista", "Isolaram ainda mais a Europa", "Impediram qualquer troca cultural", "Não tiveram nenhuma relação com o Renascimento"], correct: 0 },
-        { q: "O que caracteriza, de forma geral, a 'Arte + Ciência' citada no conteúdo sobre a Arte Renascentista?", options: ["A junção entre técnica artística e conhecimento científico na produção das obras", "A total separação entre arte e ciência", "A substituição da ciência pela arte", "A proibição da ciência nas produções artísticas"], correct: 0 },
-        { q: "Por que o Renascimento é considerado um marco na passagem da Idade Média para a Idade Moderna?", options: ["Porque reuniu mudanças profundas de mentalidade, arte, ciência e organização social", "Porque foi um evento isolado sem consequências", "Porque ocorreu apenas na política", "Porque não teve relação com a cultura europeia"], correct: 0 },
-        { q: "O que a formação dos Estados Nacionais tem em comum com o Absolutismo, segundo o conteúdo?", options: ["Ambos estão relacionados à concentração de poder político como antecedente do Renascimento", "Não têm nenhuma relação entre si", "Ambos são posteriores ao Renascimento", "Ambos enfraqueceram os reis europeus"], correct: 0 },
-        { q: "Segundo o conteúdo, o que a 'retomada da cultura clássica' trouxe de mais importante para os artistas e pensadores?", options: ["Referências e inspiração da Antiguidade Greco-Romana", "A proibição de qualquer arte antiga", "A criação de uma cultura totalmente nova sem influências", "O fim do interesse pela arte"], correct: 0 },
-        { q: "Como pode-se resumir a relação entre Racionalismo e Naturalismo no Renascimento?", options: ["Ambos valorizam a observação e a explicação lógica dos fenômenos, em vez da fé cega", "Ambos rejeitam qualquer forma de observação", "Ambos são exclusivamente religiosos", "Ambos surgem apenas no século XX"], correct: 0 },
-        { q: "Por que os antecedentes políticos e sociais (Feudalismo, Estados Nacionais, burguesia) são importantes para entender o Renascimento?", options: ["Porque criaram as condições históricas que permitiram o florescimento cultural do período", "Porque não têm nenhuma relação com a cultura renascentista", "Porque ocorreram depois do Renascimento", "Porque impediram totalmente o Renascimento de acontecer"], correct: 0 },
-        { q: "De forma geral, o que o Renascimento representa como movimento histórico?", options: ["Uma retomada de valores clássicos combinada com uma nova valorização do ser humano, da razão e da arte", "Um retorno completo aos valores medievais", "Um movimento apenas econômico, sem relação com cultura", "Um evento isolado sem impacto na Europa"], correct: 0 },
+        {
+          q: "Quais são os principais grupos de briófitas?",
+          options: ["Musgos, hepáticas e antóceros", "Musgos, samambaias e pteridófitas", "Algas, líquens e musgos", "Gimnospermas e angiospermas"],
+          correct: 0,
+        },
+        {
+          q: "As briófitas não possuem quais tecidos condutores?",
+          options: ["Xilema e floema", "Apenas floema", "Apenas xilema", "Parede celular"],
+          correct: 0,
+        },
+        {
+          q: "Por que as briófitas dependem da água para a reprodução?",
+          options: ["Porque seus gametas usam a água para se deslocar", "Porque realizam fotossíntese na água", "Porque não possuem clorofila", "Porque seus esporos flutuam no ar"],
+          correct: 0,
+        },
+        {
+          q: "Em quais ambientes as briófitas costumam ser encontradas?",
+          options: ["Ambientes úmidos e sombreados", "Desertos áridos", "Águas profundas do oceano", "Ambientes com alta salinidade"],
+          correct: 0,
+        },
+        {
+          q: "Nas briófitas, qual é a fase dominante do ciclo de vida?",
+          options: ["Gametófito, que é clorofilado", "Esporófito, que é clorofilado", "Gametófito, que não é clorofilado", "Esporófito, que não é clorofilado"],
+          correct: 0,
+        },
+        {
+          q: "A fase reprodutiva das briófitas, o esporófito, é caracterizada por:",
+          options: ["Não ser clorofilado", "Ser a fase dominante", "Ser clorofilado e dominante", "Realizar fotossíntese intensa"],
+          correct: 0,
+        },
+        {
+          q: "Qual órgão produz os gametas masculinos nas briófitas?",
+          options: ["Anterídio", "Arquegônio", "Esporófito", "Rizoide"],
+          correct: 0,
+        },
+        {
+          q: "Qual órgão produz o gameta feminino nas briófitas?",
+          options: ["Arquegônio", "Anterídio", "Esporângio", "Talo"],
+          correct: 0,
+        },
+        {
+          q: "As briófitas dependem da água principalmente para:",
+          options: ["A reprodução, pelo deslocamento dos gametas", "A fotossíntese", "A germinação de sementes", "O transporte de seiva"],
+          correct: 0,
+        },
+        {
+          q: "Um exemplo de grupo pertencente às briófitas é:",
+          options: ["Os musgos", "As samambaias", "Os pinheiros", "As gramíneas"],
+          correct: 0,
+        },
+      ],
+      extraQuizLabel: "Treino do PDF",
+      extraQuizHeading: "Questões da lista do professor",
+      extraQuiz: [
+        { q: "(UFPR/Puccamp) Nos esquemas comparando um Musgo e uma Angiosperma, as estruturas indicadas pelas setas representam:", options: ["Estruturas formadoras de gametas masculinos", "Locais onde ocorre a fecundação", "Locais onde ocorre a meiose", "Estruturas formadoras de gametas femininos"], correct: 0 },
+        { q: "(PUC-RS) Sobre os musgos: (1) Pertencem ao grupo das briófitas. (2) São heterotróficos absortivos. (3) São desprovidos de traqueídeos. (4) Preferem solos secos e frios. (5) São parentes das hepáticas. A sequência correta (V/F) é:", options: ["V - F - V - F - V", "F - F - V - V - V", "F - V - F - V - F", "V - V - F - V - V"], correct: 0 },
+        { q: "Um estudante pesquisou musgos em dois livros com classificações diferentes: Livro A (vegetais inferiores p.201 / intermediários sem sementes p.202 / superiores com sementes p.204) e Livro B (criptógamos avasculares p.340 / vasculares p.341 / fanerógamos p.342). Em quais páginas ele encontrará informações sobre musgos?", options: ["202 e 340", "201 e 340", "202 e 341", "204 e 342"], correct: 0 },
+        { q: "Uma planta é descrita como: 'pequeno porte, encontrada em locais úmidos e sombreados, cresce no solo ou sobre troncos, possui rizoides e não possui vasos condutores.' A que grupo ela pertence?", options: ["Briófitas", "Pteridófitas", "Gimnospermas", "Angiospermas"], correct: 0 },
+        { q: "Por que briófitas e pteridófitas costumam ser cultivadas em ambientes úmidos e sombreados?", options: ["Por particularidades de seus ciclos de vida, que dependem de água para a reprodução", "Porque são plantas avasculares que não realizam fotossíntese", "Porque não sobrevivem à luz solar direta em nenhuma hipótese", "Porque produzem sementes que só germinam na água"], correct: 0 },
+        { q: "Um musgo (briófita) e uma samambaia (pteridófita) apresentam em comum:", options: ["Nítida alternância de gerações e ocorrência de meiose espórica", "Presença de tecidos de condução e sementes", "Apenas a presença de flores", "Nenhuma característica em comum"], correct: 0 },
       ],
     },
     {
-      id: "reformas-religiosas",
-      title: "Reformas Religiosas",
+      id: "ciclo-da-vida",
+      title: "Ciclo da vida",
       sections: [
         {
-          heading: "1. Definição",
-          body: `Crise no domínio católico (I.C.A.R. → Papa).
+          heading: "Ploidia",
+          body: `Ploidia: carga cromossômica.
 
-I.C.A.R. = Igreja Católica Apostólica Romana.`,
+Mitose
+Célula-mãe → 2 células-filhas idênticas à célula-mãe
+Relacionada a:
+• Crescimento
+• Regeneração
+• Reprodução (seres haploides)
+
+Meiose
+Célula-mãe → 4 células-filhas diferentes entre si
+Relacionada à:
+• Reprodução (seres diploides)
+
+Para lembrar
+R1 = Meiose
+E1 = Mitose
+2n = diploide
+n = haploide`,
         },
         {
-          heading: "2. Antecedentes",
-          body: `Movimento Absolutista.
-Crise política: Poder nacional × Poder universal.
-Crise intelectual: Guerras, pestes, fome, revoltas.
-Crise moral (Corrupção):
-Vendas de indulgências, relíquias e cargos eclesiásticos.
-Simonia.
-Nicolaísmo.`,
+          heading: "Ciclo haplobionte haplonte",
+          body: `Exemplos: Algas — Adultos haploides (n)
+
+Sequência:
+Organismo adulto (n) → Gametas (n) → Zigoto (2n) → Células (n) → Organismo jovem (n) → Adulto (n)
+
+🔑 Ponto principal
+O organismo adulto é haploide (n).
+A meiose acontece no zigoto.`,
           visual: `
-<div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
-  <div class="rounded-xl bg-cream border border-sand p-3 text-center">
-    <p class="font-display text-sm text-espresso mb-1">Absolutismo</p>
-    <p class="text-[11px] text-bark/70">Fortalecimento do poder nacional</p>
-  </div>
-  <div class="rounded-xl bg-cream border border-sand p-3 text-center">
-    <p class="font-display text-sm text-espresso mb-1">Crise política</p>
-    <p class="text-[11px] text-bark/70">Poder nacional × poder universal</p>
-  </div>
-  <div class="rounded-xl bg-cream border border-sand p-3 text-center">
-    <p class="font-display text-sm text-espresso mb-1">Crise intelectual</p>
-    <p class="text-[11px] text-bark/70">Guerras, pestes, fome, revoltas</p>
-  </div>
-  <div class="rounded-xl bg-cream border border-sand p-3 text-center">
-    <p class="font-display text-sm text-espresso mb-1">Crise moral</p>
-    <p class="text-[11px] text-bark/70">Indulgências, simonia, nicolaísmo</p>
-  </div>
+<div class="flex flex-col items-center gap-1 max-w-xs mx-auto text-center">
+  <div class="w-full rounded-lg bg-cream border border-sand px-3 py-2 text-sm text-bark font-medium">Organismo adulto (n)</div>
+  <div class="flex items-center gap-1 text-ochre text-xs font-semibold"><span>↓</span><span>E1</span></div>
+  <div class="w-full rounded-lg bg-cream border border-sand px-3 py-2 text-sm text-bark font-medium">Gametas (n)</div>
+  <div class="flex items-center gap-1 text-ochre text-xs font-semibold"><span>↓</span><span>Fecundação</span></div>
+  <div class="w-full rounded-lg bg-espresso text-cream px-3 py-2 text-sm font-medium">Zigoto (2n)</div>
+  <div class="flex items-center gap-1 text-ochre text-xs font-semibold"><span>↓</span><span>R1</span></div>
+  <div class="w-full rounded-lg bg-cream border border-sand px-3 py-2 text-sm text-bark font-medium">Células (n)</div>
+  <div class="flex items-center gap-1 text-ochre text-xs font-semibold"><span>↓</span><span>E1</span></div>
+  <div class="w-full rounded-lg bg-cream border border-sand px-3 py-2 text-sm text-bark font-medium">Organismo jovem (n)</div>
+  <div class="text-ochre text-xs">↓</div>
+  <div class="w-full rounded-lg bg-beige border border-sand px-3 py-2 text-sm text-bark font-semibold">Adulto (n)</div>
 </div>`,
         },
         {
-          heading: "3. Luteranismo",
-          body: `Fundador: Martinho Lutero (Excomungado).
-Local: S.R.G. (Sacro Império Romano-Germânico).
+          heading: "Ciclo haplobionte diplonte",
+          body: `Exemplos: Animais (homem) — Adultos diploides
 
-Salvação pela graça: Sem livre-arbítrio.
-Contrário à infalibilidade papal → Nega hierarquia.
-Crença apenas no Evangelho → Bíblia sem ser estritamente em Latim.
-Tradução da Bíblia para língua alemã.
+Sequência:
+Organismo adulto (2n) → Gametas (n) → Zigoto (2n) → Organismo jovem (2n) → Adulto (2n)
 
-Conflitos armados e Paz de Augsburgo → Tolerância religiosa ("Cuius regio, eius religio").`,
+🔑 Ponto principal
+O organismo adulto é diploide (2n).
+A meiose ocorre para formar os gametas.`,
+          visual: `
+<div class="flex flex-col items-center gap-1 max-w-xs mx-auto text-center">
+  <div class="w-full rounded-lg bg-beige border border-sand px-3 py-2 text-sm text-bark font-semibold">Organismo adulto (2n)</div>
+  <div class="flex items-center gap-1 text-ochre text-xs font-semibold"><span>↓</span><span>R1</span></div>
+  <div class="w-full rounded-lg bg-cream border border-sand px-3 py-2 text-sm text-bark font-medium">Gametas (n)</div>
+  <div class="flex items-center gap-1 text-ochre text-xs font-semibold"><span>↓</span><span>Fecundação</span></div>
+  <div class="w-full rounded-lg bg-espresso text-cream px-3 py-2 text-sm font-medium">Zigoto (2n)</div>
+  <div class="flex items-center gap-1 text-ochre text-xs font-semibold"><span>↓</span><span>E1</span></div>
+  <div class="w-full rounded-lg bg-cream border border-sand px-3 py-2 text-sm text-bark font-medium">Organismo jovem (2n)</div>
+  <div class="flex items-center gap-1 text-ochre text-xs font-semibold"><span>↓</span><span>E1</span></div>
+  <div class="w-full rounded-lg bg-beige border border-sand px-3 py-2 text-sm text-bark font-semibold">Adulto (2n)</div>
+</div>`,
         },
         {
-          heading: "4. Calvinismo",
-          body: `Fundador: João Calvino.
-Local: Suíça / França.
+          heading: "Ciclo diplobionte",
+          body: `Exemplos: Vegetais
 
-Predestinação divina: Deus já determinou, de antemão, quem será salvo — independentemente do esforço ou das ações da pessoa.
-Valorização do trabalho e acúmulo de bens: o sucesso material era visto como sinal de graça divina.
+Nesse ciclo aparecem duas fases: Gametófito (n) e Esporófito (2n).
 
-Variações regionais:
-Inglaterra → Puritanismo.
-Escócia → Presbiterianismo.
-França → Huguenotes.`,
+Sequência:
+Esporófito adulto (2n) → Esporos (n) → Gametófito jovem (n) → Gametófito adulto (n) → Gametas (n) → Zigoto (2n) → Esporófito jovem (2n) → Esporófito adulto (2n)
+
+🔑 Ponto principal
+Existe alternância de gerações: Esporófito (2n) ↔ Gametófito (n)`,
+          visual: `
+<div class="flex flex-col items-center gap-1 max-w-xs mx-auto text-center">
+  <div class="w-full rounded-lg bg-espresso text-cream px-3 py-2 text-sm font-medium">Esporófito adulto (2n)</div>
+  <div class="flex items-center gap-1 text-ochre text-xs font-semibold"><span>↓</span><span>R1 · meiose</span></div>
+  <div class="w-full rounded-lg bg-cream border border-sand px-3 py-2 text-sm text-bark font-medium">Esporos (n)</div>
+  <div class="flex items-center gap-1 text-ochre text-xs font-semibold"><span>↓</span><span>Germinação</span></div>
+  <div class="w-full rounded-lg bg-cream border border-sand px-3 py-2 text-sm text-bark font-medium">Gametófito jovem (n)</div>
+  <div class="flex items-center gap-1 text-ochre text-xs font-semibold"><span>↓</span><span>E1 · mitose</span></div>
+  <div class="w-full rounded-lg bg-beige border border-sand px-3 py-2 text-sm text-bark font-semibold">Gametófito adulto (n)</div>
+  <div class="flex items-center gap-1 text-ochre text-xs font-semibold"><span>↓</span><span>E1</span></div>
+  <div class="w-full rounded-lg bg-cream border border-sand px-3 py-2 text-sm text-bark font-medium">Gametas (n)</div>
+  <div class="flex items-center gap-1 text-ochre text-xs font-semibold"><span>↓</span><span>Fecundação</span></div>
+  <div class="w-full rounded-lg bg-espresso text-cream px-3 py-2 text-sm font-medium">Zigoto (2n)</div>
+  <div class="flex items-center gap-1 text-ochre text-xs font-semibold"><span>↓</span><span>E1</span></div>
+  <div class="w-full rounded-lg bg-cream border border-sand px-3 py-2 text-sm text-bark font-medium">Esporófito jovem (2n)</div>
+  <div class="text-ochre text-xs">↓</div>
+  <div class="w-full rounded-lg bg-espresso text-cream px-3 py-2 text-sm font-medium">Esporófito adulto (2n)</div>
+</div>`,
         },
         {
-          heading: "5. Anglicanismo",
-          body: `Fundador: Henrique VIII.
-Local: Inglaterra.
-
-Atos de Supremacia: em 1534, o Ato de Supremacia rompeu formalmente com Roma — o rei (não mais o Papa) passou a ser o chefe supremo da Igreja da Inglaterra, unindo poder político e religioso em uma só figura.`,
-        },
-        {
-          heading: "🧠 Comparando as três reformas",
-          body: `Um resumo rápido para revisar antes da prova.`,
+          heading: "🧠 O OURO — Ciclos da vida",
+          body: `E1 = Mitose
+R1 = Meiose
+n = Haploide
+2n = Diploide`,
           visual: `
 <div class="overflow-x-auto">
   <table class="w-full text-sm border-collapse">
     <thead>
       <tr class="border-b-2 border-espresso/70">
-        <th class="text-left py-2 pr-3 font-display text-bark">Ramo</th>
-        <th class="text-left py-2 pr-3 font-display text-bark">Fundador</th>
-        <th class="text-left py-2 pr-3 font-display text-bark">Local</th>
-        <th class="text-left py-2 font-display text-bark">Ideia central</th>
+        <th class="text-left py-2 pr-3 font-display text-bark">Ciclo</th>
+        <th class="text-left py-2 pr-3 font-display text-bark">Adulto</th>
+        <th class="text-left py-2 font-display text-bark">Onde ocorre a meiose?</th>
       </tr>
     </thead>
     <tbody>
       <tr class="border-b border-sand/60">
-        <td class="py-2 pr-3 text-bark/80">Luteranismo</td>
-        <td class="py-2 pr-3 text-bark/80">Martinho Lutero</td>
-        <td class="py-2 pr-3 text-bark/80">Sacro Império Romano-Germânico</td>
-        <td class="py-2 text-bark/80">Salvação pela graça (sem livre-arbítrio)</td>
+        <td class="py-2 pr-3 text-bark/80">Haplobionte haplonte</td>
+        <td class="py-2 pr-3 text-bark/80">Haploide (n)</td>
+        <td class="py-2 text-bark/80">No zigoto</td>
       </tr>
       <tr class="border-b border-sand/60">
-        <td class="py-2 pr-3 text-bark/80">Calvinismo</td>
-        <td class="py-2 pr-3 text-bark/80">João Calvino</td>
-        <td class="py-2 pr-3 text-bark/80">Suíça / França</td>
-        <td class="py-2 text-bark/80">Predestinação divina</td>
+        <td class="py-2 pr-3 text-bark/80">Haplobionte diplonte</td>
+        <td class="py-2 pr-3 text-bark/80">Diploide (2n)</td>
+        <td class="py-2 text-bark/80">Na formação dos gametas</td>
       </tr>
       <tr>
-        <td class="py-2 pr-3 text-bark/80">Anglicanismo</td>
-        <td class="py-2 pr-3 text-bark/80">Henrique VIII</td>
-        <td class="py-2 pr-3 text-bark/80">Inglaterra</td>
-        <td class="py-2 text-bark/80">Rei como chefe da Igreja (Ato de Supremacia)</td>
+        <td class="py-2 pr-3 text-bark/80">Diplobionte</td>
+        <td class="py-2 pr-3 text-bark/80">Alternância n ↔ 2n</td>
+        <td class="py-2 text-bark/80">Na formação dos esporos</td>
       </tr>
     </tbody>
   </table>
@@ -495,482 +393,658 @@ Atos de Supremacia: em 1534, o Ato de Supremacia rompeu formalmente com Roma —
         },
       ],
       quiz: [
-        { q: "O que caracterizou a crise no domínio católico que originou as Reformas Religiosas?", options: ["Uma crise no domínio da Igreja Católica Apostólica Romana", "O fortalecimento total do Papado", "A unificação de todas as religiões cristãs", "O fim do cristianismo na Europa"], correct: 0 },
-        { q: "Qual foi um dos antecedentes políticos das Reformas Religiosas?", options: ["O conflito entre poder nacional e poder universal (do Papa)", "A ausência total de governos nacionais", "A unificação política da Europa", "O fim das monarquias"], correct: 0 },
-        { q: "O que caracterizava a crise moral da Igreja, segundo o conteúdo?", options: ["Venda de indulgências, relíquias e cargos eclesiásticos", "A pobreza extrema do clero", "A ausência de cargos eclesiásticos", "A proibição total de doações à Igreja"], correct: 0 },
-        { q: "O que é Simonia?", options: ["A venda de cargos eclesiásticos", "O celibato dos padres", "A tradução da Bíblia", "Um tipo de indulgência gratuita"], correct: 0 },
-        { q: "Quem fundou o Luteranismo?", options: ["Martinho Lutero", "João Calvino", "Henrique VIII", "O Papa"], correct: 0 },
-        { q: "Segundo o Luteranismo, como ocorre a salvação?", options: ["Pela graça, sem depender do livre-arbítrio", "Apenas pelas boas ações", "Apenas pela riqueza acumulada", "Apenas pela obediência ao Papa"], correct: 0 },
-        { q: "O que a Paz de Augsburgo estabeleceu?", options: ["Tolerância religiosa, com o princípio 'Cuius regio, eius religio'", "O fim total do luteranismo", "A unificação religiosa da Europa", "A proibição do catolicismo"], correct: 0 },
-        { q: "Qual é a ideia central do Calvinismo?", options: ["A predestinação divina", "A salvação apenas pela riqueza", "A negação de qualquer forma de trabalho", "A obediência total ao Papa"], correct: 0 },
-        { q: "Quem fundou o Anglicanismo, e por meio de qual ato o rei se tornou líder da Igreja?", options: ["Henrique VIII, por meio do Ato de Supremacia", "Martinho Lutero, pela Paz de Augsburgo", "João Calvino, pela predestinação", "O Papa, por decreto papal"], correct: 0 },
-        { q: "Qual reforma teve variações regionais na Inglaterra, Escócia e França?", options: ["Calvinismo", "Luteranismo", "Anglicanismo", "Nenhuma delas"], correct: 0 },
-        { q: "O que caracterizou a crise que originou as Reformas Religiosas, segundo o conteúdo?", options: ["Uma crise no domínio da Igreja Católica Apostólica Romana (ICAR)", "O fortalecimento total do papado", "A unificação de todas as religiões cristãs", "O fim do cristianismo na Europa"], correct: 0 },
-        { q: "Qual movimento político está entre os antecedentes das Reformas Religiosas?", options: ["O Absolutismo", "O Parlamentarismo", "A democracia direta", "O federalismo"], correct: 0 },
-        { q: "A crise política citada como antecedente envolvia o conflito entre quais poderes?", options: ["Poder nacional e poder universal (do Papa)", "Poder militar e poder religioso apenas", "Poder da nobreza e poder da burguesia", "Poder da Igreja Ortodoxa e da Igreja Católica"], correct: 0 },
-        { q: "O que caracterizava a crise intelectual apontada como antecedente das Reformas?", options: ["Guerras, pestes, fome e revoltas", "A ausência total de conflitos", "O excesso de riqueza generalizada", "A expansão pacífica do comércio"], correct: 0 },
-        { q: "O que caracterizava a crise moral da Igreja, segundo o conteúdo?", options: ["A corrupção, incluindo venda de indulgências, relíquias e cargos eclesiásticos", "A pobreza extrema do clero", "A ausência de qualquer cargo eclesiástico", "A proibição total de doações"], correct: 0 },
-        { q: "O que é Simonia, mencionada entre os problemas morais da Igreja?", options: ["A venda de cargos eclesiásticos", "O celibato obrigatório dos padres", "A tradução da Bíblia", "Um tipo de indulgência gratuita"], correct: 0 },
-        { q: "O que é o Nicolaísmo, também citado como problema moral da Igreja?", options: ["Prática relacionada à quebra do celibato pelo clero", "Um tipo de imposto papal", "Um ritual de purificação", "Uma forma de peregrinação religiosa"], correct: 0 },
-        { q: "Quem fundou o Luteranismo?", options: ["Martinho Lutero", "João Calvino", "Henrique VIII", "O Papa Leão X"], correct: 0 },
-        { q: "Qual foi a consequência sofrida por Martinho Lutero por suas ideias?", options: ["Foi excomungado", "Foi coroado rei", "Foi nomeado Papa", "Foi exilado para a América"], correct: 0 },
-        { q: "Em qual região o Luteranismo se desenvolveu principalmente?", options: ["No Sacro Império Romano-Germânico (S.R.G.)", "Na Inglaterra", "Na França", "Na Itália"], correct: 0 },
-        { q: "Segundo o Luteranismo, como ocorre a salvação?", options: ["Pela graça, sem depender do livre-arbítrio", "Exclusivamente pelas boas ações", "Exclusivamente pela riqueza acumulada", "Exclusivamente pela obediência ao Papa"], correct: 0 },
-        { q: "O Luteranismo se posiciona como contrário a qual princípio católico?", options: ["À infalibilidade papal, negando a hierarquia da Igreja", "À existência de Deus", "À leitura da Bíblia", "Ao uso de igrejas físicas"], correct: 0 },
-        { q: "Segundo o Luteranismo, em que a fé deve se basear exclusivamente?", options: ["No Evangelho (a Bíblia), e não apenas no latim", "Em rituais realizados apenas em latim", "Nas decisões exclusivas do Papa", "Em tradições orais sem registro escrito"], correct: 0 },
-        { q: "Para qual língua Martinho Lutero traduziu a Bíblia?", options: ["Para o alemão", "Para o inglês", "Para o francês", "Para o espanhol"], correct: 0 },
-        { q: "O que a Paz de Augsburgo estabeleceu, após os conflitos armados relacionados ao Luteranismo?", options: ["Tolerância religiosa, com o princípio 'Cuius regio, eius religio'", "O fim total do protestantismo", "A unificação religiosa da Europa", "A proibição do catolicismo em toda a Europa"], correct: 0 },
-        { q: "O que significa, na prática, o princípio 'Cuius regio, eius religio' da Paz de Augsburgo?", options: ["Cada região seguiria a religião definida por seu governante", "Cada pessoa poderia escolher livremente sua religião", "Todas as regiões deveriam seguir o catolicismo", "Todas as regiões deveriam seguir o luteranismo obrigatoriamente"], correct: 0 },
-        { q: "Quem fundou o Calvinismo?", options: ["João Calvino", "Martinho Lutero", "Henrique VIII", "Erasmo de Roterdã"], correct: 0 },
-        { q: "Em quais regiões o Calvinismo se desenvolveu principalmente?", options: ["Suíça e França", "Inglaterra e Escócia apenas", "Alemanha e Áustria", "Espanha e Portugal"], correct: 0 },
-        { q: "Qual é a ideia central do Calvinismo em relação à salvação?", options: ["A predestinação divina", "A salvação apenas pelas boas ações", "A salvação apenas pela riqueza", "A ausência de qualquer forma de salvação"], correct: 0 },
-        { q: "O que a predestinação divina do Calvinismo defende?", options: ["Que Deus já determinou, de antemão, quem será salvo, independentemente do esforço da pessoa", "Que qualquer pessoa pode escolher livremente sua salvação", "Que a salvação depende exclusivamente da Igreja", "Que não existe salvação possível"], correct: 0 },
-        { q: "O que o Calvinismo valoriza em relação à vida econômica?", options: ["O trabalho e o acúmulo de bens", "A pobreza extrema como virtude", "A recusa total ao trabalho", "A distribuição obrigatória de toda a riqueza"], correct: 0 },
-        { q: "Como o Calvinismo é conhecido na Inglaterra, em suas variações regionais?", options: ["Puritanismo", "Presbiterianismo", "Huguenotes", "Anglicanismo"], correct: 0 },
-        { q: "Como o Calvinismo é conhecido na Escócia, em suas variações regionais?", options: ["Presbiterianismo", "Puritanismo", "Huguenotes", "Luteranismo"], correct: 0 },
-        { q: "Como os calvinistas são chamados na França?", options: ["Huguenotes", "Puritanos", "Presbiterianos", "Anglicanos"], correct: 0 },
-        { q: "Quem fundou o Anglicanismo?", options: ["Henrique VIII", "Martinho Lutero", "João Calvino", "O Papa Clemente VII"], correct: 0 },
-        { q: "Em qual país o Anglicanismo se estabeleceu como religião oficial?", options: ["Inglaterra", "Escócia", "França", "Alemanha"], correct: 0 },
-        { q: "Qual ato oficializou o rompimento da Inglaterra com Roma, tornando o rei chefe da Igreja?", options: ["O Ato de Supremacia", "A Paz de Augsburgo", "O Tratado de Tordesilhas", "A Bula Papal de Excomunhão"], correct: 0 },
-        { q: "Em que ano ocorreu o Ato de Supremacia que criou o Anglicanismo?", options: ["1534", "1517", "1492", "1555"], correct: 0 },
-        { q: "O que o Ato de Supremacia (1534) uniu na figura do rei da Inglaterra?", options: ["O poder político e o poder religioso", "Apenas o poder militar", "Apenas o poder econômico", "O poder da nobreza e do clero estrangeiro"], correct: 0 },
-        { q: "Antes do Ato de Supremacia, quem era considerado o chefe da Igreja na Inglaterra?", options: ["O Papa", "O próprio rei Henrique VIII", "O Arcebispo de Canterbury, de forma independente", "Nenhuma autoridade religiosa central"], correct: 0 },
-        { q: "Qual das três reformas (Luteranismo, Calvinismo, Anglicanismo) tem como ideia central a predestinação divina?", options: ["Calvinismo", "Luteranismo", "Anglicanismo", "Nenhuma delas"], correct: 0 },
-        { q: "Qual das três reformas está associada ao princípio 'salvação pela graça, sem livre-arbítrio'?", options: ["Luteranismo", "Calvinismo", "Anglicanismo", "Nenhuma delas"], correct: 0 },
-        { q: "Qual das três reformas está associada à figura do rei como chefe da Igreja?", options: ["Anglicanismo", "Luteranismo", "Calvinismo", "Nenhuma delas"], correct: 0 },
-        { q: "Qual reforma teve como fundador uma figura que foi excomungada pela Igreja Católica?", options: ["Luteranismo (Martinho Lutero)", "Calvinismo (João Calvino)", "Anglicanismo (Henrique VIII)", "Nenhuma delas"], correct: 0 },
-        { q: "Qual reforma se desenvolveu principalmente no Sacro Império Romano-Germânico?", options: ["Luteranismo", "Calvinismo", "Anglicanismo", "Nenhuma delas"], correct: 0 },
-        { q: "Qual reforma se desenvolveu principalmente na Suíça e na França?", options: ["Calvinismo", "Luteranismo", "Anglicanismo", "Nenhuma delas"], correct: 0 },
-        { q: "Qual reforma teve variações regionais chamadas de Puritanismo, Presbiterianismo e Huguenotes?", options: ["Calvinismo", "Luteranismo", "Anglicanismo", "Nenhuma delas"], correct: 0 },
-        { q: "O que a venda de indulgências, citada na crise moral da Igreja, representava na prática?", options: ["Uma forma de obter perdão dos pecados mediante pagamento", "Uma taxa cobrada apenas dos nobres", "Um tipo de imposto sobre terras", "Uma doação obrigatória de alimentos"], correct: 0 },
-        { q: "Como a crise política (poder nacional x poder universal) se relaciona com o Absolutismo, segundo o conteúdo?", options: ["Reis nacionais fortalecidos passaram a contestar a autoridade universal do Papa", "O Papa passou a governar todos os reinos diretamente", "Os reis perderam todo o poder para o Papa", "Não existe relação entre os dois"], correct: 0 },
-        { q: "Por que a crise moral da Igreja (indulgências, simonia, nicolaísmo) ajudou a impulsionar as Reformas Religiosas?", options: ["Porque gerou insatisfação e críticas à conduta do clero, favorecendo movimentos reformistas", "Porque fortaleceu ainda mais a autoridade papal", "Porque não teve nenhum impacto na população", "Porque foi resolvida antes de qualquer reforma acontecer"], correct: 0 },
-        { q: "Segundo o Luteranismo, qual é a posição em relação à hierarquia da Igreja Católica?", options: ["É contrário à hierarquia, negando a infalibilidade papal", "Aceita totalmente a hierarquia católica", "Defende uma hierarquia ainda maior que a católica", "Não trata do tema da hierarquia"], correct: 0 },
-        { q: "Qual foi um dos efeitos práticos da tradução da Bíblia para o alemão por Lutero?", options: ["Permitir que mais pessoas tivessem acesso direto ao texto bíblico, sem depender apenas do latim", "Proibir a leitura da Bíblia por leigos", "Substituir totalmente o uso do latim na Europa", "Encerrar o cristianismo na Alemanha"], correct: 0 },
-        { q: "O que motivou os 'conflitos armados' mencionados antes da Paz de Augsburgo?", options: ["Disputas religiosas e políticas entre católicos e luteranos no Sacro Império", "Disputas entre Portugal e Espanha", "A chegada dos europeus à América", "O Tratado de Tordesilhas"], correct: 0 },
-        { q: "Segundo o Calvinismo, o sucesso material de uma pessoa era interpretado como o quê?", options: ["Um possível sinal de graça divina, associado à valorização do trabalho", "Um pecado grave", "Um sinal de fraqueza espiritual", "Algo sem qualquer relação com a fé"], correct: 0 },
-        { q: "Qual é a principal diferença entre a fundação do Anglicanismo e a do Luteranismo e Calvinismo?", options: ["O Anglicanismo nasceu de uma decisão política do rei Henrique VIII, e não de uma disputa puramente teológica", "Todas as três reformas nasceram exatamente da mesma forma", "O Anglicanismo não teve nenhum fundador", "O Anglicanismo antecedeu as outras duas reformas"], correct: 0 },
-        { q: "O que a expressão 'crise no domínio católico' resume, no início do conteúdo sobre Reformas Religiosas?", options: ["O enfraquecimento da autoridade da Igreja Católica (ICAR) e do Papa", "O fortalecimento total da Igreja Católica", "O fim do cristianismo como religião", "A unificação de todas as igrejas cristãs"], correct: 0 },
-        { q: "Entre os antecedentes das Reformas, qual deles está diretamente ligado a fatores como guerras, pestes e fome?", options: ["A crise intelectual", "A crise moral", "A crise política", "O Absolutismo"], correct: 0 },
-        { q: "Qual reforma está mais diretamente ligada à ideia de que a riqueza e o trabalho estão associados à graça divina?", options: ["Calvinismo", "Luteranismo", "Anglicanismo", "Nenhuma delas"], correct: 0 },
-        { q: "Comparando as três reformas, qual delas foi fundada por um monarca, e não por um teólogo ou religioso?", options: ["Anglicanismo (Henrique VIII)", "Luteranismo (Martinho Lutero)", "Calvinismo (João Calvino)", "Nenhuma delas"], correct: 0 },
-        { q: "De forma geral, o que as três reformas (Luteranismo, Calvinismo, Anglicanismo) têm em comum?", options: ["Todas surgiram como rupturas com a autoridade da Igreja Católica Romana", "Todas defendem exatamente a mesma doutrina", "Todas foram fundadas na mesma década", "Nenhuma delas teve relação com a crise da Igreja Católica"], correct: 0 },
+        {
+          q: "O que a ploidia representa?",
+          options: ["A carga cromossômica", "O tipo de célula", "A quantidade de mitocôndrias", "O tamanho do núcleo"],
+          correct: 0,
+        },
+        {
+          q: "Na mitose, uma célula-mãe origina:",
+          options: ["2 células-filhas idênticas à célula-mãe", "4 células-filhas diferentes entre si", "3 células-filhas idênticas", "1 célula-filha diferente"],
+          correct: 0,
+        },
+        {
+          q: "Na meiose, uma célula-mãe origina:",
+          options: ["4 células-filhas diferentes entre si", "2 células-filhas idênticas", "4 células-filhas idênticas", "1 célula-filha idêntica"],
+          correct: 0,
+        },
+        {
+          q: "Segundo a regra para lembrar, o que significa 'R1'?",
+          options: ["Meiose", "Mitose", "Reprodução", "Regeneração"],
+          correct: 0,
+        },
+        {
+          q: "E o que significa 'E1'?",
+          options: ["Mitose", "Meiose", "Esporulação", "Espécie"],
+          correct: 0,
+        },
+        {
+          q: "No ciclo haplobionte haplonte (exemplo: algas), o organismo adulto é:",
+          options: ["Haploide (n)", "Diploide (2n)", "Alternante entre n e 2n", "Triploide (3n)"],
+          correct: 0,
+        },
+        {
+          q: "No ciclo haplobionte haplonte, em que momento ocorre a meiose?",
+          options: ["No zigoto", "Na formação dos gametas", "Na formação dos esporos", "Não ocorre meiose nesse ciclo"],
+          correct: 0,
+        },
+        {
+          q: "No ciclo haplobionte diplonte (exemplo: animais/homem), o organismo adulto é:",
+          options: ["Diploide (2n)", "Haploide (n)", "Alternante entre n e 2n", "Triploide (3n)"],
+          correct: 0,
+        },
+        {
+          q: "No ciclo diplobionte (exemplo: vegetais), o que caracteriza esse ciclo?",
+          options: ["Alternância de gerações entre esporófito (2n) e gametófito (n)", "O adulto é sempre haploide", "O adulto é sempre diploide sem alternância", "A meiose nunca ocorre"],
+          correct: 0,
+        },
+        {
+          q: "No ciclo diplobionte, a meiose ocorre:",
+          options: ["Na formação dos esporos", "No zigoto", "Na formação dos gametas", "Não ocorre nesse ciclo"],
+          correct: 0,
+        },
       ],
     },
     {
-      id: "arte-renascentista",
-      title: "Arte Renascentista",
+      id: "pteridofitas",
+      title: "Pteridófitas",
       sections: [
         {
-          heading: "Arte Renascentista",
-          body: `Arte + ciência.
-Busca pelo realismo/naturalismo.
-Desenvolvimento da tridimensionalidade.
-O mecenato patrocinou a arte e a ciência.`,
+          heading: "1. O que são as Pteridófitas",
+          body: `As pteridófitas são plantas vasculares sem sementes. Elas representam um passo importante na evolução vegetal por apresentarem tecidos condutores para o transporte de água e nutrientes.
+
+Exemplos comuns:
+• Samambaias
+• Xaxins
+• Avencas`,
         },
         {
-          heading: "Teocentrismo × Antropocentrismo",
-          body: `Teocentrismo
-Deus no centro.
-Produção de conhecimento ligada ao mundo divino.
+          heading: "2. Estrutura corporal",
+          body: `O corpo de uma pteridófita é bem desenvolvido e dividido em partes bem definidas:
 
-Antropocentrismo
-Ciência.
-Naturalismo: explicação dos fenômenos naturais a partir de observações.
-Valorização do conhecimento científico e dos interesses humanos.`,
+Raiz: fixa a planta e absorve água e sais minerais.
+Caule: geralmente subterrâneo (do tipo rizoma).
+Folha: responsável pela fotossíntese.
+Báculo: nome dado à folha jovem enquanto ainda está enrolada.`,
+        },
+        {
+          heading: "3. Vasos condutores (Traqueófitas)",
+          body: `As pteridófitas foram as primeiras plantas a possuir vasos condutores de seiva. Isso permitiu que elas atingissem tamanhos maiores que as briófitas.
+
+Os vasos são divididos em:
+Xilema: transporta a seiva bruta (água e sais minerais) das raízes para as folhas.
+Floema: transporta a seiva elaborada (açúcares produzidos na fotossíntese) das folhas para o restante da planta.
+
+O que elas não possuem:
+• Não produzem sementes.
+• Não produzem flores.
+• Não produzem frutos.`,
           visual: `
 <div class="grid grid-cols-2 gap-3 max-w-sm mx-auto text-center text-xs">
   <div class="rounded-xl bg-cream border border-sand px-3 py-4">
-    <p class="font-semibold text-bark mb-1">Teocentrismo</p>
-    <p class="text-bark/70">Deus no centro</p>
-    <p class="text-bark/50 mt-1">conhecimento ligado ao mundo divino</p>
+    <p class="font-semibold text-bark mb-1">Xilema</p>
+    <p class="text-bark/70">Seiva bruta<br/>(água e sais minerais)</p>
+    <p class="text-ochre font-medium mt-1">Raiz → Folhas ↑</p>
   </div>
-  <div class="rounded-xl bg-espresso text-cream px-3 py-4">
-    <p class="font-semibold mb-1">Antropocentrismo</p>
-    <p class="opacity-80">Ciência e naturalismo</p>
-    <p class="opacity-60 mt-1">conhecimento científico e interesses humanos</p>
+  <div class="rounded-xl bg-cream border border-sand px-3 py-4">
+    <p class="font-semibold text-bark mb-1">Floema</p>
+    <p class="text-bark/70">Seiva elaborada<br/>(açúcares)</p>
+    <p class="text-ochre font-medium mt-1">Folhas → Planta ↓</p>
   </div>
 </div>`,
         },
         {
-          heading: "Influência",
-          body: `Fazem uso do pensamento racional e da observação dos fatos.`,
+          heading: "4. Esporos e Heterosporia",
+          body: `A maioria das pteridófitas produz um único tipo de esporo, mas algumas espécies apresentam heterosporia:
+
+Heterosporos: produção de dois tipos diferentes de esporos (um masculino e um feminino, que darão origem a gametófitos distintos).`,
+        },
+        {
+          heading: "5. As duas fases do ciclo de vida",
+          body: `O ciclo das pteridófitas alterna entre duas gerações:
+
+Esporófito (2n)
+• É a fase duradoura (a planta grande que enxergamos).
+• É diploide (2n).
+• Produz esporos.
+
+Gametófito (n)
+• É a fase transitória (pequena e de vida curta).
+• É haploide (n).
+• Também é chamado de prótalo (tem formato de coração).
+• Produz gametas.`,
+          visual: `
+<div class="grid grid-cols-2 gap-3 max-w-sm mx-auto text-center text-xs">
+  <div class="rounded-xl bg-espresso text-cream px-3 py-4">
+    <p class="font-display text-base mb-1">Esporófito (2n)</p>
+    <p class="opacity-80">Fase duradoura</p>
+    <p class="opacity-80">Diploide · produz esporos</p>
+  </div>
+  <div class="rounded-xl bg-cream border border-sand px-3 py-4">
+    <p class="font-display text-base text-espresso mb-1">Gametófito (n)</p>
+    <p class="text-bark/70">Fase transitória (prótalo)</p>
+    <p class="text-bark/70">Haploide · produz gametas</p>
+  </div>
+</div>`,
+        },
+        {
+          heading: "6. Estruturas reprodutivas",
+          body: `Para a reprodução acontecer, o prótalo (gametófito) desenvolve estruturas específicas:
+
+Anterídeo: estrutura masculina que produz os anterozoides (n).
+Anterozoide: gameta masculino, móvel e dotado de flagelos.
+
+Arquegônio: estrutura feminina que produz a oosfera (n).
+Oosfera: gameta feminino, imóvel.`,
+          visual: `
+<svg viewBox="0 0 200 180" class="w-full max-w-[200px] mx-auto" xmlns="http://www.w3.org/2000/svg">
+  <path d="M100,40 C60,0 10,40 30,90 C45,125 80,150 100,170 C120,150 155,125 170,90 C190,40 140,0 100,40 Z" fill="#E4D9C4" stroke="#5C4630" stroke-width="2"/>
+  <circle cx="70" cy="90" r="5" fill="#5C4630"/>
+  <text x="8" y="105" font-size="9" fill="#5C4630">Anterídeo ♂</text>
+  <circle cx="130" cy="112" r="5" fill="#3E2F20"/>
+  <text x="128" y="135" font-size="9" fill="#3E2F20">Arquegônio ♀</text>
+  <text x="60" y="25" font-size="10" fill="#5C4630" font-weight="600">Prótalo (n)</text>
+</svg>`,
+        },
+        {
+          heading: "7. Dependência da água para reprodução",
+          body: `As pteridófitas ainda dependem da água líquida para se reproduzirem.
+O anterozoide precisa nadar através de uma gota de água da chuva ou orvalho do anterídeo até o arquegônio para encontrar a oosfera.`,
+        },
+        {
+          heading: "8. O ciclo reprodutivo passo a passo",
+          body: `A reprodução ocorre na seguinte sequência lógica:
+
+1. Formação dos esporos: No esporófito adulto (2n), os esporângios realizam Meiose (R!) e liberam esporos (n).
+2. Germinação: Os esporos caem no solo úmido e germinam, formando o Prótalo (gametófito n).
+3. Produção de gametas: O prótalo desenvolve o Anterídeo (com anterozoides) e o Arquegônio (com a oosfera).
+4. Fecundação: Com a água, o anterozoide nada até a oosfera e ocorre a fertilização.
+5. Crescimento: A união dos gametas forma o Zigoto (2n).
+6. Desenvolvimento: O zigoto sofre Mitoses (E!), originando o Esporófito jovem (2n), que cresce e se torna um Esporófito adulto (2n), recomeçando o ciclo.`,
+        },
+        {
+          heading: "9. Analogia para entender o ciclo de vida",
+          body: `Para entender o ciclo sem decorar, pense nas pteridófitas como uma história de duas gerações:
+
+Esporófito = Árvore gigante
+É a fábrica principal (2n) que lança pequenas sementes ao vento (esporos n).
+
+Prótalo = Acampamento temporário
+O esporo cai na terra e vira uma tenda minúscula (gametófito n).
+
+Água = O barco/ponte
+O soldadinho (anterozoide) precisa flutuar na água para chegar até a base (oosfera) do outro lado da tenda.
+
+Novo Esporófito = A nova construção
+Quando se encontram, o projeto junta as duas partes (2n) e constrói uma nova árvore gigante no lugar do acampamento.`,
+        },
+        {
+          heading: "10. O processo completo",
+          body: `Agora juntando tudo:
+Esporófito Adulto (2n) → Meiose no Esporângio → Esporos (n) → Caem no solo e germinam → Prótalo/Gametófito (n) → Desenvolve Anterídeo e Arquegônio → Liberação de Anterozoides (n) e Oosfera (n) → Natação com ajuda da água → Fecundação → Zigoto (2n) → Mitose → Esporófito Jovem (2n) → Esporófito Adulto (2n)
+
+O mais importante para entender:
+• O esporófito (2n) é a planta principal e duradoura.
+• Os esporos (n) nascem por meiose nos esporângios.
+• O esporo vira o prótalo (n), que fabrica os gametas.
+• A água possibilita o encontro dos gametas.
+• A fecundação gera o zigoto (2n), que vira a nova samambaia.`,
+          visual: `
+<div class="flex flex-col items-center gap-1 max-w-xs mx-auto text-center">
+  <div class="w-full rounded-lg bg-espresso text-cream px-3 py-2 text-sm font-medium">Esporófito adulto (2n)</div>
+  <span class="text-ochre text-xs">↓ meiose</span>
+  <div class="w-full rounded-lg bg-cream border border-sand px-3 py-2 text-sm text-bark font-medium">Esporos (n)</div>
+  <span class="text-ochre text-xs">↓ germinação</span>
+  <div class="w-full rounded-lg bg-cream border border-sand px-3 py-2 text-sm text-bark font-medium">Prótalo (n)</div>
+  <span class="text-ochre text-xs">↓</span>
+  <div class="w-full rounded-lg bg-cream border border-sand px-3 py-2 text-sm text-bark font-medium">Anterídeo + Arquegônio</div>
+  <span class="text-ochre text-xs">↓ água</span>
+  <div class="w-full rounded-lg bg-cream border border-sand px-3 py-2 text-sm text-bark font-medium">Fecundação</div>
+  <span class="text-ochre text-xs">↓</span>
+  <div class="w-full rounded-lg bg-espresso text-cream px-3 py-2 text-sm font-medium">Zigoto (2n)</div>
+  <span class="text-ochre text-xs">↓ mitose</span>
+  <div class="w-full rounded-lg bg-cream border border-sand px-3 py-2 text-sm text-bark font-medium">Esporófito jovem (2n)</div>
+  <span class="text-ochre text-xs">↓</span>
+  <div class="w-full rounded-lg bg-beige border border-sand px-3 py-2 text-sm text-bark font-semibold">Esporófito adulto (2n)</div>
+</div>`,
         },
       ],
       quiz: [
-        { q: "Na Arte Renascentista, quais dois campos caminham juntos?", options: ["Arte e ciência", "Arte e religião apenas", "Ciência e política", "Religião e política"], correct: 0 },
-        { q: "O que a Arte Renascentista buscava representar?", options: ["Realismo e naturalismo", "Abstração pura", "Formas simbólicas sem realismo", "Apenas temas religiosos"], correct: 0 },
-        { q: "Qual técnica se desenvolveu para dar profundidade às obras renascentistas?", options: ["A tridimensionalidade", "A monocromia", "O relevo apenas", "A caligrafia decorativa"], correct: 0 },
-        { q: "O que o Mecenato patrocinava, segundo o conteúdo?", options: ["A arte e a ciência", "Apenas a guerra", "Apenas o comércio", "Apenas a agricultura"], correct: 0 },
-        { q: "No Teocentrismo, o que ocupa o centro de todas as explicações?", options: ["Deus", "O ser humano", "A ciência", "A natureza"], correct: 0 },
-        { q: "No Teocentrismo, a que a produção de conhecimento está ligada?", options: ["Ao mundo divino", "Ao ser humano", "À observação científica", "Aos interesses humanos"], correct: 0 },
-        { q: "No Antropocentrismo, o que passa a ser valorizado como forma de explicar o mundo?", options: ["A ciência", "Apenas a fé", "Apenas os mitos", "Apenas a tradição oral"], correct: 0 },
-        { q: "O que o Naturalismo, no Antropocentrismo, propõe como forma de explicação?", options: ["Explicação dos fenômenos naturais a partir de observações", "Explicação apenas pela vontade divina", "Rejeição total da natureza", "Explicação apenas por lendas populares"], correct: 0 },
-        { q: "Além da ciência, o que mais o Antropocentrismo passa a valorizar?", options: ["O conhecimento científico e os interesses humanos", "Apenas os interesses da Igreja", "Apenas os interesses da nobreza", "Apenas os interesses militares"], correct: 0 },
-        { q: "Segundo o conteúdo, a influência do pensamento renascentista faz uso de quê?", options: ["Do pensamento racional e da observação dos fatos", "Apenas da fé cega", "Apenas de tradições orais", "Apenas de rituais religiosos"], correct: 0 },
-        { q: "Na Arte Renascentista, arte e ciência:", options: ["Caminham juntas, unidas na produção cultural", "São completamente separadas", "A ciência substitui totalmente a arte", "A arte é proibida pela ciência"], correct: 0 },
-        { q: "O estilo buscado pela Arte Renascentista é descrito como:", options: ["Realista e naturalista", "Puramente abstrato", "Geométrico e simbólico apenas", "Sem qualquer preocupação com a forma"], correct: 0 },
-        { q: "A tridimensionalidade desenvolvida na Arte Renascentista tinha como objetivo:", options: ["Dar sensação de profundidade e realismo às obras", "Simplificar ao máximo as formas", "Eliminar qualquer perspectiva", "Tornar as obras totalmente planas"], correct: 0 },
-        { q: "O Mecenato, na Arte Renascentista, funcionava como:", options: ["Um patrocínio à produção artística e científica", "Uma proibição à produção artística", "Um imposto sobre obras de arte", "Uma censura estatal à ciência"], correct: 0 },
-        { q: "No pensamento Teocêntrico, a figura central de todas as explicações é:", options: ["Deus", "O ser humano", "A razão", "A natureza"], correct: 0 },
-        { q: "Segundo o Teocentrismo, a produção do conhecimento estava ligada:", options: ["Ao mundo divino", "Às observações científicas", "Aos interesses humanos", "À experimentação natural"], correct: 0 },
-        { q: "O Antropocentrismo, em oposição ao Teocentrismo, coloca no centro das explicações:", options: ["A ciência e o ser humano", "Deus", "Apenas os mitos antigos", "Apenas a tradição oral"], correct: 0 },
-        { q: "O Naturalismo, dentro do Antropocentrismo, explica os fenômenos naturais a partir de:", options: ["Observações", "Apenas da vontade divina", "Apenas de lendas", "Apenas de rituais"], correct: 0 },
-        { q: "A influência do pensamento renascentista, segundo o conteúdo, envolve o uso de:", options: ["Pensamento racional e observação dos fatos", "Apenas fé religiosa", "Apenas tradição oral", "Apenas superstição popular"], correct: 0 },
-        { q: "Comparando Teocentrismo e Antropocentrismo, qual é a principal diferença?", options: ["O centro das explicações muda de Deus para o ser humano e a razão", "Ambos colocam Deus no centro", "Ambos colocam o ser humano no centro", "Não existe diferença entre eles"], correct: 0 },
-        { q: "Se uma obra de arte do período busca representar profundidade e volume realista, isso reflete qual característica renascentista?", options: ["A tridimensionalidade", "O Teocentrismo", "A Simonia", "O Nicolaísmo"], correct: 0 },
-        { q: "Se um artista recebe patrocínio financeiro de um rico comerciante para produzir suas obras, isso é um exemplo de:", options: ["Mecenato", "Antropocentrismo", "Teocentrismo", "Naturalismo"], correct: 0 },
-        { q: "Um pensador que explica um fenômeno natural observando diretamente a natureza, em vez de recorrer apenas à fé, está agindo de acordo com:", options: ["O Naturalismo", "O Teocentrismo", "A Simonia", "O Nicolaísmo"], correct: 0 },
-        { q: "Um texto medieval que atribui todos os acontecimentos à vontade de Deus reflete qual visão de mundo?", options: ["O Teocentrismo", "O Antropocentrismo", "O Naturalismo", "O Racionalismo humanista renascentista"], correct: 0 },
-        { q: "Um texto renascentista que valoriza a razão humana e a observação científica reflete qual visão de mundo?", options: ["O Antropocentrismo", "O Teocentrismo", "Apenas a fé", "Apenas a tradição"], correct: 0 },
-        { q: "Segundo o conteúdo, o que caracteriza a 'busca pelo realismo' na Arte Renascentista?", options: ["A tentativa de representar a realidade de forma fiel e detalhada", "A rejeição de qualquer semelhança com a realidade", "O uso exclusivo de símbolos abstratos", "A ausência total de técnica"], correct: 0 },
-        { q: "O que diferencia a arte medieval da Arte Renascentista, segundo o conteúdo?", options: ["A Arte Renascentista une arte e ciência, buscando realismo e tridimensionalidade", "Ambas são idênticas em técnica e objetivo", "A arte medieval já buscava tridimensionalidade plena", "A Arte Renascentista rejeita qualquer forma de ciência"], correct: 0 },
-        { q: "Qual dessas opções está relacionada ao Teocentrismo?", options: ["Produção de conhecimento ligada ao mundo divino", "Valorização dos interesses humanos", "Explicação dos fenômenos por observação", "Uso do pensamento racional"], correct: 0 },
-        { q: "Qual dessas opções está relacionada ao Antropocentrismo?", options: ["Valorização do conhecimento científico e dos interesses humanos", "Deus no centro de todas as explicações", "Produção de conhecimento exclusivamente religiosa", "Rejeição total da ciência"], correct: 0 },
-        { q: "O Mecenato, tal como descrito no conteúdo, aproxima quais dois grupos?", options: ["Patrocinadores (como monarcas e a Igreja) e artistas/cientistas", "Apenas camponeses e nobres", "Apenas comerciantes e piratas", "Apenas reis e outros reis"], correct: 0 },
-        { q: "Por que a tridimensionalidade é considerada um avanço da Arte Renascentista?", options: ["Porque trouxe mais realismo e profundidade às representações artísticas", "Porque tornou a arte mais simples e menos detalhada", "Porque eliminou a necessidade de técnica", "Porque proibiu qualquer forma de pintura"], correct: 0 },
-        { q: "A 'explicação dos fenômenos naturais a partir de observações' é uma definição de qual conceito?", options: ["Naturalismo", "Teocentrismo", "Simonia", "Nicolaísmo"], correct: 0 },
-        { q: "Segundo o conteúdo, o pensamento racional e a observação dos fatos representam:", options: ["A influência do pensamento renascentista", "Uma característica exclusiva da Idade Média", "Uma característica rejeitada pelo Renascimento", "Um conceito sem relação com o Renascimento"], correct: 0 },
-        { q: "Assinale a alternativa que reúne corretamente duas características do Antropocentrismo:", options: ["Ciência e valorização dos interesses humanos", "Deus no centro e fé cega", "Produção de conhecimento ligada ao divino apenas", "Rejeição total da observação"], correct: 0 },
-        { q: "Assinale a alternativa que reúne corretamente duas características do Teocentrismo:", options: ["Deus no centro e conhecimento ligado ao mundo divino", "Ciência e observação dos fatos", "Naturalismo e interesses humanos", "Pensamento racional e tridimensionalidade"], correct: 0 },
-        { q: "A Arte Renascentista, ao unir arte e ciência, reflete qual mudança de mentalidade mais ampla do período?", options: ["A passagem do Teocentrismo para o Antropocentrismo", "A manutenção total do pensamento medieval", "O abandono completo da razão", "A rejeição da ciência em favor da fé"], correct: 0 },
-        { q: "Um artista que estuda anatomia humana para representar corpos de forma mais realista está aplicando qual princípio renascentista?", options: ["A busca pelo realismo/naturalismo, unindo arte e ciência", "O Teocentrismo puro", "A Simonia", "O Nicolaísmo"], correct: 0 },
-        { q: "Segundo o conteúdo, quem, além dos monarcas, também atuava como financiador através do Mecenato?", options: ["A Igreja", "Apenas os artistas entre si", "Apenas os camponeses", "Nenhuma outra instituição"], correct: 0 },
-        { q: "O que significa dizer que o Mecenato 'patrocinou a arte e a ciência'?", options: ["Que houve financiamento direcionado à produção artística e científica", "Que a arte e a ciência foram proibidas", "Que apenas a ciência recebeu financiamento", "Que apenas a arte recebeu financiamento"], correct: 0 },
-        { q: "No Teocentrismo, Deus está no centro; no Antropocentrismo, o centro passa a ser:", options: ["O ser humano e a razão", "A Igreja", "A nobreza", "O comércio"], correct: 0 },
-        { q: "A valorização do 'conhecimento científico' no Antropocentrismo se opõe a qual ideia do Teocentrismo?", options: ["À explicação dos fatos exclusivamente pela vontade divina", "À explicação dos fatos pela observação", "Ao uso da razão", "Ao estudo da natureza"], correct: 0 },
-        { q: "Segundo o conteúdo, o Naturalismo faz parte de qual conjunto mais amplo de ideias?", options: ["Do Antropocentrismo", "Do Teocentrismo", "Do Mecenato apenas", "Da Simonia"], correct: 0 },
-        { q: "Se uma pintura renascentista representa uma cena bíblica, mas com técnicas de perspectiva e anatomia realista, isso demonstra:", options: ["A união entre temas tradicionais e as novas técnicas de arte e ciência renascentistas", "A ausência total de técnica na obra", "A rejeição do tema religioso", "A ausência de qualquer influência científica"], correct: 0 },
-        { q: "Qual das alternativas descreve corretamente a 'Influência' do pensamento renascentista, segundo o conteúdo?", options: ["O uso do pensamento racional e da observação dos fatos", "O uso exclusivo da tradição oral", "A rejeição de qualquer forma de observação", "O uso exclusivo de textos religiosos"], correct: 0 },
-        { q: "Assinale a alternativa correta sobre a Arte Renascentista:", options: ["Ela une arte e ciência, busca o realismo e desenvolve a tridimensionalidade", "Ela rejeita totalmente a ciência", "Ela é idêntica à arte medieval", "Ela não teve qualquer relação com o mecenato"], correct: 0 },
-        { q: "Um cientista renascentista que observa o céu para entender o movimento dos astros, em vez de apenas aceitar explicações religiosas, reflete qual mudança de mentalidade?", options: ["Do Teocentrismo para o Antropocentrismo", "Do Antropocentrismo para o Teocentrismo", "Nenhuma mudança, pois ambos são iguais", "Uma mudança sem relação com o Renascimento"], correct: 0 },
-        { q: "Segundo o conteúdo, o que teria sido impossível sem o apoio do Mecenato?", options: ["O financiamento contínuo de artistas e cientistas", "A existência da Igreja Católica", "A existência do Teocentrismo", "A existência da fé religiosa"], correct: 0 },
-        { q: "A busca pelo realismo/naturalismo da Arte Renascentista está diretamente ligada a qual outra característica do período?", options: ["À valorização da ciência e da observação, típicas do Antropocentrismo", "À manutenção do Teocentrismo medieval", "À rejeição da tridimensionalidade", "À ausência de qualquer técnica artística"], correct: 0 },
-        { q: "Qual conceito descreve melhor a frase 'Deus no centro, conhecimento ligado ao mundo divino'?", options: ["Teocentrismo", "Antropocentrismo", "Naturalismo", "Mecenato"], correct: 0 },
-        { q: "Qual conceito descreve melhor a frase 'Ciência, naturalismo e valorização dos interesses humanos'?", options: ["Antropocentrismo", "Teocentrismo", "Simonia", "Nicolaísmo"], correct: 0 },
-        { q: "Por que o pensamento racional é citado como uma influência central do Renascimento?", options: ["Porque passou a orientar a forma como as pessoas explicavam o mundo, ao lado da observação dos fatos", "Porque substituiu totalmente a arte", "Porque era rejeitado pelos artistas da época", "Porque não teve nenhuma relação com a ciência"], correct: 0 },
-        { q: "Segundo o conteúdo, a Arte Renascentista pode ser resumida como uma arte que:", options: ["Une técnica artística, ciência e busca pelo realismo", "Rejeita qualquer forma de ciência", "É idêntica à arte da Idade Média", "Não recebia nenhum tipo de patrocínio"], correct: 0 },
-        { q: "Assinale a opção que representa corretamente uma consequência da mudança de Teocentrismo para Antropocentrismo:", options: ["Maior valorização da ciência e dos interesses humanos nas explicações do mundo", "O fim total da religião na Europa", "O retorno ao pensamento puramente mítico", "A rejeição definitiva da arte"], correct: 0 },
-        { q: "Ao financiar cientistas e artistas para ganhar prestígio, reis e a Igreja praticavam:", options: ["O Mecenato", "O Naturalismo", "A Simonia", "O Nicolaísmo"], correct: 0 },
-        { q: "A observação dos fatos, citada como parte da 'Influência' renascentista, está mais associada a qual mudança de mentalidade?", options: ["Do Teocentrismo para o Antropocentrismo", "Da Antiguidade para a Idade Média", "Da Idade Moderna para a Contemporânea", "Nenhuma associação específica"], correct: 0 },
-        { q: "Assinale a alternativa incorreta sobre o Teocentrismo, segundo o conteúdo:", options: ["O Teocentrismo valoriza o conhecimento científico acima de tudo", "O Teocentrismo coloca Deus no centro das explicações", "O Teocentrismo liga a produção de conhecimento ao mundo divino", "O Teocentrismo é característico do pensamento anterior ao Renascimento"], correct: 0 },
-        { q: "Assinale a alternativa incorreta sobre o Antropocentrismo, segundo o conteúdo:", options: ["O Antropocentrismo rejeita totalmente a ciência", "O Antropocentrismo valoriza a ciência", "O Antropocentrismo valoriza os interesses humanos", "O Antropocentrismo está ligado ao Naturalismo"], correct: 0 },
-        { q: "De forma geral, a Arte Renascentista reflete qual visão de mundo predominante no período?", options: ["O Antropocentrismo, com valorização da ciência, da razão e do ser humano", "O Teocentrismo, com Deus como único centro de explicações", "Uma visão neutra, sem qualquer influência filosófica", "Uma visão exclusivamente religiosa medieval"], correct: 0 },
-        { q: "Qual é a relação central entre Mecenato e Arte Renascentista, segundo o conteúdo?", options: ["O Mecenato foi o mecanismo de patrocínio que sustentou financeiramente a produção artística e científica do período", "O Mecenato foi uma forma de arte, e não de financiamento", "O Mecenato proibia qualquer produção artística", "O Mecenato só existiu após o fim do Renascimento"], correct: 0 },
-        { q: "Segundo o conteúdo, o realismo buscado pela Arte Renascentista está associado à união de quais dois elementos centrais do período?", options: ["Arte e ciência", "Religião e política", "Guerra e comércio", "Nobreza e clero"], correct: 0 },
+        { q: "As pteridófitas são classificadas como:", options: ["Plantas vasculares sem sementes", "Plantas vasculares com sementes", "Plantas avasculares", "Algas pluricelulares"], correct: 0 },
+        { q: "Qual exemplo de pteridófita é citado no conteúdo?", options: ["Samambaia", "Musgo", "Pinheiro", "Alga"], correct: 0 },
+        { q: "Como é chamada a folha jovem enquanto ainda está enrolada?", options: ["Báculo", "Rizoma", "Prótalo", "Esporângio"], correct: 0 },
+        { q: "Qual vaso condutor transporta a seiva bruta?", options: ["Xilema", "Floema", "Rizoma", "Prótalo"], correct: 0 },
+        { q: "Qual vaso condutor transporta a seiva elaborada?", options: ["Floema", "Xilema", "Rizoma", "Esporângio"], correct: 0 },
+        { q: "O que as pteridófitas NÃO produzem, segundo o conteúdo?", options: ["Sementes, flores e frutos", "Esporos", "Raízes", "Vasos condutores"], correct: 0 },
+        { q: "Na fase esporófito (2n), a planta é:", options: ["Diploide e produz esporos", "Haploide e produz gametas", "Diploide e produz gametas", "Haploide e produz esporos"], correct: 0 },
+        { q: "O gametófito das pteridófitas também é chamado de:", options: ["Prótalo", "Rizoma", "Esporângio", "Báculo"], correct: 0 },
+        { q: "O anterozoide é:", options: ["O gameta masculino, móvel e com flagelos", "O gameta feminino, imóvel", "A célula que forma o esporângio", "O tecido condutor de seiva"], correct: 0 },
+        { q: "Por que as pteridófitas ainda dependem da água para se reproduzir?", options: ["Porque o anterozoide precisa nadar até a oosfera", "Porque os esporos só germinam na água", "Porque o xilema só funciona submerso", "Porque não possuem flores"], correct: 0 },
+      ],
+      extraQuizLabel: "Treino do PDF",
+      extraQuizHeading: "Questões da lista do professor",
+      extraQuiz: [
+        { q: "Dentre os groups de plantas estudados, é correto afirmar que possuem flor exclusivamente:", options: ["As angiospermas", "As pteridófitas", "As briófitas", "Os fungos"], correct: 0 },
+        { q: "Gametas masculinos flagelados, que necessitam de água para encontrar os gametas femininos, são encontrados somente em:", options: ["Algas, briófitas e pteridófitas", "Pteridófitas e angiospermas", "Apenas em angiospermas", "Apenas em gimnospermas"], correct: 0 },
+        { q: "Sobre as pteridófitas: são o grupo mais antigo de plantas vasculares; possuem caule chamado rizoma; e sua reprodução envolve a produção de esporos. É correto afirmar que:", options: ["Essas três características estão corretas, mas as pteridófitas não possuem flores", "As pteridófitas possuem flores minúsculas visíveis apenas com lupa", "As pteridófitas não possuem rizoma", "As pteridófitas se reproduzem exclusivamente por sementes"], correct: 0 },
+        { q: "Relacionando os grupos às suas características: briófitas não apresentam vasos para condução; angiospermas apresentam flores e frutos; pteridófitas são as primeiras plantas vasculares; gimnospermas são as primeiras a formar sementes. Essa associação está:", options: ["Correta", "Incorreta apenas quanto às pteridófitas", "Incorreta apenas quanto às gimnospermas", "Totalmente incorreta"], correct: 0 },
       ],
     },
     {
-      id: "brasil-colonial",
-      title: "Brasil Colonial (1500–1822)",
+      id: "gimnospermas",
+      title: "Gimnospermas",
       sections: [
         {
-          heading: "Visão Geral",
-          body: `O Brasil foi colônia de Portugal por mais de 300 anos. Toda a organização econômica seguia a lógica do mercantilismo: a colônia existia para enriquecer a metrópole.
+          heading: "Gimnospermas",
+          body: `Folhas aciculiformes (agulhas).
+Copa em forma de cone (evita o acúmulo de neve).
 
-O Pacto Colonial obrigava o Brasil a negociar exclusivamente com Portugal — nada podia ser vendido diretamente a outros países. Assim, Portugal lucrava duas vezes: comprando barato da colônia e revendendo caro para a Europa.`
+Lembre-se:
+Pinheiros, ciprestes e araucárias.
+São vasculares (traqueófitas): xilema e floema.
+Possuem folhas, caules e raízes.
+Esporófitos produzem sementes.
+Não possuem fruto nem flor.
+Adaptadas ao clima frio.
+Não dependem da água para reprodução: dispersão do grão de pólen.
+
+Importante: o grão de pólen não é o gameta; ele é o gametófito masculino.`,
+          visual: `
+<div class="grid grid-cols-2 gap-2 max-w-xs mx-auto text-xs">
+  <div class="rounded-lg bg-cream border border-sand px-3 py-2 flex items-center justify-between"><span class="text-bark">Vascular</span><span class="text-correct font-bold">✓</span></div>
+  <div class="rounded-lg bg-cream border border-sand px-3 py-2 flex items-center justify-between"><span class="text-bark">Semente</span><span class="text-correct font-bold">✓</span></div>
+  <div class="rounded-lg bg-cream border border-sand px-3 py-2 flex items-center justify-between"><span class="text-bark">Flor</span><span class="text-wrong font-bold">✗</span></div>
+  <div class="rounded-lg bg-cream border border-sand px-3 py-2 flex items-center justify-between"><span class="text-bark">Fruto</span><span class="text-wrong font-bold">✗</span></div>
+</div>`,
         },
         {
-          heading: "Período Pré-Colonial (1500–1532)",
-          body: `Nos primeiros 30 anos após a chegada dos portugueses, o Brasil quase não recebeu atenção da Coroa.
-
-Por quê? Porque Portugal estava focado em algo muito mais lucrativo: o comércio com o Oriente (especiarias, seda, porcelana).
-
-Nesse período, o Brasil funcionava como uma feitoria — um posto simples de extração e comércio, sem colonização de fato.
-
-Principais características:
-• Exploração do pau-brasil no litoral (usado para tingir tecidos na Europa)
-• Escambo com os indígenas: trocavam pau-brasil por objetos como espelhos, facas e ferramentas
-• Sem investimento português em cidades ou administração
-• Invasões de franceses, ingleses e holandeses, atraídos pela ausência de defesa portuguesa
-
-Essa fase de descaso mostrou a Portugal que era preciso ocupar e defender o território — o que levou à criação das Capitanias.`
+          heading: "Grão de pólen",
+          body: `Estrutura:
+Núcleo polínico.
+Núcleo gerador.
+Dois sacos aéreos laterais ocos.`,
+          visual: `
+<svg viewBox="0 0 200 120" class="w-full max-w-xs mx-auto" xmlns="http://www.w3.org/2000/svg">
+  <ellipse cx="100" cy="55" rx="32" ry="22" fill="none" stroke="#5C4630" stroke-width="2.5"/>
+  <circle cx="63" cy="55" r="17" fill="none" stroke="#A8763E" stroke-width="2"/>
+  <circle cx="137" cy="55" r="17" fill="none" stroke="#A8763E" stroke-width="2"/>
+  <circle cx="92" cy="52" r="3" fill="#3E2F20"/>
+  <circle cx="108" cy="58" r="3" fill="#3E2F20"/>
+  <text x="68" y="96" font-size="9" fill="#A8763E">saco aéreo</text>
+  <text x="128" y="96" font-size="9" fill="#A8763E">saco aéreo</text>
+  <text x="60" y="20" font-size="9" fill="#5C4630">núcleo polínico + núcleo gerador</text>
+</svg>`,
         },
         {
-          heading: "Capitanias Hereditárias (1534)",
-          body: `Para resolver o problema das invasões e começar a colonização de verdade, Portugal dividiu o litoral brasileiro em 15 capitanias hereditárias, entregues a capitães donatários (nobres ou pessoas de confiança do rei).
-
-A ideia era simples: a Coroa não tinha dinheiro suficiente, então transferiu a responsabilidade (e o risco) para a iniciativa privada. Cada donatário deveria colonizar, defender e desenvolver sua própria capitania, usando recursos próprios.
-
-Dois documentos regulavam cada capitania:
-
-• Carta de Doação → garantia a posse da terra ao donatário e permitia que ela fosse herdada por seus descendentes (por isso "hereditária")
-• Carta Foral → estabelecia os direitos, deveres e impostos que o donatário devia pagar à Coroa
-
-Por que a maioria fracassou:
-• Falta de recursos financeiros dos donatários
-• Ataques constantes de indígenas
-• Má administração — muitos donatários nem chegaram a vir ao Brasil
-• Distância enorme de Portugal, dificultando qualquer apoio
-
-Resultado: das 15 capitanias, apenas Pernambuco (açúcar) e São Vicente prosperaram de verdade.`
+          heading: "Dispersão do pólen",
+          body: `Vento → Anemofilia.`,
         },
         {
-          heading: "Capitanias vs. Governo-Geral: por que um funcionou e o outro não",
-          body: `O fracasso das Capitanias mostrou que colonização descentralizada, sem coordenação entre as partes, não funcionava. Em 1548/1549, a Coroa decidiu centralizar tudo em uma única administração: o Governo-Geral, sediado em Salvador.
+          heading: "Semente",
+          body: `3N: 2N do embrião + N do endosperma primário.`,
+        },
+        {
+          heading: "Estróbilo (cone)",
+          body: `Estruturas reprodutivas:
+Estróbilo (cone).
+Escama.
+Esporângio.`,
+          visual: `
+<svg viewBox="0 0 160 200" class="w-full max-w-[160px] mx-auto" xmlns="http://www.w3.org/2000/svg">
+  <path d="M80,10 L140,190 L20,190 Z" fill="none" stroke="#5C4630" stroke-width="2.5"/>
+  <line x1="35" y1="150" x2="125" y2="150" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="45" y1="115" x2="115" y2="115" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="55" y1="80" x2="105" y2="80" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="65" y1="45" x2="95" y2="45" stroke="#A8763E" stroke-width="1.5"/>
+  <circle cx="35" cy="150" r="3" fill="#3E2F20"/>
+  <text x="0" y="168" font-size="8.5" fill="#5C4630">escama</text>
+  <text x="0" y="180" font-size="8.5" fill="#5C4630">(com esporângio)</text>
+</svg>`,
+        },
+      ],
+      quiz: [
+        { q: "Qual é o formato característico das folhas das gimnospermas?", options: ["Aciculiformes (em forma de agulha)", "Largas e arredondadas", "Compostas e recortadas", "Ausentes"], correct: 0 },
+        { q: "Por que a copa das gimnospermas costuma ter formato de cone?", options: ["Para evitar o acúmulo de neve", "Para atrair polinizadores", "Para reter mais água", "Para produzir mais frutos"], correct: 0 },
+        { q: "Quais são exemplos de gimnospermas citados no conteúdo?", options: ["Pinheiros, ciprestes e araucárias", "Samambaias e avencas", "Musgos e hepáticas", "Orquídeas e bromélias"], correct: 0 },
+        { q: "As gimnospermas são plantas:", options: ["Vasculares (traqueófitas), com xilema e floema", "Avasculares, sem tecidos condutores", "Sem raízes, caules ou folhas", "Exclusivamente aquáticas"], correct: 0 },
+        { q: "O que produz as sementes nas gimnospermas?", options: ["Os esporófitos", "Os gametófitos apenas", "As flores", "Os frutos"], correct: 0 },
+        { q: "As gimnospermas possuem fruto e flor?", options: ["Não possuem nem fruto nem flor", "Possuem fruto, mas não flor", "Possuem flor, mas não fruto", "Possuem ambos"], correct: 0 },
+        { q: "As gimnospermas dependem da água para a reprodução?", options: ["Não; dependem da dispersão do grão de pólen", "Sim, totalmente", "Apenas em climas frios", "Apenas durante a germinação da semente"], correct: 0 },
+        { q: "O grão de pólen da gimnosperma é:", options: ["O gametófito masculino (não é o próprio gameta)", "O próprio gameta masculino", "O óvulo", "O fruto da planta"], correct: 0 },
+        { q: "Como ocorre a dispersão do pólen nas gimnospermas?", options: ["Pelo vento (anemofilia)", "Por insetos exclusivamente", "Pela água exclusivamente", "Por pássaros exclusivamente"], correct: 0 },
+        { q: "A semente da gimnosperma é formada por:", options: ["2N do embrião + N do endosperma primário (3N no total)", "Apenas células haploides", "Apenas células diploides", "Um fruto protetor"], correct: 0 },
+      ],
+      extraQuizLabel: "Treino do PDF",
+      extraQuizHeading: "Questões da lista do professor",
+      extraQuiz: [
+        { q: "Araucária, eucalipto, samambaia e orquídea são exemplos, respectivamente, de:", options: ["Gimnosperma, Dicotiledônea, Pteridófita e Monocotiledônea", "Pteridófita, Angiosperma, Gimnosperma e Monocotiledônea", "Monocotiledônea, Pteridófita, Gimnosperma e Dicotiledônea", "Gimnosperma, Monocotiledônea, Dicotiledônea e Pteridófita"], correct: 0 },
+        { q: "O grande sucesso das plantas fanerogâmicas (gimnospermas e angiospermas) na conquista do ambiente terrestre pode ser atribuído a duas adaptações principais:", options: ["Independência da água para reprodução e propagação por meio de sementes", "Propagação por meio de frutos e reprodução por esporos", "Dependência da água para reprodução e ausência de sementes", "Reprodução exclusivamente por gametas flagelados"], correct: 0 },
+        { q: "Uma planta apresenta xilema e floema bem desenvolvidos, flores diferenciadas e estruturas que atraem polinizadores. Sobre essa planta, é correto afirmar que:", options: ["Ela não é uma Gimnosperma, já que as gimnospermas não produzem flores", "Ela é obrigatoriamente uma Gimnosperma", "Ela não possui transporte eficiente de seiva", "Ela não pode ser uma planta Dicotiledônea"], correct: 0 },
+        { q: "Em um esquema que separa as plantas em avasculares, vasculares com sementes (com ou sem frutos) e vasculares sem sementes, os grupos correspondentes são, respectivamente:", options: ["Briófitas, Angiospermas, Gimnospermas e Pteridófitas", "Pteridófitas, Gimnospermas, Angiospermas e Briófitas", "Briófitas, Gimnospermas, Angiospermas e Pteridófitas", "Gimnospermas, Briófitas, Pteridófitas e Angiospermas"], correct: 0 },
+        { q: "São características comuns às gimnospermas e às angiospermas:", options: ["Sistema vascular e presença de grãos de pólen com tubo polínico", "Apenas a presença de sementes nuas", "Ausência total de sistema vascular", "Reprodução exclusiva por esporos"], correct: 0 },
+      ],
+    },
+    {
+      id: "organologia",
+      title: "Organologia (Raiz, Caule e Fruto)",
+      sections: [
+        {
+          heading: "Monocotiledôneas × Eudicotiledôneas",
+          body: `As plantas com flor (angiospermas) se dividem em dois grandes grupos, diferenciados logo na semente:
 
-A ilustração abaixo mostra visualmente essa mudança: de capitanias isoladas e sem conexão, para um único governo controlando toda a colônia.`,
-          visual: `<svg viewBox="0 0 640 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
-  <text x="160" y="24" text-anchor="middle" font-size="15" font-weight="700" fill="#3E2F20">CAPITANIAS HEREDITÁRIAS</text>
-  <text x="160" y="42" text-anchor="middle" font-size="12" fill="#5C4630">1534 — poder disperso</text>
+Monocotiledôneas
+• 1 cotilédone
+• Nervuras paralelas nas folhas
+• Raiz fasciculada (em cabeleira)
+• Ciclo de vida geralmente curto
+• Exemplos: milho, arroz, capim, bananeira
 
-  <rect x="40" y="58" width="100" height="52" rx="10" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/>
-  <text x="90" y="88" text-anchor="middle" font-size="12" fill="#3E2F20">Capitania 1</text>
+Eudicotiledôneas
+• 2 cotilédones
+• Nervuras ramificadas nas folhas
+• Raiz axial (pivotante)
+• Ciclo de vida geralmente longo
+• Exemplos: feijão, mangueira, girassol, cenoura
 
-  <rect x="180" y="58" width="100" height="52" rx="10" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/>
-  <text x="230" y="88" text-anchor="middle" font-size="12" fill="#3E2F20">Capitania 2</text>
+A ilustração abaixo resume visualmente essas três diferenças (semente, folha e raiz) lado a lado.`,
+          visual: `<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+  <text x="8" y="79" font-size="10" fill="#5C4630">Semente</text>
+  <text x="8" y="158" font-size="10" fill="#5C4630">Folha</text>
+  <text x="8" y="246" font-size="10" fill="#5C4630">Raiz</text>
 
-  <rect x="40" y="126" width="100" height="52" rx="10" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/>
-  <text x="90" y="156" text-anchor="middle" font-size="12" fill="#3E2F20">Capitania 3</text>
+  <text x="160" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">MONOCOTILEDÔNEA</text>
+  <text x="480" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">EUDICOTILEDÔNEA</text>
+  <line x1="320" y1="10" x2="320" y2="305" stroke="#C9B18C" stroke-width="1" stroke-dasharray="5 5"/>
 
-  <rect x="180" y="126" width="100" height="52" rx="10" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/>
-  <text x="230" y="156" text-anchor="middle" font-size="12" fill="#3E2F20">Capitania 4</text>
+  <ellipse cx="160" cy="75" rx="16" ry="26" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/>
+  <line x1="160" y1="55" x2="160" y2="95" stroke="#3E2F20" stroke-width="1.5" stroke-dasharray="2 2"/>
+  <ellipse cx="468" cy="75" rx="14" ry="22" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/>
+  <ellipse cx="492" cy="75" rx="14" ry="22" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/>
+  <text x="160" y="112" text-anchor="middle" font-size="12" fill="#5C4630">1 cotilédone</text>
+  <text x="480" y="112" text-anchor="middle" font-size="12" fill="#5C4630">2 cotilédones</text>
 
-  <text x="160" y="200" text-anchor="middle" font-size="12" fill="#5C4630">Sem conexão entre si</text>
+  <path d="M160,132 Q170,157 160,183 Q150,157 160,132 Z" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/>
+  <line x1="153" y1="140" x2="153" y2="176" stroke="#3E2F20" stroke-width="1"/>
+  <line x1="160" y1="135" x2="160" y2="181" stroke="#3E2F20" stroke-width="1"/>
+  <line x1="167" y1="140" x2="167" y2="176" stroke="#3E2F20" stroke-width="1"/>
 
-  <rect x="70" y="215" width="180" height="32" rx="16" fill="#A6493A"/>
-  <text x="160" y="236" text-anchor="middle" font-size="13" font-weight="700" fill="#F4EEE1">FRACASSO</text>
+  <ellipse cx="480" cy="157" rx="24" ry="28" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/>
+  <line x1="480" y1="132" x2="480" y2="183" stroke="#3E2F20" stroke-width="1.3"/>
+  <line x1="480" y1="142" x2="464" y2="153" stroke="#3E2F20" stroke-width="1"/>
+  <line x1="480" y1="142" x2="496" y2="153" stroke="#3E2F20" stroke-width="1"/>
+  <line x1="480" y1="157" x2="462" y2="167" stroke="#3E2F20" stroke-width="1"/>
+  <line x1="480" y1="157" x2="498" y2="167" stroke="#3E2F20" stroke-width="1"/>
+  <line x1="480" y1="172" x2="466" y2="180" stroke="#3E2F20" stroke-width="1"/>
+  <line x1="480" y1="172" x2="494" y2="180" stroke="#3E2F20" stroke-width="1"/>
 
-  <line x1="320" y1="10" x2="320" y2="260" stroke="#C9B18C" stroke-width="1" stroke-dasharray="5 5"/>
+  <text x="160" y="200" text-anchor="middle" font-size="12" fill="#5C4630">Nervuras paralelas</text>
+  <text x="480" y="200" text-anchor="middle" font-size="12" fill="#5C4630">Nervuras ramificadas</text>
 
-  <text x="480" y="24" text-anchor="middle" font-size="15" font-weight="700" fill="#3E2F20">GOVERNO-GERAL</text>
-  <text x="480" y="42" text-anchor="middle" font-size="12" fill="#5C4630">1549 — poder centralizado</text>
+  <path d="M160,212 Q140,235 138,268" fill="none" stroke="#5C4630" stroke-width="1.5"/>
+  <path d="M160,212 Q150,240 150,272" fill="none" stroke="#5C4630" stroke-width="1.5"/>
+  <path d="M160,212 Q160,245 160,275" fill="none" stroke="#5C4630" stroke-width="1.5"/>
+  <path d="M160,212 Q170,240 170,272" fill="none" stroke="#5C4630" stroke-width="1.5"/>
+  <path d="M160,212 Q180,235 182,268" fill="none" stroke="#5C4630" stroke-width="1.5"/>
 
-  <rect x="420" y="58" width="120" height="48" rx="10" fill="#3E2F20"/>
-  <text x="480" y="87" text-anchor="middle" font-size="13" font-weight="700" fill="#F4EEE1">SALVADOR</text>
+  <line x1="480" y1="210" x2="480" y2="278" stroke="#3E2F20" stroke-width="2.5"/>
+  <line x1="480" y1="228" x2="463" y2="242" stroke="#5C4630" stroke-width="1.3"/>
+  <line x1="480" y1="228" x2="497" y2="242" stroke="#5C4630" stroke-width="1.3"/>
+  <line x1="480" y1="250" x2="466" y2="263" stroke="#5C4630" stroke-width="1.3"/>
+  <line x1="480" y1="250" x2="494" y2="263" stroke="#5C4630" stroke-width="1.3"/>
 
-  <line x1="480" y1="106" x2="400" y2="150" stroke="#A8763E" stroke-width="2" marker-end="url(#seta)"/>
-  <line x1="480" y1="106" x2="480" y2="150" stroke="#A8763E" stroke-width="2" marker-end="url(#seta)"/>
-  <line x1="480" y1="106" x2="560" y2="150" stroke="#A8763E" stroke-width="2" marker-end="url(#seta)"/>
+  <text x="160" y="298" text-anchor="middle" font-size="12" fill="#5C4630">Raiz fasciculada</text>
+  <text x="480" y="298" text-anchor="middle" font-size="12" fill="#5C4630">Raiz axial (pivotante)</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Comparação entre semente, folha e raiz nos dois grandes grupos de angiospermas.</p>`
+        },
+        {
+          heading: "Raiz — Funções",
+          body: `A raiz é o órgão responsável por:
 
-  <rect x="360" y="150" width="80" height="38" rx="8" fill="#E4D9C4" stroke="#C9B18C"/>
-  <text x="400" y="173" text-anchor="middle" font-size="11" fill="#3E2F20">Região</text>
+• Fixação da planta no solo
+• Absorção de água e sais minerais
+• Reserva de nutrientes
+• Transporte de água e sais minerais para o restante da planta
 
-  <rect x="440" y="150" width="80" height="38" rx="8" fill="#E4D9C4" stroke="#C9B18C"/>
-  <text x="480" y="173" text-anchor="middle" font-size="11" fill="#3E2F20">Região</text>
+Essas quatro funções aparecem com frequência em prova — decore todas.`
+        },
+        {
+          heading: "Raiz — Tipos Especiais",
+          body: `Além da fasciculada e da axial (já vistas na comparação acima), existem raízes com adaptações bem específicas:
 
-  <rect x="520" y="150" width="80" height="38" rx="8" fill="#E4D9C4" stroke="#C9B18C"/>
-  <text x="560" y="173" text-anchor="middle" font-size="11" fill="#3E2F20">Região</text>
+1. Raiz cintura — típica de plantas epífitas, fixa a planta sobre outra sem retirar alimento dela. Exemplos: bromélias e orquídeas.
 
-  <text x="480" y="205" text-anchor="middle" font-size="12" fill="#5C4630">Um governador controla tudo</text>
+2. Raiz estranguladora — envolve o tronco da planta hospedeira e pode sufocá-la. Exemplo: figueira.
 
-  <rect x="400" y="215" width="160" height="32" rx="16" fill="#5B7553"/>
-  <text x="480" y="236" text-anchor="middle" font-size="13" font-weight="700" fill="#F4EEE1">ORGANIZAÇÃO</text>
+3. Raiz haustório (sugadora) — típica de plantas parasitas, retira água e nutrientes diretamente da planta hospedeira. Exemplos: erva-de-passarinho e cipó-chumbo.
 
+4. Raiz escora — sai do caule e entra no solo, dando sustentação extra à planta. Exemplos: milho e mangue.
+
+5. Raiz respiratória (pneumatóforo) — vive em solos alagados e sai do solo para captar oxigênio. Exemplo: manguezais.
+
+6. Raiz tabular — grande e achatada, dá estabilidade para árvores de grande porte. Exemplo: sumaúma.
+
+7. Raiz tuberosa — armazena grande quantidade de alimento. Exemplos: mandioca, batata-doce, cenoura e beterraba.
+
+8. Raiz grampiforme — fixa a planta em paredes, troncos ou rochas. Exemplo: hera.
+
+📌 Dica: associe sempre o tipo de raiz ao "problema" que ela resolve (fixar em outra planta, respirar em solo alagado, sugar nutrientes, armazenar comida) — assim fica mais fácil lembrar o exemplo certo na prova.`
+        },
+        {
+          heading: "Fruto — Estrutura",
+          body: `Todo fruto verdadeiro se desenvolve a partir do ovário da flor, após a fecundação.
+
+Um fruto carnoso típico (como um pêssego) tem três camadas, de fora para dentro, mais a semente no centro:
+
+• Epicarpo — a casca
+• Mesocarpo — a parte carnosa (a polpa que comemos)
+• Endocarpo — a camada interna que envolve a semente
+• Semente — estrutura que vai originar uma nova planta
+
+O corte transversal abaixo mostra essas camadas na ordem certa.`,
+          visual: `<svg viewBox="0 0 480 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:480px;height:auto;display:block;margin:0 auto;">
+  <text x="240" y="22" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">Corte Transversal de um Fruto</text>
+
+  <circle cx="180" cy="150" r="95" fill="#A8763E"/>
+  <circle cx="180" cy="150" r="86" fill="#E4D9C4"/>
+  <circle cx="180" cy="150" r="40" fill="#C9B18C"/>
+  <circle cx="180" cy="150" r="22" fill="#3E2F20"/>
+
+  <line x1="213" y1="61" x2="330" y2="55" stroke="#5C4630" stroke-width="1.2"/>
+  <text x="336" y="59" font-size="13" fill="#3E2F20">Epicarpo (casca)</text>
+
+  <line x1="236" y1="118" x2="330" y2="100" stroke="#5C4630" stroke-width="1.2"/>
+  <text x="336" y="104" font-size="13" fill="#3E2F20">Mesocarpo (polpa)</text>
+
+  <line x1="211" y1="155" x2="330" y2="150" stroke="#5C4630" stroke-width="1.2"/>
+  <text x="336" y="154" font-size="13" fill="#3E2F20">Endocarpo</text>
+
+  <line x1="194" y1="167" x2="330" y2="200" stroke="#5C4630" stroke-width="1.2"/>
+  <text x="336" y="204" font-size="13" fill="#3E2F20">Semente</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Exemplo de fruto carnoso (drupa), como o pêssego: da casca até a semente.</p>`
+        },
+        {
+          heading: "Fruto — Classificação",
+          body: `Frutos simples são formados por um único pistilo.
+
+Entre os frutos carnosos, existem quatro subtipos importantes:
+
+• Baga — a semente fica solta na polpa. Exemplos: tomate, uva, mamão.
+• Drupa — tem um caroço duro envolvendo a semente (o endocarpo é rígido). Exemplos: manga, pêssego, coco, ameixa.
+• Pomo — o "miolo" central concentra as sementes. Exemplos: maçã e pera.
+• Hesperídio — casca grossa e rica em óleos, polpa dividida em gomos. Exemplos: laranja e limão.
+
+Quanto à deiscência (abertura do fruto):
+
+• Deiscentes — abrem sozinhos quando amadurecem, liberando as sementes.
+• Indeiscentes — não se abrem naturalmente; a semente só é liberada quando o fruto se decompõe ou é comido.`
+        },
+        {
+          heading: "Caule — Funções e Tipos",
+          body: `O caule tem quatro funções principais:
+
+• Sustentação da planta
+• Condução da seiva bruta e da seiva elaborada
+• Armazenamento de nutrientes em algumas plantas
+• Produção de novos brotos
+
+Existem quatro tipos principais de caule:
+
+1. Tronco — lenhoso, grosso e ramificado. Exemplo: árvores.
+
+2. Haste — verde, flexível e herbácea. Exemplo: alface e girassol.
+
+3. Colmo — possui nós e entrenós bem visíveis, com as folhas saindo dos nós. Exemplo: bambu e cana-de-açúcar.
+
+4. Estipe — caule único, liso e sem ramificações. Exemplo: coqueiro e palmeira.`
+        },
+        {
+          heading: "Seivas — Xilema e Floema",
+          body: `A planta transporta dois tipos de seiva, em direções opostas e por tecidos diferentes:
+
+Seiva bruta
+• Composta de água e sais minerais
+• Transportada pelo xilema
+• Sentido: vai da raiz para as folhas (sobe)
+
+Seiva elaborada
+• Composta pelos açúcares produzidos na fotossíntese
+• Transportada pelo floema
+• Sentido: vai das folhas para o restante da planta (desce)
+
+A ilustração resume o sentido de cada seiva dentro da planta.`,
+          visual: `<svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:400px;height:auto;display:block;margin:0 auto;">
   <defs>
-    <marker id="seta" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
-      <path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/>
+    <marker id="setaSeiva" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#3E2F20"/>
     </marker>
   </defs>
+
+  <line x1="50" y1="210" x2="350" y2="210" stroke="#C9B18C" stroke-width="2"/>
+  <text x="355" y="214" font-size="10" fill="#5C4630">solo</text>
+
+  <path d="M200,210 Q185,235 180,262" fill="none" stroke="#5C4630" stroke-width="1.4"/>
+  <path d="M200,210 Q200,240 200,266" fill="none" stroke="#5C4630" stroke-width="1.4"/>
+  <path d="M200,210 Q215,235 220,262" fill="none" stroke="#5C4630" stroke-width="1.4"/>
+
+  <line x1="200" y1="210" x2="200" y2="60" stroke="#3E2F20" stroke-width="4"/>
+
+  <ellipse cx="175" cy="55" rx="20" ry="13" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/>
+  <ellipse cx="225" cy="55" rx="20" ry="13" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/>
+
+  <line x1="145" y1="195" x2="145" y2="75" stroke="#A8763E" stroke-width="3" marker-end="url(#setaSeiva)"/>
+  <line x1="255" y1="75" x2="255" y2="195" stroke="#3E2F20" stroke-width="3" marker-end="url(#setaSeiva)"/>
+
+  <text x="60" y="110" font-size="12" font-weight="700" fill="#A8763E">XILEMA</text>
+  <text x="60" y="126" font-size="11" fill="#5C4630">Seiva bruta ↑</text>
+  <text x="60" y="140" font-size="11" fill="#5C4630">água + sais minerais</text>
+
+  <text x="268" y="110" font-size="12" font-weight="700" fill="#3E2F20">FLOEMA</text>
+  <text x="268" y="126" font-size="11" fill="#5C4630">Seiva elaborada ↓</text>
+  <text x="268" y="140" font-size="11" fill="#5C4630">açúcares</text>
 </svg>
-<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:10px;">Capitanias: poder disperso entre donatários isolados. Governo-Geral: poder centralizado em Salvador, controlando toda a colônia.</p>`
-        },
-        {
-          heading: "Governo-Geral: Cargos e Jesuítas",
-          body: `O Governo-Geral não era administrado por uma pessoa só fazendo tudo — havia uma divisão clara de funções, todas subordinadas ao governador-geral:
-
-• Capitão-mor → responsável pela Defesa militar da colônia
-• Ouvidor-mor → responsável pela Justiça, julgando conflitos e crimes
-• Provedor-mor → responsável pela Economia, arrecadando impostos e fiscalizando as finanças
-
-Além da estrutura administrativa, os jesuítas (padres da Companhia de Jesus) desempenharam papel fundamental: a catequese e evangelização dos indígenas. Eles fundaram escolas, aldeamentos e, muitas vezes, defenderam os indígenas contra a escravização promovida por colonos.`
-        },
-        {
-          heading: "Os Governadores-Gerais",
-          body: `Tomé de Sousa (1549–1553)
-• Primeiro governador-geral
-• Fundou Salvador, a primeira capital da colônia
-• Trouxe os primeiros jesuítas para o Brasil
-• Organizou a estrutura administrativa inicial
-
-Duarte da Costa (1553–1558)
-• Enfrentou a França Antártica — tentativa francesa de colonizar a Baía de Guanabara (atual Rio de Janeiro)
-• Teve conflitos frequentes com indígenas
-
-Mem de Sá (1558–1572)
-• Expulsou definitivamente os franceses da França Antártica
-• Fundou a cidade do Rio de Janeiro (1567), justamente para consolidar a vitória sobre os franceses
-• Governador mais eficaz do período, fortalecendo a colonização`
-        },
-        {
-          heading: "Sociedade Açucareira",
-          body: `A base econômica da colônia no século XVI foi o açúcar, organizado em um modelo bem definido:
-
-• Plantation → grande propriedade voltada para exportação
-• Latifúndio → propriedades de terra extensas, concentradas nas mãos de poucos
-• Monocultura da cana → praticamente só se plantava cana-de-açúcar
-• Trabalho escravo → mão de obra escravizada (inicialmente indígena, depois majoritariamente africana)
-• Produção para exportação → quase tudo era vendido para a Europa, não para consumo interno
-
-O engenho era a unidade produtiva central desse sistema, formado por três partes:
-• Casa-Grande → onde morava o senhor de engenho e sua família
-• Senzala → onde viviam os escravizados, em condições precárias
-• Fábrica (moenda) → onde a cana era processada e transformada em açúcar
-
-Esse modelo (plantation + latifúndio + escravidão) marcou profundamente a formação social e econômica do Brasil.`
-        },
-        {
-          heading: "União Ibérica (1580–1640)",
-          body: `Portugal e Espanha passaram a ter o mesmo rei durante 60 anos, o que trouxe consequências diretas para o Brasil:
-
-• O Tratado de Tordesilhas (que dividia as terras entre Portugal e Espanha) perdeu importância prática, já que as duas coroas estavam unidas
-• Isso permitiu uma expansão para o interior do território, além da antiga linha do tratado
-• Ao mesmo tempo, inimigos da Espanha (Holanda, Inglaterra, França) passaram a atacar também as colônias portuguesas, já que Portugal estava "junto" da Espanha
-• Isso resultou em invasões francesas e holandesas ao longo desse período`
-        },
-        {
-          heading: "Brasil Holandês",
-          body: `Aproveitando a fragilidade de Portugal durante a União Ibérica, a Holanda tentou conquistar partes valiosas do Brasil.
-
-Bahia (1624–1625)
-• Holandeses invadiram e ocuparam Salvador
-• Foram expulsos rapidamente pelos portugueses, com apoio espanhol
-
-Pernambuco (1630–1654)
-• Interesse direto na produção açucareira, a mais lucrativa da colônia
-• Os holandeses fundaram a Nova Holanda, tendo Recife como capital
-• Permaneceram no controle da região por 24 anos
-
-Maurício de Nassau (1637–1644)
-Foi o governador mais competente do período holandês:
-• Concedeu empréstimos aos senhores de engenho para reerguer a produção
-• Promoveu reformas urbanas em Recife (pontes, ruas, prédios)
-• Praticou tolerância religiosa, permitindo judeus e outras religiões
-
-Consequências
-• Expulsão definitiva dos holandeses em 1654
-• Os holandeses expulsos levaram o conhecimento da produção de açúcar para o Caribe, criando concorrência direta
-• Isso resultou no declínio do ciclo do açúcar no Brasil nas décadas seguintes`
-        },
-        {
-          heading: "Bandeirantes",
-          body: `Enquanto o litoral vivia do açúcar, o interior era explorado por expedições que saíam principalmente de São Paulo: os bandeirantes.
-
-Objetivos principais:
-• Capturar indígenas para escravização
-• Procurar ouro e pedras preciosas
-• Destruir quilombos (como o de Palmares)
-
-As bandeiras se dividiam em tipos, conforme o objetivo:
-• Caça ao indígena → captura de indígenas para trabalho forçado
-• Sertanismo de contrato → contratados por autoridades ou senhores para tarefas específicas (como destruir quilombos)
-• Prospecção (mineração) → busca por ouro, prata e pedras preciosas
-
-Bandeirantes importantes:
-• Raposo Tavares → uma das maiores expedições, chegando até o atual Paraguai e Bolívia
-• Fernão Dias → conhecido como "caçador de esmeraldas", explorou Minas Gerais
-• Bartolomeu Bueno (Anhanguera) → expedições em Goiás, ligado à descoberta de ouro na região
-• Domingos Jorge Velho → liderou a destruição do Quilombo dos Palmares (1694)`
-        },
-        {
-          heading: "Expansão Territorial",
-          body: `As bandeiras tiveram um papel decisivo na chamada Marcha para o Oeste: o avanço da colonização para muito além da linha original do Tratado de Tordesilhas.
-
-Existiam dois tipos de expedições para o interior, com origens diferentes:
-• Entradas → expedições oficiais, organizadas e financiadas pela Coroa portuguesa
-• Bandeiras → expedições particulares, organizadas por colonos (principalmente paulistas), sem financiamento direto da Coroa
-
-O resultado mais importante dessa expansão foi a descoberta de ouro e pedras preciosas em Minas Gerais, Mato Grosso e Goiás, o que mudaria completamente o eixo econômico da colônia no século XVIII, dando início ao Ciclo do Ouro.`
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Xilema leva água da raiz às folhas; floema leva açúcares das folhas para o resto da planta.</p>`
         }
       ],
       quiz: [
         {
-          q: "Qual era a lógica econômica que regia a exploração do Brasil colonial?",
+          q: "Qual a diferença no número de cotilédones entre monocotiledôneas e eudicotiledôneas?",
           options: [
-            "Livre comércio entre o Brasil e qualquer país europeu",
-            "Mercantilismo e Pacto Colonial: a colônia existia para enriquecer Portugal",
-            "Economia de subsistência sem exportação",
-            "Industrialização voltada ao mercado interno"
+            "Monocotiledôneas têm 2 e eudicotiledôneas têm 1",
+            "Monocotiledôneas têm 1 e eudicotiledôneas têm 2",
+            "Ambas têm sempre 1 cotilédone",
+            "Ambas têm sempre 2 cotilédones"
           ],
           correct: 1
         },
         {
-          q: "Como o Brasil funcionava durante o Período Pré-Colonial (1500–1532) e qual era sua principal atividade?",
+          q: "Quais são as funções da raiz?",
           options: [
-            "Como colônia de povoamento, com produção de açúcar",
-            "Como feitoria, com extração de pau-brasil via escambo",
-            "Como capitania hereditária, com plantação de cana",
-            "Como reino independente aliado a Portugal"
-          ],
-          correct: 1
-        },
-        {
-          q: "Quais documentos regulavam uma Capitania Hereditária e o que cada um definia?",
-          options: [
-            "Carta de Doação (posse e herança da terra) e Carta Foral (direitos, deveres e impostos)",
-            "Tratado de Tordesilhas e Carta Régia, ambos sobre limites territoriais",
-            "Carta Foral (posse da terra) e Carta de Doação (impostos apenas)",
-            "Apenas a Carta Foral, que tratava de toda a administração"
+            "Fixação, absorção de água e sais minerais, reserva de nutrientes e transporte",
+            "Apenas fotossíntese e reprodução",
+            "Apenas sustentação e condução de seiva elaborada",
+            "Produção de flores e frutos"
           ],
           correct: 0
         },
         {
-          q: "Por que a maioria das Capitanias Hereditárias fracassou?",
+          q: "Qual tipo de raiz é típico de uma planta parasita, como a erva-de-passarinho, que retira água e nutrientes da planta hospedeira?",
           options: [
-            "Porque o poder era muito centralizado em Salvador",
-            "Falta de recursos, ataques indígenas, má administração e distância de Portugal",
-            "Porque foram todas atacadas pelos holandeses",
-            "Porque o rei proibiu a colonização privada"
-          ],
-          correct: 1
-        },
-        {
-          q: "No Governo-Geral, qual cargo era responsável pela Justiça e qual pela Economia?",
-          options: [
-            "Capitão-mor (Justiça) e Ouvidor-mor (Economia)",
-            "Ouvidor-mor (Justiça) e Provedor-mor (Economia)",
-            "Provedor-mor (Justiça) e Capitão-mor (Economia)",
-            "Governador-geral cuidava de ambos sozinho"
-          ],
-          correct: 1
-        },
-        {
-          q: "Qual foi o principal papel dos jesuítas na colônia?",
-          options: [
-            "Administrar as finanças do Governo-Geral",
-            "Comandar as expedições bandeirantes",
-            "Catequese e evangelização dos indígenas",
-            "Defender militarmente a costa contra invasões"
+            "Raiz tuberosa",
+            "Raiz respiratória (pneumatóforo)",
+            "Raiz haustório (sugadora)",
+            "Raiz cintura"
           ],
           correct: 2
         },
         {
-          q: "Qual governador-geral enfrentou a França Antártica e qual fundou o Rio de Janeiro?",
+          q: "Qual é a ordem correta das camadas de um fruto carnoso, de fora para dentro?",
           options: [
-            "Tomé de Sousa enfrentou; Duarte da Costa fundou",
-            "Duarte da Costa enfrentou; Mem de Sá fundou",
-            "Mem de Sá enfrentou; Tomé de Sousa fundou",
-            "Ambos os eventos foram feitos por Tomé de Sousa"
+            "Endocarpo → Mesocarpo → Epicarpo → Semente",
+            "Epicarpo → Mesocarpo → Endocarpo → Semente",
+            "Mesocarpo → Epicarpo → Semente → Endocarpo",
+            "Semente → Endocarpo → Mesocarpo → Epicarpo"
           ],
           correct: 1
         },
         {
-          q: "Quais eram as três partes que compunham um engenho de açúcar?",
+          q: "A manga e o pêssego são exemplos de qual tipo de fruto carnoso?",
           options: [
-            "Casa-Grande, Senzala e a fábrica (moenda)",
-            "Capitania, Governo-Geral e Fazenda",
-            "Feitoria, Aldeamento e Quilombo",
-            "Plantation, Ouvidoria e Provedoria"
+            "Baga",
+            "Pomo",
+            "Hesperídio",
+            "Drupa"
           ],
-          correct: 0
+          correct: 3
         },
         {
-          q: "Qual era a capital da Nova Holanda em Pernambuco e quem foi seu governador mais conhecido?",
+          q: "Frutos que se abrem naturalmente quando amadurecem, liberando as sementes, são chamados de:",
           options: [
-            "Salvador, governada por Tomé de Sousa",
-            "Olinda, governada por Duarte da Costa",
-            "Recife, governada por Maurício de Nassau",
-            "Rio de Janeiro, governada por Mem de Sá"
+            "Indeiscentes",
+            "Deiscentes",
+            "Hesperídios",
+            "Pomos"
+          ],
+          correct: 1
+        },
+        {
+          q: "Qual tipo de caule tem nós e entrenós bem visíveis, com as folhas saindo dos nós? Exemplo: bambu e cana-de-açúcar.",
+          options: [
+            "Tronco",
+            "Haste",
+            "Colmo",
+            "Estipe"
           ],
           correct: 2
         },
         {
-          q: "Qual era a diferença entre 'Entradas' e 'Bandeiras'?",
+          q: "O caule liso, único e sem ramificações, típico do coqueiro e da palmeira, é chamado de:",
           options: [
-            "Não havia diferença, eram sinônimos",
-            "Entradas eram expedições oficiais da Coroa; Bandeiras eram particulares, de colonos",
-            "Entradas buscavam ouro; Bandeiras buscavam apenas indígenas",
-            "Entradas eram holandesas; Bandeiras eram portuguesas"
+            "Tronco",
+            "Colmo",
+            "Haste",
+            "Estipe"
+          ],
+          correct: 3
+        },
+        {
+          q: "Qual tecido transporta a seiva bruta (água e sais minerais) da raiz até as folhas?",
+          options: [
+            "Floema",
+            "Xilema",
+            "Epicarpo",
+            "Mesocarpo"
+          ],
+          correct: 1
+        },
+        {
+          q: "A raiz fasciculada (em cabeleira) e a raiz axial (pivotante) são típicas, respectivamente, de:",
+          options: [
+            "Eudicotiledôneas e monocotiledôneas",
+            "Monocotiledôneas e eudicotiledôneas",
+            "Ambas são típicas de monocotiledôneas",
+            "Ambas são típicas de eudicotiledôneas"
           ],
           correct: 1
         }
