@@ -338,7 +338,7 @@ Igreja: Uso de mecenato.`,
         { q: "A formação dos Estados Nacionais, um dos antecedentes do Renascimento, está associada a qual sistema político?", options: ["O Absolutismo", "O Parlamentarismo", "A democracia direta", "O federalismo moderno"], correct: 0 },
         { q: "Qual classe social surge e se fortalece como antecedente do Renascimento?", options: ["A burguesia", "O clero", "A nobreza feudal", "Os servos"], correct: 0 },
         { q: "Quais dois eventos históricos favoreceram o maior intercâmbio cultural entre Ocidente e Oriente?", options: ["As Cruzadas e a Queda do Império Bizantino", "A Revolução Francesa e a Guerra dos Cem Anos", "As Grandes Navegações e o Tratado de Tordesilhas", "A Reforma Protestante e a Contrarreforma"], correct: 0 },
-        { q: "Após as Cruzadas e a Queda do Império Bizantino, o que aconteceu com as rotas de comércio e os intelectuais?", options: ["Migraram para o Ocidente", "Foram completamente destruídos", "Permaneceram isolados no Oriente", "Foram proibidos de circular pela Igreja"], correct: 0 },
+        { q: "Após as Cruzadas e a Queda do Império Bizantino, o সমষ্টি o que aconteceu com as rotas de comércio e os intelectuais?", options: ["Migraram para o Ocidente", "Foram completamente destruídos", "Permaneceram isolados no Oriente", "Foram proibidos de circular pela Igreja"], correct: 0 },
         { q: "O que os pensadores do Renascimento retomaram culturalmente, a partir desse intercâmbio?", options: ["A cultura clássica (Greco-Romana)", "A cultura egípcia antiga", "A cultura viking", "A cultura persa"], correct: 0 },
         { q: "A mudança de mentalidade do Renascimento é resumida em qual transição de pensamento?", options: ["Teocentrismo → Antropocentrismo", "Antropocentrismo → Teocentrismo", "Politeísmo → Monoteísmo", "Absolutismo → Parlamentarismo"], correct: 0 },
         { q: "No Antropocentrismo, a produção de conhecimento passa a estar ligada a quê?", options: ["Ao ser humano", "Exclusivamente ao mundo divino", "Apenas à natureza selvagem", "Apenas aos animais"], correct: 0 },
@@ -662,249 +662,317 @@ Valorização do conhecimento científico e dos interesses humanos.`,
     },
     {
       id: "brasil-colonial",
-      title: "Brasil Colonial (1500–1800)",
+      title: "Brasil Colonial (1500–1822)",
       sections: [
         {
-          heading: "Economia e Pacto Colonial",
-          body: `A colônia brasileira nasceu com um objetivo claro: gerar riquezas para Portugal. Toda a economia era organizada para servir aos interesses da metrópole.
+          heading: "Visão Geral",
+          body: `O Brasil foi colônia de Portugal por mais de 300 anos. Toda a organização econômica seguia a lógica do mercantilismo: a colônia existia para enriquecer a metrópole.
 
-O Pacto Colonial era o fundamento dessa relação: a colônia só podia negociar com Portugal, não com outras nações. Tudo que se produzia (açúcar, ouro, tabaco) era exportado para Portugal, que lucrava com a revenda para a Europa. Em troca, a colônia recebia produtos manufaturados (tecidos, ferramentas) a preços muito mais altos.
+O Pacto Colonial obrigava o Brasil a negociar exclusivamente com Portugal — nada podia ser vendido diretamente a outros países. Assim, Portugal lucrava duas vezes: comprando barato da colônia e revendendo caro para a Europa.`
+        },
+        {
+          heading: "Período Pré-Colonial (1500–1532)",
+          body: `Nos primeiros 30 anos após a chegada dos portugueses, o Brasil quase não recebeu atenção da Coroa.
 
-Essa estrutura criou uma dependência econômica que Portugal explorou ao máximo.`
+Por quê? Porque Portugal estava focado em algo muito mais lucrativo: o comércio com o Oriente (especiarias, seda, porcelana).
+
+Nesse período, o Brasil funcionava como uma feitoria — um posto simples de extração e comércio, sem colonização de fato.
+
+Principais características:
+• Exploração do pau-brasil no litoral (usado para tingir tecidos na Europa)
+• Escambo com os indígenas: trocavam pau-brasil por objetos como espelhos, facas e ferramentas
+• Sem investimento português em cidades ou administração
+• Invasões de franceses, ingleses e holandeses, atraídos pela ausência de defesa portuguesa
+
+Essa fase de descaso mostrou a Portugal que era preciso ocupar e defender o território — o que levou à criação das Capitanias.`
         },
         {
           heading: "Capitanias Hereditárias (1534)",
-          body: `Para colonizar o imense território, o rei de Portugal dividiu a costa brasileira em enormes faixas de terra: as capitanias hereditárias. Cada uma foi entregue a um donatário (geralmente um nobre português).
+          body: `Para resolver o problema das invasões e começar a colonização de verdade, Portugal dividiu o litoral brasileiro em 15 capitanias hereditárias, entregues a capitães donatários (nobres ou pessoas de confiança do rei).
 
-Os donatários recebiam poderes para:
-• Administrar a capitania como um senhor feudal
-• Defender o território contra ataques
-• Desenvolver a economia
+A ideia era simples: a Coroa não tinha dinheiro suficiente, então transferiu a responsabilidade (e o risco) para a iniciativa privada. Cada donatário deveria colonizar, defender e desenvolver sua própria capitania, usando recursos próprios.
 
-Parecia uma solução, mas fracassou quase completamente. Os donatários enfrentavam:
-• Falta de recursos financeiros para manter a colonização
+Dois documentos regulavam cada capitania:
+
+• Carta de Doação → garantia a posse da terra ao donatário e permitia que ela fosse herdada por seus descendentes (por isso "hereditária")
+• Carta Foral → estabelecia os direitos, deveres e impostos que o donatário devia pagar à Coroa
+
+Por que a maioria fracassou:
+• Falta de recursos financeiros dos donatários
 • Ataques constantes de indígenas
-• Grande distância de Portugal, impossível receber ajuda rápida
-• Desinteresse de muitos donatários que preferiam ficar em Portugal
+• Má administração — muitos donatários nem chegaram a vir ao Brasil
+• Distância enorme de Portugal, dificultando qualquer apoio
 
-Apenas poucas capitanias prosperaram, como Pernambuco (açúcar) e São Vicente (no Sul).`
+Resultado: das 15 capitanias, apenas Pernambuco (açúcar) e São Vicente prosperaram de verdade.`
         },
         {
-          heading: "Comparação: Capitanias vs Governo-Geral",
-          body: `As Capitanias Hereditárias falharam porque o poder estava muito descentralizado. Cada donatário agia isoladamente, sem coordenação. Diante desse fracasso, a Coroa Portuguesa decidiu intervir diretamente.
+          heading: "Capitanias vs. Governo-Geral: por que um funcionou e o outro não",
+          body: `O fracasso das Capitanias mostrou que colonização descentralizada, sem coordenação entre as partes, não funcionava. Em 1548/1549, a Coroa decidiu centralizar tudo em uma única administração: o Governo-Geral, sediado em Salvador.
 
-Em 1549, criou o Governo-Geral: um único representante do rei administrando toda a colônia com autoridade centralizada.
+A ilustração abaixo mostra visualmente essa mudança: de capitanias isoladas e sem conexão, para um único governo controlando toda a colônia.`,
+          visual: `<svg viewBox="0 0 640 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+  <text x="160" y="24" text-anchor="middle" font-size="15" font-weight="700" fill="#3E2F20">CAPITANIAS HEREDITÁRIAS</text>
+  <text x="160" y="42" text-anchor="middle" font-size="12" fill="#5C4630">1534 — poder disperso</text>
 
-🎯 **Veja a diferença visual:**
+  <rect x="40" y="58" width="100" height="52" rx="10" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/>
+  <text x="90" y="88" text-anchor="middle" font-size="12" fill="#3E2F20">Capitania 1</text>
 
-CAPITANIAS HEREDITÁRIAS (1534)
-┌─────────────────────────────────────────────┐
-│  Poder Descentralizado = Múltiplos Donatários│
-├─────────────────────────────────────────────┤
-│  [Cap. 1]  [Cap. 2]  [Cap. 3]  [Cap. 4]    │
-│   Isolados   Sem coordenação   Fracos       │
-│   = FRACASSO                                 │
-└─────────────────────────────────────────────┘
+  <rect x="180" y="58" width="100" height="52" rx="10" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/>
+  <text x="230" y="88" text-anchor="middle" font-size="12" fill="#3E2F20">Capitania 2</text>
 
-GOVERNO-GERAL (1549)
-┌─────────────────────────────────────────────┐
-│  Poder Centralizado = Um Governador         │
-├─────────────────────────────────────────────┤
-│            [SALVADOR - Sede do GG]            │
-│                 ↓↓↓                          │
-│  Controla toda a colônia  = ORGANIZAÇÃO    │
-└─────────────────────────────────────────────┘
+  <rect x="40" y="126" width="100" height="52" rx="10" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/>
+  <text x="90" y="156" text-anchor="middle" font-size="12" fill="#3E2F20">Capitania 3</text>
 
-**Resultado:** Melhor administração, mais segurança, estratégia unificada.`
+  <rect x="180" y="126" width="100" height="52" rx="10" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/>
+  <text x="230" y="156" text-anchor="middle" font-size="12" fill="#3E2F20">Capitania 4</text>
+
+  <text x="160" y="200" text-anchor="middle" font-size="12" fill="#5C4630">Sem conexão entre si</text>
+
+  <rect x="70" y="215" width="180" height="32" rx="16" fill="#A6493A"/>
+  <text x="160" y="236" text-anchor="middle" font-size="13" font-weight="700" fill="#F4EEE1">FRACASSO</text>
+
+  <line x1="320" y1="10" x2="320" y2="260" stroke="#C9B18C" stroke-width="1" stroke-dasharray="5 5"/>
+
+  <text x="480" y="24" text-anchor="middle" font-size="15" font-weight="700" fill="#3E2F20">GOVERNO-GERAL</text>
+  <text x="480" y="42" text-anchor="middle" font-size="12" fill="#5C4630">1549 — poder centralizado</text>
+
+  <rect x="420" y="58" width="120" height="48" rx="10" fill="#3E2F20"/>
+  <text x="480" y="87" text-anchor="middle" font-size="13" font-weight="700" fill="#F4EEE1">SALVADOR</text>
+
+  <line x1="480" y1="106" x2="400" y2="150" stroke="#A8763E" stroke-width="2" marker-end="url(#seta)"/>
+  <line x1="480" y1="106" x2="480" y2="150" stroke="#A8763E" stroke-width="2" marker-end="url(#seta)"/>
+  <line x1="480" y1="106" x2="560" y2="150" stroke="#A8763E" stroke-width="2" marker-end="url(#seta)"/>
+
+  <rect x="360" y="150" width="80" height="38" rx="8" fill="#E4D9C4" stroke="#C9B18C"/>
+  <text x="400" y="173" text-anchor="middle" font-size="11" fill="#3E2F20">Região</text>
+
+  <rect x="440" y="150" width="80" height="38" rx="8" fill="#E4D9C4" stroke="#C9B18C"/>
+  <text x="480" y="173" text-anchor="middle" font-size="11" fill="#3E2F20">Região</text>
+
+  <rect x="520" y="150" width="80" height="38" rx="8" fill="#E4D9C4" stroke="#C9B18C"/>
+  <text x="560" y="173" text-anchor="middle" font-size="11" fill="#3E2F20">Região</text>
+
+  <text x="480" y="205" text-anchor="middle" font-size="12" fill="#5C4630">Um governador controla tudo</text>
+
+  <rect x="400" y="215" width="160" height="32" rx="16" fill="#5B7553"/>
+  <text x="480" y="236" text-anchor="middle" font-size="13" font-weight="700" fill="#F4EEE1">ORGANIZAÇÃO</text>
+
+  <defs>
+    <marker id="seta" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/>
+    </marker>
+  </defs>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:10px;">Capitanias: poder disperso entre donatários isolados. Governo-Geral: poder centralizado em Salvador, controlando toda a colônia.</p>`
         },
         {
-          heading: "Governo-Geral: Os Principais Governadores",
+          heading: "Governo-Geral: Cargos e Jesuítas",
+          body: `O Governo-Geral não era administrado por uma pessoa só fazendo tudo — havia uma divisão clara de funções, todas subordinadas ao governador-geral:
+
+• Capitão-mor → responsável pela Defesa militar da colônia
+• Ouvidor-mor → responsável pela Justiça, julgando conflitos e crimes
+• Provedor-mor → responsável pela Economia, arrecadando impostos e fiscalizando as finanças
+
+Além da estrutura administrativa, os jesuítas (padres da Companhia de Jesus) desempenharam papel fundamental: a catequese e evangelização dos indígenas. Eles fundaram escolas, aldeamentos e, muitas vezes, defenderam os indígenas contra a escravização promovida por colonos.`
+        },
+        {
+          heading: "Os Governadores-Gerais",
           body: `Tomé de Sousa (1549–1553)
-• Primeiro governador-geral, enviado com essa missão clara
-• Fundou Salvador em 1549, que se tornou a primeira capital
-• Organizou a defesa e administração da colônia
-• Criou a base institucional para o Brasil
+• Primeiro governador-geral
+• Fundou Salvador, a primeira capital da colônia
+• Trouxe os primeiros jesuítas para o Brasil
+• Organizou a estrutura administrativa inicial
 
 Duarte da Costa (1553–1558)
-• Enfrentou conflitos violentos com indígenas
-• Combateu a presença de franceses tentando se instalar
-• Período de grande turbulência
+• Enfrentou a França Antártica — tentativa francesa de colonizar a Baía de Guanabara (atual Rio de Janeiro)
+• Teve conflitos frequentes com indígenas
 
 Mem de Sá (1558–1572)
-• O mais bem-sucedido dos primeiros governadores
-• Expulsou os franceses que tentavam invadir o Rio de Janeiro
-• Fortaleceu a colonização e a defesa da costa
-• Consolidou a autoridade portuguesa`
+• Expulsou definitivamente os franceses da França Antártica
+• Fundou a cidade do Rio de Janeiro (1567), justamente para consolidar a vitória sobre os franceses
+• Governador mais eficaz do período, fortalecendo a colonização`
+        },
+        {
+          heading: "Sociedade Açucareira",
+          body: `A base econômica da colônia no século XVI foi o açúcar, organizado em um modelo bem definido:
+
+• Plantation → grande propriedade voltada para exportação
+• Latifúndio → propriedades de terra extensas, concentradas nas mãos de poucos
+• Monocultura da cana → praticamente só se plantava cana-de-açúcar
+• Trabalho escravo → mão de obra escravizada (inicialmente indígena, depois majoritariamente africana)
+• Produção para exportação → quase tudo era vendido para a Europa, não para consumo interno
+
+O engenho era a unidade produtiva central desse sistema, formado por três partes:
+• Casa-Grande → onde morava o senhor de engenho e sua família
+• Senzala → onde viviam os escravizados, em condições precárias
+• Fábrica (moenda) → onde a cana era processada e transformada em açúcar
+
+Esse modelo (plantation + latifúndio + escravidão) marcou profundamente a formação social e econômica do Brasil.`
         },
         {
           heading: "União Ibérica (1580–1640)",
-          body: `Um dos períodos mais críticos da história brasileira.
+          body: `Portugal e Espanha passaram a ter o mesmo rei durante 60 anos, o que trouxe consequências diretas para o Brasil:
 
-O que aconteceu:
-Portugal e Espanha tiveram a mesma monarquia durante 60 anos. O rei espanhol Felipe II herdou o trono português.
-
-Por que foi um desastre para o Brasil:
-
-1. **Inimigos da Espanha atacaram Portugal**
-   Espanha tinha inimigos poderosos: Holanda, Inglaterra, França. Esses países não podiam atacar a Espanha diretamente, mas podiam atacar suas colônias e as colônias do aliado Portugal.
-
-2. **Brasil ficou vulnerável**
-   A Holanda e outros países aproveitaram para invadir e tentar conquistar partes da colônia brasileira.
-
-3. **Portugal não conseguia se defender sozinho**
-   Estava sob o controle espanhol e não tinha recursos suficientes.
-
-Consequência: O Brasil sofreu invasões estrangeiras durante esses 60 anos.`
-        },
-        {
-          heading: "Bandeirantes: Expansão Territorial",
-          body: `Enquanto a costa era colonizada pela plantação de açúcar, algo diferente acontecia no interior.
-
-Bandeirantes eram expedições de colonos (principalmente saindo de São Paulo e do Sul) que penetravam o interior em busca de riquezas.
-
-Objetivos dos Bandeirantes:
-• Capturar indígenas para escravizá-los (apesar de proibido pela Coroa)
-• Procurar ouro e pedras preciosas
-• Destruir quilombos (comunidades de escravizados fugidos)
-• Explorar novos territórios
-
-Consequências:
-✓ Expansão massiva do território: o Brasil cresceu para o interior
-✓ Descoberta de áreas com ouro e diamantes (século XVII)
-✓ Consolidação de nomes: São Paulo ganhou fama por isso
-✓ Conflitos violentos com indígenas que eram capturados ou mortos
-
-📌 **O Brasil de hoje é muito maior do que seria sem os bandeirantes.** O interior do país foi "aberto" por essas expedições.`
+• O Tratado de Tordesilhas (que dividia as terras entre Portugal e Espanha) perdeu importância prática, já que as duas coroas estavam unidas
+• Isso permitiu uma expansão para o interior do território, além da antiga linha do tratado
+• Ao mesmo tempo, inimigos da Espanha (Holanda, Inglaterra, França) passaram a atacar também as colônias portuguesas, já que Portugal estava "junto" da Espanha
+• Isso resultou em invasões francesas e holandesas ao longo desse período`
         },
         {
           heading: "Brasil Holandês",
-          body: `Durante a União Ibérica, aproveitando a fraqueza portuguesa, a Holanda tentou conquistar partes do Brasil.
+          body: `Aproveitando a fragilidade de Portugal durante a União Ibérica, a Holanda tentou conquistar partes valiosas do Brasil.
 
-Invasão da Bahia (1624–1625)
-• Holandeses invadem Salvador (a capital)
-• Conseguem se manter por pouco tempo (1 ano)
-• Foram expulsos pelos portugueses em 1625
-• A Bahia permaneceu portuguesa
+Bahia (1624–1625)
+• Holandeses invadiram e ocuparam Salvador
+• Foram expulsos rapidamente pelos portugueses, com apoio espanhol
 
-Invasão de Pernambuco (1630–1654)
-• Muito mais séria e duradoura
-• Pernambuco era a região mais rica (açúcar) — era o alvo
-• Os holandeses ocuparam por 24 anos
-• Governado por Maurício de Nassau, um administrador competente
+Pernambuco (1630–1654)
+• Interesse direto na produção açucareira, a mais lucrativa da colônia
+• Os holandeses fundaram a Nova Holanda, tendo Recife como capital
+• Permaneceram no controle da região por 24 anos
 
 Maurício de Nassau (1637–1644)
-Enquanto controlava Pernambuco, Nassau:
-• Melhorou a infraestrutura urbana (ruas, pontes, portos)
-• Incentivou as artes e ciências
-• Criou biblioteca, museu e observatório
-• Atraiu artistas e cientistas
-• Modernizou a administração
+Foi o governador mais competente do período holandês:
+• Concedeu empréstimos aos senhores de engenho para reerguer a produção
+• Promoveu reformas urbanas em Recife (pontes, ruas, prédios)
+• Praticou tolerância religiosa, permitindo judeus e outras religiões
 
-Apesar das melhorias, os portugueses expulsaram os holandeses em 1654. Pernambuco voltou para Portugal, mas o legado cultural e urbano de Nassau permaneceu.
+Consequências
+• Expulsão definitiva dos holandeses em 1654
+• Os holandeses expulsos levaram o conhecimento da produção de açúcar para o Caribe, criando concorrência direta
+• Isso resultou no declínio do ciclo do açúcar no Brasil nas décadas seguintes`
+        },
+        {
+          heading: "Bandeirantes",
+          body: `Enquanto o litoral vivia do açúcar, o interior era explorado por expedições que saíam principalmente de São Paulo: os bandeirantes.
 
-**Resultado Final:** Portugal manteve o Brasil, mas perdeu tempo e recursos. A Holanda fracassou em suas ambições coloniais no Brasil.`
+Objetivos principais:
+• Capturar indígenas para escravização
+• Procurar ouro e pedras preciosas
+• Destruir quilombos (como o de Palmares)
+
+As bandeiras se dividiam em tipos, conforme o objetivo:
+• Caça ao indígena → captura de indígenas para trabalho forçado
+• Sertanismo de contrato → contratados por autoridades ou senhores para tarefas específicas (como destruir quilombos)
+• Prospecção (mineração) → busca por ouro, prata e pedras preciosas
+
+Bandeirantes importantes:
+• Raposo Tavares → uma das maiores expedições, chegando até o atual Paraguai e Bolívia
+• Fernão Dias → conhecido como "caçador de esmeraldas", explorou Minas Gerais
+• Bartolomeu Bueno (Anhanguera) → expedições em Goiás, ligado à descoberta de ouro na região
+• Domingos Jorge Velho → liderou a destruição do Quilombo dos Palmares (1694)`
+        },
+        {
+          heading: "Expansão Territorial",
+          body: `As bandeiras tiveram um papel decisivo na chamada Marcha para o Oeste: o avanço da colonização para muito além da linha original do Tratado de Tordesilhas.
+
+Existiam dois tipos de expedições para o interior, com origens diferentes:
+• Entradas → expedições oficiais, organizadas e financiadas pela Coroa portuguesa
+• Bandeiras → expedições particulares, organizadas por colonos (principalmente paulistas), sem financiamento direto da Coroa
+
+O resultado mais importante dessa expansão foi a descoberta de ouro e pedras preciosas em Minas Gerais, Mato Grosso e Goiás, o que mudaria completamente o eixo econômico da colônia no século XVIII, dando início ao Ciclo do Ouro.`
         }
       ],
       quiz: [
         {
-          q: "Qual era o objetivo principal da economia colonial brasileira?",
+          q: "Qual era a lógica econômica que regia a exploração do Brasil colonial?",
           options: [
-            "Gerar riquezas para Portugal através da exploração",
-            "Desenvolver uma economia independente",
-            "Negociar com todas as nações europeias",
-            "Estabelecer indústrias manufatureiras"
+            "Livre comércio entre o Brasil e qualquer país europeu",
+            "Mercantilismo e Pacto Colonial: a colônia existia para enriquecer Portugal",
+            "Economia de subsistência sem exportação",
+            "Industrialização voltada ao mercado interno"
+          ],
+          correct: 1
+        },
+        {
+          q: "Como o Brasil funcionava durante o Período Pré-Colonial (1500–1532) e qual era sua principal atividade?",
+          options: [
+            "Como colônia de povoamento, com produção de açúcar",
+            "Como feitoria, com extração de pau-brasil via escambo",
+            "Como capitania hereditária, com plantação de cana",
+            "Como reino independente aliado a Portugal"
+          ],
+          correct: 1
+        },
+        {
+          q: "Quais documentos regulavam uma Capitania Hereditária e o que cada um definia?",
+          options: [
+            "Carta de Doação (posse e herança da terra) e Carta Foral (direitos, deveres e impostos)",
+            "Tratado de Tordesilhas e Carta Régia, ambos sobre limites territoriais",
+            "Carta Foral (posse da terra) e Carta de Doação (impostos apenas)",
+            "Apenas a Carta Foral, que tratava de toda a administração"
           ],
           correct: 0
         },
         {
-          q: "Por que as Capitanias Hereditárias fracassaram?",
+          q: "Por que a maioria das Capitanias Hereditárias fracassou?",
           options: [
-            "Tinham muito poder centralizado",
-            "Falta de recursos, ataques indígenas e grande distância de Portugal",
-            "O rei proibiu sua existência",
-            "Pernambuco conquistou todas as outras"
+            "Porque o poder era muito centralizado em Salvador",
+            "Falta de recursos, ataques indígenas, má administração e distância de Portugal",
+            "Porque foram todas atacadas pelos holandeses",
+            "Porque o rei proibiu a colonização privada"
           ],
           correct: 1
         },
         {
-          q: "Qual foi a principal diferença entre Capitanias Hereditárias e Governo-Geral?",
+          q: "No Governo-Geral, qual cargo era responsável pela Justiça e qual pela Economia?",
           options: [
-            "As Capitanias eram centralizadas, o Governo-Geral era descentralizado",
-            "O Governo-Geral tinha poder descentralizado entre vários governadores",
-            "As Capitanias eram descentralizadas, o Governo-Geral era centralizado",
-            "Não havia diferença, era o mesmo sistema"
+            "Capitão-mor (Justiça) e Ouvidor-mor (Economia)",
+            "Ouvidor-mor (Justiça) e Provedor-mor (Economia)",
+            "Provedor-mor (Justiça) e Capitão-mor (Economia)",
+            "Governador-geral cuidava de ambos sozinho"
+          ],
+          correct: 1
+        },
+        {
+          q: "Qual foi o principal papel dos jesuítas na colônia?",
+          options: [
+            "Administrar as finanças do Governo-Geral",
+            "Comandar as expedições bandeirantes",
+            "Catequese e evangelização dos indígenas",
+            "Defender militarmente a costa contra invasões"
           ],
           correct: 2
         },
         {
-          q: "Qual governador-geral foi responsável por expulsar os franceses e consolidar a colonização?",
+          q: "Qual governador-geral enfrentou a França Antártica e qual fundou o Rio de Janeiro?",
           options: [
-            "Tomé de Sousa",
-            "Duarte da Costa",
-            "Mem de Sá",
-            "Maurício de Nassau"
+            "Tomé de Sousa enfrentou; Duarte da Costa fundou",
+            "Duarte da Costa enfrentou; Mem de Sá fundou",
+            "Mem de Sá enfrentou; Tomé de Sousa fundou",
+            "Ambos os eventos foram feitos por Tomé de Sousa"
+          ],
+          correct: 1
+        },
+        {
+          q: "Quais eram as três partes que compunham um engenho de açúcar?",
+          options: [
+            "Casa-Grande, Senzala e a fábrica (moenda)",
+            "Capitania, Governo-Geral e Fazenda",
+            "Feitoria, Aldeamento e Quilombo",
+            "Plantation, Ouvidoria e Provedoria"
+          ],
+          correct: 0
+        },
+        {
+          q: "Qual era a capital da Nova Holanda em Pernambuco e quem foi seu governador mais conhecido?",
+          options: [
+            "Salvador, governada por Tomé de Sousa",
+            "Olinda, governada por Duarte da Costa",
+            "Recife, governada por Maurício de Nassau",
+            "Rio de Janeiro, governada por Mem de Sá"
           ],
           correct: 2
         },
         {
-          q: "O que foi a União Ibérica e por que foi prejudicial para o Brasil?",
+          q: "Qual era a diferença entre 'Entradas' e 'Bandeiras'?",
           options: [
-            "Uma aliança comercial entre Portugal e Espanha que aumentou a riqueza",
-            "Portugal e Espanha tiveram o mesmo rei; inimigos da Espanha atacaram o Brasil",
-            "Uma invasão espanhola que conquistou o Brasil permanentemente",
-            "Um acordo que liberou o comércio brasileiro com outras nações"
+            "Não havia diferença, eram sinônimos",
+            "Entradas eram expedições oficiais da Coroa; Bandeiras eram particulares, de colonos",
+            "Entradas buscavam ouro; Bandeiras buscavam apenas indígenas",
+            "Entradas eram holandesas; Bandeiras eram portuguesas"
           ],
           correct: 1
-        },
-        {
-          q: "Qual era o principal objetivo dos bandeirantes?",
-          options: [
-            "Evangelizar os indígenas",
-            "Capturar indígenas, procurar ouro e expandir território",
-            "Defender a costa de invasões estrangeiras",
-            "Criar rotas comerciais com a Europa"
-          ],
-          correct: 1
-        },
-        {
-          q: "Qual consequência dos bandeirantes foi mais importante para a história do Brasil?",
-          options: [
-            "Criaram grandes cidades no interior",
-            "Destruíram completamente todas as tribos indígenas",
-            "Expandiram o território brasileiro para o interior",
-            "Encontraram ouro e mantiveram segredo para Portugal"
-          ],
-          correct: 2
-        },
-        {
-          q: "Qual foi a principal razão para a invasão holandesa de Pernambuco (1630)?",
-          options: [
-            "Conquistar a capital de Portugal",
-            "Interesse na produção de açúcar, a maior riqueza da região",
-            "Expulsar os indígenas de lá",
-            "Estabelecer rotas comerciais diretas com a Ásia"
-          ],
-          correct: 1
-        },
-        {
-          q: "O que Maurício de Nassau fez em Pernambuco enquanto governava?",
-          options: [
-            "Destruiu toda a infraestrutura da região",
-            "Melhorou cidades, incentivou artes e ciências, modernizou administração",
-            "Retornou todo o ouro de açúcar para a Holanda",
-            "Expulsou todos os portugueses do Brasil"
-          ],
-          correct: 1
-        },
-        {
-          q: "Qual foi o resultado final da ocupação holandesa do Brasil?",
-          options: [
-            "Holanda conquistou permanentemente o Brasil",
-            "Portugal perdeu o Brasil para a Holanda",
-            "Portugal expulsou os holandeses; Brasil permaneceu português",
-            "Brasil se tornou independente"
-          ],
-          correct: 2
         }
       ]
     }
