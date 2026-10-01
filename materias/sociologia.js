@@ -98,6 +98,108 @@ Separação entre vida privada e profissional`,
             { q: "Quais são as características da burocracia citadas no conteúdo?", options: ["Regras, hierarquia, cargos e funções, e separação entre vida privada e profissional", "Apenas hierarquia e tradição", "Apenas emoção e costume", "Apenas cargos hereditários"], correct: 0 },
           ],
         },
+        {
+          id: "trabalho-e-producao",
+          title: "Trabalho e Produção (Marx)",
+          sections: [
+            {
+              heading: "Contexto do surgimento",
+              body: `A Sociologia surge como ciência em um cenário marcado pelo desenvolvimento e consolidação do capitalismo, que produziu profundas transformações na organização do trabalho.
+
+Por causa desse contexto, a temática do trabalho ocupa posição de destaque no pensamento sociológico. Os três clássicos da Sociologia dedicaram-se ao tema:
+
+• Karl Marx
+• Max Weber
+• Émile Durkheim`,
+            },
+            {
+              heading: "O trabalho em Karl Marx",
+              body: `A questão do trabalho é central no pensamento de Marx.
+
+Definição de trabalho:
+Atividade que visa solucionar as necessidades humanas e, ao mesmo tempo, gera transformação da natureza.
+
+Diferença entre trabalho humano e trabalho animal:
+• Trabalho humano — CONSCIENTE (permite aprimorar técnicas e tecnologia)
+• Trabalho animal — REPETITIVO (sem evolução técnica)
+
+Essa consciência é o que faz do trabalho uma atividade propriamente humana.`,
+            },
+            {
+              heading: "Luta de classes",
+              body: `Para Marx, no capitalismo o trabalhador teria se tornado uma mercadoria — sua força de trabalho é comprada e vendida como qualquer outra.
+
+Daí nasce a luta de classes, o antagonismo entre dois grupos sociais:
+
+• BURGUESIA → possui os meios de produção (fábricas, terras, máquinas, matéria-prima)
+• PROLETARIADO → vende a força de trabalho em troca de salário
+
+A ilustração abaixo resume essa oposição e aponta os dois conceitos que explicam a exploração.`,
+              visual: `<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+  <rect x="0" y="0" width="640" height="300" rx="12" fill="#F4EEE1"/>
+  <text x="320" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">LUTA DE CLASSES — Karl Marx</text>
+
+  <polygon points="320,60 180,240 460,240" fill="#E4D9C4" stroke="#5C4630" stroke-width="2"/>
+  <text x="320" y="90" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">CAPITALISMO</text>
+
+  <rect x="60" y="110" width="190" height="70" rx="10" fill="#A8763E" stroke="#5C4630" stroke-width="1.5"/>
+  <text x="155" y="134" text-anchor="middle" font-size="13" font-weight="700" fill="#F4EEE1">BURGUESIA</text>
+  <text x="155" y="154" text-anchor="middle" font-size="11" fill="#F4EEE1">Possui os meios</text>
+  <text x="155" y="170" text-anchor="middle" font-size="11" fill="#F4EEE1">de produção</text>
+
+  <rect x="390" y="110" width="190" height="70" rx="10" fill="#5C4630" stroke="#3E2F20" stroke-width="1.5"/>
+  <text x="485" y="134" text-anchor="middle" font-size="13" font-weight="700" fill="#F4EEE1">PROLETARIADO</text>
+  <text x="485" y="154" text-anchor="middle" font-size="11" fill="#F4EEE1">Vende a força</text>
+  <text x="485" y="170" text-anchor="middle" font-size="11" fill="#F4EEE1">de trabalho</text>
+
+  <defs><marker id="setaC" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#A6493A"/></marker></defs>
+  <line x1="258" y1="145" x2="382" y2="145" stroke="#A6493A" stroke-width="2.5" marker-end="url(#setaC)"/>
+  <line x1="382" y1="155" x2="258" y2="155" stroke="#A6493A" stroke-width="2.5" marker-end="url(#setaC)"/>
+  <text x="320" y="142" text-anchor="middle" font-size="10" font-weight="700" fill="#A6493A">EXPLORAÇÃO</text>
+  <text x="320" y="172" text-anchor="middle" font-size="10" font-weight="700" fill="#A6493A">RESISTÊNCIA</text>
+
+  <rect x="180" y="248" width="130" height="34" rx="8" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/>
+  <text x="245" y="269" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">MAIS-VALIA</text>
+  <rect x="330" y="248" width="130" height="34" rx="8" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/>
+  <text x="395" y="269" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">ALIENAÇÃO</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">No capitalismo, Marx identifica a oposição entre burguesia e proletariado. Da exploração decorrem dois conceitos-chave: mais-valia e alienação.</p>`,
+            },
+            {
+              heading: "Mais-valia e alienação",
+              body: `Segundo Marx, o proletariado é explorado em seu trabalho. Dois conceitos explicam essa exploração:
+
+Mais-valia
+• É o valor produzido pelo trabalhador que não é pago em forma de salário.
+• Esse excedente é apropriado pelo capitalista e vira lucro.
+• Em outras palavras: o trabalhador produz mais do que recebe, e essa diferença enriquece o patrão.
+
+Alienação
+• O trabalhador perde o controle sobre o processo e sobre o produto do seu trabalho.
+• Ele não decide o que, como e para quem produz.
+• O resultado do trabalho torna-se algo alheio a ele.
+
+Esses dois conceitos são fundamentais para entender a crítica marxista ao capitalismo.`,
+            },
+          ],
+          quiz: [
+            { q: "A Sociologia surge como ciência em qual contexto histórico?", options: ["No desenvolvimento e consolidação do capitalismo","Na Idade Média","Na Antiguidade clássica","No feudalismo"], correct: 0 },
+            { q: "Quais autores clássicos se dedicam à temática do trabalho?", options: ["Platão, Aristóteles e Sócrates","Karl Marx, Max Weber e Émile Durkheim","Comte, Spencer e Rousseau","Hegel, Kant e Nietzsche"], correct: 1 },
+            { q: "Para Karl Marx, qual é a definição de trabalho?", options: ["Atividade que visa solucionar as necessidades e gera transformação da natureza","Atividade puramente intelectual sem ligação com a natureza","Punição divina pela desobediência","Diversão exclusiva da burguesia"], correct: 0 },
+            { q: "Qual é a principal diferença entre o trabalho humano e o trabalho animal, segundo Marx?", options: ["O trabalho humano é consciente e permite aprimorar técnicas e tecnologia; o animal é repetitivo","O trabalho humano é repetitivo e o animal é consciente","Ambos são idênticos","O trabalho animal é mais eficiente"], correct: 0 },
+            { q: "Segundo Marx, no capitalismo o trabalhador teria se tornado:", options: ["Um aristocrata","Uma mercadoria","Um proprietário dos meios de produção","Um burguês"], correct: 1 },
+            { q: "Qual é o conceito central de Marx que descreve o antagonismo entre classes sociais no capitalismo?", options: ["Burocracia","Luta de classes","Solidariedade orgânica","Ação social"], correct: 1 },
+            { q: "Na luta de classes marxista, a burguesia é a classe que:", options: ["Vende sua força de trabalho","Possui os meios de produção","Vive apenas da terra","É dependente do Estado"], correct: 1 },
+            { q: "Na luta de classes marxista, o proletariado é a classe que:", options: ["Possui os meios de produção","Vende sua força de trabalho","Domina o capital financeiro","Vive da renda da terra"], correct: 1 },
+            { q: "Qual é a relação do proletariado com o trabalho segundo Marx?", options: ["É explorado em seu trabalho","É beneficiado pela mais-valia","Possui os meios de produção","Trabalha de forma espontânea e livre"], correct: 0 },
+            { q: "Quais dois conceitos marxistas estão ligados à exploração do proletariado?", options: ["Mais-valia e alienação","Anomia e solidariedade","Burocracia e racionalização","Ação afetiva e tradicional"], correct: 0 },
+            { q: "A mais-valia, segundo Marx, representa:", options: ["O lucro apropriado pelo capitalista a partir do trabalho não pago ao operário","O salário mínimo garantido ao trabalhador","Um imposto sobre a produção","Uma indenização paga pela burguesia ao proletariado"], correct: 0 },
+            { q: "A alienação, em Marx, ocorre quando o trabalhador:", options: ["Possui controle sobre o processo e o produto do seu trabalho","Perde o controle sobre o processo e o produto do seu trabalho","Trabalha por lazer e satisfação pessoal","É dono dos meios de produção"], correct: 1 },
+            { q: "Os meios de produção, em Marx, referem-se a:", options: ["Ferramentas, máquinas, matérias-primas e terras usados na produção","Apenas ao dinheiro em espécie","Apenas aos trabalhadores","Apenas às ideias e teorias filosóficas"], correct: 0 },
+            { q: "No pensamento de Marx, por que o trabalho ocupa posição central?", options: ["Porque é a atividade que transforma a natureza e constrói a sociedade","Porque é apenas um passatempo","Porque é irrelevante para o capitalismo","Porque não produz valor"], correct: 0 },
+            { q: "Qual tipo de sociedade estudada por Marx produziu profundas transformações na organização do trabalho?", options: ["Feudal","Antiga","Capitalista","Primitiva"], correct: 2 },
+          ],
+        },
       ],
     },
 );

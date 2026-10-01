@@ -302,6 +302,110 @@ m e n = divisões da hipotenusa`,
             },
           ],
         },
+        {
+          id: "lei-dos-senos-e-cossenos",
+          title: "Lei dos Senos e Cossenos",
+          sections: [
+            {
+              heading: "Lei dos Senos",
+              body: `A Lei dos Senos vale para qualquer triângulo (não só o retângulo).
+
+Ela diz que cada lado é proporcional ao seno do ângulo oposto a ele:
+
+a / sen Â = b / sen B̂ = c / sen Ĉ = 2R
+
+Onde:
+• a, b, c são os lados do triângulo
+• Â, B̂, Ĉ são os ângulos opostos a cada lado
+• R é o raio da circunferência circunscrita ao triângulo
+
+Essa constante 2R é a mesma para os três lados.
+
+Quando usar: quando o problema envolve dois ângulos e um lado, ou dois lados e um ângulo oposto a um deles.
+
+Observação sobre ângulos complementares (soma = 90°):
+sen 62° = cos 28° = 0,88`,
+            },
+            {
+              heading: "Lei dos Cossenos",
+              body: `A Lei dos Cossenos também vale para qualquer triângulo. É uma generalização do Teorema de Pitágoras:
+
+a² = b² + c² − 2·b·c·cos Â
+b² = a² + c² − 2·a·c·cos B̂
+c² = a² + b² − 2·a·b·cos Ĉ
+
+Observe que, quando Â = 90°, cos 90° = 0 e a fórmula vira a² = b² + c², que é Pitágoras.
+
+Quando usar: quando o problema envolve três lados ou dois lados e o ângulo entre eles.
+
+A ilustração compara as duas leis lado a lado.`,
+              visual: `<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+  <rect x="0" y="0" width="640" height="320" rx="12" fill="#F4EEE1"/>
+  <text x="160" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">LEI DOS SENOS</text>
+  <text x="480" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">LEI DOS COSSENOS</text>
+  <line x1="320" y1="40" x2="320" y2="300" stroke="#C9B18C" stroke-dasharray="4 4"/>
+
+  <circle cx="160" cy="170" r="90" fill="none" stroke="#C9B18C" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <polygon points="100,220 220,220 180,100" fill="#E4D9C4" stroke="#5C4630" stroke-width="2"/>
+  <text x="90" y="232" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">B</text>
+  <text x="230" y="232" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">C</text>
+  <text x="180" y="92" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">A</text>
+  <text x="200" y="170" text-anchor="middle" font-size="11" font-weight="700" fill="#A8763E">b</text>
+  <text x="120" y="170" text-anchor="middle" font-size="11" font-weight="700" fill="#A8763E">c</text>
+  <text x="160" y="234" text-anchor="middle" font-size="11" font-weight="700" fill="#A8763E">a</text>
+  <text x="160" y="275" text-anchor="middle" font-size="11" font-weight="700" fill="#3E2F20">a/sen Â = b/sen B̂ = c/sen Ĉ = 2R</text>
+  <text x="160" y="292" text-anchor="middle" font-size="10" fill="#5C4630">R = raio da circunferência circunscrita</text>
+
+  <polygon points="400,230 580,230 440,100" fill="#E4D9C4" stroke="#5C4630" stroke-width="2"/>
+  <text x="392" y="242" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">B</text>
+  <text x="588" y="242" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">C</text>
+  <text x="440" y="92" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">A</text>
+  <text x="510" y="242" text-anchor="middle" font-size="11" font-weight="700" fill="#A8763E">a</text>
+  <text x="515" y="160" text-anchor="middle" font-size="11" font-weight="700" fill="#A8763E">b</text>
+  <text x="410" y="170" text-anchor="middle" font-size="11" font-weight="700" fill="#A8763E">c</text>
+  <path d="M440,110 L448,115 L442,122" fill="none" stroke="#A6493A" stroke-width="1.5"/>
+  <text x="480" y="275" text-anchor="middle" font-size="11" font-weight="700" fill="#3E2F20">a² = b² + c² − 2·b·c·cos Â</text>
+  <text x="480" y="292" text-anchor="middle" font-size="10" fill="#5C4630">maior ângulo ↔ maior lado oposto</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">À esquerda, a Lei dos Senos relaciona lados e ângulos opostos com o raio R da circunferência circunscrita. À direita, a Lei dos Cossenos generaliza Pitágoras para triângulos quaisquer.</p>`,
+            },
+            {
+              heading: "Ângulos obtusos — redução ao 1º quadrante",
+              body: `Quando o ângulo é obtuso (entre 90° e 180°), use estas reduções:
+
+• sen 120° = sen 60°    cos 120° = −cos 60°
+• sen 135° = sen 45°    cos 135° = −cos 45°
+• sen 150° = sen 30°    cos 150° = −cos 30°
+
+Regra: o seno de um ângulo obtuso é igual ao seno do seu suplementar (180° − ângulo). O cosseno é igual ao cosseno do suplementar, mas trocado de sinal (negativo).
+
+Isso é importante na Lei dos Cossenos: quando o ângulo é obtuso, o termo −2·b·c·cos Â vira positivo (porque cos é negativo), aumentando o valor de a².`,
+            },
+            {
+              heading: "Dica: o maior ângulo fica oposto ao maior lado",
+              body: `Em qualquer triângulo, o maior ângulo está sempre oposto ao maior lado — e vice-versa.
+
+Isso ajuda a:
+• conferir se um resultado faz sentido;
+• identificar qual lado calcular primeiro;
+• decidir rapidamente qual ângulo é obtuso em um triângulo cujos lados você conhece.`,
+            },
+          ],
+          quiz: [
+            { q: "Em um triângulo, a razão entre um lado e o seno do ângulo oposto é igual a:", options: ["R","2R","R/2","π·R"], correct: 1 },
+            { q: "Em um triângulo com a = 10, Â = 30° e B̂ = 45°, usando a Lei dos Senos (sen 30° = 0,5 e sen 45° ≈ 0,7), o lado b vale aproximadamente:", options: ["7","10","14","20"], correct: 2 },
+            { q: "Num triângulo ABC, b = 6, c = 8 e Â = 60°. Usando a Lei dos Cossenos (cos 60° = 0,5), o lado a vale:", options: ["√28","√52","√84","√100"], correct: 1 },
+            { q: "Num triângulo com lados 5, 7 e ângulo oposto ao terceiro lado igual a 120°, qual é o terceiro lado? (cos 120° = -0,5)", options: ["√39","√74","√109","√134"], correct: 2 },
+            { q: "Qual é a fórmula correta da Lei dos Cossenos para o lado a?", options: ["a² = b² + c² + 2bc·cos Â","a² = b² + c² − 2bc·cos Â","a² = b² − c² − 2bc·cos Â","a² = (b + c)² · cos Â"], correct: 1 },
+            { q: "Qual destas afirmações sobre o Teorema de Pitágoras é verdadeira?", options: ["É um caso particular da Lei dos Cossenos quando Â = 90°","É equivalente à Lei dos Senos","Vale para triângulos quaisquer","Não tem relação com a Lei dos Cossenos"], correct: 0 },
+            { q: "Sabendo que sen 62° ≈ 0,88, quanto vale cos 28°?", options: ["0,47","0,88","0,50","1,00"], correct: 1 },
+            { q: "Em um triângulo com Â = 150° e sen 150° = sen 30° = 0,5, qual é o valor de cos 150°?", options: ["-cos 30°","cos 30°","sen 30°","-sen 30°"], correct: 0 },
+            { q: "Num triângulo ABC, o lado a mede 10, o ângulo Â vale 30° (sen 30° = 0,5). Qual é o raio R da circunferência circunscrita?", options: ["5","10","15","20"], correct: 1 },
+            { q: "Num triângulo, dois lados medem 6 e 8 e formam entre si um ângulo de 60° (cos 60° = 0,5). O lado oposto a esse ângulo mede:", options: ["√28","√52","√76","√100"], correct: 1 },
+            { q: "Num triângulo, se os ângulos são 45°, 60° e 75°, qual lado é o maior?", options: ["O oposto a 45°","O oposto a 60°","O oposto a 75°","Todos iguais"], correct: 2 },
+            { q: "Num triângulo com lados 7, 8 e 9, para calcular o ângulo oposto ao lado 9 usa-se:", options: ["Lei dos Senos","Teorema de Pitágoras","Lei dos Cossenos","Relação fundamental sen²+cos²=1"], correct: 2 },
+          ],
+        },
       ],
     },
 );
