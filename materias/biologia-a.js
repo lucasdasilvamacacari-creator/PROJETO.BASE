@@ -1047,6 +1047,206 @@ A ilustração resume o sentido de cada seiva dentro da planta.`,
             "Ambas são típicas de eudicotiledôneas"
           ],
           correct: 1
+        },
+        {
+          q: "Qual característica das folhas é típica das monocotiledôneas?",
+          options: [
+            "Nervuras ramificadas",
+            "Nervuras paralelas",
+            "Ausência de nervuras",
+            "Nervuras em forma de espiral"
+          ],
+          correct: 1
+        },
+        {
+          q: "Milho, arroz, capim e bananeira são exemplos de:",
+          options: [
+            "Eudicotiledôneas",
+            "Gimnospermas",
+            "Monocotiledôneas",
+            "Briófitas"
+          ],
+          correct: 2
+        },
+        {
+          q: "Feijão, mangueira, girassol e cenoura são exemplos de:",
+          options: [
+            "Eudicotiledôneas",
+            "Monocotiledôneas",
+            "Pteridófitas",
+            "Fungos"
+          ],
+          correct: 0
+        },
+        {
+          q: "A raiz cintura, típica de plantas epífitas como bromélias e orquídeas, tem a função de:",
+          options: [
+            "Retirar alimento da planta hospedeira",
+            "Armazenar grande quantidade de amido",
+            "Fixar a planta sobre outra sem retirar alimento dela",
+            "Captar oxigênio em solo alagado"
+          ],
+          correct: 2
+        },
+        {
+          q: "Qual é o tipo de raiz da figueira, que envolve o tronco da planta hospedeira e pode sufocá-la?",
+          options: [
+            "Raiz estranguladora",
+            "Raiz tabular",
+            "Raiz escora",
+            "Raiz grampiforme"
+          ],
+          correct: 0
+        },
+        {
+          q: "A raiz que sai do caule e entra no solo, dando sustentação extra à planta (como no milho e no mangue), é a:",
+          options: [
+            "Raiz tuberosa",
+            "Raiz haustório",
+            "Raiz escora",
+            "Raiz cintura"
+          ],
+          correct: 2
+        },
+        {
+          q: "Qual tipo de raiz vive em solos alagados, como nos manguezais, e sai do solo para captar oxigênio?",
+          options: [
+            "Raiz tabular",
+            "Raiz respiratória (pneumatóforo)",
+            "Raiz tuberosa",
+            "Raiz estranguladora"
+          ],
+          correct: 1
+        },
+        {
+          q: "A sumaúma possui raízes grandes e achatadas que dão estabilidade à árvore. Esse tipo de raiz é chamado de:",
+          options: [
+            "Escora",
+            "Grampiforme",
+            "Fasciculada",
+            "Tabular"
+          ],
+          correct: 3
+        },
+        {
+          q: "Mandioca, batata-doce, cenoura e beterraba possuem qual tipo de raiz especial?",
+          options: [
+            "Tuberosa",
+            "Respiratória",
+            "Haustório",
+            "Estranguladora"
+          ],
+          correct: 0
+        },
+        {
+          q: "A hera se fixa em paredes, troncos ou rochas por meio de qual tipo de raiz?",
+          options: [
+            "Raiz tuberosa",
+            "Raiz tabular",
+            "Raiz grampiforme",
+            "Raiz pivotante"
+          ],
+          correct: 2
+        },
+        {
+          q: "Todo fruto verdadeiro se desenvolve a partir de qual estrutura da flor, após a fecundação?",
+          options: [
+            "Ovário",
+            "Estame",
+            "Pétala",
+            "Sépala"
+          ],
+          correct: 0
+        },
+        {
+          q: "Tomate, uva e mamão são exemplos de qual tipo de fruto carnoso, em que a semente fica solta na polpa?",
+          options: [
+            "Drupa",
+            "Pomo",
+            "Baga",
+            "Hesperídio"
+          ],
+          correct: 2
+        },
+        {
+          q: "Maçã e pera, cujo \"miolo\" central concentra as sementes, são exemplos de:",
+          options: [
+            "Baga",
+            "Pomo",
+            "Drupa",
+            "Hesperídio"
+          ],
+          correct: 1
+        },
+        {
+          q: "Qual fruto carnoso tem casca grossa rica em óleos e polpa dividida em gomos, como a laranja e o limão?",
+          options: [
+            "Hesperídio",
+            "Baga",
+            "Drupa",
+            "Pomo"
+          ],
+          correct: 0
+        },
+        {
+          q: "Frutos que não se abrem naturalmente, liberando a semente apenas quando se decompõem ou são comidos, são chamados de:",
+          options: [
+            "Deiscentes",
+            "Indeiscentes",
+            "Pomos",
+            "Bagas"
+          ],
+          correct: 1
+        },
+        {
+          q: "Qual das alternativas NÃO é uma das funções do caule apresentadas no conteúdo?",
+          options: [
+            "Sustentação da planta",
+            "Condução das seivas bruta e elaborada",
+            "Absorção de água e sais minerais do solo",
+            "Produção de novos brotos"
+          ],
+          correct: 2
+        },
+        {
+          q: "Qual tipo de caule é lenhoso, grosso e ramificado, como o das árvores?",
+          options: [
+            "Haste",
+            "Tronco",
+            "Colmo",
+            "Estipe"
+          ],
+          correct: 1
+        },
+        {
+          q: "O caule verde, flexível e herbáceo, como o da alface e do girassol, é chamado de:",
+          options: [
+            "Tronco",
+            "Estipe",
+            "Colmo",
+            "Haste"
+          ],
+          correct: 3
+        },
+        {
+          q: "A seiva elaborada, formada pelos açúcares produzidos na fotossíntese, é transportada por qual tecido e em qual sentido?",
+          options: [
+            "Xilema, da raiz para as folhas",
+            "Floema, das folhas para o restante da planta",
+            "Xilema, das folhas para a raiz",
+            "Floema, da raiz para as folhas"
+          ],
+          correct: 1
+        },
+        {
+          q: "A seiva bruta (água e sais minerais) percorre a planta em qual sentido?",
+          options: [
+            "Das folhas para a raiz",
+            "Do caule para os frutos",
+            "Da raiz para as folhas",
+            "Dos frutos para as folhas"
+          ],
+          correct: 2
         }
       ]
     }
