@@ -444,6 +444,112 @@ Resumo em uma frase: em qualquer questão de função quadrática, siga esta ord
             { q: "Considere f(x) = x² − 9. Qual é o valor do coeficiente 'c' e o que ele representa?", options: ["c = -9, o ponto onde a parábola corta o eixo y", "c = 9, o vértice da parábola", "c = -9, a raiz da função", "c = 1, o coeficiente 'a'"], correct: 0 },
           ],
         },
+        {
+          id: "funcao-exponencial",
+          title: "Função Exponencial",
+          sections: [
+            {
+              heading: "Modelo exponencial",
+              body: `Uma equação exponencial tem a incógnita no expoente:
+
+a = b^x
+
+Condições: a > 0, b > 0 e b ≠ 1.
+
+A estratégia principal para resolver uma equação exponencial é igualar as bases. Quando as bases ficam iguais, basta comparar os expoentes.
+
+Exemplo: 4^x = 32
+• Reescreva com a mesma base: 4 = 2² e 32 = 2⁵
+• (2²)^x = 2⁵ → 2^(2x) = 2⁵
+• Bases iguais → 2x = 5 → x = 5/2`,
+            },
+            {
+              heading: "Propriedades das potências",
+              body: `Essas propriedades são a base para resolver equações exponenciais. Decore todas:
+
+• Produto de mesma base: a^m · a^n = a^(m+n)
+• Divisão de mesma base: a^m / a^n = a^(m−n)
+• Potência de potência: (a^m)^n = a^(m·n)
+• Expoente zero: a^0 = 1
+• Expoente negativo: a^(−n) = 1 / a^n
+• Raiz como potência: ⁿ√(a^m) = a^(m/n)`,
+            },
+            {
+              heading: "Função exponencial",
+              body: `A função exponencial é definida por:
+
+f(x) = b^x, com b > 0 e b ≠ 1
+
+A base b decide o comportamento da função:
+
+• b > 1 → função CRESCENTE
+• 0 < b < 1 → função DECRESCENTE
+• b = 1 → função constante (igual a 1 sempre)
+• b < 0 → não existe em ℝ
+
+A curva de qualquer função exponencial passa pelo ponto (0, 1), porque b^0 = 1.`,
+              visual: `<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+  <rect x="0" y="0" width="640" height="300" rx="12" fill="#F4EEE1"/>
+  <text x="160" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">f(x) = b^x,  b > 1</text>
+  <text x="480" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">f(x) = b^x,  0 < b < 1</text>
+  <line x1="320" y1="40" x2="320" y2="280" stroke="#C9B18C" stroke-dasharray="4 4"/>
+
+  <line x1="40" y1="250" x2="280" y2="250" stroke="#5C4630" stroke-width="1.5"/>
+  <line x1="160" y1="40" x2="160" y2="265" stroke="#5C4630" stroke-width="1.5"/>
+  <path d="M50,245 Q130,235 160,210 Q190,160 220,110 Q245,70 275,50" fill="none" stroke="#A8763E" stroke-width="2.5"/>
+  <circle cx="160" cy="210" r="3" fill="#A8763E"/>
+  <text x="154" y="206" text-anchor="end" font-size="10" fill="#A8763E">(0, 1)</text>
+  <text x="220" y="70" text-anchor="middle" font-size="11" font-weight="700" fill="#5B7553">CRESCENTE</text>
+  <text x="160" y="275" text-anchor="middle" font-size="11" fill="#5C4630">x</text>
+  <text x="45" y="50" text-anchor="start" font-size="11" fill="#5C4630">f(x)</text>
+
+  <line x1="360" y1="250" x2="600" y2="250" stroke="#5C4630" stroke-width="1.5"/>
+  <line x1="480" y1="40" x2="480" y2="265" stroke="#5C4630" stroke-width="1.5"/>
+  <path d="M370,50 Q400,70 420,110 Q450,160 480,210 Q510,235 600,245" fill="none" stroke="#A8763E" stroke-width="2.5"/>
+  <circle cx="480" cy="210" r="3" fill="#A8763E"/>
+  <text x="486" y="206" text-anchor="start" font-size="10" fill="#A8763E">(0, 1)</text>
+  <text x="420" y="70" text-anchor="middle" font-size="11" font-weight="700" fill="#A6493A">DECRESCENTE</text>
+  <text x="480" y="275" text-anchor="middle" font-size="11" fill="#5C4630">x</text>
+  <text x="365" y="50" text-anchor="start" font-size="11" fill="#5C4630">f(x)</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">A curva sempre passa por (0, 1), pois b^0 = 1. A base b determina se a função cresce ou decresce.</p>`,
+            },
+            {
+              heading: "Exercício resolvido — 4^x = 32",
+              body: `Vamos resolver passo a passo:
+
+4^x = 32
+
+Passo 1 — reescrever as duas bases como potência de 2:
+(2²)^x = 2⁵
+
+Passo 2 — aplicar a propriedade (a^m)^n = a^(m·n):
+2^(2x) = 2⁵
+
+Passo 3 — com bases iguais, igualar os expoentes:
+2x = 5
+
+Passo 4 — isolar x:
+x = 5/2
+
+A ideia é sempre a mesma: transformar os dois lados em potências da mesma base e, então, igualar os expoentes.`,
+            },
+          ],
+          quiz: [
+            { q: "Resolva a equação exponencial 2^x = 32.", options: ["x = 4","x = 5","x = 6","x = 16"], correct: 1 },
+            { q: "Qual o valor de x em 3^(x+1) = 27?", options: ["x = 1","x = 2","x = 3","x = 9"], correct: 1 },
+            { q: "Resolva 4^x = 1/16.", options: ["x = 2","x = -2","x = 4","x = -4"], correct: 1 },
+            { q: "Resolva a equação 9^x = 27.", options: ["x = 2/3","x = 3/2","x = 3","x = 2"], correct: 1 },
+            { q: "Simplificando 2^5 · 2^3, obtemos:", options: ["2^8","2^15","4^8","2^2"], correct: 0 },
+            { q: "O valor de (2^3)^2 é:", options: ["12","64","8","32"], correct: 1 },
+            { q: "De acordo com as propriedades, 5^0 vale:", options: ["0","1","5","indefinido"], correct: 1 },
+            { q: "A expressão 2^(-3) é equivalente a:", options: ["-8","-1/8","1/8","6"], correct: 2 },
+            { q: "A função f(x) = (1/2)^x é:", options: ["Crescente","Decrescente","Constante","Não existe em ℝ"], correct: 1 },
+            { q: "A função f(x) = 3^x é:", options: ["Crescente","Decrescente","Constante","Não é função"], correct: 0 },
+            { q: "Resolva: 2^(x-1) = 16.", options: ["x = 3","x = 4","x = 5","x = 6"], correct: 2 },
+            { q: "Numa cultura, o número de bactérias dobra a cada hora, segundo N(t) = 100·2^t. Após 3 horas, quantas bactérias existem?", options: ["300","600","700","800"], correct: 3 },
+          ],
+        },
       ],
     },
 );
