@@ -277,6 +277,226 @@ DNA → RNAm → códons → aminoácidos → proteína`,
             { q: "Por que o código genético é considerado degenerado?", options: ["Porque diferentes códons podem determinar o mesmo aminoácido", "Porque só funciona em alguns seres vivos", "Porque não segue nenhuma regra fixa", "Porque cada aminoácido tem apenas um códon possível"], correct: 0 },
           ],
         },
+        {
+          id: "membrana-plasmatica",
+          title: "Membrana plasmática",
+          sections: [
+            {
+              heading: "Importância",
+              body: `A membrana plasmática:
+
+• Está presente em todos os tipos celulares
+• Reconhece moléculas
+• Delimita as células
+• Realiza a permeabilidade seletiva, controlando quem entra e sai da célula
+• Protege a célula`,
+            },
+            {
+              heading: "Composição química",
+              body: `A constituição química da membrana plasmática é lipoproteica, ou seja, formada principalmente por lipídios e proteínas.`,
+            },
+            {
+              heading: "Modelo estrutural: mosaico fluido",
+              body: `O modelo aceito é o do mosaico fluido, proposto por Singer e Nicolson.
+
+• A membrana é formada por uma dupla camada de fosfolipídios, com proteínas inseridas nessa estrutura
+• Os fosfolipídios formam a bicamada
+• As proteínas ficam associadas à membrana e desempenham diferentes funções
+• A membrana possui um meio externo e um meio interno à célula
+
+A ilustração abaixo mostra essa organização.`,
+              visual: `<svg viewBox="0 0 600 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:560px;height:auto;display:block;margin:0 auto;">
+  <rect x="0" y="0" width="600" height="240" rx="12" fill="#F4EEE1"/>
+  <text x="300" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">Modelo do Mosaico Fluido</text>
+  <text x="20" y="56" text-anchor="start" font-size="12" font-weight="700" fill="#A8763E">MEIO EXTERNO</text>
+  <text x="20" y="226" text-anchor="start" font-size="12" font-weight="700" fill="#A8763E">MEIO INTERNO</text>
+  <line x1="107" y1="100" x2="107" y2="128" stroke="#C9B18C" stroke-width="2"/><line x1="113" y1="100" x2="113" y2="128" stroke="#C9B18C" stroke-width="2"/><circle cx="110" cy="94" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="107" y1="132" x2="107" y2="160" stroke="#C9B18C" stroke-width="2"/><line x1="113" y1="132" x2="113" y2="160" stroke="#C9B18C" stroke-width="2"/><circle cx="110" cy="166" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="127" y1="100" x2="127" y2="128" stroke="#C9B18C" stroke-width="2"/><line x1="133" y1="100" x2="133" y2="128" stroke="#C9B18C" stroke-width="2"/><circle cx="130" cy="94" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="127" y1="132" x2="127" y2="160" stroke="#C9B18C" stroke-width="2"/><line x1="133" y1="132" x2="133" y2="160" stroke="#C9B18C" stroke-width="2"/><circle cx="130" cy="166" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="147" y1="100" x2="147" y2="128" stroke="#C9B18C" stroke-width="2"/><line x1="153" y1="100" x2="153" y2="128" stroke="#C9B18C" stroke-width="2"/><circle cx="150" cy="94" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="147" y1="132" x2="147" y2="160" stroke="#C9B18C" stroke-width="2"/><line x1="153" y1="132" x2="153" y2="160" stroke="#C9B18C" stroke-width="2"/><circle cx="150" cy="166" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="167" y1="100" x2="167" y2="128" stroke="#C9B18C" stroke-width="2"/><line x1="173" y1="100" x2="173" y2="128" stroke="#C9B18C" stroke-width="2"/><circle cx="170" cy="94" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="167" y1="132" x2="167" y2="160" stroke="#C9B18C" stroke-width="2"/><line x1="173" y1="132" x2="173" y2="160" stroke="#C9B18C" stroke-width="2"/><circle cx="170" cy="166" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="247" y1="100" x2="247" y2="128" stroke="#C9B18C" stroke-width="2"/><line x1="253" y1="100" x2="253" y2="128" stroke="#C9B18C" stroke-width="2"/><circle cx="250" cy="94" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="247" y1="132" x2="247" y2="160" stroke="#C9B18C" stroke-width="2"/><line x1="253" y1="132" x2="253" y2="160" stroke="#C9B18C" stroke-width="2"/><circle cx="250" cy="166" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="267" y1="100" x2="267" y2="128" stroke="#C9B18C" stroke-width="2"/><line x1="273" y1="100" x2="273" y2="128" stroke="#C9B18C" stroke-width="2"/><circle cx="270" cy="94" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="267" y1="132" x2="267" y2="160" stroke="#C9B18C" stroke-width="2"/><line x1="273" y1="132" x2="273" y2="160" stroke="#C9B18C" stroke-width="2"/><circle cx="270" cy="166" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="287" y1="100" x2="287" y2="128" stroke="#C9B18C" stroke-width="2"/><line x1="293" y1="100" x2="293" y2="128" stroke="#C9B18C" stroke-width="2"/><circle cx="290" cy="94" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="287" y1="132" x2="287" y2="160" stroke="#C9B18C" stroke-width="2"/><line x1="293" y1="132" x2="293" y2="160" stroke="#C9B18C" stroke-width="2"/><circle cx="290" cy="166" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="307" y1="100" x2="307" y2="128" stroke="#C9B18C" stroke-width="2"/><line x1="313" y1="100" x2="313" y2="128" stroke="#C9B18C" stroke-width="2"/><circle cx="310" cy="94" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="307" y1="132" x2="307" y2="160" stroke="#C9B18C" stroke-width="2"/><line x1="313" y1="132" x2="313" y2="160" stroke="#C9B18C" stroke-width="2"/><circle cx="310" cy="166" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="387" y1="100" x2="387" y2="128" stroke="#C9B18C" stroke-width="2"/><line x1="393" y1="100" x2="393" y2="128" stroke="#C9B18C" stroke-width="2"/><circle cx="390" cy="94" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="387" y1="132" x2="387" y2="160" stroke="#C9B18C" stroke-width="2"/><line x1="393" y1="132" x2="393" y2="160" stroke="#C9B18C" stroke-width="2"/><circle cx="390" cy="166" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="407" y1="100" x2="407" y2="128" stroke="#C9B18C" stroke-width="2"/><line x1="413" y1="100" x2="413" y2="128" stroke="#C9B18C" stroke-width="2"/><circle cx="410" cy="94" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="407" y1="132" x2="407" y2="160" stroke="#C9B18C" stroke-width="2"/><line x1="413" y1="132" x2="413" y2="160" stroke="#C9B18C" stroke-width="2"/><circle cx="410" cy="166" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="427" y1="100" x2="427" y2="128" stroke="#C9B18C" stroke-width="2"/><line x1="433" y1="100" x2="433" y2="128" stroke="#C9B18C" stroke-width="2"/><circle cx="430" cy="94" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="427" y1="132" x2="427" y2="160" stroke="#C9B18C" stroke-width="2"/><line x1="433" y1="132" x2="433" y2="160" stroke="#C9B18C" stroke-width="2"/><circle cx="430" cy="166" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="447" y1="100" x2="447" y2="128" stroke="#C9B18C" stroke-width="2"/><line x1="453" y1="100" x2="453" y2="128" stroke="#C9B18C" stroke-width="2"/><circle cx="450" cy="94" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <line x1="447" y1="132" x2="447" y2="160" stroke="#C9B18C" stroke-width="2"/><line x1="453" y1="132" x2="453" y2="160" stroke="#C9B18C" stroke-width="2"/><circle cx="450" cy="166" r="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="1.5"/>
+  <rect x="196" y="84" width="48" height="92" rx="14" fill="#A8763E" stroke="#5C4630" stroke-width="1.5"/>
+  <rect x="336" y="84" width="48" height="92" rx="14" fill="#A8763E" stroke="#5C4630" stroke-width="1.5"/>
+  <ellipse cx="290" cy="82" rx="26" ry="14" fill="#5C4630" stroke="#3E2F20" stroke-width="1.5"/>
+    <text x="290" y="56" text-anchor="middle" font-size="12" fill="#3E2F20">Proteína periférica</text>
+  <text x="290" y="196" text-anchor="middle" font-size="12" fill="#3E2F20">Proteínas inseridas na bicamada</text>
+  <text x="535" y="100" text-anchor="middle" font-size="10" fill="#5C4630">cabeça</text>
+  <text x="535" y="114" text-anchor="middle" font-size="10" fill="#5C4630">(hidrofílica)</text>
+  <text x="535" y="148" text-anchor="middle" font-size="10" fill="#5C4630">caudas</text>
+  <text x="535" y="162" text-anchor="middle" font-size="10" fill="#5C4630">(hidrofóbicas)</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Dupla camada de fosfolipídios com proteínas inseridas, separando o meio externo do meio interno.</p>`,
+            },
+            {
+              heading: "Estrutura em resumo",
+              body: `Estrutura da membrana plasmática:
+
+• Dupla camada de fosfolipídios
+• Proteínas
+• Meio externo
+• Meio interno`,
+            },
+          ],
+          quiz: [
+            { q: "A membrana plasmática está presente em:", options: ["Apenas células animais","Apenas células vegetais","Apenas células procariontes","Todos os tipos celulares"], correct: 3 },
+            { q: "Qual das funções abaixo é realizada pela membrana plasmática?", options: ["Produzir energia por fotossíntese","Armazenar o material genético","Delimitar a célula e proteger","Sintetizar proteínas nos ribossomos"], correct: 2 },
+            { q: "O que significa dizer que a membrana plasmática realiza permeabilidade seletiva?", options: ["Que ela deixa passar todas as substâncias sem controle","Que ela controla quais substâncias entram e saem da célula","Que ela impede qualquer troca com o meio externo","Que ela só permite a saída de substâncias"], correct: 1 },
+            { q: "Qual é a composição química da membrana plasmática?", options: ["Glicídica, formada principalmente por carboidratos","Nucleica, formada por DNA e RNA","Lipoproteica, formada principalmente por lipídios e proteínas","Mineral, formada por sais e água"], correct: 2 },
+            { q: "O modelo estrutural aceito para a membrana plasmática é chamado de:", options: ["Modelo do mosaico fluido","Modelo da dupla hélice","Modelo da chave-fechadura","Modelo do ajuste induzido"], correct: 0 },
+            { q: "Quais cientistas propuseram o modelo do mosaico fluido?", options: ["Watson e Crick","Singer e Nicolson","Hooke e Schleiden","Mendel e Morgan"], correct: 1 },
+            { q: "Segundo o modelo do mosaico fluido, a membrana é formada por:", options: ["Uma camada única de proteínas","Uma dupla camada de fosfolipídios com proteínas inseridas","Uma parede rígida de celulose","Uma camada de DNA envolvida por lipídios"], correct: 1 },
+            { q: "Qual componente da membrana forma a bicamada?", options: ["Os fosfolipídios","Os carboidratos","Os ácidos nucleicos","As vitaminas"], correct: 0 },
+            { q: "Qual é o papel das proteínas associadas à membrana plasmática?", options: ["Não têm função, apenas preenchem espaço","Desempenham diferentes funções, como reconhecer moléculas","Servem apenas como reserva de energia","Formam sozinhas toda a bicamada"], correct: 1 },
+            { q: "A membrana plasmática separa quais dois ambientes?", options: ["Núcleo e nucléolo","Meio externo e meio interno da célula","Citoplasma e mitocôndria","Parede celular e cloroplasto"], correct: 1 },
+            { q: "A capacidade da membrana de \"reconhecer moléculas\" está relacionada principalmente a:", options: ["Ao núcleo da célula","Ao tamanho da célula","Às proteínas e estruturas associadas à membrana","À cor da célula"], correct: 2 },
+            { q: "Por que o modelo é chamado de \"mosaico\"?", options: ["Porque as proteínas aparecem inseridas em meio aos fosfolipídios, como peças de um mosaico","Porque a membrana é formada por quadrados de celulose","Porque a membrana tem várias cores","Porque cada célula tem uma membrana diferente"], correct: 0 },
+            { q: "Por que o modelo é chamado de \"fluido\"?", options: ["Porque a membrana é totalmente líquida","Porque os componentes da membrana têm mobilidade, não são estruturas rígidas","Porque a membrana só existe em células aquáticas","Porque a membrana é feita de água"], correct: 1 },
+            { q: "Além de delimitar a célula, a membrana plasmática também:", options: ["Realiza a síntese de lipídios para a digestão","Substitui o papel do núcleo","Controla quem entra e sai e protege a célula","Produz todos os hormônios do corpo"], correct: 2 },
+            { q: "Qual alternativa descreve corretamente a estrutura da membrana plasmática?", options: ["Proteínas inseridas em uma dupla camada de fosfolipídios, com meio externo e meio interno","Uma única camada de fosfolipídios sem proteínas","Uma camada de carboidratos com DNA no interior","Uma parede de celulose com poros fixos"], correct: 0 },
+          ],
+        },
+        {
+          id: "fisiologia-da-membrana",
+          title: "Fisiologia da membrana",
+          sections: [
+            {
+              heading: "Transporte passivo",
+              body: `A passagem de substâncias através da membrana plasmática sem gasto de energia é conhecida como transporte passivo.
+
+→ Ocorre a favor de um gradiente de concentração: as moléculas migram de uma região mais concentrada para uma região menos concentrada.
+
+Tipos de transporte passivo:
+
+• Difusão simples
+• Difusão facilitada
+• Osmose`,
+            },
+            {
+              heading: "Difusão simples e difusão facilitada",
+              body: `Difusão simples
+• Ocorre com gases e íons.
+
+Difusão facilitada
+• Ocorre na presença da permease, proteína que facilita a entrada ou saída da molécula.
+
+Na ilustração, G = glicose e a permease é a proteína inserida na membrana.`,
+              visual: `<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+  <defs><marker id="setaDif" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#3E2F20"/></marker></defs>
+  <text x="160" y="22" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">DIFUSÃO SIMPLES</text>
+  <text x="480" y="22" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">DIFUSÃO FACILITADA</text>
+  <line x1="320" y1="10" x2="320" y2="290" stroke="#C9B18C" stroke-dasharray="5 5"/>
+  <rect x="30" y="125" width="260" height="30" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/>
+  <rect x="350" y="125" width="260" height="30" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/>
+  <rect x="440" y="115" width="40" height="50" rx="10" fill="#A8763E" stroke="#5C4630" stroke-width="1.5"/>
+  <rect x="453" y="115" width="14" height="50" fill="#F4EEE1"/>
+  <circle cx="60" cy="60" r="5" fill="#5C4630"/><circle cx="100" cy="60" r="5" fill="#5C4630"/><circle cx="140" cy="60" r="5" fill="#5C4630"/><circle cx="180" cy="60" r="5" fill="#5C4630"/><circle cx="220" cy="60" r="5" fill="#5C4630"/><circle cx="260" cy="60" r="5" fill="#5C4630"/><circle cx="80" cy="60" r="5" fill="#5C4630"/><circle cx="160" cy="60" r="5" fill="#5C4630"/><circle cx="240" cy="60" r="5" fill="#5C4630"/>
+  <circle cx="70" cy="90" r="5" fill="#5C4630"/><circle cx="90" cy="90" r="5" fill="#5C4630"/><circle cx="130" cy="90" r="5" fill="#5C4630"/><circle cx="150" cy="90" r="5" fill="#5C4630"/><circle cx="190" cy="90" r="5" fill="#5C4630"/><circle cx="200" cy="90" r="5" fill="#5C4630"/><circle cx="250" cy="90" r="5" fill="#5C4630"/><circle cx="270" cy="90" r="5" fill="#5C4630"/>
+  <circle cx="140" cy="220" r="5" fill="#5C4630"/><circle cx="220" cy="220" r="5" fill="#5C4630"/>
+  <line x1="160" y1="100" x2="160" y2="205" stroke="#3E2F20" stroke-width="2.5" marker-end="url(#setaDif)"/>
+  <text x="40" y="143" text-anchor="start" font-size="10" fill="#5C4630">bicamada</text>
+  <text x="160" y="262" text-anchor="middle" font-size="12" fill="#3E2F20">Gases atravessam direto</text>
+  <circle cx="370" cy="60" r="7" fill="#5B7553"/><circle cx="410" cy="60" r="7" fill="#5B7553"/><circle cx="450" cy="60" r="7" fill="#5B7553"/><circle cx="490" cy="60" r="7" fill="#5B7553"/><circle cx="530" cy="60" r="7" fill="#5B7553"/><circle cx="570" cy="60" r="7" fill="#5B7553"/><circle cx="390" cy="60" r="7" fill="#5B7553"/><circle cx="470" cy="60" r="7" fill="#5B7553"/><circle cx="550" cy="60" r="7" fill="#5B7553"/>
+  <circle cx="380" cy="92" r="7" fill="#5B7553"/><circle cx="420" cy="92" r="7" fill="#5B7553"/><circle cx="500" cy="92" r="7" fill="#5B7553"/><circle cx="540" cy="92" r="7" fill="#5B7553"/><circle cx="580" cy="92" r="7" fill="#5B7553"/>
+  <circle cx="520" cy="215" r="7" fill="#5B7553"/><circle cx="560" cy="235" r="7" fill="#5B7553"/>
+  <line x1="460" y1="100" x2="460" y2="205" stroke="#3E2F20" stroke-width="2.5" marker-end="url(#setaDif)"/>
+  <text x="573" y="108" text-anchor="middle" font-size="10" fill="#5C4630">G = glicose</text>
+  <text x="560" y="144" text-anchor="end" font-size="10" fill="#3E2F20">permease</text>
+  <text x="480" y="262" text-anchor="middle" font-size="12" fill="#3E2F20">A permease facilita a passagem</text>
+  <text x="30" y="282" text-anchor="start" font-size="11" fill="#3E2F20">mais concentrado (em cima) → menos concentrado (embaixo), sem gasto de energia</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Nos dois casos o movimento é a favor do gradiente; na facilitada, a permease (●) ajuda a molécula (G) a atravessar.</p>`,
+            },
+            {
+              heading: "Osmose",
+              body: `A osmose é a difusão da água.
+
+→ A água migra de uma solução hipotônica (diluída) para uma solução hipertônica (concentrada), sempre através de uma membrana semipermeável. No final, as duas soluções atingem isotonia.
+
+• Solução hipotônica: diluída. Ex.: água.
+• Solução hipertônica: concentrada. Ex.: água salgada.
+• Membrana semipermeável: só deixa passar água. Ex.: papel celofane.`,
+            },
+            {
+              heading: "Osmose em uma célula animal",
+              body: `Exemplo: hemácias.
+
+• Solução isotônica: sangue
+• Solução hipertônica: água salgada
+• Solução hipotônica: água pura
+
+Na célula animal:
+
+• Meio isotônico → a célula permanece normal.
+• Meio hipertônico → a célula perde água e pode murchar.
+• Meio hipotônico → a célula ganha água e pode sofrer lise.`,
+              visual: `<svg viewBox="0 0 640 290" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+  <defs><marker id="setaOs" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#3E2F20"/></marker></defs>
+  <rect x="0" y="0" width="640" height="290" rx="12" fill="#F4EEE1"/>
+  <line x1="214" y1="12" x2="214" y2="278" stroke="#C9B18C" stroke-dasharray="5 5"/>
+  <line x1="427" y1="12" x2="427" y2="278" stroke="#C9B18C" stroke-dasharray="5 5"/>
+  <text x="107" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">HIPERTÔNICO</text>
+  <text x="107" y="44" text-anchor="middle" font-size="11" fill="#5C4630">água salgada</text>
+  <text x="320" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">ISOTÔNICO</text>
+  <text x="320" y="44" text-anchor="middle" font-size="11" fill="#5C4630">sangue</text>
+  <text x="533" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">HIPOTÔNICO</text>
+  <text x="533" y="44" text-anchor="middle" font-size="11" fill="#5C4630">água pura</text>
+  <path d="M77,120 Q81,96 97,88 Q107,80 117,88 Q135,96 137,120 Q133,146 115,152 Q103,158 95,152 Q79,144 77,120 Z" fill="#E4D9C4" stroke="#A6493A" stroke-width="2.5"/><ellipse cx="320" cy="120" rx="42" ry="42" fill="#E4D9C4" stroke="#A6493A" stroke-width="2.5"/><ellipse cx="320" cy="120" rx="16" ry="16" fill="#F4EEE1" stroke="#C9B18C"/><circle cx="533" cy="120" r="56" fill="#E4D9C4" stroke="#A6493A" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <line x1="78" y1="120" x2="40" y2="120" stroke="#3E2F20" stroke-width="2" marker-end="url(#setaOs)"/><line x1="136" y1="120" x2="174" y2="120" stroke="#3E2F20" stroke-width="2" marker-end="url(#setaOs)"/>
+  <line x1="450" y1="120" x2="476" y2="120" stroke="#3E2F20" stroke-width="2" marker-end="url(#setaOs)"/><line x1="616" y1="120" x2="590" y2="120" stroke="#3E2F20" stroke-width="2" marker-end="url(#setaOs)"/><line x1="470" y1="76" x2="492" y2="90" stroke="#3E2F20" stroke-width="2" marker-end="url(#setaOs)"/><line x1="596" y1="76" x2="574" y2="90" stroke="#3E2F20" stroke-width="2" marker-end="url(#setaOs)"/><line x1="470" y1="164" x2="492" y2="150" stroke="#3E2F20" stroke-width="2" marker-end="url(#setaOs)"/><line x1="596" y1="164" x2="574" y2="150" stroke="#3E2F20" stroke-width="2" marker-end="url(#setaOs)"/>
+  <text x="107" y="202" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">Perde água</text>
+  <text x="107" y="220" text-anchor="middle" font-size="11" fill="#5C4630">e murcha</text>
+  <text x="320" y="202" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">Sem alteração</text>
+  <text x="320" y="220" text-anchor="middle" font-size="11" fill="#5C4630">permanece normal</text>
+  <text x="533" y="202" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">Ganha água</text>
+  <text x="533" y="220" text-anchor="middle" font-size="11" fill="#5C4630">e pode sofrer lise</text>
+  <text x="320" y="262" text-anchor="middle" font-size="11" font-weight="700" fill="#A8763E">A água sempre se move em direção à solução mais concentrada</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Hemácia (célula animal) em três meios: a seta mostra o sentido da água.</p>`,
+            },
+            {
+              heading: "Resumo da osmose",
+              body: `A água se movimenta em direção à solução mais concentrada, através de uma membrana semipermeável, buscando o equilíbrio de concentração.
+
+No início há o meio interno da célula e o meio externo; no fim, ocorre a isotonia.`,
+            },
+          ],
+          quiz: [
+            { q: "O transporte passivo ocorre:", options: ["Contra o gradiente de concentração, com gasto de energia","A favor do gradiente de concentração, sem gasto de energia","Apenas com gasto de ATP","Somente em células vegetais"], correct: 1 },
+            { q: "No transporte passivo, as moléculas migram:", options: ["De uma região menos concentrada para uma mais concentrada","De uma região mais concentrada para uma menos concentrada","Sempre para dentro da célula","Sempre para fora da célula"], correct: 1 },
+            { q: "Quais são os tipos de transporte passivo?", options: ["Difusão simples, difusão facilitada e osmose","Endocitose, exocitose e osmose","Fagocitose, pinocitose e difusão","Bomba de sódio-potássio, osmose e difusão simples"], correct: 0 },
+            { q: "A difusão simples ocorre, por exemplo, com:", options: ["Proteínas grandes","Gases","Células inteiras","Moléculas de DNA"], correct: 1 },
+            { q: "Na difusão facilitada, qual proteína auxilia a passagem da molécula?", options: ["Hemoglobina","Permease","Queratina","Colágeno"], correct: 1 },
+            { q: "A difusão facilitada se diferencia da difusão simples por:", options: ["Ocorrer contra o gradiente de concentração","Gastar energia","Contar com a ajuda de uma proteína (permease)","Só acontecer com a água"], correct: 2 },
+            { q: "A osmose é:", options: ["A difusão de gases","A difusão da água","O transporte de proteínas","A entrada de partículas sólidas na célula"], correct: 1 },
+            { q: "Na osmose, a água migra:", options: ["Da solução hipertônica para a hipotônica","Da solução hipotônica (diluída) para a hipertônica (concentrada)","Sempre para a solução mais diluída","Apenas entre soluções isotônicas"], correct: 1 },
+            { q: "Uma solução hipotônica é aquela que:", options: ["É concentrada, como a água salgada","É diluída, como a água pura","Tem a mesma concentração do meio","Não possui água"], correct: 1 },
+            { q: "Uma solução hipertônica é aquela que:", options: ["É diluída, como a água pura","É concentrada, como a água salgada","Tem a mesma concentração da célula","Não atravessa membranas"], correct: 1 },
+            { q: "Uma membrana semipermeável, como o papel celofane, permite a passagem de:", options: ["Apenas água","Qualquer substância","Apenas proteínas","Nenhuma substância"], correct: 0 },
+            { q: "No final da osmose, as duas soluções atingem:", options: ["Hipertonia","Hipotonia","Isotonia","Plasmólise"], correct: 2 },
+            { q: "Uma hemácia colocada em solução hipertônica (água salgada) tende a:", options: ["Ganhar água e sofrer lise","Perder água e murchar","Permanecer normal","Dividir-se rapidamente"], correct: 1 },
+            { q: "Uma hemácia colocada em água pura (solução hipotônica) tende a:", options: ["Perder água e murchar","Permanecer sem alteração","Ganhar água e poder sofrer lise","Eliminar todo o seu núcleo"], correct: 2 },
+            { q: "Qual é o meio isotônico em relação às hemácias, no qual elas permanecem normais?", options: ["Água pura","Água salgada","Sangue","Água destilada"], correct: 2 },
+          ],
+        },
       ],
     },
 );
