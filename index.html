@@ -9,6 +9,22 @@
 <!-- PWA -->
 <link rel="manifest" href="manifest.json" />
 <meta name="theme-color" content="#3E2F20" />
+<meta name="color-scheme" content="light dark" />
+<script>
+  /* Aplica o tema salvo (ou o do sistema) antes da página renderizar, evitando o "flash" claro. */
+  (function () {
+    var dark = false;
+    try {
+      var saved = localStorage.getItem("theme");
+      dark = saved ? saved === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
+    } catch (e) {}
+    if (dark) {
+      document.documentElement.classList.add("dark");
+      var m = document.querySelector('meta[name="theme-color"]');
+      if (m) m.setAttribute("content", "#181614");
+    }
+  })();
+</script>
 <link rel="icon" href="icon-192.png" type="image/png" />
 <link rel="apple-touch-icon" href="icon-192.png" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -27,14 +43,14 @@
     theme: {
       extend: {
         colors: {
-          cream: "#F4EEE1",
-          sand: "#C9B18C",
-          beige: "#E4D9C4",
-          bark: "#5C4630",
-          espresso: "#3E2F20",
-          ochre: "#A8763E",
-          correct: "#5B7553",
-          wrong: "#A6493A",
+          cream: "rgb(var(--c-cream) / <alpha-value>)",
+          sand: "rgb(var(--c-sand) / <alpha-value>)",
+          beige: "rgb(var(--c-beige) / <alpha-value>)",
+          bark: "rgb(var(--c-bark) / <alpha-value>)",
+          espresso: "rgb(var(--c-espresso) / <alpha-value>)",
+          ochre: "rgb(var(--c-ochre) / <alpha-value>)",
+          correct: "rgb(var(--c-correct) / <alpha-value>)",
+          wrong: "rgb(var(--c-wrong) / <alpha-value>)",
         },
         fontFamily: {
           display: ["Fraunces", "serif"],
@@ -49,10 +65,63 @@
 </script>
 
 <style>
+  /* Paleta (tons RGB para o Tailwind aplicar opacidade). Claro = padrão. */
+  :root {
+    --c-cream: 244 238 225;   /* #F4EEE1 fundo */
+    --c-beige: 228 217 196;   /* #E4D9C4 cards */
+    --c-sand: 201 177 140;    /* #C9B18C bordas */
+    --c-bark: 92 70 48;       /* #5C4630 texto secundário */
+    --c-espresso: 62 47 32;   /* #3E2F20 texto principal */
+    --c-ochre: 168 118 62;    /* #A8763E destaque */
+    --c-correct: 91 117 83;   /* #5B7553 */
+    --c-wrong: 166 73 58;     /* #A6493A */
+  }
+  /* Modo escuro: grafite aquecido, sem preto puro. */
+  html.dark {
+    color-scheme: dark;
+    --c-cream: 24 22 20;      /* #181614 fundo */
+    --c-beige: 36 33 30;      /* #24211E cards */
+    --c-sand: 54 49 44;       /* #36312C bordas */
+    --c-bark: 156 146 136;    /* #9C9288 texto secundário */
+    --c-espresso: 245 241 235;/* #F5F1EB texto principal */
+    --c-ochre: 201 150 92;    /* #C9965C destaque (mais claro p/ contraste) */
+    --c-correct: 127 163 116;
+    --c-wrong: 208 112 95;
+  }
+  /* O bloco de quiz é sempre uma superfície escura com texto claro. */
+  html.dark .quiz-scope {
+    --c-espresso: 36 33 30;
+    --c-cream: 245 241 235;
+    --c-sand: 201 177 140;
+    --c-correct: 91 117 83;
+    --c-wrong: 166 73 58;
+    border: 1px solid #36312C;
+  }
+  html.dark .quiz-scope .text-correct { color: #8DB683; }
+  html.dark .quiz-scope .text-wrong { color: #E08B7A; }
+  html.dark .bg-white\/60 { background-color: #24211E; }
+  html.dark .text-bark\/60, html.dark .text-bark\/70 { color: #9C9288; }
+  html.dark .body-text { color: #D8D0C6; }
+  /* Ilustrações (SVG) foram desenhadas para fundo claro: ficam sobre um "papel" claro. */
+  html.dark .visual-wrap { background-color: #EDE5D4; border-color: #36312C; }
+  html.dark .card-hover:hover { box-shadow: 0 12px 28px -12px rgba(0, 0, 0, 0.6); }
+
   html { scroll-behavior: smooth; }
-  body { font-family: 'Inter', sans-serif; background-color: #F4EEE1; }
+  body { font-family: 'Inter', sans-serif; background-color: rgb(var(--c-cream)); }
   .font-display { font-family: 'Fraunces', serif; }
   ::selection { background-color: #C9B18C; color: #3E2F20; }
+
+  /* Transição suave só durante a troca de tema */
+  html.theme-anim, html.theme-anim *, html.theme-anim *::before, html.theme-anim *::after {
+    transition: background-color .3s ease, border-color .3s ease, color .3s ease, fill .3s ease !important;
+  }
+
+  .theme-toggle { transition: background-color .2s ease, border-color .2s ease, transform .2s ease; }
+  .theme-toggle:hover { border-color: rgb(var(--c-ochre)); }
+  .theme-toggle:active { transform: scale(0.94); }
+  .theme-toggle .icon-sun { display: none; }
+  html.dark .theme-toggle .icon-sun { display: block; }
+  html.dark .theme-toggle .icon-moon { display: none; }
 
   .card-hover {
     transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
@@ -75,8 +144,8 @@
   }
 
   ::-webkit-scrollbar { width: 10px; }
-  ::-webkit-scrollbar-track { background: #F4EEE1; }
-  ::-webkit-scrollbar-thumb { background: #C9B18C; border-radius: 999px; }
+  ::-webkit-scrollbar-track { background: rgb(var(--c-cream)); }
+  ::-webkit-scrollbar-thumb { background: rgb(var(--c-sand)); border-radius: 999px; }
 </style>
 </head>
 
@@ -89,7 +158,13 @@
       <span class="w-10 h-10 rounded-full bg-espresso text-cream flex items-center justify-center font-display text-lg shadow-sm group-hover:bg-ochre transition-colors">L</span>
       <span class="font-display text-lg sm:text-xl tracking-tight">Revisão de <span class="text-ochre">Lucas M</span></span>
     </a>
-    <nav id="breadcrumb" class="hidden sm:flex items-center gap-2 text-sm text-bark/70 font-medium"></nav>
+    <div class="flex items-center gap-4">
+      <nav id="breadcrumb" class="hidden sm:flex items-center gap-2 text-sm text-bark/70 font-medium"></nav>
+      <button id="theme-toggle" type="button" class="theme-toggle w-10 h-10 shrink-0 rounded-full border border-sand/70 bg-beige/50 text-espresso flex items-center justify-center" aria-label="Ativar modo escuro" title="Alternar modo claro/escuro" aria-pressed="false">
+        <svg class="icon-moon w-[18px] h-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="icon-sun w-[18px] h-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+    </div>
   </div>
 </header>
 
@@ -388,7 +463,7 @@ function renderQuizSection(questions, opts = {}) {
   const noShuffle = !!opts.noShuffle;
 
   const section = el(`
-    <section class="rounded-card bg-espresso text-cream p-6 sm:p-8">
+    <section class="quiz-scope rounded-card bg-espresso text-cream p-6 sm:p-8">
       <p class="uppercase tracking-[0.2em] text-xs font-semibold text-sand mb-1">${label}</p>
       <h2 class="font-display text-2xl mb-1">${heading}</h2>
       <p class="quiz-meta text-cream/60 text-sm mb-6"></p>
@@ -492,6 +567,41 @@ function renderQuizSection(questions, opts = {}) {
    INICIALIZAÇÃO
    ============================================================ */
 router();
+
+/* Modo escuro: botão no cabeçalho, preferência salva no navegador */
+(function setupTheme() {
+  const root = document.documentElement;
+  const btn = document.getElementById("theme-toggle");
+  const meta = document.querySelector('meta[name="theme-color"]');
+  const media = window.matchMedia("(prefers-color-scheme: dark)");
+
+  function apply(dark) {
+    root.classList.toggle("dark", dark);
+    if (meta) meta.setAttribute("content", dark ? "#181614" : "#3E2F20");
+    if (btn) {
+      btn.setAttribute("aria-pressed", String(dark));
+      btn.setAttribute("aria-label", dark ? "Ativar modo claro" : "Ativar modo escuro");
+    }
+  }
+  function saved() {
+    try { return localStorage.getItem("theme"); } catch (e) { return null; }
+  }
+
+  apply(root.classList.contains("dark"));
+
+  if (btn) {
+    btn.addEventListener("click", () => {
+      const dark = !root.classList.contains("dark");
+      root.classList.add("theme-anim");
+      apply(dark);
+      try { localStorage.setItem("theme", dark ? "dark" : "light"); } catch (e) {}
+      setTimeout(() => root.classList.remove("theme-anim"), 350);
+    });
+  }
+
+  /* Sem escolha manual, acompanha o tema do sistema */
+  media.addEventListener("change", (e) => { if (!saved()) apply(e.matches); });
+})();
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
