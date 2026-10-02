@@ -194,6 +194,82 @@ Fórmula:
             { q: "No Caso 3 do trabalho (90° < θ ≤ 180°), como ele é classificado?", options: ["Resistente", "Motor", "Nulo", "Indefinido"], correct: 0 },
           ],
         },
+        {
+          id: "teorema-da-energia-potencial",
+          title: "Teorema da Energia Potencial",
+          sections: [
+            {
+              heading: "Teorema da energia potencial",
+              body: `Para o trabalho da força peso:
+
+ΔS = hi − hf
+τg = F · ΔS · cos θ
+τg = m·g·hi − m·g·hf
+τg = Epg_i − Epg_f
+
+Ou seja, o trabalho do peso é igual à energia potencial gravitacional inicial menos a final.`,
+            },
+            {
+              heading: "Forças conservativas",
+              body: `Uma força conservativa é aquela cujo trabalho não depende da trajetória.
+
+Exemplos:
+• Gravitacional
+• Elástica
+• Elétrica
+• Peso`,
+            },
+            {
+              heading: "Trabalho da força conservativa",
+              body: `Quando o trabalho é positivo:
+τ(força conservativa) > 0 → Ei > Ef
+→ Movimento espontâneo
+
+Quando o trabalho é negativo:
+τ(força conservativa) < 0 → Ef > Ei
+→ Movimento forçado
+
+A ilustração mostra os dois casos para o peso: descer é espontâneo, subir é forçado.`,
+              visual: `<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+
+<rect width="640" height="300" rx="12" fill="#F4EEE1"/>
+<defs><marker id="fb1" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#3E2F20"/></marker></defs>
+<text x="160" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#5B7553">DESCE: τ > 0</text>
+<text x="480" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#A6493A">SOBE: τ < 0</text>
+<line x1="320" y1="40" x2="320" y2="285" stroke="#C9B18C" stroke-dasharray="4 4"/>
+<line x1="60" y1="250" x2="260" y2="250" stroke="#5C4630" stroke-width="2"/>
+<circle cx="110" cy="70" r="14" fill="#A8763E" stroke="#5C4630" stroke-width="2"/><text x="150" y="74" text-anchor="start" font-size="12" font-weight="700" fill="#3E2F20">hi</text>
+<circle cx="110" cy="200" r="14" fill="#E4D9C4" stroke="#5C4630" stroke-width="2" stroke-dasharray="3 2"/><text x="150" y="204" text-anchor="start" font-size="12" font-weight="700" fill="#3E2F20">hf</text>
+<line x1="110" y1="88" x2="110" y2="180" stroke="#5B7553" stroke-width="3" marker-end="url(#fb1)"/>
+<text x="210" y="140" text-anchor="middle" font-size="12" font-weight="700" fill="#5B7553">Ei > Ef</text>
+<text x="210" y="158" text-anchor="middle" font-size="11" fill="#5C4630">movimento espontâneo</text>
+<text x="160" y="278" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">τg = m·g·hi − m·g·hf > 0</text>
+<line x1="380" y1="250" x2="580" y2="250" stroke="#5C4630" stroke-width="2"/>
+<circle cx="430" cy="200" r="14" fill="#A8763E" stroke="#5C4630" stroke-width="2"/><text x="470" y="204" text-anchor="start" font-size="12" font-weight="700" fill="#3E2F20">hi</text>
+<circle cx="430" cy="70" r="14" fill="#E4D9C4" stroke="#5C4630" stroke-width="2" stroke-dasharray="3 2"/><text x="470" y="74" text-anchor="start" font-size="12" font-weight="700" fill="#3E2F20">hf</text>
+<line x1="430" y1="182" x2="430" y2="92" stroke="#A6493A" stroke-width="3" marker-end="url(#fb1)"/>
+<text x="530" y="140" text-anchor="middle" font-size="12" font-weight="700" fill="#A6493A">Ef > Ei</text>
+<text x="530" y="158" text-anchor="middle" font-size="11" fill="#5C4630">movimento forçado</text>
+<text x="480" y="278" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">τg = m·g·hi − m·g·hf < 0</text>
+
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">O sinal do trabalho do peso indica se o movimento é espontâneo (desce) ou forçado (sobe).</p>`,
+            },
+          ],
+          quiz: [
+            { q: "Para o trabalho da força peso, o Teorema da Energia Potencial afirma que:", options: ["τg = Epg_f − Epg_i","τg = Epg_i − Epg_f","τg = Epg_i + Epg_f","τg = Epg_i · Epg_f"], correct: 1 },
+            { q: "Um corpo de 2 kg desce de uma altura de 10 m para 4 m (g = 10 m/s²). O trabalho da força peso é:", options: ["−120 J","120 J","80 J","200 J"], correct: 1 },
+            { q: "Um corpo de 5 kg sobe de 2 m para 6 m de altura (g = 10 m/s²). O trabalho da força peso é:", options: ["200 J","−200 J","−100 J","100 J"], correct: 1 },
+            { q: "Um corpo de 0,5 kg cai de 8 m de altura até o solo (g = 10 m/s²). O trabalho do peso nessa queda é:", options: ["4 J","20 J","40 J","80 J"], correct: 2 },
+            { q: "Qual das alternativas lista apenas forças conservativas?", options: ["Atrito, peso e elástica","Gravitacional, elástica, elétrica e peso","Atrito e resistência do ar","Apenas atrito"], correct: 1 },
+            { q: "O trabalho de uma força conservativa:", options: ["Depende da trajetória","Não depende da trajetória","É sempre positivo","É sempre nulo"], correct: 1 },
+            { q: "Se o trabalho de uma força conservativa é positivo, então:", options: ["Ei < Ef e o movimento é forçado","Ei > Ef e o movimento é espontâneo","Ei = Ef e não há movimento","Ei > Ef e o movimento é forçado"], correct: 1 },
+            { q: "Se o trabalho de uma força conservativa é negativo, então:", options: ["Ef > Ei e o movimento é forçado","Ef > Ei e o movimento é espontâneo","Ei > Ef e o movimento é espontâneo","Ei = Ef"], correct: 0 },
+            { q: "Quando um corpo sobe verticalmente, o trabalho do peso é:", options: ["Positivo, movimento espontâneo","Negativo, movimento forçado","Nulo","Positivo, movimento forçado"], correct: 1 },
+            { q: "Quando um corpo desce verticalmente em queda livre, o movimento é classificado como:", options: ["Forçado","Espontâneo","Impossível","Dependente da trajetória"], correct: 1 },
+            { q: "Qual das forças abaixo NÃO é conservativa?", options: ["Peso","Elástica","Atrito","Elétrica"], correct: 2 },
+          ],
+        },
       ],
     },
 );

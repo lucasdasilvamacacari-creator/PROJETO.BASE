@@ -129,6 +129,79 @@ Causa final → Para que X?`,
             { q: "Segundo a Teoria das quatro causas, a causa material responde a qual pergunta?", options: ["Do que é feito X?", "Quem fez X?", "Para que X?", "O que é X?"], correct: 0 },
           ],
         },
+        {
+          id: "filosofia-helenistica",
+          title: "Filosofia Helenística",
+          sections: [
+            {
+              heading: "Período",
+              body: `O período helenístico é caracterizado pela expansão da dominação da Macedônia.
+
+→ Essa dominação promoveu transformações no âmbito social e cultural da Grécia:
+
+• Perda de autonomia das pólis
+• Fusão de culturas: grega + oriental`,
+            },
+            {
+              heading: "Ética e vida privada",
+              body: `A partir da filosofia helenística, a filosofia desloca suas reflexões, de modo geral, para a ética e a vida privada.
+
+→ Aqui, a filosofia se coloca como uma espécie de "medicina da alma", em busca do "bem viver" (felicidade).
+
+Palavra importante:
+• Ataraxia → imperturbabilidade da alma`,
+              visual: `<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+
+<rect width="640" height="330" rx="12" fill="#F4EEE1"/>
+<defs><marker id="fa1" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#3E2F20"/></marker></defs>
+<rect x="200" y="14" width="240" height="44" rx="10" fill="#A8763E" stroke="#5C4630" stroke-width="1.5"/><text x="320" y="41" text-anchor="middle" font-size="13" font-weight="700" fill="#F4EEE1">Dominação da Macedônia</text>
+<line x1="260" y1="58" x2="150" y2="92" stroke="#3E2F20" stroke-width="2" marker-end="url(#fa1)"/>
+<line x1="380" y1="58" x2="490" y2="92" stroke="#3E2F20" stroke-width="2" marker-end="url(#fa1)"/>
+<rect x="30" y="94" width="240" height="52" rx="10" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/><text x="150" y="116" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">Perda de autonomia</text><text x="150" y="134" text-anchor="middle" font-size="11" fill="#5C4630">das pólis</text>
+<rect x="370" y="94" width="240" height="52" rx="10" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/><text x="490" y="116" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">Fusão de culturas</text><text x="490" y="134" text-anchor="middle" font-size="11" fill="#5C4630">grega + oriental</text>
+<line x1="150" y1="146" x2="290" y2="176" stroke="#3E2F20" stroke-width="2" marker-end="url(#fa1)"/>
+<line x1="490" y1="146" x2="350" y2="176" stroke="#3E2F20" stroke-width="2" marker-end="url(#fa1)"/>
+<rect x="170" y="178" width="300" height="52" rx="10" fill="#5C4630" stroke="#3E2F20" stroke-width="1.5"/><text x="320" y="200" text-anchor="middle" font-size="13" font-weight="700" fill="#F4EEE1">Filosofia helenística</text><text x="320" y="218" text-anchor="middle" font-size="11" fill="#F4EEE1">ética e vida privada · medicina da alma</text>
+<line x1="250" y1="230" x2="150" y2="258" stroke="#3E2F20" stroke-width="2" marker-end="url(#fa1)"/>
+<line x1="390" y1="230" x2="490" y2="258" stroke="#3E2F20" stroke-width="2" marker-end="url(#fa1)"/>
+<rect x="30" y="260" width="240" height="56" rx="10" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/><text x="150" y="282" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">CINISMO</text><text x="150" y="300" text-anchor="middle" font-size="11" fill="#5C4630">Diógenes · vida simples</text>
+<rect x="370" y="260" width="240" height="56" rx="10" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/><text x="490" y="282" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">PIRRONISMO (CETICISMO)</text><text x="490" y="300" text-anchor="middle" font-size="11" fill="#5C4630">Pirro · époché</text>
+
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Do contexto histórico às duas correntes vistas: tudo busca o bem viver e a ataraxia.</p>`,
+            },
+            {
+              heading: "Cinismo",
+              body: `O Cinismo tem um significado diferente do atual.
+
+• Representante: Diógenes de Sinope
+• Cinismo → "viver como um cão"
+• Desapego dos bens materiais e das convenções sociais → vida simples`,
+            },
+            {
+              heading: "Pirronismo (Ceticismo)",
+              body: `• Pirro → vida
+• Atitude (postura) cética → questionamento contínuo em relação a critérios absolutos de verdade
+
+→ Époché → suspender os juízos
+
+• "Tudo é incerto"`,
+            },
+          ],
+          quiz: [
+            { q: "O período helenístico é caracterizado pela expansão da dominação de qual povo?", options: ["Romanos","Macedônios","Persas","Egípcios"], correct: 1 },
+            { q: "Qual foi uma das transformações sociais causadas pela dominação macedônica na Grécia?", options: ["Fortalecimento da autonomia das pólis","Perda de autonomia das pólis","Fim de toda atividade filosófica","Abolição da cultura grega"], correct: 1 },
+            { q: "A fusão de culturas típica do período helenístico foi entre:", options: ["Grega e romana","Grega e oriental","Egípcia e romana","Persa e fenícia"], correct: 1 },
+            { q: "A partir da filosofia helenística, as reflexões se deslocam, de modo geral, para:", options: ["A cosmologia e a origem do universo","A ética e a vida privada","A política das pólis","A matemática pura"], correct: 1 },
+            { q: "Nessa fase, a filosofia se coloca como uma espécie de:", options: ["Ciência da natureza","Medicina da alma","Arte da guerra","Técnica de governo"], correct: 1 },
+            { q: "A filosofia helenística busca o \"bem viver\", ou seja:", options: ["O poder político","A riqueza material","A felicidade","A fama"], correct: 2 },
+            { q: "O que significa ataraxia?", options: ["Imperturbabilidade da alma","Busca de prazeres materiais","Dúvida absoluta","Obediência às leis"], correct: 0 },
+            { q: "Qual filósofo é associado ao Cinismo?", options: ["Pirro","Diógenes de Sinope","Aristóteles","Platão"], correct: 1 },
+            { q: "O Cinismo helenístico, ao contrário do sentido atual da palavra, defendia:", options: ["Mentira e desprezo pelos outros","Desapego dos bens materiais e das convenções sociais, com vida simples","Acúmulo de riquezas","Participação intensa na política"], correct: 1 },
+            { q: "Qual escola helenística tem Pirro como referência e adota uma atitude de questionamento contínuo dos critérios absolutos de verdade?", options: ["Cinismo","Pirronismo (Ceticismo)","Platonismo","Aristotelismo"], correct: 1 },
+            { q: "O que significa époché no Ceticismo?", options: ["Afirmar a verdade absoluta","Suspender os juízos","Viver como um cão","Buscar o prazer imediato"], correct: 1 },
+          ],
+        },
       ],
     },
 );
