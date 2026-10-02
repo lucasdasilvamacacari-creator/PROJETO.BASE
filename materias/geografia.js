@@ -717,6 +717,179 @@ Subtropical`,
             { q: "Ao identificar em uma questão os termos 'frente', 'massa de ar quente' e 'massa de ar fria' juntos, o tipo de chuva a ser considerado é:", options: ["Frontal", "Convectiva", "Orográfica", "Nenhuma das anteriores"], correct: 0 },
           ],
         },
+        {
+          id: "geologia",
+          title: "Geologia",
+          sections: [
+            {
+              heading: "Geologia e tempo geológico",
+              body: `Geologia → estudo da Terra.
+
+Para estudar o tempo geológico usamos dois métodos de datação:
+• Datação radioativa
+• Datação por fósseis`,
+            },
+            {
+              heading: "Eras geológicas",
+              body: `• Cenozoica → nova era → Antropoceno
+• Mesozoica → média era → Gondwana e Laurásia
+• Paleozoica → antiga era → nova flora e animais
+• Pré-Cambriano → primeira era → Pangeia, 1ª forma de vida
+• Carbonífero → formação de jazidas de carvão mineral
+
+A linha do tempo abaixo organiza as eras da mais antiga para a mais recente.`,
+              visual: `<svg viewBox="0 0 640 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+
+<rect width="640" height="200" rx="12" fill="#F4EEE1"/>
+<defs><marker id="g1t" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#3E2F20"/></marker></defs>
+<text x="320" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">Eras geológicas (da mais antiga para a mais recente)</text>
+<rect x="14" y="50" width="144" height="110" rx="10" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/><text x="86" y="74" text-anchor="middle" font-size="11" font-weight="700" fill="#3E2F20">PRÉ-CAMBRIANO</text><text x="86" y="94" text-anchor="middle" font-size="10" fill="#5C4630">primeira era</text><text x="86" y="112" text-anchor="middle" font-size="11" fill="#5C4630">Pangeia</text><text x="86" y="130" text-anchor="middle" font-size="10" fill="#5C4630">1ª forma de vida</text>
+<rect x="174" y="50" width="144" height="110" rx="10" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/><text x="246" y="74" text-anchor="middle" font-size="11" font-weight="700" fill="#3E2F20">PALEOZOICA</text><text x="246" y="94" text-anchor="middle" font-size="10" fill="#5C4630">antiga era</text><text x="246" y="112" text-anchor="middle" font-size="10" fill="#5C4630">nova flora e animais</text><text x="246" y="130" text-anchor="middle" font-size="10" fill="#5C4630">Carbonífero: carvão</text>
+<rect x="334" y="50" width="144" height="110" rx="10" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/><text x="406" y="74" text-anchor="middle" font-size="11" font-weight="700" fill="#3E2F20">MESOZOICA</text><text x="406" y="94" text-anchor="middle" font-size="10" fill="#5C4630">média era</text><text x="406" y="112" text-anchor="middle" font-size="11" fill="#5C4630">Gondwana</text><text x="406" y="130" text-anchor="middle" font-size="11" fill="#5C4630">e Laurásia</text>
+<rect x="494" y="50" width="132" height="110" rx="10" fill="#A8763E" stroke="#5C4630" stroke-width="1.5"/><text x="560" y="74" text-anchor="middle" font-size="11" font-weight="700" fill="#F4EEE1">CENOZOICA</text><text x="560" y="94" text-anchor="middle" font-size="10" fill="#F4EEE1">nova era</text><text x="560" y="112" text-anchor="middle" font-size="11" fill="#F4EEE1">Antropoceno</text>
+<line x1="14" y1="180" x2="622" y2="180" stroke="#3E2F20" stroke-width="2" marker-end="url(#g1t)"/><text x="320" y="195" text-anchor="middle" font-size="10" fill="#5C4630">tempo</text>
+
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Linha do tempo geológico simplificada, com as anotações de cada era.</p>`,
+            },
+            {
+              heading: "Camadas da Terra",
+              body: `• Crosta ou litosfera
+• Manto ou magma
+• Núcleo ou NIFE`,
+              visual: `<svg viewBox="0 0 560 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+
+<rect width="560" height="280" rx="12" fill="#F4EEE1"/>
+<text x="280" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">Camadas da Terra</text>
+<circle cx="170" cy="150" r="115" fill="#C9B18C" stroke="#5C4630" stroke-width="2"/>
+<circle cx="170" cy="150" r="104" fill="#A8763E" stroke="#5C4630" stroke-width="1.5"/>
+<circle cx="170" cy="150" r="52" fill="#5C4630" stroke="#3E2F20" stroke-width="2"/>
+<text x="170" y="154" text-anchor="middle" font-size="12" font-weight="700" fill="#F4EEE1">NIFE</text>
+<line x1="285" y1="150" x2="340" y2="70" stroke="#5C4630"/><text x="346" y="66" text-anchor="start" font-size="12" font-weight="700" fill="#3E2F20">Crosta ou litosfera</text>
+<line x1="240" y1="110" x2="340" y2="140" stroke="#5C4630"/><text x="346" y="138" text-anchor="start" font-size="12" font-weight="700" fill="#3E2F20">Manto ou magma</text>
+<line x1="190" y1="150" x2="340" y2="210" stroke="#5C4630"/><text x="346" y="214" text-anchor="start" font-size="12" font-weight="700" fill="#3E2F20">Núcleo ou NIFE</text>
+
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Da camada mais externa para a mais interna: crosta, manto e núcleo.</p>`,
+            },
+            {
+              heading: "Teoria da Deriva Continental",
+              body: `• Laurásia → norte
+• Gondwana → sul
+
+Evidências:
+• Fósseis
+• Rochas
+• Relevo`,
+            },
+            {
+              heading: "Tectonismo",
+              body: `Tectonismo → tsunamis, terremotos e vulcões.`,
+            },
+          ],
+          quiz: [
+            { q: "A Geologia é o estudo de:", options: ["Dos oceanos","Da Terra","Da atmosfera","Das estrelas"], correct: 1 },
+            { q: "Quais são os dois métodos de datação do tempo geológico citados?", options: ["Datação radioativa e datação por fósseis","Datação solar e lunar","Datação por anéis e por sal","Apenas datação por fósseis"], correct: 0 },
+            { q: "A era Cenozoica (\"nova era\") é associada ao:", options: ["Antropoceno","Surgimento da Pangeia","Carvão mineral","Primeiras formas de vida"], correct: 0 },
+            { q: "Qual era é associada à separação em Gondwana e Laurásia?", options: ["Pré-Cambriano","Paleozoica","Mesozoica","Cenozoica"], correct: 2 },
+            { q: "A era Paleozoica (\"antiga era\") é marcada por:", options: ["Nova flora e novos animais","Surgimento do ser humano","Formação do núcleo da Terra","Fim da Pangeia"], correct: 0 },
+            { q: "O Pré-Cambriano (\"primeira era\") é associado a:", options: ["Pangeia e à primeira forma de vida","Antropoceno","Gondwana e Laurásia","Era do gelo recente"], correct: 0 },
+            { q: "O período Carbonífero é lembrado pela:", options: ["Formação de jazidas de carvão mineral","Formação do petróleo no Brasil","Extinção dos dinossauros","Formação dos Andes"], correct: 0 },
+            { q: "Quais são as camadas da Terra, da mais externa à mais interna?", options: ["Núcleo, manto e crosta","Crosta, manto e núcleo","Manto, crosta e núcleo","Crosta, núcleo e manto"], correct: 1 },
+            { q: "A camada da Terra também chamada de NIFE é:", options: ["A crosta","O manto","O núcleo","A litosfera"], correct: 2 },
+            { q: "Na Teoria da Deriva Continental, a Laurásia ficava ao:", options: ["Sul e a Gondwana ao norte","Norte e a Gondwana ao sul","Leste e a Gondwana ao oeste","Norte e a Gondwana ao norte"], correct: 1 },
+            { q: "Quais são as evidências da Deriva Continental citadas?", options: ["Fósseis, rochas e relevo","Apenas marés","Clima e vegetação atuais","Apenas vulcões"], correct: 0 },
+            { q: "O tectonismo está relacionado a fenômenos como:", options: ["Tsunamis, terremotos e vulcões","Chuvas e ventos","Erosão e sedimentação apenas","Eclipses"], correct: 0 },
+          ],
+        },
+        {
+          id: "projecoes-escala-e-curvas-de-nivel",
+          title: "Projeções, escala e curvas de nível",
+          sections: [
+            {
+              heading: "Projeções cartográficas",
+              body: `Peters
+• Esticado na vertical, no centro
+• Valoriza a África
+
+Mercator
+• Esticado na horizontal, na direção dos polos
+• Valoriza a Europa e os EUA
+
+Azimutal
+• Usada pela ONU`,
+            },
+            {
+              heading: "Escala",
+              body: `Escala → relação entre o tamanho no mapa e o tamanho real.
+
+• Denominador grande → menos detalhes
+• Denominador pequeno → mais detalhes
+
+Tipos:
+• Numérica → 1:50.000
+• Gráfica → barrinha
+
+Leitura: em 1:50.000, 1 cm no mapa equivale a 50.000 cm (500 m) na realidade.`,
+            },
+            {
+              heading: "Isoípsas (curvas de nível)",
+              body: `Isoípsas → curvas de nível, usadas para representar os diferentes relevos.
+
+Exemplo: representação do relevo por curvas de nível.`,
+              visual: `<svg viewBox="0 0 640 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+
+<rect width="640" height="260" rx="12" fill="#F4EEE1"/>
+<text x="160" y="24" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">VISTA DE CIMA (curvas de nível)</text>
+<text x="480" y="24" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">VISTA DE LADO (relevo)</text>
+<line x1="320" y1="40" x2="320" y2="245" stroke="#C9B18C" stroke-dasharray="4 4"/>
+<ellipse cx="160" cy="140" rx="120" ry="84" fill="#E4D9C4" stroke="#A8763E" stroke-width="2"/><text x="284" y="136" text-anchor="start" font-size="9" fill="#5C4630">100 m</text>
+<ellipse cx="160" cy="140" rx="88" ry="60" fill="#D8C9A8" stroke="#A8763E" stroke-width="2"/><text x="250" y="136" text-anchor="start" font-size="9" fill="#5C4630">200 m</text>
+<ellipse cx="160" cy="140" rx="54" ry="36" fill="#C9B18C" stroke="#A8763E" stroke-width="2"/><text x="216" y="136" text-anchor="start" font-size="9" fill="#5C4630">300 m</text>
+<ellipse cx="160" cy="140" rx="22" ry="14" fill="#A8763E" stroke="#5C4630" stroke-width="2"/><text x="160" y="144" text-anchor="middle" font-size="10" fill="#F4EEE1">pico</text>
+<path d="M360,220 L400,220 Q430,200 450,160 Q470,100 480,92 Q490,100 510,160 Q530,200 560,220 L600,220 Z" fill="#C9B18C" stroke="#5C4630" stroke-width="2"/>
+<line x1="360" y1="220" x2="600" y2="220" stroke="#5C4630" stroke-width="2"/>
+<line x1="396" y1="180" x2="564" y2="180" stroke="#A8763E" stroke-dasharray="3 3"/><line x1="428" y1="140" x2="532" y2="140" stroke="#A8763E" stroke-dasharray="3 3"/>
+<text x="364" y="176" text-anchor="start" font-size="10" fill="#5C4630">200 m</text><text x="364" y="136" text-anchor="start" font-size="10" fill="#5C4630">300 m</text><text x="364" y="214" text-anchor="start" font-size="10" fill="#5C4630">100 m</text>
+
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Cada curva liga pontos de mesma altitude. Curvas muito próximas indicam encosta íngreme.</p>`,
+            },
+            {
+              heading: "Coordenadas",
+              body: `• Latitude → linhas horizontais
+• Longitude → linhas verticais`,
+              visual: `<svg viewBox="0 0 640 270" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+
+<rect width="640" height="270" rx="12" fill="#F4EEE1"/>
+<circle cx="150" cy="135" r="100" fill="#E4D9C4" stroke="#5C4630" stroke-width="2"/>
+<ellipse cx="150" cy="135" rx="100" ry="30" fill="none" stroke="#A8763E" stroke-width="1.5"/>
+<ellipse cx="150" cy="135" rx="30" ry="100" fill="none" stroke="#5C4630" stroke-width="1.5"/>
+<ellipse cx="150" cy="135" rx="70" ry="100" fill="none" stroke="#5C4630" stroke-width="1.5"/>
+<line x1="50" y1="135" x2="250" y2="135" stroke="#A8763E" stroke-width="2.5"/>
+<line x1="150" y1="35" x2="150" y2="235" stroke="#5C4630" stroke-width="2.5"/>
+<line x1="270" y1="95" x2="310" y2="95" stroke="#A8763E" stroke-width="2"/><text x="318" y="92" text-anchor="start" font-size="13" font-weight="700" fill="#A8763E">Latitude</text><text x="318" y="110" text-anchor="start" font-size="11" fill="#5C4630">linhas horizontais (paralelos)</text>
+<line x1="270" y1="175" x2="310" y2="175" stroke="#5C4630" stroke-width="2"/><text x="318" y="172" text-anchor="start" font-size="13" font-weight="700" fill="#3E2F20">Longitude</text><text x="318" y="190" text-anchor="start" font-size="11" fill="#5C4630">linhas verticais (meridianos)</text>
+
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Latitude e longitude formam a malha usada para localizar qualquer ponto da Terra.</p>`,
+            },
+          ],
+          quiz: [
+            { q: "A projeção de Peters é caracterizada por:", options: ["Esticar na horizontal, perto dos polos","Esticar na vertical, no centro, valorizando a África","Ser centrada no polo, usada pela ONU","Reproduzir exatamente as áreas e distâncias"], correct: 1 },
+            { q: "A projeção de Mercator é caracterizada por:", options: ["Esticar na vertical, valorizando a África","Esticar na horizontal, na direção dos polos, valorizando Europa e EUA","Ser centrada no polo","Distorcer apenas os oceanos"], correct: 1 },
+            { q: "Qual projeção é usada na bandeira/emblema da ONU?", options: ["Peters","Mercator","Azimutal","Cônica"], correct: 2 },
+            { q: "Escala em um mapa é:", options: ["A relação entre o tamanho no mapa e o tamanho real","A altitude média da região","A quantidade de cores usadas","O ano de produção do mapa"], correct: 0 },
+            { q: "Qual escala mostra mais detalhes?", options: ["1:1.000.000","1:500.000","1:100.000","1:50.000"], correct: 3 },
+            { q: "Quanto maior o denominador da escala, em geral:", options: ["Mais detalhes","Menos detalhes","Mais zoom","Mais curvas de nível"], correct: 1 },
+            { q: "A escala 1:50.000 é um exemplo de escala:", options: ["Gráfica","Numérica","Cartográfica","Vertical"], correct: 1 },
+            { q: "A escala gráfica é representada por:", options: ["Uma fração 1:50.000","Uma barrinha graduada","Curvas de nível","Linhas de latitude"], correct: 1 },
+            { q: "Em um mapa de escala 1:50.000, 1 cm no mapa equivale, na realidade, a:", options: ["50 m","500 m","5 km","50 km"], correct: 1 },
+            { q: "Em um mapa de escala 1:100.000, 4 cm no mapa equivalem, na realidade, a:", options: ["400 m","4 km","40 km","400 km"], correct: 1 },
+            { q: "As curvas de nível (isoípsas) servem para representar:", options: ["O relevo","As correntes marítimas","A temperatura","As fronteiras"], correct: 0 },
+            { q: "No sistema de coordenadas geográficas, a latitude e a longitude são representadas, respectivamente, por linhas:", options: ["Verticais e horizontais","Horizontais e verticais","Ambas verticais","Ambas horizontais"], correct: 1 },
+          ],
+        },
       ],
     },
 );

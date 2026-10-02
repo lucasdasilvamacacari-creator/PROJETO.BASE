@@ -191,6 +191,101 @@ V = √gR
             },
           ],
         },
+        {
+          id: "gravitacao-universal",
+          title: "Gravitação Universal",
+          sections: [
+            {
+              heading: "Gravitação universal",
+              body: `• Corpos que têm massa se atraem mutuamente.
+• Essa força de atração será considerável caso a massa de um deles seja grande, como um planeta ou uma estrela.
+
+Fórmula:
+
+F = G · M₁ · M₂ / d²
+
+• G: constante gravitacional
+• M₁ e M₂: massas
+• d: distância
+
+Duas ideias para provas: se a distância dobra, a força cai a 1/4 (porque d está ao quadrado); se uma massa dobra, a força dobra.`,
+              visual: `<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+
+<rect width="640" height="300" rx="12" fill="#F4EEE1"/>
+<defs><marker id="fa2" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#3E2F20"/></marker></defs>
+<text x="160" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">ATRAÇÃO MÚTUA</text>
+<text x="480" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">g E A ALTITUDE</text>
+<line x1="320" y1="40" x2="320" y2="285" stroke="#C9B18C" stroke-dasharray="4 4"/>
+<circle cx="70" cy="140" r="30" fill="#A8763E" stroke="#5C4630" stroke-width="2"/><text x="70" y="145" text-anchor="middle" font-size="12" font-weight="700" fill="#F4EEE1">M₁</text>
+<circle cx="250" cy="140" r="22" fill="#5C4630" stroke="#3E2F20" stroke-width="2"/><text x="250" y="145" text-anchor="middle" font-size="12" font-weight="700" fill="#F4EEE1">M₂</text>
+<line x1="104" y1="140" x2="140" y2="140" stroke="#A6493A" stroke-width="3" marker-end="url(#fa2)"/>
+<line x1="226" y1="140" x2="190" y2="140" stroke="#A6493A" stroke-width="3" marker-end="url(#fa2)"/>
+<text x="122" y="128" text-anchor="middle" font-size="12" font-weight="700" fill="#A6493A">F</text><text x="208" y="128" text-anchor="middle" font-size="12" font-weight="700" fill="#A6493A">F</text>
+<line x1="70" y1="190" x2="250" y2="190" stroke="#5C4630" stroke-width="1.5"/><line x1="70" y1="184" x2="70" y2="196" stroke="#5C4630"/><line x1="250" y1="184" x2="250" y2="196" stroke="#5C4630"/>
+<text x="160" y="210" text-anchor="middle" font-size="11" fill="#5C4630">d (entre os centros)</text>
+<text x="160" y="252" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">F = G · M₁ · M₂ / d²</text>
+<text x="160" y="272" text-anchor="middle" font-size="11" fill="#5C4630">dobrou d → F cai a 1/4</text>
+<circle cx="440" cy="240" r="55" fill="#E4D9C4" stroke="#5C4630" stroke-width="2"/><text x="440" y="246" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">Planeta (M)</text>
+<line x1="440" y1="185" x2="440" y2="170" stroke="#5C4630" stroke-width="1"/>
+<circle cx="440" cy="168" r="6" fill="#A8763E"/>
+<line x1="440" y1="160" x2="440" y2="188" stroke="#A6493A" stroke-width="2.5" marker-end="url(#fa2)"/>
+<text x="458" y="172" text-anchor="start" font-size="11" fill="#A6493A">g = GM/R²</text>
+<circle cx="440" cy="76" r="6" fill="#A8763E"/>
+<line x1="440" y1="84" x2="440" y2="112" stroke="#A6493A" stroke-width="1.5" marker-end="url(#fa2)"/>
+<text x="458" y="80" text-anchor="start" font-size="11" fill="#A6493A">g = GM/(R+h)²</text>
+<line x1="560" y1="76" x2="560" y2="185" stroke="#5C4630" stroke-width="1.2"/><line x1="554" y1="76" x2="566" y2="76" stroke="#5C4630"/><line x1="554" y1="185" x2="566" y2="185" stroke="#5C4630"/>
+<text x="574" y="135" text-anchor="start" font-size="12" font-weight="700" fill="#3E2F20">h</text>
+<text x="480" y="140" text-anchor="middle" font-size="11" fill="#5C4630">maior h → menor g</text>
+
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">À esquerda, a força de atração mútua (ação e reação). À direita, a gravidade diminui com a altura.</p>`,
+            },
+            {
+              heading: "Campo gravitacional na superfície",
+              body: `Considere um corpo de massa m na superfície de um planeta.
+
+O peso é a própria força gravitacional:
+P = F
+m · g = G · M · m / R²
+
+Cancelando m:
+g = G · M / R²
+
+Na Terra, g = 9,8 m/s².
+
+Repare que g não depende da massa do corpo, só da massa M e do raio R do planeta.`,
+            },
+            {
+              heading: "Campo gravitacional em grandes altitudes",
+              body: `Para um corpo a uma altura h da superfície, a distância ao centro do planeta passa a ser R + h:
+
+g = G · M / (R + h)²
+
+• R: raio do planeta
+• h: altura em relação à superfície
+
+Quanto maior a altura, menor é o g.
+
+Exemplos com g₀ = 9,8 m/s² na superfície:
+• h = R → distância 2R → g = g₀/4 = 2,45 m/s²
+• h = 2R → distância 3R → g = g₀/9 ≈ 1,09 m/s²`,
+            },
+          ],
+          quiz: [
+            { q: "Segundo a Lei da Gravitação Universal, corpos que têm massa:", options: ["Se repelem mutuamente","Se atraem mutuamente","Não interagem","Só interagem se estiverem em contato"], correct: 1 },
+            { q: "Dois corpos se atraem com força F. Se a distância entre eles dobra (massas constantes), a nova força será:", options: ["F/2","F/4","2F","4F"], correct: 1 },
+            { q: "Dois corpos se atraem com força F. Se a distância entre eles cai à metade, a nova força será:", options: ["F/2","F/4","2F","4F"], correct: 3 },
+            { q: "Dois corpos se atraem com força F. Se a massa de um deles triplica (distância constante), a nova força será:", options: ["F/3","3F","6F","9F"], correct: 1 },
+            { q: "Dois corpos se atraem com força F. Se as duas massas dobram e a distância também dobra, a nova força será:", options: ["F/4","F/2","F","4F"], correct: 2 },
+            { q: "Na fórmula F = G·M₁·M₂/d², a letra G representa:", options: ["A aceleração da gravidade","A constante gravitacional","A massa do planeta","A distância entre os corpos"], correct: 1 },
+            { q: "Dois corpos de massas 2×10³ kg e 3×10³ kg estão a 1 m de distância. Sendo G = 6,0×10⁻¹¹ N·m²/kg², a força de atração é:", options: ["3,6×10⁻⁵ N","1,2×10⁻⁴ N","3,6×10⁻⁴ N","6,0×10⁻⁴ N"], correct: 2 },
+            { q: "Para um corpo na superfície de um planeta, igualando o peso à força gravitacional, a aceleração da gravidade é g = G·M/R². Ela depende:", options: ["Da massa do corpo que cai","Da massa e do raio do planeta","Apenas da altura do corpo","Do formato do corpo"], correct: 1 },
+            { q: "Sendo g = 9,8 m/s² na superfície da Terra, qual é o valor de g a uma altura h = R (um raio terrestre acima da superfície)?", options: ["2,45 m/s²","4,9 m/s²","9,8 m/s²","19,6 m/s²"], correct: 0 },
+            { q: "Sendo g = 9,8 m/s² na superfície da Terra, qual é aproximadamente o valor de g a uma altura h = 2R acima da superfície?", options: ["3,27 m/s²","1,09 m/s²","4,9 m/s²","2,45 m/s²"], correct: 1 },
+            { q: "Um planeta tem a mesma massa da Terra, mas metade do raio. A gravidade na sua superfície, em relação à da Terra, é:", options: ["A metade","A mesma","O dobro","O quádruplo"], correct: 3 },
+            { q: "Um planeta tem o dobro da massa da Terra e o mesmo raio. A gravidade na sua superfície, em relação à da Terra, é:", options: ["A metade","A mesma","O dobro","O quádruplo"], correct: 2 },
+          ],
+        },
       ],
     },
 );
