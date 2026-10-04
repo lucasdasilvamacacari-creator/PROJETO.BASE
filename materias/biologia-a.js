@@ -900,6 +900,45 @@ Existem quatro tipos principais de caule:
 4. Estipe — caule único, liso e sem ramificações. Exemplo: coqueiro e palmeira.`
         },
         {
+          heading: "Caules especiais",
+          body: `Além dos quatro tipos principais, existem caules com adaptações especiais:
+
+5. Estolão — caule rastejante que emite uma raiz a cada nó. Exemplo: morango.
+
+6. Sarmento — caule rastejante que NÃO emite raiz a cada nó. Exemplo: melancia.
+
+7. Cladódio — caule verde (faz fotossíntese), com as folhas transformadas em espinhos. Típico de regiões áridas, possui parênquima aquífero (armazena água). Exemplo: cactos.
+
+8. Tubérculo — caule subterrâneo com parênquima amilífero (armazena amido). Gravitropismo positivo. Exemplo: batata-inglesa.
+
+9. Xilopódio — caule especial típico do cerrado, que resiste às queimadas.
+
+10. Bulbo — caule subterrâneo. Exemplos: cebola e alho.
+
+11. Rizoma — caule subterrâneo. Exemplo: bananeira. O que parece o "tronco" da bananeira não é caule: é um pseudocaule formado pelas bainhas das folhas. O caule verdadeiro é o rizoma, que fica debaixo da terra.
+
+📌 Pegadinha clássica: a batata-inglesa é caule (tubérculo), mas a batata-doce é raiz (raiz tuberosa).`,
+          visual: `<svg viewBox="0 0 640 230" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+
+<rect width="640" height="230" rx="12" fill="#F4EEE1"/>
+<text x="160" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">ESTOLÃO (morango)</text>
+<text x="480" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">SARMENTO (melancia)</text>
+<line x1="320" y1="38" x2="320" y2="215" stroke="#C9B18C" stroke-dasharray="4 4"/>
+<line x1="20" y1="140" x2="300" y2="140" stroke="#C9B18C" stroke-width="2"/><text x="24" y="156" text-anchor="start" font-size="10" fill="#5C4630">solo</text>
+<line x1="340" y1="140" x2="620" y2="140" stroke="#C9B18C" stroke-width="2"/><text x="616" y="156" text-anchor="end" font-size="10" fill="#5C4630">solo</text>
+<path d="M40,136 Q100,126 160,136 Q220,126 280,136" fill="none" stroke="#5B7553" stroke-width="3"/>
+<path d="M360,136 Q420,126 480,136 Q540,126 600,136" fill="none" stroke="#5B7553" stroke-width="3"/>
+<circle cx="40" cy="136" r="5" fill="#A8763E"/><path d="M40,140 Q32,160 28,178 M40,140 L40,182 M40,140 Q48,160 52,178" fill="none" stroke="#5C4630" stroke-width="1.5"/><ellipse cx="30" cy="112" rx="10" ry="6" fill="#5B7553"/><ellipse cx="50" cy="112" rx="10" ry="6" fill="#5B7553"/><line x1="40" y1="132" x2="40" y2="114" stroke="#5B7553" stroke-width="2"/><circle cx="160" cy="136" r="5" fill="#A8763E"/><path d="M160,140 Q152,160 148,178 M160,140 L160,182 M160,140 Q168,160 172,178" fill="none" stroke="#5C4630" stroke-width="1.5"/><ellipse cx="150" cy="112" rx="10" ry="6" fill="#5B7553"/><ellipse cx="170" cy="112" rx="10" ry="6" fill="#5B7553"/><line x1="160" y1="132" x2="160" y2="114" stroke="#5B7553" stroke-width="2"/><circle cx="280" cy="136" r="5" fill="#A8763E"/><path d="M280,140 Q272,160 268,178 M280,140 L280,182 M280,140 Q288,160 292,178" fill="none" stroke="#5C4630" stroke-width="1.5"/><ellipse cx="270" cy="112" rx="10" ry="6" fill="#5B7553"/><ellipse cx="290" cy="112" rx="10" ry="6" fill="#5B7553"/><line x1="280" y1="132" x2="280" y2="114" stroke="#5B7553" stroke-width="2"/>
+<circle cx="360" cy="136" r="5" fill="#A8763E"/><path d="M360,140 Q352,160 348,178 M360,140 L360,182 M360,140 Q368,160 372,178" fill="none" stroke="#5C4630" stroke-width="1.5"/>
+<circle cx="480" cy="136" r="5" fill="#A8763E"/><ellipse cx="480" cy="118" rx="12" ry="7" fill="#5B7553"/><circle cx="600" cy="136" r="5" fill="#A8763E"/><ellipse cx="600" cy="118" rx="12" ry="7" fill="#5B7553"/>
+<ellipse cx="540" cy="112" rx="22" ry="16" fill="#5B7553" stroke="#3E2F20" stroke-width="1.2"/>
+<text x="160" y="206" text-anchor="middle" font-size="12" font-weight="700" fill="#5B7553">emite raiz a cada nó</text>
+<text x="480" y="206" text-anchor="middle" font-size="12" font-weight="700" fill="#A6493A">NÃO emite raiz a cada nó</text>
+
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Os dois caules são rastejantes; a diferença está nas raízes que saem (ou não) de cada nó.</p>`
+        },
+        {
           heading: "Seivas — Xilema e Floema",
           body: `A planta transporta dois tipos de seiva, em direções opostas e por tecidos diferentes:
 
@@ -1247,6 +1286,126 @@ A ilustração resume o sentido de cada seiva dentro da planta.`,
             "Dos frutos para as folhas"
           ],
           correct: 2
+        },
+        {
+          q: "O morango tem um caule rastejante que emite uma raiz a cada nó. Esse caule é chamado de:",
+          options: [
+            "Sarmento",
+            "Estolão",
+            "Rizoma",
+            "Colmo"
+          ],
+          correct: 1
+        },
+        {
+          q: "A melancia tem um caule rastejante que não emite raiz a cada nó. Esse caule é chamado de:",
+          options: [
+            "Estolão",
+            "Bulbo",
+            "Sarmento",
+            "Estipe"
+          ],
+          correct: 2
+        },
+        {
+          q: "Qual é a diferença entre estolão e sarmento?",
+          options: [
+            "O estolão é subterrâneo e o sarmento é aéreo",
+            "O estolão emite raiz a cada nó; o sarmento não",
+            "O sarmento armazena amido; o estolão armazena água",
+            "Não há diferença"
+          ],
+          correct: 1
+        },
+        {
+          q: "O caule verde, com folhas transformadas em espinhos, típico de regiões áridas (como nos cactos), é o:",
+          options: [
+            "Tubérculo",
+            "Xilopódio",
+            "Cladódio",
+            "Bulbo"
+          ],
+          correct: 2
+        },
+        {
+          q: "O parênquima aquífero do cladódio tem a função de:",
+          options: [
+            "Armazenar amido",
+            "Armazenar água",
+            "Produzir flores",
+            "Fixar a planta"
+          ],
+          correct: 1
+        },
+        {
+          q: "A batata-inglesa é um exemplo de:",
+          options: [
+            "Raiz tuberosa",
+            "Caule do tipo tubérculo",
+            "Bulbo",
+            "Rizoma"
+          ],
+          correct: 1
+        },
+        {
+          q: "O parênquima amilífero, presente no tubérculo, armazena:",
+          options: [
+            "Água",
+            "Amido",
+            "Óleo",
+            "Sais minerais"
+          ],
+          correct: 1
+        },
+        {
+          q: "Batata-inglesa e batata-doce são classificadas, respectivamente, como:",
+          options: [
+            "Raiz e caule",
+            "Caule e raiz",
+            "Ambas raízes",
+            "Ambos caules"
+          ],
+          correct: 1
+        },
+        {
+          q: "Qual caule é típico do cerrado e resiste às queimadas?",
+          options: [
+            "Xilopódio",
+            "Cladódio",
+            "Sarmento",
+            "Estolão"
+          ],
+          correct: 0
+        },
+        {
+          q: "Cebola e alho são exemplos de qual tipo de caule?",
+          options: [
+            "Rizoma",
+            "Tubérculo",
+            "Bulbo",
+            "Colmo"
+          ],
+          correct: 2
+        },
+        {
+          q: "Na bananeira, o caule verdadeiro é:",
+          options: [
+            "O \"tronco\" visível, que é um estipe",
+            "O rizoma subterrâneo",
+            "A raiz tuberosa",
+            "O colmo"
+          ],
+          correct: 1
+        },
+        {
+          q: "Qual alternativa reúne apenas caules subterrâneos?",
+          options: [
+            "Tubérculo, bulbo e rizoma",
+            "Estolão, sarmento e cladódio",
+            "Tronco, haste e estipe",
+            "Colmo, estolão e bulbo"
+          ],
+          correct: 0
         }
       ]
     }

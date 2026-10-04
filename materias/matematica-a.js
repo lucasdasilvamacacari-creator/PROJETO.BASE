@@ -550,6 +550,124 @@ A ideia é sempre a mesma: transformar os dois lados em potências da mesma base
             { q: "Numa cultura, o número de bactérias dobra a cada hora, segundo N(t) = 100·2^t. Após 3 horas, quantas bactérias existem?", options: ["300","600","700","800"], correct: 3 },
           ],
         },
+        {
+          id: "logaritmos",
+          title: "Logaritmos",
+          sections: [
+            {
+              heading: "Definição",
+              body: `O logaritmo responde à pergunta: "a que expoente devo elevar a base para obter o número?"
+
+log_b a = x  ⟺  b^x = a
+
+• a → logaritmando
+• b → base
+• x → logaritmo
+
+Condições de existência:
+• a > 0 (logaritmando positivo)
+• b > 0 e b ≠ 1 (base positiva e diferente de 1)
+
+Exemplo: log₂ 8 = 3, porque 2³ = 8.`,
+              visual: `<svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+
+<rect width="640" height="250" rx="12" fill="#F4EEE1"/>
+<defs><marker id="lg1" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#A8763E"/></marker></defs>
+<text x="160" y="26" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">FORMA LOGARÍTMICA</text>
+<text x="480" y="26" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">FORMA EXPONENCIAL</text>
+<rect x="40" y="44" width="240" height="90" rx="12" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/>
+<rect x="360" y="44" width="240" height="90" rx="12" fill="#E4D9C4" stroke="#C9B18C" stroke-width="1.5"/>
+<text x="160" y="102" text-anchor="middle" font-size="30" fill="#3E2F20">log<tspan font-size="18" dy="8" fill="#A8763E" font-weight="700">b</tspan><tspan dy="-8"> </tspan><tspan fill="#5B7553" font-weight="700">a</tspan> = <tspan fill="#A6493A" font-weight="700">x</tspan></text>
+<text x="480" y="102" text-anchor="middle" font-size="30" fill="#3E2F20"><tspan fill="#A8763E" font-weight="700">b</tspan><tspan font-size="18" dy="-14" fill="#A6493A" font-weight="700">x</tspan><tspan dy="14"> = </tspan><tspan fill="#5B7553" font-weight="700">a</tspan></text>
+<line x1="290" y1="78" x2="350" y2="78" stroke="#A8763E" stroke-width="2.5" marker-end="url(#lg1)"/>
+<line x1="350" y1="100" x2="290" y2="100" stroke="#A8763E" stroke-width="2.5" marker-end="url(#lg1)"/>
+<text x="320" y="124" text-anchor="middle" font-size="10" fill="#5C4630">equivalem</text>
+<circle cx="120" cy="170" r="7" fill="#A8763E"/><text x="134" y="174" text-anchor="start" font-size="12" fill="#3E2F20">b = base  (b > 0 e b ≠ 1)</text>
+<circle cx="120" cy="196" r="7" fill="#5B7553"/><text x="134" y="200" text-anchor="start" font-size="12" fill="#3E2F20">a = logaritmando  (a > 0)</text>
+<circle cx="120" cy="222" r="7" fill="#A6493A"/><text x="134" y="226" text-anchor="start" font-size="12" fill="#3E2F20">x = logaritmo (o expoente que se procura)</text>
+
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">O logaritmo é o expoente: log₂ 8 = 3 porque 2³ = 8.</p>`,
+            },
+            {
+              heading: "Propriedades",
+              body: `Consequências da definição:
+• log_b 1 = 0 (porque b⁰ = 1)
+• log_b b = 1 (porque b¹ = b)
+• log_b bⁿ = n
+• b^(log_b a) = a
+
+Propriedades operatórias:
+• Produto: log_b (a · c) = log_b a + log_b c
+• Quociente: log_b (a / c) = log_b a − log_b c
+• Potência: log_b aⁿ = n · log_b a
+
+Dica: produto vira soma, divisão vira subtração e o expoente "desce" multiplicando.`,
+            },
+            {
+              heading: "Mudança de base",
+              body: `Para trocar a base de um logaritmo:
+
+log_b a = log_c a / log_c b
+
+Exemplo: log₂ 3 = log 3 / log 2
+
+OBS.: quando a base não aparece escrita, ela é 10.
+log 100 = log₁₀ 100 = 2`,
+            },
+            {
+              heading: "Exercícios resolvidos",
+              body: `Estratégia: escreva o logaritmando como potência da base.
+
+a) log₁₀ 1000 = log₁₀ 10³ = 3 · log₁₀ 10 = 3 · 1 = 3
+
+b) log₅ 5 = 1
+
+c) log₂ (1/8) = log₂ 2⁻³ = −3 · log₂ 2 = −3
+
+d) log₃ 27 = log₃ 3³ = 3 · log₃ 3 = 3
+
+e) log_x x = 1, porque x¹ = x
+
+f) log₅ (1/25) = log₅ 5⁻² = −2
+
+g) log₁₀ 0,0001 = log₁₀ 10⁻⁴ = −4 · log₁₀ 10 = −4
+
+h) log₅ ∛25 = log₅ 25^(1/3) = log₅ 5^(2/3) = 2/3`,
+            },
+            {
+              heading: "Usando valores conhecidos",
+              body: `Um tipo de questão muito cobrado dá alguns logaritmos e pede outros, usando as propriedades.
+
+Se log₃ x = a e log₃ y = b, então:
+• log₃ (x · y) = log₃ x + log₃ y = a + b
+• log₃ (x / y) = log₃ x − log₃ y = a − b
+• log₃ x² = 2 · log₃ x = 2a
+
+Com log 2 = 0,30 e log 3 = 0,48:
+• log 6 = log (2 · 3) = 0,30 + 0,48 = 0,78
+• log 5 = log (10 / 2) = 1 − 0,30 = 0,70
+• log 8 = log 2³ = 3 · 0,30 = 0,90`,
+            },
+          ],
+          quiz: [
+            { q: "Qual é o valor de log₂ 32?", options: ["4","5","6","16"], correct: 1 },
+            { q: "Qual é o valor de log₃ 81?", options: ["3","4","9","27"], correct: 1 },
+            { q: "Qual é o valor de log₅ (1/25)?", options: ["−2","2","−1/2","0"], correct: 0 },
+            { q: "Qual é o valor de log 0,001?", options: ["3","−2","−3","0,3"], correct: 2 },
+            { q: "Qual é o valor de log₄ 8?", options: ["2","1/2","3/2","2/3"], correct: 2 },
+            { q: "Qual é o valor de log₉ 27?", options: ["3","2/3","3/2","1/3"], correct: 2 },
+            { q: "Se log₂ x = 5, então x vale:", options: ["10","25","32","64"], correct: 2 },
+            { q: "Dados log 2 = 0,30 e log 3 = 0,48, o valor de log 6 é:", options: ["0,144","0,18","0,78","1,08"], correct: 2 },
+            { q: "Dados log 2 = 0,30 e log 3 = 0,48, o valor de log 12 é:", options: ["0,78","1,08","1,26","0,96"], correct: 1 },
+            { q: "Dado log 2 = 0,30, o valor de log 5 é:", options: ["0,50","0,60","0,70","1,50"], correct: 2 },
+            { q: "Dados log 2 = 0,30 e log 3 = 0,48, usando mudança de base, log₂ 3 vale:", options: ["0,625","1,6","0,18","0,78"], correct: 1 },
+            { q: "Se log₃ x = a e log₃ y = b, então log₃ (x² / y) é igual a:", options: ["2a − b","a² − b","2a + b","2(a − b)"], correct: 0 },
+            { q: "O valor de 2^(log₂ 7) é:", options: ["2","7","14","log₂ 7"], correct: 1 },
+            { q: "Qual é o valor de log₃ ∛9?", options: ["3","1/3","2/3","3/2"], correct: 2 },
+            { q: "Para que log₍ₓ₋₂₎ 5 exista, x deve satisfazer:", options: ["x > 2","x > 2 e x ≠ 3","x ≠ 2","x > 0 e x ≠ 1"], correct: 1 },
+          ],
+        },
       ],
     },
 );
