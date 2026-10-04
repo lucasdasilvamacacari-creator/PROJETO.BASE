@@ -174,18 +174,18 @@ Palavra importante:
               heading: "Cinismo",
               body: `O Cinismo tem um significado diferente do atual.
 
-• Representante: Diógenes de Sinope
+• Representante: Diógenes de Sínope
 • Cinismo → "viver como um cão"
 • Desapego dos bens materiais e das convenções sociais → vida simples`,
             },
             {
               heading: "Pirronismo (Ceticismo)",
-              body: `• Pirro → vida
+              body: `• Representante: Pirro de Élida
 • Atitude (postura) cética → questionamento contínuo em relação a critérios absolutos de verdade
 
 → Époché → suspender os juízos
 
-• "Tudo é incerto"`,
+• "Tudo é incerto."`,
             },
           ],
           quiz: [
@@ -196,9 +196,10 @@ Palavra importante:
             { q: "Nessa fase, a filosofia se coloca como uma espécie de:", options: ["Ciência da natureza","Medicina da alma","Arte da guerra","Técnica de governo"], correct: 1 },
             { q: "A filosofia helenística busca o \"bem viver\", ou seja:", options: ["O poder político","A riqueza material","A felicidade","A fama"], correct: 2 },
             { q: "O que significa ataraxia?", options: ["Imperturbabilidade da alma","Busca de prazeres materiais","Dúvida absoluta","Obediência às leis"], correct: 0 },
-            { q: "Qual filósofo é associado ao Cinismo?", options: ["Pirro","Diógenes de Sinope","Aristóteles","Platão"], correct: 1 },
+            { q: "Qual filósofo é associado ao Cinismo?", options: ["Pirro","Diógenes de Sínope","Aristóteles","Platão"], correct: 1 },
             { q: "O Cinismo helenístico, ao contrário do sentido atual da palavra, defendia:", options: ["Mentira e desprezo pelos outros","Desapego dos bens materiais e das convenções sociais, com vida simples","Acúmulo de riquezas","Participação intensa na política"], correct: 1 },
             { q: "Qual escola helenística tem Pirro como referência e adota uma atitude de questionamento contínuo dos critérios absolutos de verdade?", options: ["Cinismo","Pirronismo (Ceticismo)","Platonismo","Aristotelismo"], correct: 1 },
+            { q: "Qual filósofo é o principal representante do Pirronismo (Ceticismo)?", options: ["Diógenes de Sínope","Pirro de Élida","Sócrates","Aristóteles"], correct: 1 },
             { q: "O que significa époché no Ceticismo?", options: ["Afirmar a verdade absoluta","Suspender os juízos","Viver como um cão","Buscar o prazer imediato"], correct: 1 },
           ],
         },
