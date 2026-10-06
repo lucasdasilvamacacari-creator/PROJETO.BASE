@@ -102,8 +102,26 @@
   html.dark .bg-white\/60 { background-color: #24211E; }
   html.dark .text-bark\/60, html.dark .text-bark\/70 { color: #9C9288; }
   html.dark .body-text { color: #D8D0C6; }
-  /* Ilustrações (SVG) foram desenhadas para fundo claro: ficam sobre um "papel" claro. */
-  html.dark .visual-wrap { background-color: #EDE5D4; border-color: #36312C; }
+  /* Ilustrações: no escuro, a mesma paleta é trocada pelos tons do tema escuro. */
+  html.dark .visual-wrap { background-color: #1F1C19; border-color: #36312C; }
+  html.dark .visual-wrap [fill="#F4EEE1" i] { fill: #1F1C19; }
+  html.dark .visual-wrap [fill="#E4D9C4" i] { fill: #2E2A25; }
+  html.dark .visual-wrap [fill="#D8C9A8" i] { fill: #3A342D; }
+  html.dark .visual-wrap [fill="#C9B18C" i] { fill: #5A4D3E; }
+  html.dark .visual-wrap [fill="#3E2F20" i] { fill: #F5F1EB; }
+  html.dark .visual-wrap [fill="#5C4630" i] { fill: #B9AD9F; }
+  html.dark .visual-wrap [fill="#A8763E" i] { fill: #C9965C; }
+  html.dark .visual-wrap [fill="#5B7553" i] { fill: #8DB683; }
+  html.dark .visual-wrap [fill="#A6493A" i] { fill: #E08B7A; }
+  html.dark .visual-wrap [stroke="#C9B18C" i] { stroke: #4A433B; }
+  html.dark .visual-wrap [stroke="#5C4630" i] { stroke: #9C9288; }
+  html.dark .visual-wrap [stroke="#3E2F20" i] { stroke: #CFC5B8; }
+  html.dark .visual-wrap [stroke="#A8763E" i] { stroke: #C9965C; }
+  html.dark .visual-wrap [stroke="#5B7553" i] { stroke: #8DB683; }
+  html.dark .visual-wrap [stroke="#A6493A" i] { stroke: #E08B7A; }
+  html.dark .visual-wrap p[style*="#5C4630" i] { color: #9C9288 !important; }
+  /* Texto claro dentro de caixas que ficaram claras: volta a ser escuro */
+  html.dark .visual-wrap [fill="#F4EEE1" i]:is(text, tspan) { fill: #1F1C19; }
   html.dark .card-hover:hover { box-shadow: 0 12px 28px -12px rgba(0, 0, 0, 0.6); }
 
   html { scroll-behavior: smooth; }

@@ -984,6 +984,73 @@ A ilustração resume o sentido de cada seiva dentro da planta.`,
   <text x="268" y="140" font-size="11" fill="#5C4630">açúcares</text>
 </svg>
 <p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Xilema leva água da raiz às folhas; floema leva açúcares das folhas para o resto da planta.</p>`
+        },
+        {
+          heading: "Folha — Partes e funções",
+          body: `Partes da folha:
+
+• Limbo — parte larga e achatada, onde ocorre a maior parte da fotossíntese
+• Nervura — feixes de vasos condutores (xilema e floema)
+• Pecíolo — "cabinho" que liga o limbo ao caule
+• Estípula — pequena expansão na base do pecíolo
+• Estômato — estrutura da epiderme responsável pelas trocas gasosas
+• Mesófilo — tecido interno, entre as duas epidermes
+
+Quanto ao pecíolo:
+• Folha sem pecíolo → séssil
+• Folha com pecíolo → peciolada
+
+Funções da folha:
+• Fotossíntese
+• Respiração
+• Transpiração (perda de água na forma de vapor)
+• Exsudação (eliminação de água na forma líquida, em gotas)`,
+          visual: `<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+
+<rect width="640" height="300" rx="12" fill="#F4EEE1"/>
+<text x="320" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">Partes da folha</text>
+<path d="M120,150 C170,70 330,50 450,150 C330,250 170,230 120,150 Z" fill="#5B7553" stroke="#3E2F20" stroke-width="2"/>
+<path d="M120,150 L450,150" stroke="#E4D9C4" stroke-width="2.5"/>
+<path d="M150,150 Q170,135 180,120" fill="none" stroke="#E4D9C4" stroke-width="1.3"/><path d="M150,150 Q170,165 180,180" fill="none" stroke="#E4D9C4" stroke-width="1.3"/><path d="M200,150 Q220,135 230,100" fill="none" stroke="#E4D9C4" stroke-width="1.3"/><path d="M200,150 Q220,165 230,200" fill="none" stroke="#E4D9C4" stroke-width="1.3"/><path d="M250,150 Q270,135 280,92" fill="none" stroke="#E4D9C4" stroke-width="1.3"/><path d="M250,150 Q270,165 280,208" fill="none" stroke="#E4D9C4" stroke-width="1.3"/><path d="M300,150 Q320,135 330,96" fill="none" stroke="#E4D9C4" stroke-width="1.3"/><path d="M300,150 Q320,165 330,204" fill="none" stroke="#E4D9C4" stroke-width="1.3"/><path d="M350,150 Q370,135 380,110" fill="none" stroke="#E4D9C4" stroke-width="1.3"/><path d="M350,150 Q370,165 380,190" fill="none" stroke="#E4D9C4" stroke-width="1.3"/>
+<path d="M40,150 L120,150" stroke="#5C4630" stroke-width="4"/>
+<path d="M44,150 Q34,128 52,122 Q58,140 44,150 Z" fill="#A8763E" stroke="#5C4630"/>
+<path d="M44,150 Q34,172 52,178 Q58,160 44,150 Z" fill="#A8763E" stroke="#5C4630"/>
+<rect x="18" y="146" width="22" height="8" fill="#C9B18C" stroke="#5C4630"/>
+<line x1="290" y1="120" x2="520" y2="70" stroke="#5C4630" stroke-width="1.2"/><text x="526" y="74" text-anchor="start" font-size="12" font-weight="700" fill="#3E2F20">Limbo</text><text x="526" y="90" text-anchor="start" font-size="10" fill="#5C4630">parte larga e achatada</text>
+<line x1="330" y1="150" x2="520" y2="140" stroke="#5C4630" stroke-width="1.2"/><text x="526" y="144" text-anchor="start" font-size="12" font-weight="700" fill="#3E2F20">Nervura</text><text x="526" y="160" text-anchor="start" font-size="10" fill="#5C4630">vasos (xilema e floema)</text>
+<line x1="85" y1="154" x2="160" y2="245" stroke="#5C4630" stroke-width="1.2"/><text x="166" y="250" text-anchor="start" font-size="12" font-weight="700" fill="#3E2F20">Pecíolo</text><text x="166" y="266" text-anchor="start" font-size="10" fill="#5C4630">liga o limbo ao caule</text>
+<line x1="50" y1="124" x2="70" y2="60" stroke="#5C4630" stroke-width="1.2"/><text x="76" y="56" text-anchor="start" font-size="12" font-weight="700" fill="#3E2F20">Estípula</text><text x="76" y="72" text-anchor="start" font-size="10" fill="#5C4630">expansão na base</text>
+<text x="29" y="172" text-anchor="middle" font-size="10" fill="#5C4630">caule</text>
+
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Folha peciolada. Se não tivesse pecíolo (limbo preso direto ao caule), seria séssil.</p>`
+        },
+        {
+          heading: "Histologia da folha",
+          body: `Em um corte transversal, de cima para baixo:
+
+• Cutícula — camada impermeável que reduz a perda de água
+• Epiderme superior
+• Mesófilo foliar — formado pelo parênquima paliçádico e pelo parênquima lacunoso
+• Xilema e floema — nas nervuras, dentro do mesófilo
+• Epiderme inferior — onde ficam a maioria dos estômatos
+
+📌 O parênquima paliçádico apresenta células com muitos cloroplastos: é o principal tecido da fotossíntese.`,
+          visual: `<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+<rect width="640" height="300" rx="12" fill="#F4EEE1"/><text x="320" y="22" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">Corte transversal da folha</text><rect x="30" y="38" width="370" height="5" fill="#A8763E"/><rect x="30" y="43" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="60.8" y="43" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="91.6" y="43" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="122.39999999999999" y="43" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="153.2" y="43" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="184" y="43" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="214.8" y="43" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="245.60000000000002" y="43" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="276.40000000000003" y="43" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="307.20000000000005" y="43" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="338.00000000000006" y="43" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="368.80000000000007" y="43" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="399.6000000000001" y="43" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="32" y="65" width="21" height="66" rx="6" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="42.5" cy="78" r="4" fill="#5B7553"/><circle cx="42.5" cy="96" r="4" fill="#5B7553"/><circle cx="42.5" cy="114" r="4" fill="#5B7553"/><rect x="56.2" y="65" width="21" height="66" rx="6" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="66.7" cy="78" r="4" fill="#5B7553"/><circle cx="66.7" cy="96" r="4" fill="#5B7553"/><circle cx="66.7" cy="114" r="4" fill="#5B7553"/><rect x="80.4" y="65" width="21" height="66" rx="6" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="90.9" cy="78" r="4" fill="#5B7553"/><circle cx="90.9" cy="96" r="4" fill="#5B7553"/><circle cx="90.9" cy="114" r="4" fill="#5B7553"/><rect x="104.60000000000001" y="65" width="21" height="66" rx="6" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="115.10000000000001" cy="78" r="4" fill="#5B7553"/><circle cx="115.10000000000001" cy="96" r="4" fill="#5B7553"/><circle cx="115.10000000000001" cy="114" r="4" fill="#5B7553"/><rect x="128.8" y="65" width="21" height="66" rx="6" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="139.3" cy="78" r="4" fill="#5B7553"/><circle cx="139.3" cy="96" r="4" fill="#5B7553"/><circle cx="139.3" cy="114" r="4" fill="#5B7553"/><rect x="153" y="65" width="21" height="66" rx="6" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="163.5" cy="78" r="4" fill="#5B7553"/><circle cx="163.5" cy="96" r="4" fill="#5B7553"/><circle cx="163.5" cy="114" r="4" fill="#5B7553"/><rect x="177.2" y="65" width="21" height="66" rx="6" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="187.7" cy="78" r="4" fill="#5B7553"/><circle cx="187.7" cy="96" r="4" fill="#5B7553"/><circle cx="187.7" cy="114" r="4" fill="#5B7553"/><rect x="201.39999999999998" y="65" width="21" height="66" rx="6" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="211.89999999999998" cy="78" r="4" fill="#5B7553"/><circle cx="211.89999999999998" cy="96" r="4" fill="#5B7553"/><circle cx="211.89999999999998" cy="114" r="4" fill="#5B7553"/><rect x="225.59999999999997" y="65" width="21" height="66" rx="6" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="236.09999999999997" cy="78" r="4" fill="#5B7553"/><circle cx="236.09999999999997" cy="96" r="4" fill="#5B7553"/><circle cx="236.09999999999997" cy="114" r="4" fill="#5B7553"/><rect x="249.79999999999995" y="65" width="21" height="66" rx="6" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="260.29999999999995" cy="78" r="4" fill="#5B7553"/><circle cx="260.29999999999995" cy="96" r="4" fill="#5B7553"/><circle cx="260.29999999999995" cy="114" r="4" fill="#5B7553"/><rect x="273.99999999999994" y="65" width="21" height="66" rx="6" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="284.49999999999994" cy="78" r="4" fill="#5B7553"/><circle cx="284.49999999999994" cy="96" r="4" fill="#5B7553"/><circle cx="284.49999999999994" cy="114" r="4" fill="#5B7553"/><rect x="298.19999999999993" y="65" width="21" height="66" rx="6" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="308.69999999999993" cy="78" r="4" fill="#5B7553"/><circle cx="308.69999999999993" cy="96" r="4" fill="#5B7553"/><circle cx="308.69999999999993" cy="114" r="4" fill="#5B7553"/><rect x="322.3999999999999" y="65" width="21" height="66" rx="6" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="332.8999999999999" cy="78" r="4" fill="#5B7553"/><circle cx="332.8999999999999" cy="96" r="4" fill="#5B7553"/><circle cx="332.8999999999999" cy="114" r="4" fill="#5B7553"/><rect x="346.5999999999999" y="65" width="21" height="66" rx="6" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="357.0999999999999" cy="78" r="4" fill="#5B7553"/><circle cx="357.0999999999999" cy="96" r="4" fill="#5B7553"/><circle cx="357.0999999999999" cy="114" r="4" fill="#5B7553"/><rect x="370.7999999999999" y="65" width="21" height="66" rx="6" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="381.2999999999999" cy="78" r="4" fill="#5B7553"/><circle cx="381.2999999999999" cy="96" r="4" fill="#5B7553"/><circle cx="381.2999999999999" cy="114" r="4" fill="#5B7553"/><rect x="394.9999999999999" y="65" width="21" height="66" rx="6" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="405.4999999999999" cy="78" r="4" fill="#5B7553"/><circle cx="405.4999999999999" cy="96" r="4" fill="#5B7553"/><circle cx="405.4999999999999" cy="114" r="4" fill="#5B7553"/><circle cx="48" cy="150" r="13" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="51" cy="148" r="3" fill="#5B7553"/><circle cx="80" cy="170" r="13" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="83" cy="168" r="3" fill="#5B7553"/><circle cx="52" cy="196" r="13" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="55" cy="194" r="3" fill="#5B7553"/><circle cx="112" cy="150" r="13" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="115" cy="148" r="3" fill="#5B7553"/><circle cx="118" cy="194" r="13" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="121" cy="192" r="3" fill="#5B7553"/><circle cx="150" cy="170" r="13" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="153" cy="168" r="3" fill="#5B7553"/><circle cx="290" cy="150" r="13" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="293" cy="148" r="3" fill="#5B7553"/><circle cx="300" cy="194" r="13" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="303" cy="192" r="3" fill="#5B7553"/><circle cx="330" cy="170" r="13" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="333" cy="168" r="3" fill="#5B7553"/><circle cx="362" cy="150" r="13" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="365" cy="148" r="3" fill="#5B7553"/><circle cx="382" cy="192" r="13" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="385" cy="190" r="3" fill="#5B7553"/><circle cx="262" cy="176" r="13" fill="#E4D9C4" stroke="#C9B18C"/><circle cx="265" cy="174" r="3" fill="#5B7553"/><ellipse cx="210" cy="172" rx="40" ry="30" fill="#F4EEE1" stroke="#5C4630" stroke-width="1.5"/><circle cx="196" cy="160" r="7" fill="#A8763E" stroke="#5C4630"/><circle cx="212" cy="156" r="7" fill="#A8763E" stroke="#5C4630"/><circle cx="228" cy="160" r="7" fill="#A8763E" stroke="#5C4630"/><circle cx="196" cy="186" r="5" fill="#C9B18C" stroke="#5C4630"/><circle cx="210" cy="190" r="5" fill="#C9B18C" stroke="#5C4630"/><circle cx="224" cy="186" r="5" fill="#C9B18C" stroke="#5C4630"/><rect x="30" y="214" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="60.8" y="214" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="91.6" y="214" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="122.39999999999999" y="214" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="153.2" y="214" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="184" y="214" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="214.8" y="214" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="245.60000000000002" y="214" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="276.40000000000003" y="214" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="368.80000000000007" y="214" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><rect x="399.6000000000001" y="214" width="30.8" height="20" fill="#E4D9C4" stroke="#C9B18C"/><path d="M308,214 Q318,224 308,234 Q298,224 308,214 Z" fill="#5B7553" stroke="#3E2F20"/><path d="M332,214 Q322,224 332,234 Q342,224 332,214 Z" fill="#5B7553" stroke="#3E2F20"/><rect x="30" y="234" width="370" height="4" fill="#A8763E"/><line x1="400" y1="40" x2="430" y2="44" stroke="#5C4630" stroke-width="1.2"/><text x="436" y="48" text-anchor="start" font-size="11" fill="#3E2F20">Cutícula</text><line x1="400" y1="53" x2="430" y2="66" stroke="#5C4630" stroke-width="1.2"/><text x="436" y="70" text-anchor="start" font-size="11" fill="#3E2F20">Epiderme superior</text><line x1="396" y1="98" x2="430" y2="100" stroke="#5C4630" stroke-width="1.2"/><text x="436" y="104" text-anchor="start" font-size="11" font-weight="700" fill="#3E2F20">Parênquima paliçádico</text><line x1="395" y1="170" x2="430" y2="150" stroke="#5C4630" stroke-width="1.2"/><text x="436" y="154" text-anchor="start" font-size="11" fill="#3E2F20">Parênquima lacunoso</text><line x1="250" y1="172" x2="430" y2="182" stroke="#5C4630" stroke-width="1.2"/><text x="436" y="186" text-anchor="start" font-size="11" fill="#3E2F20">Xilema (em cima) e floema (embaixo)</text><line x1="400" y1="224" x2="430" y2="222" stroke="#5C4630" stroke-width="1.2"/><text x="436" y="226" text-anchor="start" font-size="11" fill="#3E2F20">Epiderme inferior</text><line x1="320" y1="238" x2="430" y2="264" stroke="#5C4630" stroke-width="1.2"/><text x="436" y="268" text-anchor="start" font-size="11" font-weight="700" fill="#3E2F20">Estômato</text><line x1="20" y1="65" x2="20" y2="212" stroke="#5B7553" stroke-width="2"/><text x="14" y="140" text-anchor="middle" font-size="10" font-weight="700" fill="#5B7553" transform="rotate(-90 14 140)">mesófilo</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">O paliçádico (logo abaixo da epiderme superior) tem células cheias de cloroplastos. Os estômatos ficam principalmente na epiderme inferior.</p>`
+        },
+        {
+          heading: "Adaptações das folhas",
+          body: `Ambientes aquáticos
+• Parênquima aerífero (aerênquima), com espaços cheios de ar que ajudam a planta a flutuar
+• Cutícula fina ou inexistente (não há risco de perder água)
+
+Ambientes áridos
+• Parênquima aquífero (armazena água)
+• Folhas transformadas em espinhos (reduz a perda de água por transpiração)
+• Caules clorofilados (o caule assume a fotossíntese, como nos cactos)`
         }
       ],
       quiz: [
@@ -1406,6 +1473,156 @@ A ilustração resume o sentido de cada seiva dentro da planta.`,
             "Colmo, estolão e bulbo"
           ],
           correct: 0
+        },
+        {
+          q: "A parte larga e achatada da folha, onde ocorre a maior parte da fotossíntese, é o:",
+          options: [
+            "Pecíolo",
+            "Limbo",
+            "Estípula",
+            "Estômato"
+          ],
+          correct: 1
+        },
+        {
+          q: "A estrutura que liga o limbo da folha ao caule é o:",
+          options: [
+            "Pecíolo",
+            "Mesófilo",
+            "Limbo",
+            "Estômato"
+          ],
+          correct: 0
+        },
+        {
+          q: "Uma folha que não possui pecíolo, com o limbo preso diretamente ao caule, é chamada de:",
+          options: [
+            "Peciolada",
+            "Composta",
+            "Séssil",
+            "Estipulada"
+          ],
+          correct: 2
+        },
+        {
+          q: "As nervuras da folha correspondem a:",
+          options: [
+            "Células com muitos cloroplastos",
+            "Feixes de vasos condutores (xilema e floema)",
+            "Estruturas de reserva de amido",
+            "Espinhos modificados"
+          ],
+          correct: 1
+        },
+        {
+          q: "A pequena expansão encontrada na base do pecíolo é a:",
+          options: [
+            "Nervura",
+            "Cutícula",
+            "Estípula",
+            "Bainha do estômato"
+          ],
+          correct: 2
+        },
+        {
+          q: "Qual alternativa NÃO é uma função da folha?",
+          options: [
+            "Fotossíntese",
+            "Transpiração",
+            "Absorção de água e sais do solo",
+            "Respiração"
+          ],
+          correct: 2
+        },
+        {
+          q: "A perda de água na forma líquida (em gotas) pela folha é chamada de:",
+          options: [
+            "Transpiração",
+            "Exsudação",
+            "Fotossíntese",
+            "Respiração"
+          ],
+          correct: 1
+        },
+        {
+          q: "Os estômatos são estruturas responsáveis principalmente por:",
+          options: [
+            "Trocas gasosas e transpiração",
+            "Armazenar amido",
+            "Conduzir a seiva bruta",
+            "Fixar a planta"
+          ],
+          correct: 0
+        },
+        {
+          q: "Na maioria das folhas, os estômatos ficam concentrados na:",
+          options: [
+            "Cutícula",
+            "Epiderme superior",
+            "Epiderme inferior",
+            "Nervura central"
+          ],
+          correct: 2
+        },
+        {
+          q: "A camada impermeável que reveste a epiderme e reduz a perda de água é a:",
+          options: [
+            "Cutícula",
+            "Mesófilo",
+            "Floema",
+            "Estípula"
+          ],
+          correct: 0
+        },
+        {
+          q: "Qual tecido da folha apresenta células alongadas com muitos cloroplastos, logo abaixo da epiderme superior?",
+          options: [
+            "Parênquima lacunoso",
+            "Parênquima paliçádico",
+            "Xilema",
+            "Epiderme inferior"
+          ],
+          correct: 1
+        },
+        {
+          q: "O mesófilo foliar é formado pelos parênquimas:",
+          options: [
+            "Paliçádico e lacunoso",
+            "Aquífero e amilífero",
+            "Xilema e floema",
+            "Cutícula e epiderme"
+          ],
+          correct: 0
+        },
+        {
+          q: "Em plantas aquáticas, é comum encontrar:",
+          options: [
+            "Cutícula espessa e folhas em espinhos",
+            "Cutícula fina ou inexistente e parênquima aerífero",
+            "Muitos espinhos e caules clorofilados",
+            "Estômatos apenas na raiz"
+          ],
+          correct: 1
+        },
+        {
+          q: "Em ambientes áridos, a transformação das folhas em espinhos ajuda a planta a:",
+          options: [
+            "Aumentar a fotossíntese das folhas",
+            "Reduzir a perda de água por transpiração",
+            "Absorver mais sais minerais",
+            "Flutuar"
+          ],
+          correct: 1
+        },
+        {
+          q: "Nos cactos, como as folhas viraram espinhos, a fotossíntese é feita principalmente:",
+          options: [
+            "Pela raiz",
+            "Pelo caule clorofilado",
+            "Pelos espinhos",
+            "Pelas flores"
+          ],
+          correct: 1
         }
       ]
     }

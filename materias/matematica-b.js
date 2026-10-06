@@ -406,6 +406,114 @@ Isso ajuda a:
             { q: "Num triângulo com lados 7, 8 e 9, para calcular o ângulo oposto ao lado 9 usa-se:", options: ["Lei dos Senos","Teorema de Pitágoras","Lei dos Cossenos","Relação fundamental sen²+cos²=1"], correct: 2 },
           ],
         },
+        {
+          id: "poligonos-regulares-e-circunferencias",
+          title: "Polígonos regulares e circunferências",
+          sections: [
+            {
+              heading: "Raio e apótema",
+              body: `Quando um polígono regular está inscrito em uma circunferência (todos os vértices sobre ela), temos dois segmentos importantes:
+
+• R (raio) → do centro até um vértice
+• m (apótema) → do centro até o ponto médio de um lado (perpendicular ao lado)
+
+Para cada polígono, existe uma relação fixa entre o lado l, o raio R e o apótema m.`,
+              visual: `<svg viewBox="0 0 660 290" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+
+<rect width="660" height="290" rx="12" fill="#F4EEE1"/>
+<circle cx="110" cy="140" r="80" fill="none" stroke="#C9B18C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<polygon points="179.3,180.0 40.7,180.0 110.0,60.0" fill="#E4D9C4" stroke="#5C4630" stroke-width="2"/>
+<line x1="110" y1="140" x2="179.3" y2="180.0" stroke="#A8763E" stroke-width="2.5"/>
+<line x1="110" y1="140" x2="110.0" y2="180.0" stroke="#5B7553" stroke-width="2.5"/>
+<circle cx="110" cy="140" r="3" fill="#3E2F20"/>
+<text x="152.6" y="156.0" text-anchor="start" font-size="12" font-weight="700" fill="#A8763E">R</text>
+<text x="102.0" y="164.0" text-anchor="end" font-size="12" font-weight="700" fill="#5B7553">m</text>
+<text x="110" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">Triângulo equilátero</text>
+<text x="110" y="250" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">l = R√3</text>
+<text x="110" y="270" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">m = R/2</text>
+<circle cx="330" cy="140" r="80" fill="none" stroke="#C9B18C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<polygon points="386.6,196.6 273.4,196.6 273.4,83.4 386.6,83.4" fill="#E4D9C4" stroke="#5C4630" stroke-width="2"/>
+<line x1="330" y1="140" x2="386.6" y2="196.6" stroke="#A8763E" stroke-width="2.5"/>
+<line x1="330" y1="140" x2="330.0" y2="196.6" stroke="#5B7553" stroke-width="2.5"/>
+<circle cx="330" cy="140" r="3" fill="#3E2F20"/>
+<text x="366.3" y="164.3" text-anchor="start" font-size="12" font-weight="700" fill="#A8763E">R</text>
+<text x="322.0" y="172.3" text-anchor="end" font-size="12" font-weight="700" fill="#5B7553">m</text>
+<text x="330" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">Quadrado</text>
+<text x="330" y="250" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">l = R√2</text>
+<text x="330" y="270" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">m = R√2/2</text>
+<circle cx="550" cy="140" r="80" fill="none" stroke="#C9B18C" stroke-width="1.5" stroke-dasharray="4 3"/>
+<polygon points="630.0,140.0 590.0,209.3 510.0,209.3 470.0,140.0 510.0,70.7 590.0,70.7" fill="#E4D9C4" stroke="#5C4630" stroke-width="2"/>
+<line x1="550" y1="140" x2="630.0" y2="140.0" stroke="#A8763E" stroke-width="2.5"/>
+<line x1="550" y1="140" x2="610.0" y2="174.6" stroke="#5B7553" stroke-width="2.5"/>
+<circle cx="550" cy="140" r="3" fill="#3E2F20"/>
+<text x="598.0" y="136.0" text-anchor="start" font-size="12" font-weight="700" fill="#A8763E">R</text>
+<text x="572.0" y="161.3" text-anchor="end" font-size="12" font-weight="700" fill="#5B7553">m</text>
+<text x="550" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">Hexágono regular</text>
+<text x="550" y="250" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">l = R</text>
+<text x="550" y="270" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">m = R√3/2</text>
+
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">R (raio, laranja) vai do centro ao vértice; m (apótema, verde) vai do centro ao meio do lado.</p>`,
+            },
+            {
+              heading: "Triângulo equilátero inscrito",
+              body: `Ligando o centro a um vértice (R) e ao meio de um lado (m), forma-se um triângulo retângulo com ângulo de 30° no vértice.
+
+Apótema:
+sen 30° = m / R → 1/2 = m / R → m = R/2
+
+Lado:
+cos 30° = (l/2) / R → √3/2 = (l/2) / R → l = R√3
+
+Resumo: m = R/2 e l = R√3`,
+            },
+            {
+              heading: "Quadrado inscrito",
+              body: `A diagonal do quadrado é o diâmetro da circunferência.
+
+Pelo Teorema de Pitágoras:
+AC² = AB² + BC² = l² + l² = 2l² → AC = l√2
+
+Como AC = diâmetro = 2R:
+l√2 = 2R → l = R√2
+
+O apótema é metade do lado: m = l/2 = R√2/2`,
+            },
+            {
+              heading: "Hexágono regular inscrito",
+              body: `O hexágono regular é formado por 6 triângulos equiláteros com vértice no centro. Por isso:
+
+R = l
+
+O apótema é a altura de um desses triângulos equiláteros:
+m = R√3/2 = l√3/2`,
+            },
+            {
+              heading: "Comprimento da circunferência",
+              body: `C = 2πR
+
+Exemplos:
+• R = 5 cm → C = 10π cm
+• Se C = 12π, então R = 6
+
+Aplicação comum: uma roda dá uma volta completa percorrendo exatamente o comprimento da sua circunferência.`,
+            },
+          ],
+          quiz: [
+            { q: "Um triângulo equilátero está inscrito em uma circunferência de raio 6 cm. O apótema do triângulo mede:", options: ["2 cm","3 cm","3√3 cm","6 cm"], correct: 1 },
+            { q: "Um triângulo equilátero está inscrito em uma circunferência de raio 4 cm. O lado do triângulo mede:", options: ["4 cm","4√2 cm","4√3 cm","8 cm"], correct: 2 },
+            { q: "Um quadrado está inscrito em uma circunferência de raio 5 cm. O lado do quadrado mede:", options: ["5 cm","5√2 cm","5√3 cm","10 cm"], correct: 1 },
+            { q: "No quadrado inscrito em uma circunferência, a diagonal do quadrado é igual:", options: ["Ao raio","Ao diâmetro","Ao apótema","Ao lado"], correct: 1 },
+            { q: "Um quadrado de lado 8 cm está inscrito em uma circunferência. O raio dessa circunferência é:", options: ["4 cm","4√2 cm","8 cm","8√2 cm"], correct: 1 },
+            { q: "Um quadrado está inscrito em uma circunferência de raio 6 cm. Seu apótema mede:", options: ["3 cm","3√2 cm","6 cm","6√2 cm"], correct: 1 },
+            { q: "Um hexágono regular está inscrito em uma circunferência de raio 10 cm. O lado do hexágono mede:", options: ["5 cm","10 cm","10√3 cm","20 cm"], correct: 1 },
+            { q: "O apótema de um hexágono regular de lado 6 cm mede:", options: ["3 cm","3√3 cm","6√3 cm","6 cm"], correct: 1 },
+            { q: "Ao ligar o centro de um hexágono regular a dois vértices consecutivos, obtém-se um triângulo:", options: ["Retângulo","Isósceles obtusângulo","Equilátero","Escaleno"], correct: 2 },
+            { q: "Qual é o comprimento de uma circunferência de raio 5 cm?", options: ["5π cm","10π cm","25π cm","2,5π cm"], correct: 1 },
+            { q: "Uma circunferência tem comprimento 12π cm. Seu raio mede:", options: ["3 cm","6 cm","12 cm","24 cm"], correct: 1 },
+            { q: "Uma roda tem raio de 30 cm. Quantas voltas completas ela dá para percorrer 60π metros?", options: ["10","50","100","200"], correct: 2 },
+          ],
+        },
       ],
     },
 );
