@@ -211,6 +211,88 @@ Assim você não sai fazendo conta aleatoriamente: segue a ordem da aula.`,
             },
           ],
         },
+        {
+          id: "concentracao-molar",
+          title: "Concentração de soluções (mol/L)",
+          sections: [
+            {
+              heading: "Concentração molar (mol/L)",
+              body: `A concentração molar relaciona a quantidade de matéria (mol) do soluto presente em 1 L de solução.
+
+M = n / V
+
+• M → concentração molar (mol/L)
+• n → quantidade de matéria do soluto (mol)
+• V → volume da solução (L)
+
+Atenção: o volume tem que estar em litros. 500 mL = 0,5 L.`,
+            },
+            {
+              heading: "Juntando com a massa molar",
+              body: `Relembrando:
+
+n = m₁ / MM
+
+• m₁ → massa do soluto (g)
+• MM → massa molar do soluto (g/mol)
+
+Substituindo na fórmula anterior:
+
+M = m₁ / (MM · V)
+
+Exemplo: 11,7 g de NaCl (MM = 58,5 g/mol) em 500 mL de solução.
+• n = 11,7 / 58,5 = 0,2 mol
+• M = 0,2 / 0,5 = 0,4 mol/L`,
+            },
+            {
+              heading: "Concentração de partículas em solução",
+              body: `Compostos moleculares, como a glicose, não se dissociam na água:
+
+C₆H₁₂O₆ → C₆H₁₂O₆ (em água)
+1 mol → 1 mol
+0,2 mol/L → 0,2 mol/L de partículas
+
+Compostos iônicos, como o NaCl, se dissociam em íons:
+
+NaCl → Na⁺ + Cl⁻
+1 mol → 1 mol + 1 mol
+0,2 mol/L → 0,2 mol/L de Na⁺ + 0,2 mol/L de Cl⁻ = 0,4 mol/L de partículas
+
+Outro exemplo: CaCl₂ → Ca²⁺ + 2 Cl⁻. Uma solução 0,1 mol/L de CaCl₂ tem 0,1 mol/L de Ca²⁺ e 0,2 mol/L de Cl⁻.`,
+              visual: `<svg viewBox="0 0 640 290" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+
+<rect width="640" height="290" rx="12" fill="#F4EEE1"/>
+<text x="160" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">C₆H₁₂O₆ (glicose) 0,2 mol/L</text>
+<text x="480" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">NaCl 0,2 mol/L</text>
+<text x="160" y="46" text-anchor="middle" font-size="11" fill="#5C4630">não se dissocia</text>
+<text x="480" y="46" text-anchor="middle" font-size="11" fill="#5C4630">dissocia: NaCl → Na⁺ + Cl⁻</text>
+<path d="M60,70 L60,212 Q60,222 70,222 L250,222 Q260,222 260,212 L260,70" fill="none" stroke="#5C4630" stroke-width="2.5"/><rect x="63" y="100" width="194" height="119" fill="#E4D9C4"/><path d="M380,70 L380,212 Q380,222 390,222 L570,222 Q580,222 580,212 L580,70" fill="none" stroke="#5C4630" stroke-width="2.5"/><rect x="383" y="100" width="194" height="119" fill="#E4D9C4"/>
+<polygon points="100,119 110,125 110,135 100,141 90,135 90,125" fill="#A8763E" stroke="#5C4630"/><polygon points="160,139 170,145 170,155 160,161 150,155 150,145" fill="#A8763E" stroke="#5C4630"/><polygon points="220,114 230,120 230,130 220,136 210,130 210,120" fill="#A8763E" stroke="#5C4630"/><polygon points="120,179 130,185 130,195 120,201 110,195 110,185" fill="#A8763E" stroke="#5C4630"/><polygon points="190,184 200,190 200,200 190,206 180,200 180,190" fill="#A8763E" stroke="#5C4630"/>
+<circle cx="410" cy="128" r="8" fill="#5B7553"/><text x="410" y="132" text-anchor="middle" font-size="9" font-weight="700" fill="#F4EEE1">+</text><circle cx="432" cy="136" r="10" fill="#A6493A"/><text x="432" y="140" text-anchor="middle" font-size="10" font-weight="700" fill="#F4EEE1">−</text><circle cx="470" cy="150" r="8" fill="#5B7553"/><text x="470" y="154" text-anchor="middle" font-size="9" font-weight="700" fill="#F4EEE1">+</text><circle cx="492" cy="158" r="10" fill="#A6493A"/><text x="492" y="162" text-anchor="middle" font-size="10" font-weight="700" fill="#F4EEE1">−</text><circle cx="530" cy="126" r="8" fill="#5B7553"/><text x="530" y="130" text-anchor="middle" font-size="9" font-weight="700" fill="#F4EEE1">+</text><circle cx="552" cy="134" r="10" fill="#A6493A"/><text x="552" y="138" text-anchor="middle" font-size="10" font-weight="700" fill="#F4EEE1">−</text><circle cx="430" cy="192" r="8" fill="#5B7553"/><text x="430" y="196" text-anchor="middle" font-size="9" font-weight="700" fill="#F4EEE1">+</text><circle cx="452" cy="200" r="10" fill="#A6493A"/><text x="452" y="204" text-anchor="middle" font-size="10" font-weight="700" fill="#F4EEE1">−</text><circle cx="510" cy="190" r="8" fill="#5B7553"/><text x="510" y="194" text-anchor="middle" font-size="9" font-weight="700" fill="#F4EEE1">+</text><circle cx="532" cy="198" r="10" fill="#A6493A"/><text x="532" y="202" text-anchor="middle" font-size="10" font-weight="700" fill="#F4EEE1">−</text>
+<text x="160" y="250" text-anchor="middle" font-size="12" fill="#5C4630">1 mol → 1 mol de partículas</text>
+<text x="160" y="270" text-anchor="middle" font-size="13" font-weight="700" fill="#A8763E">0,2 mol/L de partículas</text>
+<text x="480" y="250" text-anchor="middle" font-size="12" fill="#5C4630">1 mol → 1 mol Na⁺ + 1 mol Cl⁻</text>
+<text x="480" y="270" text-anchor="middle" font-size="13" font-weight="700" fill="#A8763E">0,2 + 0,2 = 0,4 mol/L de partículas</text>
+
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Mesma concentração do soluto, número de partículas diferente: compostos iônicos se dissociam na água.</p>`,
+            },
+          ],
+          quiz: [
+            { q: "Uma solução contém 0,5 mol de soluto em 2 L de solução. Qual é sua concentração molar?", options: ["1 mol/L","0,25 mol/L","2,5 mol/L","4 mol/L"], correct: 1 },
+            { q: "Foram dissolvidos 2 mol de soluto em água, formando 500 mL de solução. A concentração molar é:", options: ["1 mol/L","0,4 mol/L","4 mol/L","1000 mol/L"], correct: 2 },
+            { q: "Na fórmula M = n/V, o volume V deve ser expresso em:", options: ["mL de solvente","Litros de solução","Gramas de solução","cm³ de soluto"], correct: 1 },
+            { q: "Qual é a quantidade de matéria em 9,8 g de H₂SO₄ (MM = 98 g/mol)?", options: ["0,1 mol","1 mol","9,8 mol","10 mol"], correct: 0 },
+            { q: "Dissolvem-se 11,7 g de NaCl (MM = 58,5 g/mol) em água até completar 500 mL de solução. A concentração molar é:", options: ["0,2 mol/L","0,4 mol/L","0,1 mol/L","23,4 mol/L"], correct: 1 },
+            { q: "Uma solução foi preparada com 18 g de glicose (MM = 180 g/mol) em 200 mL de solução. Sua concentração é:", options: ["0,1 mol/L","0,9 mol/L","0,5 mol/L","5 mol/L"], correct: 2 },
+            { q: "Que massa de NaOH (MM = 40 g/mol) é necessária para preparar 250 mL de solução 0,2 mol/L?", options: ["2 g","8 g","0,05 g","20 g"], correct: 0 },
+            { q: "Qual volume de uma solução 0,5 mol/L contém 0,1 mol de soluto?", options: ["50 mL","100 mL","200 mL","500 mL"], correct: 2 },
+            { q: "Em uma solução de glicose (C₆H₁₂O₆) 0,2 mol/L, a concentração de partículas dissolvidas é:", options: ["0,2 mol/L","0,4 mol/L","0,1 mol/L","1,2 mol/L"], correct: 0 },
+            { q: "Em uma solução de NaCl 0,2 mol/L, a concentração total de íons é:", options: ["0,1 mol/L","0,2 mol/L","0,4 mol/L","0,6 mol/L"], correct: 2 },
+            { q: "Numa solução de CaCl₂ 0,1 mol/L, a concentração de íons Cl⁻ é:", options: ["0,05 mol/L","0,1 mol/L","0,2 mol/L","0,3 mol/L"], correct: 2 },
+            { q: "Por que soluções de NaCl e de glicose com a mesma concentração molar têm números de partículas diferentes?", options: ["Porque o NaCl se dissocia em íons e a glicose não","Porque a glicose evapora","Porque o NaCl é insolúvel","Porque a glicose se dissocia em 6 partículas"], correct: 0 },
+          ],
+        },
       ],
     },
 );

@@ -286,6 +286,90 @@ Exemplos com g₀ = 9,8 m/s² na superfície:
             { q: "Um planeta tem o dobro da massa da Terra e o mesmo raio. A gravidade na sua superfície, em relação à da Terra, é:", options: ["A metade","A mesma","O dobro","O quádruplo"], correct: 2 },
           ],
         },
+        {
+          id: "hidrostatica",
+          title: "Hidrostática",
+          sections: [
+            {
+              heading: "Fluidos",
+              body: `Fluido é toda substância que:
+
+• Adquire o formato do recipiente que a contém
+• Possui a capacidade de escoar
+
+Líquidos e gases são fluidos.`,
+            },
+            {
+              heading: "Densidade e massa específica",
+              body: `Densidade (d) → relação entre a massa de um corpo e o seu volume:
+
+d = m / V
+
+Massa específica (ρ) → relação entre a massa de uma substância e o seu volume:
+
+ρ = m / V
+
+A fórmula é a mesma; a diferença está no que se mede:
+• Densidade → do corpo (que pode ser oco ou ter espaços vazios)
+• Massa específica → da substância que forma o corpo
+
+Unidades:
+1 g/cm³ = 1000 kg/m³
+
+Exemplo: a água tem ρ = 1 g/cm³ = 1000 kg/m³. Então 1 L (1000 cm³) de água tem 1000 g = 1 kg.`,
+            },
+            {
+              heading: "Pressão",
+              body: `Pressão é a relação entre a força aplicada e a área de aplicação:
+
+P = F / A
+
+• P → pressão (N/m² = Pa, pascal)
+• F → força (N)
+• A → área de aplicação (m²)
+
+Para a mesma força:
+• Área menor → pressão maior (faca afiada, salto fino, prego)
+• Área maior → pressão menor (raquete de neve, pneus largos)`,
+              visual: `<svg viewBox="0 0 640 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+
+<rect width="640" height="260" rx="12" fill="#F4EEE1"/>
+<defs><marker id="hp1" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#A6493A"/></marker></defs>
+<text x="160" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">ÁREA GRANDE</text>
+<text x="480" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">ÁREA PEQUENA</text>
+<line x1="320" y1="40" x2="320" y2="245" stroke="#C9B18C" stroke-dasharray="4 4"/>
+<line x1="30" y1="180" x2="290" y2="180" stroke="#5C4630" stroke-width="2"/>
+<line x1="350" y1="180" x2="610" y2="180" stroke="#5C4630" stroke-width="2"/>
+<rect x="80" y="130" width="160" height="50" fill="#A8763E" stroke="#5C4630" stroke-width="2"/>
+<rect x="455" y="84" width="50" height="96" fill="#A8763E" stroke="#5C4630" stroke-width="2"/>
+<line x1="160" y1="70" x2="160" y2="116" stroke="#A6493A" stroke-width="3" marker-end="url(#hp1)"/><text x="172" y="96" text-anchor="start" font-size="14" font-weight="700" fill="#A6493A">F</text>
+<line x1="480" y1="36" x2="480" y2="70" stroke="#A6493A" stroke-width="3" marker-end="url(#hp1)"/><text x="492" y="56" text-anchor="start" font-size="14" font-weight="700" fill="#A6493A">F</text>
+<rect x="80" y="182" width="160" height="6" fill="#5B7553"/>
+<rect x="455" y="182" width="50" height="6" fill="#5B7553"/>
+<text x="160" y="210" text-anchor="middle" font-size="11" fill="#5C4630">mesma força, A grande</text>
+<text x="160" y="234" text-anchor="middle" font-size="13" font-weight="700" fill="#5B7553">pressão MENOR</text>
+<text x="480" y="210" text-anchor="middle" font-size="11" fill="#5C4630">mesma força, A pequena</text>
+<text x="480" y="234" text-anchor="middle" font-size="13" font-weight="700" fill="#A6493A">pressão MAIOR</text>
+
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">O mesmo tijolo (mesmo peso F) faz mais pressão em pé, porque a área de apoio (em verde) é menor: P = F / A.</p>`,
+            },
+          ],
+          quiz: [
+            { q: "Fluido é uma substância que:", options: ["Tem forma própria e não escoa","Adquire o formato do recipiente e pode escoar","É sempre sólida","Só existe no estado gasoso"], correct: 1 },
+            { q: "Qual alternativa contém apenas fluidos?", options: ["Água e ar","Ferro e água","Madeira e ar","Gelo e pedra"], correct: 0 },
+            { q: "Um corpo de 200 g ocupa um volume de 50 cm³. Sua densidade é:", options: ["0,25 g/cm³","4 g/cm³","150 g/cm³","10.000 g/cm³"], correct: 1 },
+            { q: "Um objeto tem massa de 500 g e volume de 250 cm³. Sua densidade é:", options: ["0,5 g/cm³","2 g/cm³","250 g/cm³","750 g/cm³"], correct: 1 },
+            { q: "A massa específica do alumínio é 2,7 g/cm³. Em kg/m³, isso equivale a:", options: ["2,7 kg/m³","27 kg/m³","270 kg/m³","2700 kg/m³"], correct: 3 },
+            { q: "Sabendo que a água tem massa específica de 1 g/cm³, qual é a massa de 2 L de água?", options: ["2 g","20 g","200 g","2 kg"], correct: 3 },
+            { q: "Qual é a diferença entre densidade e massa específica?", options: ["Não há nenhuma diferença","A densidade se refere ao corpo (que pode ser oco); a massa específica, à substância","A massa específica se refere ao corpo; a densidade, à substância","A densidade usa força e a massa específica usa área"], correct: 1 },
+            { q: "Uma força de 100 N é aplicada sobre uma área de 0,5 m². A pressão é:", options: ["50 Pa","100 Pa","200 Pa","500 Pa"], correct: 2 },
+            { q: "Uma pessoa de peso 600 N apoia-se sobre uma área de 0,02 m². A pressão exercida é:", options: ["12 Pa","300 Pa","3.000 Pa","30.000 Pa"], correct: 3 },
+            { q: "No Sistema Internacional, a unidade de pressão é o pascal (Pa), que equivale a:", options: ["N · m²","N/m²","kg/m³","N/m"], correct: 1 },
+            { q: "Por que uma faca afiada corta melhor do que uma faca cega?", options: ["Porque aplica mais força","Porque a área de contato é menor, aumentando a pressão","Porque a área de contato é maior","Porque diminui a pressão"], correct: 1 },
+            { q: "Mantendo a mesma força, se a área de aplicação cai pela metade, a pressão:", options: ["Cai pela metade","Não muda","Dobra","Quadruplica"], correct: 2 },
+          ],
+        },
       ],
     },
 );
