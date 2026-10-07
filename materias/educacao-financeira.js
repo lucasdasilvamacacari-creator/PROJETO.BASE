@@ -301,7 +301,7 @@ O que essa tabela quer mostrar? Uma dívida cobra muito mais juros do que um inv
 <p class="text-[11px] text-bark/50 text-center mt-2">R$ 1.000 aplicados de 4 formas diferentes por 1 ano</p>`,
             },
             {
-              heading: "🎯 Ouro da matéria — Revisão de Lucas M",
+              heading: "🎯 Ouro da matéria",
               body: `As 3 perguntas de qualquer crédito: Taxa • Prazo • Total pago.
 Usar juros compostos: M = C × (1 + i)ⁿ para calcular dívidas.
 Rotativo é o crédito mais caro: Cerca de 15% ao mês.

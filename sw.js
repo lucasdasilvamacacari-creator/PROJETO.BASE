@@ -1,4 +1,4 @@
-const CACHE_NAME = "revisao-lucas-m-v5"; // v5: nova matéria (Inglês) e conteúdos atualizados
+const CACHE_NAME = "atlas-academy-v6"; // v6: novo nome (Atlas Academy) e novo ícone
 
 const ASSETS = [
   "./",
