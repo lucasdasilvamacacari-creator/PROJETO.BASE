@@ -1,4 +1,4 @@
-# 📖 Revisão de Lucas M — Plataforma Pessoal de Estudos
+# 🌍 Atlas Academy — Plataforma de Estudos
 
 Uma plataforma web moderna e responsiva para organizar, estudar e revisar conteúdos de forma interativa. Acesse suas matérias, estude os conteúdos e teste seu conhecimento com quizzes de revisão.
 

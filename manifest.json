@@ -1,7 +1,7 @@
 {
-  "name": "Revisão de Lucas M",
-  "short_name": "Lucas M",
-  "description": "Plataforma pessoal de estudos e revisão escolar.",
+  "name": "Atlas Academy",
+  "short_name": "Atlas Academy",
+  "description": "Plataforma de estudos e revisão escolar.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
