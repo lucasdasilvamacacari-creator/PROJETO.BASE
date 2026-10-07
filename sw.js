@@ -1,4 +1,4 @@
-const CACHE_NAME = "revisao-lucas-m-v4"; // Mudei para v4 para forçar a limpeza do antigo
+const CACHE_NAME = "revisao-lucas-m-v5"; // v5: nova matéria (Inglês) e conteúdos atualizados
 
 const ASSETS = [
   "./",
@@ -10,6 +10,7 @@ const ASSETS = [
   "./materias/geografia.js",
   "./materias/historia.js",
   "./materias/analise-linguistica.js",
+  "./materias/ingles.js",
   "./materias/filosofia.js",
   "./materias/sociologia.js",
   "./materias/biologia-a.js",

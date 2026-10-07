@@ -89,56 +89,16 @@ Dica: não compare os lados simplesmente pela posição no desenho. Primeiro des
             },
           ],
           quiz: [
-            {
-              q: "Dois triângulos são semelhantes quando:",
-              options: ["Possuem a mesma forma, mesmo com tamanhos diferentes", "Possuem exatamente o mesmo tamanho", "Têm a mesma área", "Têm o mesmo perímetro"],
-              correct: 0,
-            },
-            {
-              q: "Em triângulos semelhantes, os ângulos correspondentes são:",
-              options: ["Iguais", "Proporcionais, mas diferentes", "Sempre retos", "Sempre agudos"],
-              correct: 0,
-            },
-            {
-              q: "Em triângulos semelhantes, os lados correspondentes são:",
-              options: ["Iguais", "Proporcionais", "Paralelos", "Perpendiculares"],
-              correct: 1,
-            },
-            {
-              q: "No caso AA de semelhança, o que precisa ser igual?",
-              options: ["Dois ângulos correspondentes", "Três lados", "Dois lados e um ângulo", "Apenas um ângulo"],
-              correct: 0,
-            },
-            {
-              q: "No caso LAL, quais elementos precisam corresponder?",
-              options: ["Dois lados proporcionais e o ângulo entre eles igual", "Três lados proporcionais", "Dois ângulos iguais", "Um lado e dois ângulos"],
-              correct: 0,
-            },
-            {
-              q: "No caso LLL, a condição para semelhança é:",
-              options: ["Os três lados correspondentes são proporcionais", "Dois ângulos são iguais", "Apenas um lado é igual", "A altura é igual"],
-              correct: 0,
-            },
-            {
-              q: "Antes de montar uma proporção entre lados de triângulos semelhantes, é importante:",
-              options: ["Colocar os lados na mesma ordem de correspondência", "Somar todos os lados", "Multiplicar os ângulos", "Ignorar a correspondência"],
-              correct: 0,
-            },
-            {
-              q: "Para verificar o caso AA, a estratégia correta é:",
-              options: ["Procurar dois ângulos iguais", "Procurar dois lados proporcionais", "Comparar os três lados", "Medir a altura do triângulo"],
-              correct: 0,
-            },
-            {
-              q: "Para verificar o caso LAL, deve-se procurar:",
-              options: ["Dois lados proporcionais mais o ângulo entre eles", "Três ângulos iguais", "Apenas um lado proporcional", "A soma dos ângulos"],
-              correct: 0,
-            },
-            {
-              q: "Segundo a dica do conteúdo, antes de comparar os lados pela posição no desenho, deve-se:",
-              options: ["Descobrir quais lados e ângulos realmente correspondem", "Assumir que os lados na mesma posição sempre correspondem", "Ignorar os ângulos", "Medir apenas o maior lado"],
-              correct: 0,
-            },
+            { q: "Dois triângulos são semelhantes quando:", options: ["Possuem a mesma forma, mesmo com tamanhos diferentes","Possuem exatamente o mesmo tamanho","Têm a mesma área","Têm o mesmo perímetro"], correct: 0 },
+            { q: "Em triângulos semelhantes, os ângulos correspondentes são:", options: ["Iguais","Proporcionais, mas diferentes","Sempre retos","Sempre agudos"], correct: 0 },
+            { q: "Em triângulos semelhantes, os lados correspondentes são:", options: ["Iguais","Proporcionais","Paralelos","Perpendiculares"], correct: 1 },
+            { q: "No caso AA de semelhança, o que precisa ser igual?", options: ["Dois ângulos correspondentes","Três lados","Dois lados e um ângulo","Apenas um ângulo"], correct: 0 },
+            { q: "No caso LAL, quais elementos precisam corresponder?", options: ["Dois lados proporcionais e o ângulo entre eles igual","Três lados proporcionais","Dois ângulos iguais","Um lado e dois ângulos"], correct: 0 },
+            { q: "No caso LLL, a condição para semelhança é:", options: ["Os três lados correspondentes são proporcionais","Dois ângulos são iguais","Apenas um lado é igual","A altura é igual"], correct: 0 },
+            { q: "Antes de montar uma proporção entre lados de triângulos semelhantes, é importante:", options: ["Colocar os lados na mesma ordem de correspondência","Somar todos os lados","Multiplicar os ângulos","Ignorar a correspondência"], correct: 0 },
+            { q: "Para verificar o caso AA, a estratégia correta é:", options: ["Procurar dois ângulos iguais","Procurar dois lados proporcionais","Comparar os três lados","Medir a altura do triângulo"], correct: 0 },
+            { q: "Para verificar o caso LAL, deve-se procurar:", options: ["Dois lados proporcionais mais o ângulo entre eles","Três ângulos iguais","Apenas um lado proporcional","A soma dos ângulos"], correct: 0 },
+            { q: "Segundo a dica do conteúdo, antes de comparar os lados pela posição no desenho, deve-se:", options: ["Descobrir quais lados e ângulos realmente correspondem","Assumir que os lados na mesma posição sempre correspondem","Ignorar os ângulos","Medir apenas o maior lado"], correct: 0 },
           ],
         },
         {
@@ -250,56 +210,16 @@ m e n = divisões da hipotenusa`,
             },
           ],
           quiz: [
-            {
-              q: "No triângulo retângulo dividido pela altura relativa à hipotenusa, o que a altura forma?",
-              options: ["Dois novos triângulos retângulos", "Um triângulo equilátero", "Um quadrado", "Um triângulo obtuso"],
-              correct: 0,
-            },
-            {
-              q: "Qual é a relação entre os ângulos α, β e o ângulo reto no triângulo retângulo?",
-              options: ["α + β + 90° = 180°", "α + β = 180°", "α − β = 90°", "α · β = 90°"],
-              correct: 0,
-            },
-            {
-              q: "O Teorema de Pitágoras é representado por:",
-              options: ["a² = b² + c²", "a = b + c", "a² = b · c", "h² = m · n"],
-              correct: 0,
-            },
-            {
-              q: "Na relação hipotenusa-divisão, a hipotenusa é formada por:",
-              options: ["a = m + n", "a = m · n", "a = m − n", "a = m/n"],
-              correct: 0,
-            },
-            {
-              q: "Qual é a relação cateto-hipotenusa para o cateto b?",
-              options: ["b² = a · m", "b² = a · n", "b² = m · n", "b² = a² − c²"],
-              correct: 0,
-            },
-            {
-              q: "E para o cateto c, a relação cateto-hipotenusa é:",
-              options: ["c² = a · n", "c² = a · m", "c² = m · n", "c² = a² − b²"],
-              correct: 0,
-            },
-            {
-              q: "A relação da altura no triângulo retângulo é dada por:",
-              options: ["h² = m · n", "h² = a · m", "h² = b · c", "h² = a² − b²"],
-              correct: 0,
-            },
-            {
-              q: "A relação que envolve altura, catetos e hipotenusa é:",
-              options: ["b · c = a · h", "b + c = a + h", "b² + c² = a · h", "b · c = m · n"],
-              correct: 0,
-            },
-            {
-              q: "Para identificar a hipotenusa em um triângulo retângulo, deve-se procurar:",
-              options: ["O lado oposto ao ângulo de 90°", "O menor lado do triângulo", "O lado que forma o ângulo reto", "A altura do triângulo"],
-              correct: 0,
-            },
-            {
-              q: "A altura de um triângulo retângulo, ao ser traçada relativa à hipotenusa, chega até ela:",
-              options: ["Perpendicularmente", "Paralelamente", "Formando um ângulo de 45°", "Formando um ângulo obtuso"],
-              correct: 0,
-            },
+            { q: "No triângulo retângulo dividido pela altura relativa à hipotenusa, o que a altura forma?", options: ["Dois novos triângulos retângulos","Um triângulo equilátero","Um quadrado","Um triângulo obtuso"], correct: 0 },
+            { q: "Qual é a relação entre os ângulos α, β e o ângulo reto no triângulo retângulo?", options: ["α + β + 90° = 180°","α + β = 180°","α − β = 90°","α · β = 90°"], correct: 0 },
+            { q: "O Teorema de Pitágoras é representado por:", options: ["a² = b² + c²","a = b + c","a² = b · c","h² = m · n"], correct: 0 },
+            { q: "Na relação hipotenusa-divisão, a hipotenusa é formada por:", options: ["a = m + n","a = m · n","a = m − n","a = m/n"], correct: 0 },
+            { q: "Qual é a relação cateto-hipotenusa para o cateto b?", options: ["b² = a · m","b² = a · n","b² = m · n","b² = a² − c²"], correct: 0 },
+            { q: "E para o cateto c, a relação cateto-hipotenusa é:", options: ["c² = a · n","c² = a · m","c² = m · n","c² = a² − b²"], correct: 0 },
+            { q: "A relação da altura no triângulo retângulo é dada por:", options: ["h² = m · n","h² = a · m","h² = b · c","h² = a² − b²"], correct: 0 },
+            { q: "A relação que envolve altura, catetos e hipotenusa é:", options: ["b · c = a · h","b + c = a + h","b² + c² = a · h","b · c = m · n"], correct: 0 },
+            { q: "Para identificar a hipotenusa em um triângulo retângulo, deve-se procurar:", options: ["O lado oposto ao ângulo de 90°","O menor lado do triângulo","O lado que forma o ângulo reto","A altura do triângulo"], correct: 0 },
+            { q: "A altura de um triângulo retângulo, ao ser traçada relativa à hipotenusa, chega até ela:", options: ["Perpendicularmente","Paralelamente","Formando um ângulo de 45°","Formando um ângulo obtuso"], correct: 0 },
           ],
         },
         {
@@ -512,6 +432,80 @@ Aplicação comum: uma roda dá uma volta completa percorrendo exatamente o comp
             { q: "Qual é o comprimento de uma circunferência de raio 5 cm?", options: ["5π cm","10π cm","25π cm","2,5π cm"], correct: 1 },
             { q: "Uma circunferência tem comprimento 12π cm. Seu raio mede:", options: ["3 cm","6 cm","12 cm","24 cm"], correct: 1 },
             { q: "Uma roda tem raio de 30 cm. Quantas voltas completas ela dá para percorrer 60π metros?", options: ["10","50","100","200"], correct: 2 },
+          ],
+        },
+        {
+          id: "areas-de-poligonos",
+          title: "Áreas de polígonos (quadriláteros)",
+          sections: [
+            {
+              heading: "Áreas de quadriláteros",
+              body: `Quadrado
+A = l²
+onde l é o lado.
+
+Retângulo
+A = b · h
+onde b é a base e h é a altura.
+
+Paralelogramo
+A = b · h
+onde b é a base e h é a altura.
+
+Atenção: no paralelogramo, a altura é a distância perpendicular entre as bases, e não o lado inclinado.`,
+              visual: `<svg viewBox="0 0 660 250" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+
+<rect width="660" height="250" rx="12" fill="#F4EEE1"/>
+<defs><marker id="ar1" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#A6493A"/></marker></defs>
+<text x="100" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">QUADRADO</text>
+<rect x="40" y="60" width="120" height="120" fill="#E4D9C4" stroke="#5C4630" stroke-width="2"/>
+<text x="100" y="198" text-anchor="middle" font-size="14" font-weight="700" fill="#A8763E">l</text><text x="176" y="125" text-anchor="middle" font-size="14" font-weight="700" fill="#A8763E">l</text>
+<text x="100" y="230" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">A = l²</text>
+<text x="310" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">RETÂNGULO</text>
+<rect x="220" y="80" width="180" height="100" fill="#E4D9C4" stroke="#5C4630" stroke-width="2"/>
+<text x="310" y="198" text-anchor="middle" font-size="12" font-weight="700" fill="#A8763E">b (base)</text><text x="410" y="134" text-anchor="start" font-size="14" font-weight="700" fill="#A8763E">h</text>
+<text x="310" y="230" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">A = b · h</text>
+<text x="540" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">PARALELOGRAMO</text>
+<polygon points="450,180 600,180 640,80 490,80" fill="#E4D9C4" stroke="#5C4630" stroke-width="2"/>
+<polygon points="450,180 490,180 490,80" fill="#C9B18C" stroke="#A6493A" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="490" y1="80" x2="490" y2="180" stroke="#A6493A" stroke-width="1.5" stroke-dasharray="4 3"/>
+<path d="M472,150 Q540,120 612,140" fill="none" stroke="#A6493A" stroke-width="1.5" marker-end="url(#ar1)"/>
+<text x="472" y="150" text-anchor="middle" font-size="14" font-weight="700" fill="#A6493A">h</text>
+<text x="525" y="198" text-anchor="middle" font-size="12" font-weight="700" fill="#A8763E">b (base)</text>
+<text x="545" y="230" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">A = b · h</text>
+
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">No paralelogramo, recortar o triângulo da esquerda e encaixá-lo na direita forma um retângulo de mesma base e altura.</p>`,
+            },
+            {
+              heading: "Exemplos resolvidos",
+              body: `1) Quadrado de lado 7 cm:
+A = 7² = 49 cm²
+
+2) Retângulo de base 12 m e altura 5 m:
+A = 12 · 5 = 60 m²
+
+3) Paralelogramo com lados 10 cm e 8 cm formando um ângulo de 30°:
+• A altura é h = 8 · sen 30° = 8 · 0,5 = 4 cm
+• A = b · h = 10 · 4 = 40 cm²
+
+4) Quadrado cuja diagonal mede 6√2 cm:
+• Diagonal do quadrado = l√2 → l = 6 cm
+• A = 6² = 36 cm²`,
+            },
+          ],
+          quiz: [
+            { q: "Qual é a área de um quadrado de lado 7 cm?", options: ["14 cm²","28 cm²","49 cm²","56 cm²"], correct: 2 },
+            { q: "Um quadrado tem área de 81 m². Quanto mede seu lado?", options: ["9 m","8 m","27 m","40,5 m"], correct: 0 },
+            { q: "Qual é a área de um retângulo de base 8 cm e altura 5 cm?", options: ["13 cm²","26 cm²","40 cm²","80 cm²"], correct: 2 },
+            { q: "Um retângulo tem área de 60 m² e base de 12 m. Sua altura mede:", options: ["4 m","5 m","6 m","48 m"], correct: 1 },
+            { q: "Qual é a área de um paralelogramo de base 10 cm e altura 6 cm?", options: ["16 cm²","30 cm²","60 cm²","120 cm²"], correct: 2 },
+            { q: "Um paralelogramo tem lados de 10 cm e 8 cm, formando um ângulo de 30°. Sua área é: (sen 30° = 0,5)", options: ["40 cm²","80 cm²","20 cm²","18 cm²"], correct: 0 },
+            { q: "Por que a área do paralelogramo também é b · h?", options: ["Porque ele pode ser recortado e reorganizado em um retângulo de mesma base e altura","Porque todos os seus ângulos são retos","Porque seus lados são iguais","Porque é a metade de um quadrado"], correct: 0 },
+            { q: "A diagonal de um quadrado mede 6√2 cm. Qual é sua área?", options: ["36 cm²","72 cm²","12 cm²","18 cm²"], correct: 0 },
+            { q: "Um terreno retangular mede 20 m por 15 m. Se o piso custa R$ 30,00 por m², o custo para cobrir o terreno é:", options: ["R$ 1.050,00","R$ 9.000,00","R$ 6.000,00","R$ 10.500,00"], correct: 1 },
+            { q: "Se o lado de um quadrado dobra, sua área:", options: ["Dobra","Triplica","Quadruplica","Não muda"], correct: 2 },
+            { q: "Um retângulo tem perímetro de 30 cm e base de 10 cm. Sua área é:", options: ["50 cm²","100 cm²","150 cm²","300 cm²"], correct: 0 },
           ],
         },
       ],
