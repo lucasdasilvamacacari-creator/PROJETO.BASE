@@ -52,7 +52,7 @@ plataforma-estudos/
 
 ### Acessar Online
 
-Abra o link no navegador: [seu-link-aqui](seu-link-aqui)
+Abra o link no navegador: [seu-link-aqui]([seu-link-aqui](https://projeto-base-one.vercel.app/))
 
 ### Instalar como Aplicativo (PWA)
 
