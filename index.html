@@ -9,14 +9,14 @@
 <!-- PWA -->
 <link rel="manifest" href="manifest.json" />
 <meta name="theme-color" content="#3E2F20" />
-<meta name="color-scheme" content="light dark" />
+<meta name="color-scheme" content="light" />
 <script>
-  /* Aplica o tema salvo (ou o do sistema) antes da página renderizar, evitando o "flash" claro. */
+  /* Abre sempre no modo claro; só usa o escuro se a pessoa escolheu pelo botão. Roda antes da página renderizar, evitando "flash". */
   (function () {
     var dark = false;
     try {
       var saved = localStorage.getItem("theme");
-      dark = saved ? saved === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
+      dark = saved === "dark"; /* padrão: modo claro */
     } catch (e) {}
     if (dark) {
       document.documentElement.classList.add("dark");
@@ -595,7 +595,6 @@ router();
   const root = document.documentElement;
   const btn = document.getElementById("theme-toggle");
   const meta = document.querySelector('meta[name="theme-color"]');
-  const media = window.matchMedia("(prefers-color-scheme: dark)");
 
   function apply(dark) {
     root.classList.toggle("dark", dark);
@@ -604,9 +603,6 @@ router();
       btn.setAttribute("aria-pressed", String(dark));
       btn.setAttribute("aria-label", dark ? "Ativar modo claro" : "Ativar modo escuro");
     }
-  }
-  function saved() {
-    try { return localStorage.getItem("theme"); } catch (e) { return null; }
   }
 
   apply(root.classList.contains("dark"));
@@ -621,8 +617,6 @@ router();
     });
   }
 
-  /* Sem escolha manual, acompanha o tema do sistema */
-  media.addEventListener("change", (e) => { if (!saved()) apply(e.matches); });
 })();
 
 if ("serviceWorker" in navigator) {
