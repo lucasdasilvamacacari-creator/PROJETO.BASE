@@ -85,17 +85,17 @@ Separação entre vida privada e profissional`,
             },
           ],
           quiz: [
-            { q: "Quais livros de Max Weber são citados no conteúdo?", options: ["A Ética Protestante e o Espírito do Capitalismo, e Economia e Sociedade", "O Capital e A Ideologia Alemã", "Da Divisão do Trabalho Social e As Regras do Método Sociológico", "O Suicídio e As Formas Elementares da Vida Religiosa"], correct: 0 },
-            { q: "Weber busca compreender a sociedade a partir de quê?", options: ["Das ações do indivíduo", "Apenas das estruturas econômicas", "Apenas das instituições religiosas", "Apenas do Estado"], correct: 0 },
-            { q: "O que é 'ação social', segundo Weber?", options: ["Toda ação que acontece na sociedade, tem um significado e pode se orientar em relação aos outros", "Qualquer ação isolada, sem relação com outras pessoas", "Apenas ações do governo", "Apenas ações econômicas"], correct: 0 },
-            { q: "A ação tradicional ocorre em função de quê?", options: ["Costumes (tradições)", "Emoções", "Planejamentos e cálculos", "Leis escritas"], correct: 0 },
-            { q: "A ação afetiva ocorre em função de quê?", options: ["Emoções (afetos)", "Costumes", "Cálculos racionais", "Hierarquia burocrática"], correct: 0 },
-            { q: "A ação racional ocorre em função de quê?", options: ["Planejamentos (cálculos)", "Emoções", "Apenas tradições", "Acaso"], correct: 0 },
-            { q: "A ação racional com relação a fins está associada a quê?", options: ["Um objetivo", "Uma ética", "Um costume", "Uma emoção"], correct: 0 },
-            { q: "A ação racional com relação a valores está associada a quê?", options: ["Uma ética", "Um objetivo apenas", "Um costume", "Uma emoção"], correct: 0 },
-            { q: "Segundo Weber, a sociedade moderna é marcada por qual processo?", options: ["Racionalização", "Sacralização", "Tradicionalização", "Emocionalização"], correct: 0 },
-            { q: "O que é burocracia, segundo o conteúdo?", options: ["Uma estrutura técnico-administrativa, racionalmente desenvolvida, que visa o máximo de eficiência", "Um sistema baseado apenas em tradições", "Uma forma de governo democrático direto", "Um tipo de ação afetiva"], correct: 0 },
-            { q: "Quais são as características da burocracia citadas no conteúdo?", options: ["Regras, hierarquia, cargos e funções, e separação entre vida privada e profissional", "Apenas hierarquia e tradição", "Apenas emoção e costume", "Apenas cargos hereditários"], correct: 0 },
+            { q: "Quais livros de Max Weber são citados no conteúdo?", options: ["A Ética Protestante e o Espírito do Capitalismo, e Economia e Sociedade","O Capital e A Ideologia Alemã","Da Divisão do Trabalho Social e As Regras do Método Sociológico","O Suicídio e As Formas Elementares da Vida Religiosa"], correct: 0 },
+            { q: "Weber busca compreender a sociedade a partir de quê?", options: ["Das ações do indivíduo","Apenas das estruturas econômicas","Apenas das instituições religiosas","Apenas do Estado"], correct: 0 },
+            { q: "O que é 'ação social', segundo Weber?", options: ["Toda ação que acontece na sociedade, tem um significado e pode se orientar em relação aos outros","Qualquer ação isolada, sem relação com outras pessoas","Apenas ações do governo","Apenas ações econômicas"], correct: 0 },
+            { q: "A ação tradicional ocorre em função de quê?", options: ["Costumes (tradições)","Emoções","Planejamentos e cálculos","Leis escritas"], correct: 0 },
+            { q: "A ação afetiva ocorre em função de quê?", options: ["Emoções (afetos)","Costumes","Cálculos racionais","Hierarquia burocrática"], correct: 0 },
+            { q: "A ação racional ocorre em função de quê?", options: ["Planejamentos (cálculos)","Emoções","Apenas tradições","Acaso"], correct: 0 },
+            { q: "A ação racional com relação a fins está associada a quê?", options: ["Um objetivo","Uma ética","Um costume","Uma emoção"], correct: 0 },
+            { q: "A ação racional com relação a valores está associada a quê?", options: ["Uma ética","Um objetivo apenas","Um costume","Uma emoção"], correct: 0 },
+            { q: "Segundo Weber, a sociedade moderna é marcada por qual processo?", options: ["Racionalização","Sacralização","Tradicionalização","Emocionalização"], correct: 0 },
+            { q: "O que é burocracia, segundo o conteúdo?", options: ["Uma estrutura técnico-administrativa, racionalmente desenvolvida, que visa o máximo de eficiência","Um sistema baseado apenas em tradições","Uma forma de governo democrático direto","Um tipo de ação afetiva"], correct: 0 },
+            { q: "Quais são as características da burocracia citadas no conteúdo?", options: ["Regras, hierarquia, cargos e funções, e separação entre vida privada e profissional","Apenas hierarquia e tradição","Apenas emoção e costume","Apenas cargos hereditários"], correct: 0 },
           ],
         },
         {
@@ -181,6 +181,24 @@ Alienação
 
 Esses dois conceitos são fundamentais para entender a crítica marxista ao capitalismo.`,
             },
+            {
+              heading: "Mais-valia absoluta e relativa",
+              body: `Mais-valia: lucro proveniente da produção da mercadoria, extraído do trabalhador.
+→ É a diferença entre a quantidade de riqueza produzida pelo trabalhador e o salário que ele recebe.
+
+O capitalista pode aumentar a mais-valia de duas formas:
+
+• Mais-valia absoluta → relacionada à jornada de trabalho.
+  O trabalhador passa mais horas trabalhando, mas o salário continua o mesmo.
+
+• Mais-valia relativa → relacionada ao incremento de tecnologia.
+  Máquinas e novas técnicas aumentam a produtividade: o trabalhador produz o valor do seu salário em menos tempo, e o restante da jornada vira lucro.`,
+              visual: `<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="tp3_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="tp3_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="tp3_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="tp3_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="tp3_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker></defs><rect width="640" height="300" rx="12" fill="#F4EEE1"/>
+<text x="358" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">Como o capitalista amplia a mais-valia</text><text x="16" y="76" text-anchor="start" font-size="12" font-weight="700" fill="#3E2F20">Jornada de 8 h</text><text x="16" y="92" text-anchor="start" font-size="10" font-style="italic" fill="#5C4630">situação inicial</text><rect x="190" y="56" width="166" height="40" rx="4" fill="#5B7553"/><text x="274" y="81" text-anchor="middle" font-size="10.5" font-weight="700" fill="#F4EEE1">salário · 4 h</text><rect x="358" y="56" width="166" height="40" rx="4" fill="#A6493A"/><text x="442" y="81" text-anchor="middle" font-size="10.5" font-weight="700" fill="#F4EEE1">mais-valia · 4 h</text><text x="16" y="152" text-anchor="start" font-size="12" font-weight="700" fill="#3E2F20">Mais-valia ABSOLUTA</text><text x="16" y="168" text-anchor="start" font-size="10" font-style="italic" fill="#5C4630">jornada aumenta para 10 h</text><rect x="190" y="132" width="166" height="40" rx="4" fill="#5B7553"/><text x="274" y="157" text-anchor="middle" font-size="10.5" font-weight="700" fill="#F4EEE1">salário · 4 h</text><rect x="358" y="132" width="250" height="40" rx="4" fill="#A6493A"/><text x="484" y="157" text-anchor="middle" font-size="10.5" font-weight="700" fill="#F4EEE1">mais-valia · 6 h</text><text x="16" y="228" text-anchor="start" font-size="12" font-weight="700" fill="#3E2F20">Mais-valia RELATIVA</text><text x="16" y="244" text-anchor="start" font-size="10" font-style="italic" fill="#5C4630">tecnologia: mesmas 8 h</text><rect x="190" y="208" width="82" height="40" rx="4" fill="#5B7553"/><text x="232" y="233" text-anchor="middle" font-size="10.5" font-weight="700" fill="#F4EEE1">salário · 2 h</text><rect x="274" y="208" width="250" height="40" rx="4" fill="#A6493A"/><text x="400" y="233" text-anchor="middle" font-size="10.5" font-weight="700" fill="#F4EEE1">mais-valia · 6 h</text><text x="320" y="286" text-anchor="middle" font-size="10.5" font-style="italic" fill="#5C4630">verde = trabalho pago (salário) · vermelho = trabalho não pago (lucro do capitalista)</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Números ilustrativos. Na absoluta, o dia de trabalho cresce; na relativa, a tecnologia faz o salário ser "pago" em menos tempo.</p>`,
+            },
           ],
           quiz: [
             { q: "A Sociologia surge como ciência em qual contexto histórico?", options: ["No desenvolvimento e consolidação do capitalismo","Na Idade Média","Na Antiguidade clássica","No feudalismo"], correct: 0 },
@@ -198,6 +216,12 @@ Esses dois conceitos são fundamentais para entender a crítica marxista ao capi
             { q: "Os meios de produção, em Marx, referem-se a:", options: ["Ferramentas, máquinas, matérias-primas e terras usados na produção","Apenas ao dinheiro em espécie","Apenas aos trabalhadores","Apenas às ideias e teorias filosóficas"], correct: 0 },
             { q: "No pensamento de Marx, por que o trabalho ocupa posição central?", options: ["Porque é a atividade que transforma a natureza e constrói a sociedade","Porque é apenas um passatempo","Porque é irrelevante para o capitalismo","Porque não produz valor"], correct: 0 },
             { q: "Qual tipo de sociedade estudada por Marx produziu profundas transformações na organização do trabalho?", options: ["Feudal","Antiga","Capitalista","Primitiva"], correct: 2 },
+            { q: "Segundo Marx, a mais-valia corresponde:", options: ["Ao salário pago ao trabalhador","À diferença entre a riqueza produzida pelo trabalhador e o salário recebido","Ao imposto pago ao Estado","Ao valor das máquinas"], correct: 1 },
+            { q: "A mais-valia absoluta está relacionada:", options: ["Ao aumento da jornada de trabalho","Ao uso de novas tecnologias","À redução dos preços","Ao aumento do salário"], correct: 0 },
+            { q: "A mais-valia relativa está relacionada:", options: ["Ao aumento da jornada de trabalho","Ao incremento de tecnologia e da produtividade","À diminuição das horas trabalhadas com aumento de salário","Ao fim do lucro"], correct: 1 },
+            { q: "Uma fábrica aumenta o expediente de 8 h para 10 h sem aumentar os salários. Isso é um exemplo de:", options: ["Mais-valia relativa","Mais-valia absoluta","Alienação religiosa","Divisão dos poderes"], correct: 1 },
+            { q: "Uma empresa instala máquinas que dobram a produção por hora, mantendo jornada e salário. Isso é um exemplo de:", options: ["Mais-valia absoluta","Mais-valia relativa","Luta de classes","Socialismo"], correct: 1 },
+            { q: "Para Marx, quem fica com a mais-valia produzida pelo trabalhador é:", options: ["O próprio trabalhador","O capitalista (dono dos meios de produção)","O Estado","A Igreja"], correct: 1 },
           ],
         },
       ],
