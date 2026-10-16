@@ -379,6 +379,85 @@ Exemplo: h = 5 m e g = 10 m/s² → v = √(2 · 10 · 5) = √100 = 10 m/s.`,
             { q: "Em um sistema não conservativo com atrito, é correto afirmar que:", options: ["Em final = Em inicial","Em final > Em inicial","Em final < Em inicial, e a diferença vira calor","A energia cinética é sempre constante"], correct: 2 },
           ],
         },
+        {
+          id: "potencia",
+          title: "Potência e rendimento",
+          sections: [
+            {
+              heading: "Potência",
+              body: `Potência mede a RAPIDEZ com que a energia é transformada ou transferida.
+
+P = ΔE / Δt
+
+• P → potência
+• ΔE → energia transformada (J)
+• Δt → intervalo de tempo (s)
+
+Unidade (SI): J/s = watt (W)
+• 1 kW = 1 000 W
+
+Exemplo: um motor transforma 600 J em 2 s → P = 600 / 2 = 300 W.
+Dois aparelhos podem gastar a mesma energia; o de maior potência faz isso mais rápido.`,
+            },
+            {
+              heading: "Energia total, útil e dissipada",
+              body: `Toda máquina recebe uma energia total e transforma uma parte dela no que queremos (energia útil). O resto se perde (energia dissipada), geralmente como calor e som.
+
+E total = E útil + E dissipada`,
+              visual: `<svg viewBox="0 0 640 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="tp4_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="tp4_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="tp4_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="tp4_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="tp4_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker></defs><rect width="640" height="280" rx="12" fill="#F4EEE1"/>
+<path d="M20,80 L230,80 L230,180 L20,180 Z" fill="#A8763E" opacity="0.85"/><text x="110" y="126" text-anchor="middle" font-size="12" font-weight="700" fill="#F4EEE1">ENERGIA TOTAL</text><text x="110" y="144" text-anchor="middle" font-size="12" font-weight="700" fill="#F4EEE1">100 J</text><rect x="230" y="60" width="140" height="140" rx="16" fill="#E4D9C4" stroke="#3E2F20" stroke-width="2"/><text x="300" y="126" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">MÁQUINA</text><circle cx="280" cy="156" r="14" fill="none" stroke="#5C4630" stroke-width="3" stroke-dasharray="4 3"/><circle cx="320" cy="162" r="10" fill="none" stroke="#5C4630" stroke-width="3" stroke-dasharray="4 3"/><path d="M370,80 L600,80 L620,120 L600,160 L370,160 Z" fill="#5B7553" opacity="0.9"/><text x="490" y="116" text-anchor="middle" font-size="12" font-weight="700" fill="#F4EEE1">ENERGIA ÚTIL</text><text x="490" y="134" text-anchor="middle" font-size="12" font-weight="700" fill="#F4EEE1">80 J</text><path d="M370,160 L370,200 Q420,200 430,230 L440,262 L460,238 L450,228 Q440,180 390,160 Z" fill="#A6493A" opacity="0.9"/><text x="470" y="232" text-anchor="start" font-size="12" font-weight="700" fill="#A6493A">ENERGIA DISSIPADA: 20 J</text><text x="470" y="250" text-anchor="start" font-size="10.5" font-style="italic" fill="#5C4630">(calor, som, atrito)</text><rect x="50" y="219" width="220" height="26" rx="13" fill="#E4D9C4" stroke="#C9B18C"/><text x="160" y="237" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">η = 80 / 100 = 0,8 = 80%</text><text x="320" y="30" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">total = útil + dissipada</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Nenhuma máquina aproveita toda a energia: parte sempre se perde, por isso o rendimento é menor que 100%.</p>`,
+            },
+            {
+              heading: "Rendimento (η)",
+              body: `O rendimento avalia quanto da energia total foi convertida em energia útil:
+
+η = E útil / E total = P útil / P total
+
+• Em decimal: 0 ≤ η < 1
+• Em porcentagem: 0 ≤ η < 100%
+
+Exemplo: um motor recebe 1 000 J e entrega 800 J de energia útil.
+η = 800 / 1 000 = 0,8 = 80%. Os outros 200 J foram dissipados.
+
+📌 Na prática o rendimento nunca chega a 100%, porque sempre há alguma perda.`,
+            },
+            {
+              heading: "Cálculo de energia elétrica",
+              body: `Isolando a energia na fórmula da potência:
+
+ΔE = P · Δt
+
+Na conta de luz, a energia é medida em quilowatt-hora (kWh):
+• P em kW
+• Δt em horas
+• 1 kWh = 1 000 W × 3 600 s = 3,6 × 10⁶ J
+
+Exemplo: um chuveiro de 5 000 W (5 kW) ligado por 30 min (0,5 h):
+ΔE = 5 × 0,5 = 2,5 kWh
+
+Exemplo: uma lâmpada de 100 W (0,1 kW) acesa 10 h por dia durante 30 dias:
+ΔE = 0,1 × 300 = 30 kWh`,
+            },
+          ],
+          quiz: [
+            { q: "A potência mede:", options: ["A quantidade total de energia de um corpo","A rapidez com que a energia é transformada ou transferida","A massa de uma máquina","A velocidade de um corpo"], correct: 1 },
+            { q: "No SI, a unidade de potência é o watt (W), que equivale a:", options: ["J · s","J/s","N · m","kg · m/s"], correct: 1 },
+            { q: "Um motor transforma 600 J de energia em 2 s. Sua potência é:", options: ["300 W","600 W","1 200 W","0,003 W"], correct: 0 },
+            { q: "Uma lâmpada de 60 W fica acesa por 10 s. A energia consumida é:", options: ["6 J","60 J","600 J","6 000 J"], correct: 2 },
+            { q: "O rendimento de uma máquina é a razão entre:", options: ["Energia dissipada e energia útil","Energia útil e energia total","Energia total e tempo","Potência e tempo"], correct: 1 },
+            { q: "Um motor recebe 1 000 J e fornece 800 J de energia útil. Seu rendimento é:", options: ["20%","80%","125%","8%"], correct: 1 },
+            { q: "No caso anterior (1 000 J recebidos, 800 J úteis), a energia dissipada foi:", options: ["80 J","200 J","800 J","1 800 J"], correct: 1 },
+            { q: "Uma máquina tem potência total de 500 W e rendimento de 60%. Sua potência útil é:", options: ["300 W","200 W","560 W","833 W"], correct: 0 },
+            { q: "Por que o rendimento de uma máquina real é sempre menor que 100%?", options: ["Porque a máquina cria energia","Porque parte da energia é sempre dissipada (calor, som)","Porque a potência é negativa","Porque o tempo é muito curto"], correct: 1 },
+            { q: "A energia dissipada por um motor aparece principalmente na forma de:", options: ["Luz e massa","Calor e som","Carga elétrica","Energia nuclear"], correct: 1 },
+            { q: "Um chuveiro de 5 kW fica ligado por 30 minutos. A energia consumida é:", options: ["2,5 kWh","5 kWh","150 kWh","0,5 kWh"], correct: 0 },
+            { q: "Uma lâmpada de 100 W fica acesa 10 h por dia, durante 30 dias. Ela consome:", options: ["3 kWh","30 kWh","300 kWh","3 000 kWh"], correct: 1 },
+            { q: "Quantos joules há em 1 kWh?", options: ["1 000 J","3 600 J","3,6 × 10⁶ J","60 J"], correct: 2 },
+          ],
+        },
       ],
     },
 );
