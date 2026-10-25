@@ -154,94 +154,117 @@ Assim você não sai fazendo conta aleatoriamente: segue a ordem da aula.`,
             },
           ],
           quiz: [
-            {
-              q: "Qual é o primeiro passo para resolver uma questão de estequiometria, segundo a aula?",
-              options: ["Deixar a equação balanceada", "Converter unidades", "Montar a proporção em mol", "Responder a dúvida do exercício"],
-              correct: 0,
-            },
-            {
-              q: "Depois de balancear a equação, o que se deve fazer?",
-              options: ["Montar a proporção em mol observando os números da equação", "Converter a temperatura", "Calcular a densidade", "Somar as massas atômicas"],
-              correct: 0,
-            },
-            {
-              q: "A conversão de unidades deve ser feita quando:",
-              options: ["O exercício fornecer uma quantidade em outra unidade", "A equação não estiver balanceada", "O produto for um gás", "Sempre, independentemente do exercício"],
-              correct: 0,
-            },
-            {
-              q: "Na equação C₂H₆O + 3O₂ → 2CO₂ + 3H₂O, qual é a proporção em mol entre C₂H₆O e CO₂?",
-              options: ["1 mol de C₂H₆O para 2 mols de CO₂", "1 mol de C₂H₆O para 3 mols de CO₂", "2 mols de C₂H₆O para 1 mol de CO₂", "3 mols de C₂H₆O para 2 mols de CO₂"],
-              correct: 0,
-            },
-            {
-              q: "Qual é a massa molar do C₂H₆O calculada no exemplo?",
-              options: ["46 g/mol", "44 g/mol", "88 g/mol", "12 g/mol"],
-              correct: 0,
-            },
-            {
-              q: "Qual é a massa molar do CO₂ calculada no exemplo?",
-              options: ["44 g/mol", "46 g/mol", "88 g/mol", "28 g/mol"],
-              correct: 0,
-            },
-            {
-              q: "Como a equação apresenta 2 mols de CO₂, qual é a massa total correspondente?",
-              options: ["88 g", "44 g", "46 g", "92 g"],
-              correct: 0,
-            },
-            {
-              q: "Para descobrir o valor de '?' a partir de 2,3 × 10³ g de C₂H₆O, qual operação é usada?",
-              options: ["Multiplicação cruzada", "Soma direta", "Divisão pela massa molar apenas", "Regra de três inversa"],
-              correct: 0,
-            },
-            {
-              q: "Qual é o resultado final de CO₂ produzido a partir de 2,3 × 10³ g de C₂H₆O, segundo o exemplo?",
-              options: ["4,4 × 10³ g", "8,8 × 10³ g", "2,3 × 10³ g", "4,6 × 10² g"],
-              correct: 0,
-            },
-            {
-              q: "Segundo o 'ouro da estequiometria', qual é a sequência correta para resolver a questão?",
-              options: [
-                "Equação balanceada → Proporção em mol → Conversão de unidades → Proporção para encontrar o ?",
-                "Conversão de unidades → Equação balanceada → Proporção em mol → Resposta",
-                "Proporção em mol → Equação balanceada → Resposta → Conversão",
-                "Resposta → Proporção → Conversão → Equação",
-              ],
-              correct: 0,
-            },
+            { q: "Qual é o primeiro passo para resolver uma questão de estequiometria, segundo a aula?", options: ["Deixar a equação balanceada","Converter unidades","Montar a proporção em mol","Responder a dúvida do exercício"], correct: 0 },
+            { q: "Depois de balancear a equação, o que se deve fazer?", options: ["Montar a proporção em mol observando os números da equação","Converter a temperatura","Calcular a densidade","Somar as massas atômicas"], correct: 0 },
+            { q: "A conversão de unidades deve ser feita quando:", options: ["O exercício fornecer uma quantidade em outra unidade","A equação não estiver balanceada","O produto for um gás","Sempre, independentemente do exercício"], correct: 0 },
+            { q: "Na equação C₂H₆O + 3O₂ → 2CO₂ + 3H₂O, qual é a proporção em mol entre C₂H₆O e CO₂?", options: ["1 mol de C₂H₆O para 2 mols de CO₂","1 mol de C₂H₆O para 3 mols de CO₂","2 mols de C₂H₆O para 1 mol de CO₂","3 mols de C₂H₆O para 2 mols de CO₂"], correct: 0 },
+            { q: "Qual é a massa molar do C₂H₆O calculada no exemplo?", options: ["46 g/mol","44 g/mol","88 g/mol","12 g/mol"], correct: 0 },
+            { q: "Qual é a massa molar do CO₂ calculada no exemplo?", options: ["44 g/mol","46 g/mol","88 g/mol","28 g/mol"], correct: 0 },
+            { q: "Como a equação apresenta 2 mols de CO₂, qual é a massa total correspondente?", options: ["88 g","44 g","46 g","92 g"], correct: 0 },
+            { q: "Para descobrir o valor de '?' a partir de 2,3 × 10³ g de C₂H₆O, qual operação é usada?", options: ["Multiplicação cruzada","Soma direta","Divisão pela massa molar apenas","Regra de três inversa"], correct: 0 },
+            { q: "Qual é o resultado final de CO₂ produzido a partir de 2,3 × 10³ g de C₂H₆O, segundo o exemplo?", options: ["4,4 × 10³ g","8,8 × 10³ g","2,3 × 10³ g","4,6 × 10² g"], correct: 0 },
+            { q: "Segundo o 'ouro da estequiometria', qual é a sequência correta para resolver a questão?", options: ["Equação balanceada → Proporção em mol → Conversão de unidades → Proporção para encontrar o ?","Conversão de unidades → Equação balanceada → Proporção em mol → Resposta","Proporção em mol → Equação balanceada → Resposta → Conversão","Resposta → Proporção → Conversão → Equação"], correct: 0 },
           ],
         },
         {
           id: "concentracao-molar",
-          title: "Concentração de soluções (mol/L)",
+          title: "Concentração de soluções (ppm, ppb e mol/L)",
           sections: [
+            {
+              heading: "Partes por milhão (ppm)",
+              body: `ppm relaciona quantas partes de soluto há em um milhão (10⁶) de partes da solução.
+
+Usado para soluções MUITO diluídas: poluentes no ar e na água, flúor na pasta de dente, metais em ligas.
+
+Exemplo:
+5 ppm → 5 partes de soluto — 10⁶ partes da solução
+→ 5 g de soluto — 10⁶ g de solução
+
+Exemplo:
+A concentração de chumbo (Pb) no latão é de 2 ppm.
+→ 2 g de chumbo — 10⁶ g de latão
+
+📌 Para a água, 1 L tem cerca de 1 000 g (densidade 1 g/mL). Por isso, em água, 1 ppm ≈ 1 mg/L.`,
+              visual: `<svg viewBox="0 0 640 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<rect width="640" height="280" rx="12" fill="#F4EEE1"/>
+<text x="320" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">Molde da regra de três para ppm</text>
+<text x="170" y="64" text-anchor="middle" font-size="12" font-weight="700" fill="#A8763E">SOLUTO</text><text x="450" y="64" text-anchor="middle" font-size="12" font-weight="700" fill="#5B7553">SOLUÇÃO</text>
+<rect x="80" y="76" width="180" height="40" rx="10" fill="#E4D9C4" stroke="#A8763E" stroke-width="2"/><text x="170" y="102" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">valor em ppm (g)</text>
+<rect x="360" y="76" width="180" height="40" rx="10" fill="#E4D9C4" stroke="#5B7553" stroke-width="2"/><text x="450" y="102" text-anchor="middle" font-size="15" font-weight="700" fill="#3E2F20">10⁶ g</text>
+<rect x="80" y="132" width="180" height="40" rx="10" fill="#E4D9C4" stroke="#A8763E" stroke-width="2"/><text x="170" y="158" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">x (o que se pede)</text>
+<rect x="360" y="132" width="180" height="40" rx="10" fill="#E4D9C4" stroke="#5B7553" stroke-width="2"/><text x="450" y="158" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">massa da amostra</text>
+<text x="310" y="102" text-anchor="middle" font-size="16" font-weight="700" fill="#3E2F20">——</text><text x="310" y="158" text-anchor="middle" font-size="16" font-weight="700" fill="#3E2F20">——</text>
+<line x1="260" y1="96" x2="360" y2="152" stroke="#A6493A" stroke-width="1.5" stroke-dasharray="4 3"/><line x1="260" y1="152" x2="360" y2="96" stroke="#A6493A" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="320" y="202" text-anchor="middle" font-size="11" font-style="italic" fill="#A6493A">multiplique cruzado e isole x</text>
+<rect x="60" y="222" width="520" height="40" rx="20" fill="none" stroke="#C9B18C"/>
+<text x="320" y="247" text-anchor="middle" font-size="12.5" font-weight="700" fill="#3E2F20">Água: 1 L ≈ 1 000 g  →  1 ppm ≈ 1 mg/L   ·   1 ppm = 1 000 ppb</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Sempre deixe o soluto de um lado e a solução do outro, na mesma unidade (gramas).</p>`,
+            },
+            {
+              heading: "Partes por bilhão (ppb)",
+              body: `ppb relaciona quantas partes de soluto há em um bilhão (10⁹) de partes da solução.
+
+Serve para quantidades ainda menores (traços de metais pesados, como chumbo e mercúrio).
+
+Conversão: 1 ppm = 1 000 ppb  →  0,001 ppm = 1 ppb`,
+              visual: `<div class="overflow-x-auto"><table class="w-full text-sm border-collapse"><thead><tr class="border-b-2 border-sand"><th class="text-left py-2 pr-4 font-display text-ochre">Unidade</th><th class="text-left py-2 pr-4 font-display text-ochre">Significa</th><th class="text-left py-2 pr-4 font-display text-ochre">Em massa</th></tr></thead><tbody><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">1 ppm</td><td class="py-1.5 pr-4 text-espresso">1 parte em 10⁶ partes</td><td class="py-1.5 pr-4 text-espresso">1 g em 10⁶ g = 1 mg/kg</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">1 ppb</td><td class="py-1.5 pr-4 text-espresso">1 parte em 10⁹ partes</td><td class="py-1.5 pr-4 text-espresso">1 g em 10⁹ g = 1 μg/kg</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">1 ppm</td><td class="py-1.5 pr-4 text-espresso">= 1 000 ppb</td><td class="py-1.5 pr-4 text-espresso"></td></tr></tbody></table></div>`,
+            },
+            {
+              heading: "Exercícios resolvidos (ppm e ppb)",
+              body: `1) Uma pasta de dente tem 1 500 ppm de flúor. Qual a massa de flúor em um tubo de 200 g?
+1 500 g flúor — 10⁶ g pasta
+x — 200 g
+10⁶ · x = 1 500 · 200 = 3 · 10⁵
+x = 3 · 10⁵ / 10⁶ = 0,3 g
+
+2) Uma amostra tem 2 ppm de cobre (Cu). Quanto cobre há em 1 kg (10³ g) dessa amostra?
+2 g — 10⁶ g
+x — 10³ g
+x = 2 · 10³ / 10⁶ = 2 · 10⁻³ g de Cu (2 mg)
+
+3) Uma água tem 0,001 ppm de chumbo. Quanto chumbo há em 1 L (≈ 1 000 g)?
+0,001 g Pb — 10⁶ g
+x — 10³ g
+x = 10⁻³ · 10³ / 10⁶ = 1 · 10⁻⁶ g (1 μg)
+E 0,001 ppm = 1 ppb.
+
+4) Há 0,08 g de soluto em 10 L de água (≈ 10 000 g = 10⁴ g). Qual a concentração em ppm?
+0,08 g — 10⁴ g
+x — 10⁶ g
+x = 0,08 · 10⁶ / 10⁴ = 8 → 8 ppm
+
+📌 Comparando amostras: quanto MAIOR o valor em ppm, MAIS soluto (por exemplo, mais mercúrio) há na amostra. Se o limite permitido é 0,5 ppm, uma amostra com 2 ppm está acima do limite.`,
+            },
             {
               heading: "Concentração molar (mol/L)",
               body: `A concentração molar relaciona a quantidade de matéria (mol) do soluto presente em 1 L de solução.
 
-M = n / V
+M = n₁ / V
 
 • M → concentração molar (mol/L)
-• n → quantidade de matéria do soluto (mol)
+• n₁ → número de mol do soluto
 • V → volume da solução (L)
 
 Atenção: o volume tem que estar em litros. 500 mL = 0,5 L.`,
             },
             {
               heading: "Juntando com a massa molar",
-              body: `Relembrando:
+              body: `Relacionando com a massa molar:
 
-n = m₁ / MM
+n₁ = m₁ / M₁
 
 • m₁ → massa do soluto (g)
-• MM → massa molar do soluto (g/mol)
+• M₁ → massa molar do soluto (g/mol)
 
 Substituindo na fórmula anterior:
 
-M = m₁ / (MM · V)
+M = m₁ / (M₁ · V)
 
-Exemplo: 11,7 g de NaCl (MM = 58,5 g/mol) em 500 mL de solução.
-• n = 11,7 / 58,5 = 0,2 mol
+📌 Não confunda: M (sem índice) é a concentração em mol/L; M₁ é a massa molar do soluto.
+
+Exemplo: 11,7 g de NaCl (M₁ = 58,5 g/mol) em 500 mL de solução.
+• n₁ = 11,7 / 58,5 = 0,2 mol
 • M = 0,2 / 0,5 = 0,4 mol/L`,
             },
             {
@@ -279,6 +302,16 @@ Outro exemplo: CaCl₂ → Ca²⁺ + 2 Cl⁻. Uma solução 0,1 mol/L de CaCl₂
             },
           ],
           quiz: [
+            { q: "A unidade ppm indica quantas partes de soluto há em:", options: ["100 partes de solução","10³ partes de solução","10⁶ partes de solução","10⁹ partes de solução"], correct: 2 },
+            { q: "A unidade ppb indica quantas partes de soluto há em:", options: ["10³ partes de solução","10⁶ partes de solução","10⁹ partes de solução","10¹² partes de solução"], correct: 2 },
+            { q: "Uma pasta de dente tem 1 500 ppm de flúor. A massa de flúor em um tubo de 200 g é:", options: ["0,03 g","0,3 g","3 g","30 g"], correct: 1 },
+            { q: "O latão contém 2 ppm de chumbo. Em 1 kg de latão há:", options: ["2 g de chumbo","0,2 g de chumbo","2 · 10⁻³ g de chumbo","2 · 10⁻⁶ g de chumbo"], correct: 2 },
+            { q: "Uma amostra de 10 L de água (≈ 10⁴ g) contém 0,08 g de um soluto. A concentração é:", options: ["0,8 ppm","8 ppm","80 ppm","800 ppm"], correct: 1 },
+            { q: "Uma concentração de 0,001 ppm equivale a:", options: ["1 ppb","10 ppb","0,1 ppb","1 000 ppb"], correct: 0 },
+            { q: "Quantos ppb há em 1 ppm?", options: ["10","100","1 000","1 000 000"], correct: 2 },
+            { q: "Para soluções aquosas bem diluídas, 1 ppm equivale aproximadamente a:", options: ["1 g/L","1 mg/L","1 kg/L","1 mol/L"], correct: 1 },
+            { q: "Uma água tem 5 ppm de cloro. Quantos miligramas de cloro há em 2 L dessa água?", options: ["2,5 mg","5 mg","10 mg","100 mg"], correct: 2 },
+            { q: "O limite permitido de mercúrio em um peixe é 0,5 ppm. Uma amostra com 2 ppm:", options: ["Está abaixo do limite","Está acima do limite (tem mais mercúrio)","Não tem mercúrio","Tem exatamente o limite"], correct: 1 },
             { q: "Uma solução contém 0,5 mol de soluto em 2 L de solução. Qual é sua concentração molar?", options: ["1 mol/L","0,25 mol/L","2,5 mol/L","4 mol/L"], correct: 1 },
             { q: "Foram dissolvidos 2 mol de soluto em água, formando 500 mL de solução. A concentração molar é:", options: ["1 mol/L","0,4 mol/L","4 mol/L","1000 mol/L"], correct: 2 },
             { q: "Na fórmula M = n/V, o volume V deve ser expresso em:", options: ["mL de solvente","Litros de solução","Gramas de solução","cm³ de soluto"], correct: 1 },
