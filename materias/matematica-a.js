@@ -552,7 +552,7 @@ A ideia é sempre a mesma: transformar os dois lados em potências da mesma base
         },
         {
           id: "logaritmos",
-          title: "Logaritmos",
+          title: "Logaritmos, equação e função logarítmica",
           sections: [
             {
               heading: "O que é logaritmo",
@@ -726,6 +726,114 @@ Se log 2 = x e log 3 = y:
 • log 5: como 10 = 2 · 5 → 1 = x + log 5 → log 5 = 1 − x`,
             },
             {
+              heading: "Equação logarítmica",
+              body: `Uma equação logarítmica é uma equação com a incógnita x que pode ser escrita na forma:
+
+log_b x = a, com a ∈ ℝ, b > 0, b ≠ 1 e x > 0
+
+Condição de existência (C.E.)
+• O logaritmando precisa ser sempre POSITIVO.
+• Se a equação tem vários logaritmos, faça a C.E. de CADA logaritmando.
+• Faça a C.E. antes de resolver e confira as raízes no final: raiz que viola a C.E. é descartada.
+
+Duas formas de resolver:
+1. Pela definição: log_b A = c → A = b^c
+2. Pela igualdade: log_b A = log_b B → A = B (mesma base, respeitando a C.E.)
+
+Exemplo: log(x + 1) + log(x − 1) = 1
+• C.E.: x + 1 > 0 e x − 1 > 0 → x > 1
+• Propriedade da soma: log[(x + 1)(x − 1)] = 1
+• Pela definição (base 10): x² − 1 = 10¹ → x² = 11 → x = ±√11
+• −√11 não respeita x > 1 → S = {√11}`,
+            },
+            {
+              heading: "Equações logarítmicas: exercícios resolvidos",
+              body: `1a) log₃(x² − x) = log₃(6 − 2x)
+• C.E.: x² − x > 0 e 6 − 2x > 0 (x < 3)
+• Mesma base → x² − x = 6 − 2x
+• x² + x − 6 = 0 → (x + 3)(x − 2) = 0 → x = −3 ou x = 2
+• Conferindo cada raiz na C.E. (substitua nos DOIS logaritmandos):
+  x = −3 → x² − x = 9 + 3 = 12 > 0 ✓ e 6 − 2x = 6 + 6 = 12 > 0 ✓
+  x = 2 → x² − x = 4 − 2 = 2 > 0 ✓ e 6 − 2x = 6 − 4 = 2 > 0 ✓
+• As duas raízes servem: S = {−3, 2}
+
+📌 Atenção: x negativo não é proibido! O que precisa ser positivo é o LOGARITMANDO, não o x. Por isso a conferência é feita substituindo o valor.
+
+1b) log₅(x − 1) + log₅ x = log₅(6 − 2x)
+• C.E.: x − 1 > 0 (x > 1), x > 0 e 6 − 2x > 0 (x < 3) → 1 < x < 3
+• Soma vira produto: log₅[(x − 1) · x] = log₅(6 − 2x)
+• (x − 1)x = 6 − 2x → x² + x − 6 = 0 → x = −3 ou x = 2
+• −3 não está entre 1 e 3 → S = {2}
+
+Mais um: log₂ x + log₂(x − 2) = 3
+• C.E.: x > 0 e x > 2 → x > 2
+• log₂[x(x − 2)] = 3 → x(x − 2) = 2³ = 8 → x² − 2x − 8 = 0 → x = 4 ou x = −2
+• S = {4}`,
+            },
+            {
+              heading: "Função logarítmica",
+              body: `Uma função logarítmica tem a forma:
+
+f(x) = log_b x, com b > 0 e b ≠ 1
+
+• Domínio: x > 0 (só existe logaritmo de número positivo)
+• O gráfico sempre passa pelo ponto (1, 0), porque log_b 1 = 0
+• A curva se aproxima do eixo y, mas nunca o toca
+
+O comportamento depende da base:
+• b > 1 → função CRESCENTE (ex.: f(x) = log₂ x)
+• 0 < b < 1 → função DECRESCENTE (ex.: f(x) = log₁/₂ x)
+
+📌 A função logarítmica é a inversa da exponencial: log₂ 8 = 3 porque 2³ = 8.`,
+              visual: `<svg viewBox="0 0 640 296" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<rect width="640" height="296" rx="12" fill="#F4EEE1"/>
+<text x="160" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">f(x) = log₂ x  (b > 1)</text><text x="160" y="42" text-anchor="middle" font-size="11" font-weight="700" fill="#5B7553">CRESCENTE</text><line x1="30" y1="252" x2="298.8" y2="252" stroke="#C9B18C" stroke-width="0.6"/><line x1="30" y1="218" x2="298.8" y2="218" stroke="#C9B18C" stroke-width="0.6"/><line x1="30" y1="184" x2="298.8" y2="184" stroke="#C9B18C" stroke-width="0.6"/><line x1="30" y1="116" x2="298.8" y2="116" stroke="#C9B18C" stroke-width="0.6"/><line x1="30" y1="82" x2="298.8" y2="82" stroke="#C9B18C" stroke-width="0.6"/><line x1="30" y1="48" x2="298.8" y2="48" stroke="#C9B18C" stroke-width="0.6"/><line x1="30" y1="150" x2="305.2" y2="150" stroke="#5C4630" stroke-width="1.5"/><line x1="30" y1="37.80000000000001" x2="30" y2="262.2" stroke="#5C4630" stroke-width="1.5" stroke-dasharray="5 3"/><text x="305.2" y="166" text-anchor="middle" font-size="11" font-style="italic" fill="#5C4630">x</text><text x="36" y="41.80000000000001" text-anchor="start" font-size="11" font-style="italic" fill="#5C4630">y</text><text x="62" y="166" text-anchor="middle" font-size="10" fill="#5C4630">1</text><text x="94" y="166" text-anchor="middle" font-size="10" fill="#5C4630">2</text><text x="158" y="166" text-anchor="middle" font-size="10" fill="#5C4630">4</text><text x="286" y="166" text-anchor="middle" font-size="10" fill="#5C4630">8</text><path d="M33.8,254.0 L35.1,239.9 L36.4,228.9 L37.7,220.0 L39.0,212.4 L40.2,205.9 L41.5,200.1 L42.8,194.9 L44.1,190.3 L45.4,186.0 L46.6,182.1 L47.9,178.4 L49.2,175.1 L50.5,171.9 L51.8,168.9 L53.0,166.1 L54.3,163.5 L55.6,160.9 L56.9,158.6 L58.2,156.3 L59.4,154.1 L60.7,152.0 L62.0,150.0 L63.3,148.1 L64.6,146.2 L65.8,144.4 L67.1,142.7 L68.4,141.1 L69.7,139.4 L71.0,137.9 L72.2,136.4 L73.5,134.9 L74.8,133.5 L76.1,132.1 L77.4,130.8 L78.6,129.5 L79.9,128.2 L81.2,126.9 L82.5,125.7 L83.8,124.6 L85.0,123.4 L86.3,122.3 L87.6,121.2 L88.9,120.1 L90.2,119.0 L91.4,118.0 L92.7,117.0 L94.0,116.0 L95.3,115.0 L96.6,114.1 L97.8,113.1 L99.1,112.2 L100.4,111.3 L101.7,110.4 L103.0,109.6 L104.2,108.7 L105.5,107.9 L106.8,107.1 L108.1,106.2 L109.4,105.4 L110.6,104.7 L111.9,103.9 L113.2,103.1 L114.5,102.4 L115.8,101.6 L117.0,100.9 L118.3,100.2 L119.6,99.5 L120.9,98.8 L122.2,98.1 L123.4,97.4 L124.7,96.8 L126.0,96.1 L127.3,95.5 L128.6,94.8 L129.8,94.2 L131.1,93.6 L132.4,92.9 L133.7,92.3 L135.0,91.7 L136.2,91.1 L137.5,90.6 L138.8,90.0 L140.1,89.4 L141.4,88.8 L142.6,88.3 L143.9,87.7 L145.2,87.2 L146.5,86.6 L147.8,86.1 L149.0,85.6 L150.3,85.0 L151.6,84.5 L152.9,84.0 L154.2,83.5 L155.4,83.0 L156.7,82.5 L158.0,82.0 L159.3,81.5 L160.6,81.0 L161.8,80.6 L163.1,80.1 L164.4,79.6 L165.7,79.1 L167.0,78.7 L168.2,78.2 L169.5,77.8 L170.8,77.3 L172.1,76.9 L173.4,76.4 L174.6,76.0 L175.9,75.6 L177.2,75.1 L178.5,74.7 L179.8,74.3 L181.0,73.9 L182.3,73.5 L183.6,73.1 L184.9,72.6 L186.2,72.2 L187.4,71.8 L188.7,71.4 L190.0,71.1 L191.3,70.7 L192.6,70.3 L193.8,69.9 L195.1,69.5 L196.4,69.1 L197.7,68.8 L199.0,68.4 L200.2,68.0 L201.5,67.6 L202.8,67.3 L204.1,66.9 L205.4,66.6 L206.6,66.2 L207.9,65.8 L209.2,65.5 L210.5,65.1 L211.8,64.8 L213.0,64.5 L214.3,64.1 L215.6,63.8 L216.9,63.4 L218.2,63.1 L219.4,62.8 L220.7,62.4 L222.0,62.1 L223.3,61.8 L224.6,61.5 L225.8,61.1 L227.1,60.8 L228.4,60.5 L229.7,60.2 L231.0,59.9 L232.2,59.6 L233.5,59.3 L234.8,58.9 L236.1,58.6 L237.4,58.3 L238.6,58.0 L239.9,57.7 L241.2,57.4 L242.5,57.1 L243.8,56.8 L245.0,56.6 L246.3,56.3 L247.6,56.0 L248.9,55.7 L250.2,55.4 L251.4,55.1 L252.7,54.8 L254.0,54.5 L255.3,54.3 L256.6,54.0 L257.8,53.7 L259.1,53.4 L260.4,53.2 L261.7,52.9 L263.0,52.6 L264.2,52.4 L265.5,52.1 L266.8,51.8 L268.1,51.6 L269.4,51.3 L270.6,51.0 L271.9,50.8 L273.2,50.5 L274.5,50.3 L275.8,50.0 L277.0,49.7 L278.3,49.5 L279.6,49.2 L280.9,49.0 L282.2,48.7 L283.4,48.5 L284.7,48.2 L286.0,48.0 L287.3,47.8 L288.6,47.5 L289.8,47.3 L291.1,47.0 L292.4,46.8 L293.7,46.6 L295.0,46.3 L296.2,46.1 L297.5,45.8 L298.8,45.6" fill="none" stroke="#5B7553" stroke-width="2.5"/><circle cx="62" cy="150" r="5" fill="#5B7553" stroke="#F4EEE1" stroke-width="2"/><text x="70" y="142" text-anchor="start" font-size="10.5" font-weight="700" fill="#3E2F20">(1, 0)</text><circle cx="94" cy="116" r="5" fill="#5B7553" stroke="#F4EEE1" stroke-width="2"/><text x="102" y="108" text-anchor="start" font-size="10.5" font-weight="700" fill="#3E2F20">(2, 1)</text><circle cx="158" cy="82" r="5" fill="#5B7553" stroke="#F4EEE1" stroke-width="2"/><text x="166" y="74" text-anchor="start" font-size="10.5" font-weight="700" fill="#3E2F20">(4, 2)</text><line x1="320" y1="14" x2="320" y2="266" stroke="#C9B18C" stroke-dasharray="4 4"/><text x="480" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">f(x) = log₁/₂ x  (0 < b < 1)</text><text x="480" y="42" text-anchor="middle" font-size="11" font-weight="700" fill="#A6493A">DECRESCENTE</text><line x1="350" y1="252" x2="618.8" y2="252" stroke="#C9B18C" stroke-width="0.6"/><line x1="350" y1="218" x2="618.8" y2="218" stroke="#C9B18C" stroke-width="0.6"/><line x1="350" y1="184" x2="618.8" y2="184" stroke="#C9B18C" stroke-width="0.6"/><line x1="350" y1="116" x2="618.8" y2="116" stroke="#C9B18C" stroke-width="0.6"/><line x1="350" y1="82" x2="618.8" y2="82" stroke="#C9B18C" stroke-width="0.6"/><line x1="350" y1="48" x2="618.8" y2="48" stroke="#C9B18C" stroke-width="0.6"/><line x1="350" y1="150" x2="625.2" y2="150" stroke="#5C4630" stroke-width="1.5"/><line x1="350" y1="37.80000000000001" x2="350" y2="262.2" stroke="#5C4630" stroke-width="1.5" stroke-dasharray="5 3"/><text x="625.2" y="166" text-anchor="middle" font-size="11" font-style="italic" fill="#5C4630">x</text><text x="356" y="41.80000000000001" text-anchor="start" font-size="11" font-style="italic" fill="#5C4630">y</text><text x="382" y="166" text-anchor="middle" font-size="10" fill="#5C4630">1</text><text x="414" y="166" text-anchor="middle" font-size="10" fill="#5C4630">2</text><text x="478" y="166" text-anchor="middle" font-size="10" fill="#5C4630">4</text><text x="606" y="166" text-anchor="middle" font-size="10" fill="#5C4630">8</text><path d="M353.8,46.0 L355.1,60.1 L356.4,71.1 L357.7,80.0 L359.0,87.6 L360.2,94.1 L361.5,99.9 L362.8,105.1 L364.1,109.7 L365.4,114.0 L366.6,117.9 L367.9,121.6 L369.2,124.9 L370.5,128.1 L371.8,131.1 L373.0,133.9 L374.3,136.5 L375.6,139.1 L376.9,141.4 L378.2,143.7 L379.4,145.9 L380.7,148.0 L382.0,150.0 L383.3,151.9 L384.6,153.8 L385.8,155.6 L387.1,157.3 L388.4,158.9 L389.7,160.6 L391.0,162.1 L392.2,163.6 L393.5,165.1 L394.8,166.5 L396.1,167.9 L397.4,169.2 L398.6,170.5 L399.9,171.8 L401.2,173.1 L402.5,174.3 L403.8,175.4 L405.0,176.6 L406.3,177.7 L407.6,178.8 L408.9,179.9 L410.2,181.0 L411.4,182.0 L412.7,183.0 L414.0,184.0 L415.3,185.0 L416.6,185.9 L417.8,186.9 L419.1,187.8 L420.4,188.7 L421.7,189.6 L423.0,190.4 L424.2,191.3 L425.5,192.1 L426.8,192.9 L428.1,193.8 L429.4,194.6 L430.6,195.3 L431.9,196.1 L433.2,196.9 L434.5,197.6 L435.8,198.4 L437.0,199.1 L438.3,199.8 L439.6,200.5 L440.9,201.2 L442.2,201.9 L443.4,202.6 L444.7,203.2 L446.0,203.9 L447.3,204.5 L448.6,205.2 L449.8,205.8 L451.1,206.4 L452.4,207.1 L453.7,207.7 L455.0,208.3 L456.2,208.9 L457.5,209.4 L458.8,210.0 L460.1,210.6 L461.4,211.2 L462.6,211.7 L463.9,212.3 L465.2,212.8 L466.5,213.4 L467.8,213.9 L469.0,214.4 L470.3,215.0 L471.6,215.5 L472.9,216.0 L474.2,216.5 L475.4,217.0 L476.7,217.5 L478.0,218.0 L479.3,218.5 L480.6,219.0 L481.8,219.4 L483.1,219.9 L484.4,220.4 L485.7,220.9 L487.0,221.3 L488.2,221.8 L489.5,222.2 L490.8,222.7 L492.1,223.1 L493.4,223.6 L494.6,224.0 L495.9,224.4 L497.2,224.9 L498.5,225.3 L499.8,225.7 L501.0,226.1 L502.3,226.5 L503.6,226.9 L504.9,227.4 L506.2,227.8 L507.4,228.2 L508.7,228.6 L510.0,228.9 L511.3,229.3 L512.6,229.7 L513.8,230.1 L515.1,230.5 L516.4,230.9 L517.7,231.2 L519.0,231.6 L520.2,232.0 L521.5,232.4 L522.8,232.7 L524.1,233.1 L525.4,233.4 L526.6,233.8 L527.9,234.2 L529.2,234.5 L530.5,234.9 L531.8,235.2 L533.0,235.5 L534.3,235.9 L535.6,236.2 L536.9,236.6 L538.2,236.9 L539.4,237.2 L540.7,237.6 L542.0,237.9 L543.3,238.2 L544.6,238.5 L545.8,238.9 L547.1,239.2 L548.4,239.5 L549.7,239.8 L551.0,240.1 L552.2,240.4 L553.5,240.7 L554.8,241.1 L556.1,241.4 L557.4,241.7 L558.6,242.0 L559.9,242.3 L561.2,242.6 L562.5,242.9 L563.8,243.2 L565.0,243.4 L566.3,243.7 L567.6,244.0 L568.9,244.3 L570.2,244.6 L571.4,244.9 L572.7,245.2 L574.0,245.5 L575.3,245.7 L576.6,246.0 L577.8,246.3 L579.1,246.6 L580.4,246.8 L581.7,247.1 L583.0,247.4 L584.2,247.6 L585.5,247.9 L586.8,248.2 L588.1,248.4 L589.4,248.7 L590.6,249.0 L591.9,249.2 L593.2,249.5 L594.5,249.7 L595.8,250.0 L597.0,250.3 L598.3,250.5 L599.6,250.8 L600.9,251.0 L602.2,251.3 L603.4,251.5 L604.7,251.8 L606.0,252.0 L607.3,252.2 L608.6,252.5 L609.8,252.7 L611.1,253.0 L612.4,253.2 L613.7,253.4 L615.0,253.7 L616.2,253.9 L617.5,254.2 L618.8,254.4" fill="none" stroke="#A6493A" stroke-width="2.5"/><circle cx="382" cy="150" r="5" fill="#A6493A" stroke="#F4EEE1" stroke-width="2"/><text x="390" y="142" text-anchor="start" font-size="10.5" font-weight="700" fill="#3E2F20">(1, 0)</text><circle cx="414" cy="184" r="5" fill="#A6493A" stroke="#F4EEE1" stroke-width="2"/><text x="422" y="200" text-anchor="start" font-size="10.5" font-weight="700" fill="#3E2F20">(2, −1)</text><circle cx="478" cy="218" r="5" fill="#A6493A" stroke="#F4EEE1" stroke-width="2"/><text x="486" y="234" text-anchor="start" font-size="10.5" font-weight="700" fill="#3E2F20">(4, −2)</text><text x="320" y="284" text-anchor="middle" font-size="11" font-style="italic" fill="#5C4630">as duas passam por (1, 0) · só existem para x > 0 (a curva nunca toca o eixo y)</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">A base decide o formato: maior que 1, a curva sobe; entre 0 e 1, a curva desce.</p>`,
+            },
+            {
+              heading: "Aplicação: empréstimo (exercício 7)",
+              body: `Uma pessoa precisa de um empréstimo de R$ 5.000,00 e pode pagar no máximo R$ 400,00 por mês. A prestação P depende do número de prestações n:
+
+P = (5000 · 1,013ⁿ · 0,013) / (1,013ⁿ − 1)
+
+Dados: log 1,013 ≈ 0,005 · log 400 ≈ 2,602 · log 335 ≈ 2,525
+
+Qual o menor número de parcelas para P ≤ 400?
+
+Resolução:
+• 5000 · 0,013 = 65 → 65 · 1,013ⁿ / (1,013ⁿ − 1) ≤ 400
+• 65 · 1,013ⁿ ≤ 400 · 1,013ⁿ − 400
+• 400 ≤ 335 · 1,013ⁿ → 1,013ⁿ ≥ 400 / 335
+• Aplicando log dos dois lados: n · log 1,013 ≥ log 400 − log 335
+• n · 0,005 ≥ 2,602 − 2,525 = 0,077
+• n ≥ 0,077 / 0,005 = 15,4
+
+Como n precisa ser inteiro e maior que 15,4: n = 16 (alternativa D).
+
+📌 O logaritmo serve para "trazer o expoente para baixo" quando a incógnita está no expoente.`,
+            },
+            {
+              heading: "Mudança de base com ln (exercício 8)",
+              body: `ln é o logaritmo natural (base e ≈ 2,718). A mudança de base funciona igual:
+
+log_b a = ln a / ln b
+
+Tabela dada pela calculadora:`,
+              visual: `<div class="overflow-x-auto"><table class="w-full text-sm border-collapse"><thead><tr class="border-b-2 border-sand"><th class="text-left py-2 pr-4 font-display text-ochre">x</th><th class="text-left py-2 pr-4 font-display text-ochre">1</th><th class="text-left py-2 pr-4 font-display text-ochre">2</th><th class="text-left py-2 pr-4 font-display text-ochre">3</th><th class="text-left py-2 pr-4 font-display text-ochre">4</th><th class="text-left py-2 pr-4 font-display text-ochre">5</th></tr></thead><tbody><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">ln x</td><td class="py-1.5 pr-4 text-espresso">0</td><td class="py-1.5 pr-4 text-espresso">0,69</td><td class="py-1.5 pr-4 text-espresso">1,10</td><td class="py-1.5 pr-4 text-espresso">1,38</td><td class="py-1.5 pr-4 text-espresso">1,61</td></tr></tbody></table></div>`,
+            },
+            {
+              heading: "Exercício 8 resolvido",
+              body: `a) log₂ 3 = ln 3 / ln 2 ≈ 1,10 / 0,69 ≈ 1,59
+
+b) log₁₀ 2 = ln 2 / ln 10
+• A tabela não tem ln 10, mas 10 = 2 · 5
+• ln 10 = ln (2 · 5) = ln 2 + ln 5 ≈ 0,69 + 1,61 = 2,30
+• log₁₀ 2 ≈ 0,69 / 2,30 = 0,30
+
+📌 Quando faltar um valor na tabela, decomponha o número em fatores que estão nela: ln(ab) = ln a + ln b.`,
+            },
+            {
               heading: "Erros comuns",
               body: `• log (a + b) NÃO é log a + log b → não existe propriedade para soma.
 • log (a · b) NÃO é log a · log b → o certo é log a + log b.
@@ -762,6 +870,24 @@ Se log 2 = x e log 3 = y:
             { q: "Qual é o valor de log₆ 6?", options: ["0","1","6","36"], correct: 1 },
             { q: "Qual é o valor de log₂ 2¹⁰?", options: ["2","10","20","1024"], correct: 1 },
             { q: "Qual das igualdades é VERDADEIRA?", options: ["log (a + b) = log a + log b","log (a · b) = log a · log b","log (a · b) = log a + log b","log (a / b) = log a / log b"], correct: 2 },
+            { q: "Qual é a condição de existência de log(x − 3)?", options: ["x > 0","x > 3","x ≥ 3","x ≠ 3"], correct: 1 },
+            { q: "Resolvendo log₃ x = 4, obtemos:", options: ["x = 12","x = 64","x = 81","x = 7"], correct: 2 },
+            { q: "Resolvendo log₂(x + 1) = 3, obtemos:", options: ["x = 5","x = 7","x = 8","x = 9"], correct: 1 },
+            { q: "O conjunto solução de log(x + 1) + log(x − 1) = 1 é:", options: ["{−√11, √11}","{√11}","{11}","{10}"], correct: 1 },
+            { q: "Em log(x + 1) + log(x − 1) = 1, por que −√11 é descartado?", options: ["Porque é irracional","Porque não satisfaz a condição de existência x > 1","Porque a base é 10","Porque log de 11 não existe"], correct: 1 },
+            { q: "Se log_b A = log_b B, com A > 0 e B > 0, então:", options: ["A = B","A = −B","A · B = 1","A + B = b"], correct: 0 },
+            { q: "O conjunto solução de log₅(x − 1) + log₅ x = log₅(6 − 2x) é:", options: ["{−3}","{2}","{−3, 2}","{3}"], correct: 1 },
+            { q: "Em log₅(x − 1) + log₅ x = log₅(6 − 2x), a condição de existência é:", options: ["x > 0","x > 1","1 < x < 3","x < 3"], correct: 2 },
+            { q: "O conjunto solução de log₂ x + log₂(x − 2) = 3 é:", options: ["{−2, 4}","{4}","{−2}","{8}"], correct: 1 },
+            { q: "A função f(x) = log₂ x é:", options: ["Crescente","Decrescente","Constante","Não existe"], correct: 0 },
+            { q: "A função f(x) = log₁/₂ x é:", options: ["Crescente","Decrescente","Constante","Definida para x negativo"], correct: 1 },
+            { q: "A função f(x) = log₀,₃ x é crescente ou decrescente?", options: ["Crescente, porque 0,3 > 0","Decrescente, porque 0 < 0,3 < 1","Constante","Não é função logarítmica"], correct: 1 },
+            { q: "O gráfico de qualquer função f(x) = log_b x passa pelo ponto:", options: ["(0, 1)","(1, 0)","(0, 0)","(1, 1)"], correct: 1 },
+            { q: "O domínio da função f(x) = log_b x é:", options: ["Todos os reais","x > 0","x ≥ 0","x < 0"], correct: 1 },
+            { q: "Para f(x) = log₃ x, o valor de f(9) é:", options: ["3","2","27","1/2"], correct: 1 },
+            { q: "No exercício do empréstimo, chegou-se a n ≥ 15,4. O menor número de parcelas é:", options: ["15","15,4","16","17"], correct: 2 },
+            { q: "Usando ln 2 ≈ 0,69 e ln 3 ≈ 1,10, o valor aproximado de log₂ 3 é:", options: ["0,63","1,59","1,79","0,41"], correct: 1 },
+            { q: "Usando ln 2 ≈ 0,69 e ln 5 ≈ 1,61, o valor de ln 10 é aproximadamente:", options: ["1,11","2,30","0,92","3,22"], correct: 1 },
           ],
         },
       ],
