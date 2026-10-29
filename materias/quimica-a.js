@@ -326,6 +326,90 @@ Outro exemplo: CaCl₂ → Ca²⁺ + 2 Cl⁻. Uma solução 0,1 mol/L de CaCl₂
             { q: "Por que soluções de NaCl e de glicose com a mesma concentração molar têm números de partículas diferentes?", options: ["Porque o NaCl se dissocia em íons e a glicose não","Porque a glicose evapora","Porque o NaCl é insolúvel","Porque a glicose se dissocia em 6 partículas"], correct: 0 },
           ],
         },
+        {
+          id: "mistura-de-solucoes",
+          title: "Mistura e diluição de soluções",
+          sections: [
+            {
+              heading: "Mistura de soluções do mesmo soluto",
+              body: `Exemplo: solução A de NaCl (C_A, V_A) + solução B de NaCl (C_B, V_B) → solução final (C_F, V_F)
+
+C_A · V_A + C_B · V_B = C_F · V_F
+
+• Os "+" e o "=" são entre PRODUTOS (C · V), não somas de C com V.
+• V_F = V_A + V_B (somam-se os volumes, desprezando a contração).
+• Ideia: a quantidade de soluto se conserva. C · V = quantidade de soluto (mol ou massa).
+
+Isolando a concentração final:
+C_F = (C_A · V_A + C_B · V_B) / (V_A + V_B)
+
+• A concentração final fica ENTRE C_A e C_B (é uma média ponderada pelos volumes).
+• Pode usar mol/L ou g/L, mas todas as concentrações na mesma unidade; os volumes também (mL ou L).
+
+Exemplo: 200 mL de NaCl 0,5 mol/L + 300 mL de NaCl 1,0 mol/L
+C_F = (0,5 · 200 + 1,0 · 300) / (200 + 300) = 400 / 500 = 0,8 mol/L`,
+              visual: `<svg viewBox="0 0 640 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="ms6_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="ms6_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="ms6_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="ms6_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="ms6_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker><marker id="ms6_5C4630" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5C4630"/></marker></defs><rect width="640" height="280" rx="12" fill="#F4EEE1"/>
+<path d="M30,60 L30,190 Q30,200 40,200 L140,200 Q150,200 150,190 L150,60" fill="none" stroke="#5C4630" stroke-width="2.5"/><rect x="32" y="130" width="116" height="68" fill="#B9CBD3"/><text x="90" y="40" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">SOLUÇÃO A</text><text x="90" y="230" text-anchor="middle" font-size="11" font-weight="700" fill="#A8763E">C_A · V_A</text><text x="185" y="150" text-anchor="middle" font-size="28" font-weight="700" fill="#3E2F20">+</text><path d="M220,60 L220,190 Q220,200 230,200 L330,200 Q340,200 340,190 L340,60" fill="none" stroke="#5C4630" stroke-width="2.5"/><rect x="222" y="110" width="116" height="88" fill="#B9CBD3"/><text x="280" y="40" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">SOLUÇÃO B</text><text x="280" y="230" text-anchor="middle" font-size="11" font-weight="700" fill="#A8763E">C_B · V_B</text><line x1="360" y1="140" x2="410" y2="140" stroke="#3E2F20" stroke-width="2.5" marker-end="url(#ms6_3E2F20)"/><path d="M430,60 L430,190 Q430,200 440,200 L590,200 Q600,200 600,190 L600,60" fill="none" stroke="#5C4630" stroke-width="2.5"/><rect x="432" y="72" width="166" height="126" fill="#B9CBD3"/><text x="515" y="40" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">SOLUÇÃO FINAL</text><text x="515" y="230" text-anchor="middle" font-size="11" font-weight="700" fill="#A8763E">C_F · V_F</text><rect x="40" y="240" width="560" height="30" rx="15" fill="#E4D9C4" stroke="#C9B18C"/><text x="320" y="260" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">C_A · V_A + C_B · V_B = C_F · V_F    com    V_F = V_A + V_B</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">C · V é a quantidade de soluto. Ao misturar, nenhum soluto some: o total de A mais o de B é o total da solução final.</p>`,
+            },
+            {
+              heading: "Solutos diferentes, sem reação",
+              body: `Cada soluto se dilui no volume final, independente do outro:
+
+C_F (de cada soluto) = C · V / V_F
+
+Exemplo: 100 mL de NaCl 0,6 mol/L + 200 mL de KCl 0,3 mol/L (V_F = 300 mL)
+• [NaCl] = 0,6 · 100 / 300 = 0,2 mol/L
+• [KCl] = 0,3 · 200 / 300 = 0,2 mol/L`,
+            },
+            {
+              heading: "Solutos diferentes, com reação",
+              body: `1. Calcule a quantidade de cada reagente: n = M · V
+2. Compare com a proporção da equação balanceada (reagente limitante e excesso)
+3. Calcule o que sobrou e o que foi formado
+4. Divida pelo volume final (V_A + V_B) para obter as concentrações
+
+Exemplo: HCl + NaOH → NaCl + H₂O (proporção 1 : 1)
+100 mL de HCl 1,0 mol/L (0,1 mol) + 100 mL de NaOH 0,5 mol/L (0,05 mol)
+• Reagem 0,05 mol de cada; sobram 0,05 mol de HCl (excesso)
+• Forma-se 0,05 mol de NaCl
+• V_F = 0,2 L → [HCl] = 0,25 mol/L e [NaCl] = 0,25 mol/L
+• Como sobrou ácido, a solução final é ÁCIDA.`,
+            },
+            {
+              heading: "Diluição e concentração",
+              body: `Diluição (adicionar solvente):
+C_i · V_i = C_f · V_f
+• A concentração diminui, o volume aumenta e a quantidade de soluto continua a mesma.
+• Exemplo: 100 mL de solução 2 mol/L diluída até 500 mL → C_f = 2 · 100 / 500 = 0,4 mol/L
+
+Concentração (evaporar solvente):
+• Mesma fórmula, mas agora V_f < V_i, e a concentração aumenta.
+• Exemplo: 500 mL de solução 0,2 mol/L evaporada até 100 mL → C_f = 0,2 · 500 / 100 = 1,0 mol/L
+
+📌 Cuidado: "volume de água adicionado" é V_f − V_i, e não o V_f.`,
+            },
+          ],
+          quiz: [
+            { q: "Na mistura de soluções do mesmo soluto, vale a relação:", options: ["C_A + V_A = C_F + V_F","C_A · V_A + C_B · V_B = C_F · V_F","C_A / V_A = C_B / V_B","C_F = C_A + C_B"], correct: 1 },
+            { q: "Por que a relação C_A · V_A + C_B · V_B = C_F · V_F é válida?", options: ["Porque a concentração se conserva","Porque a quantidade de soluto se conserva","Porque o volume não muda","Porque o solvente evapora"], correct: 1 },
+            { q: "Misturam-se 200 mL de NaCl 0,5 mol/L com 300 mL de NaCl 1,0 mol/L. A concentração final é:", options: ["0,75 mol/L","0,8 mol/L","1,5 mol/L","0,6 mol/L"], correct: 1 },
+            { q: "Misturam-se 100 mL de solução 2 mol/L com 100 mL de solução 1 mol/L do mesmo soluto. A concentração final é:", options: ["3 mol/L","1 mol/L","1,5 mol/L","0,5 mol/L"], correct: 2 },
+            { q: "Ao misturar 100 mL de solução 20 g/L com 400 mL de solução 5 g/L do mesmo soluto, a concentração final é:", options: ["8 g/L","12,5 g/L","25 g/L","4 g/L"], correct: 0 },
+            { q: "Na mistura de duas soluções do mesmo soluto, a concentração final:", options: ["É sempre a soma das concentrações","Fica entre as duas concentrações iniciais","É sempre maior que as duas","É sempre zero"], correct: 1 },
+            { q: "Desprezando a contração, o volume final de uma mistura é:", options: ["V_A − V_B","V_A · V_B","V_A + V_B","O maior dos dois volumes"], correct: 2 },
+            { q: "Misturam-se 100 mL de NaCl 0,6 mol/L e 200 mL de KCl 0,3 mol/L (sem reação). A concentração final de NaCl é:", options: ["0,6 mol/L","0,3 mol/L","0,2 mol/L","0,9 mol/L"], correct: 2 },
+            { q: "Misturam-se 100 mL de HCl 1,0 mol/L com 100 mL de NaOH 0,5 mol/L. A solução final é:", options: ["Neutra","Ácida, pois sobra HCl","Básica, pois sobra NaOH","Sem nenhum íon"], correct: 1 },
+            { q: "No caso anterior (100 mL de HCl 1,0 mol/L + 100 mL de NaOH 0,5 mol/L), a concentração de HCl que sobra é:", options: ["0,5 mol/L","0,25 mol/L","0,05 mol/L","1,0 mol/L"], correct: 1 },
+            { q: "Misturam-se 100 mL de HCl 1 mol/L com 100 mL de NaOH 1 mol/L. A concentração de NaCl formado é:", options: ["1 mol/L","0,5 mol/L","2 mol/L","0,1 mol/L"], correct: 1 },
+            { q: "100 mL de uma solução 2 mol/L são diluídos até 500 mL. A nova concentração é:", options: ["0,4 mol/L","1 mol/L","10 mol/L","0,2 mol/L"], correct: 0 },
+            { q: "Quanto de água deve ser adicionado a 200 mL de solução 1,0 mol/L para obter 0,25 mol/L?", options: ["200 mL","600 mL","800 mL","50 mL"], correct: 1 },
+            { q: "500 mL de uma solução 0,2 mol/L perdem solvente por evaporação até 100 mL. A nova concentração é:", options: ["0,04 mol/L","0,2 mol/L","1,0 mol/L","2,0 mol/L"], correct: 2 },
+            { q: "Na diluição, o que permanece constante?", options: ["A concentração","O volume","A quantidade de soluto","A densidade"], correct: 2 },
+          ],
+        },
       ],
     },
 );
