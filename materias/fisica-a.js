@@ -275,6 +275,51 @@ Para a mesma força:
 </svg>
 <p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">O mesmo tijolo (mesmo peso F) faz mais pressão em pé, porque a área de apoio (em verde) é menor: P = F / A.</p>`,
             },
+            {
+              heading: "Pressão de uma coluna de líquido",
+              body: `Uma coluna de líquido de altura h exerce, na sua base, a pressão:
+
+P = d · g · h
+
+• d → densidade do líquido (kg/m³)
+• g → aceleração da gravidade (m/s²)
+• h → altura da coluna (m)
+
+Pontos de um mesmo líquido, no mesmo nível (mesma altura), têm a mesma pressão. É isso que permite comparar a pressão do ar com a de uma coluna de líquido.`,
+            },
+            {
+              heading: "Experiência de Torricelli",
+              body: `Torricelli encheu um tubo com mercúrio e o virou de cabeça para baixo dentro de uma bacia com mercúrio. A coluna desceu e parou a cerca de 76 cm de altura (ao nível do mar). Em cima ficou praticamente vácuo.
+
+Os pontos A (dentro do tubo) e B (na superfície da bacia) estão no mesmo nível:
+
+P_A = P_B
+P_Hg = P_atm
+d_Hg · g · h_Hg = 103 000
+13 600 · 10 · h_Hg = 103 000
+h_Hg = 103 000 / 136 000 ≈ 0,76 m = 760 mm
+
+→ 1 atm = 760 mmHg (= 76 cmHg)
+
+📌 A pressão atmosférica sustenta a coluna. Em lugares mais altos (montanhas), o ar exerce menos pressão e a coluna fica menor.`,
+              visual: `<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="tr8_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="tr8_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="tr8_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="tr8_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="tr8_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker><marker id="tr8_5C4630" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5C4630"/></marker></defs><rect width="640" height="330" rx="12" fill="#F4EEE1"/>
+<rect x="40" y="250" width="200" height="60" rx="6" fill="#A6493A" stroke="#5C4630" stroke-width="2"/><rect x="110" y="40" width="44" height="250" fill="none" stroke="#5C4630" stroke-width="2.5"/><rect x="112" y="96" width="40" height="194" fill="#A6493A"/><rect x="112" y="42" width="40" height="54" fill="#F4EEE1"/><text x="132" y="62" text-anchor="middle" font-size="9.5" font-style="italic" fill="#5C4630">vácuo</text><line x1="170" y1="96" x2="170" y2="250" stroke="#3E2F20" stroke-width="1.5"/><line x1="164" y1="96" x2="176" y2="96" stroke="#3E2F20"/><line x1="164" y1="250" x2="176" y2="250" stroke="#3E2F20"/><text x="182" y="173" text-anchor="start" font-size="13" font-weight="700" fill="#3E2F20">h = 76 cm</text><text x="182" y="189" text-anchor="start" font-size="10" font-style="italic" fill="#5C4630">= 760 mmHg</text><circle cx="132" cy="250" r="4" fill="#A6493A"/><text x="132" y="270" text-anchor="middle" font-size="12" font-weight="700" fill="#F4EEE1">A</text><circle cx="70" cy="250" r="4" fill="#A6493A"/><text x="70" y="242" text-anchor="middle" font-size="12" font-weight="700" fill="#A6493A">B</text><text x="140" y="326" text-anchor="middle" font-size="11" font-weight="700" fill="#3E2F20">MERCÚRIO (Hg)</text><rect x="360" y="250" width="200" height="60" rx="6" fill="#B9CBD3" stroke="#5C4630" stroke-width="2"/><rect x="430" y="20" width="44" height="270" fill="none" stroke="#5C4630" stroke-width="2.5"/><rect x="432" y="40" width="40" height="250" fill="#B9CBD3"/><rect x="432" y="22" width="40" height="18" fill="#F4EEE1"/><text x="452" y="42" text-anchor="middle" font-size="9.5" font-style="italic" fill="#5C4630">vácuo</text><line x1="490" y1="40" x2="490" y2="250" stroke="#3E2F20" stroke-width="1.5"/><line x1="484" y1="40" x2="496" y2="40" stroke="#3E2F20"/><line x1="484" y1="250" x2="496" y2="250" stroke="#3E2F20"/><text x="502" y="145" text-anchor="start" font-size="13" font-weight="700" fill="#3E2F20">h ≈ 10,3 m</text><text x="502" y="161" text-anchor="start" font-size="10" font-style="italic" fill="#5C4630">(fora de escala)</text><circle cx="452" cy="250" r="4" fill="#A6493A"/><text x="452" y="270" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">A</text><circle cx="390" cy="250" r="4" fill="#A6493A"/><text x="390" y="242" text-anchor="middle" font-size="12" font-weight="700" fill="#A6493A">B</text><text x="460" y="326" text-anchor="middle" font-size="11" font-weight="700" fill="#3E2F20">ÁGUA</text><line x1="320" y1="14" x2="320" y2="312" stroke="#C9B18C" stroke-dasharray="4 4"/><line x1="30" y1="210" x2="30" y2="244" stroke="#3E2F20" stroke-width="2"/><path d="M25,236 L30,246 L35,236" fill="#3E2F20"/><line x1="60" y1="210" x2="60" y2="244" stroke="#3E2F20" stroke-width="2"/><path d="M55,236 L60,246 L65,236" fill="#3E2F20"/><line x1="340" y1="210" x2="340" y2="244" stroke="#3E2F20" stroke-width="2"/><path d="M335,236 L340,246 L345,236" fill="#3E2F20"/><line x1="370" y1="210" x2="370" y2="244" stroke="#3E2F20" stroke-width="2"/><path d="M365,236 L370,246 L375,236" fill="#3E2F20"/><text x="46" y="200" text-anchor="middle" font-size="11" font-weight="700" fill="#3E2F20">P_atm</text><text x="356" y="200" text-anchor="middle" font-size="11" font-weight="700" fill="#3E2F20">P_atm</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">A pressão do ar na superfície (ponto B) sustenta a coluna de líquido no tubo (ponto A, mesmo nível). Quanto mais denso o líquido, menor a coluna.</p>`,
+            },
+            {
+              heading: "Usando água no lugar do mercúrio",
+              body: `A mesma ideia vale para a água:
+
+P_A = P_B
+P_água = P_atm
+d_água · g · h_água = 103 000
+1 000 · 10 · h_água = 103 000
+h_água ≈ 10,3 m
+
+Por isso Torricelli usou mercúrio: ele é cerca de 13,6 vezes mais denso que a água, então a coluna fica 13,6 vezes menor (76 cm em vez de mais de 10 m).`,
+            },
           ],
           quiz: [
             { q: "Fluido é uma substância que:", options: ["Tem forma própria e não escoa","Adquire o formato do recipiente e pode escoar","É sempre sólida","Só existe no estado gasoso"], correct: 1 },
@@ -289,6 +334,16 @@ Para a mesma força:
             { q: "No Sistema Internacional, a unidade de pressão é o pascal (Pa), que equivale a:", options: ["N · m²","N/m²","kg/m³","N/m"], correct: 1 },
             { q: "Por que uma faca afiada corta melhor do que uma faca cega?", options: ["Porque aplica mais força","Porque a área de contato é menor, aumentando a pressão","Porque a área de contato é maior","Porque diminui a pressão"], correct: 1 },
             { q: "Mantendo a mesma força, se a área de aplicação cai pela metade, a pressão:", options: ["Cai pela metade","Não muda","Dobra","Quadruplica"], correct: 2 },
+            { q: "A experiência de Torricelli serviu para medir:", options: ["A densidade da água","A pressão atmosférica","A temperatura do ar","A força da gravidade"], correct: 1 },
+            { q: "Ao nível do mar, a coluna de mercúrio na experiência de Torricelli tem cerca de:", options: ["7,6 cm","76 cm","10,3 m","1 m"], correct: 1 },
+            { q: "1 atm equivale a:", options: ["76 mmHg","760 mmHg","7 600 mmHg","10,3 mmHg"], correct: 1 },
+            { q: "A pressão exercida por uma coluna de líquido é dada por:", options: ["P = F · A","P = d · g · h","P = m / V","P = d / h"], correct: 1 },
+            { q: "Na experiência, os pontos A (no tubo) e B (na bacia), no mesmo nível, têm:", options: ["Pressões diferentes","A mesma pressão","Pressão nula","Pressão infinita"], correct: 1 },
+            { q: "Usando d_Hg = 13 600 kg/m³ e g = 10 m/s², a pressão de uma coluna de 0,76 m de mercúrio é aproximadamente:", options: ["1,03 × 10³ Pa","1,03 × 10⁵ Pa","1,36 × 10⁴ Pa","7,6 × 10⁵ Pa"], correct: 1 },
+            { q: "Se a experiência fosse feita com água (d = 1 000 kg/m³), a coluna teria cerca de:", options: ["76 cm","1 m","10,3 m","103 m"], correct: 2 },
+            { q: "Por que Torricelli usou mercúrio e não água?", options: ["Porque o mercúrio é transparente","Porque o mercúrio é muito mais denso, gerando uma coluna menor","Porque a água não sofre pressão","Porque o mercúrio é mais leve"], correct: 1 },
+            { q: "No alto de uma montanha, a coluna de mercúrio da experiência de Torricelli seria:", options: ["Maior que 76 cm","Igual a 76 cm","Menor que 76 cm","Nula"], correct: 2 },
+            { q: "O espaço acima da coluna de mercúrio, no topo do tubo, contém praticamente:", options: ["Ar comprimido","Água","Vácuo","Mercúrio sólido"], correct: 2 },
           ],
         },
       ],
