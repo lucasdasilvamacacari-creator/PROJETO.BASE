@@ -1152,6 +1152,139 @@ Atuação:
 </svg>
 <p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">A auxina amolece a parede celular; a célula absorve água (azul) e se alonga. É assim que caules e raízes crescem em comprimento.</p>`,
             },
+            {
+              heading: "Giberelinas",
+              body: `Produção:
+• Sementes, folhas jovens e ápices do caule e da raiz.
+
+Atuação:
+• Alongamento do caule (crescimento em altura).
+• Quebra da dormência e estímulo à germinação da semente.
+• Estimula a floração e o desenvolvimento dos frutos.
+
+🧠 Giberelina x ABA: a giberelina estimula a germinação; o ABA a impede.`,
+              visual: `<div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-center">
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3"><p class="font-display text-ochre font-bold mb-1">Caule</p><p class="text-espresso text-sm">alongamento do caule e do entrenó</p></div>
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3"><p class="font-display text-ochre font-bold mb-1">Semente</p><p class="text-espresso text-sm">quebra a dormência → germinação</p></div>
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3"><p class="font-display text-ochre font-bold mb-1">Flor e fruto</p><p class="text-espresso text-sm">floração e desenvolvimento do fruto</p></div>
+</div>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">A giberelina é a "rival" do ABA: enquanto o ABA segura a germinação, a giberelina a estimula.</p>`,
+            },
+            {
+              heading: "Etileno",
+              body: `• Hormônio gasoso (C₂H₄): se espalha pelo ar.
+• Produzido principalmente nos frutos (em amadurecimento) e nas folhas.
+
+Funções:
+• Amadurecimento do fruto.
+• Ativa enzimas que degradam a celulose da parede celular → o fruto amolece.
+• Converte o amido em açúcares → o fruto fica mais doce.
+• Degrada a clorofila → a casca e a folha ficam amarelas.
+• Participa da queda de folhas e frutos (abscisão).
+
+⚠️ A presença de CO₂ inibe a ação do etileno. Por isso frutas são armazenadas em ambientes com mais CO₂ para demorar a amadurecer.
+
+🧠 No dia a dia: embrulhar uma fruta verde em jornal faz ela amadurecer mais rápido, porque o etileno fica concentrado em volta dela.`,
+              visual: `<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="he1_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="he1_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="he1_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="he1_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker></defs>
+<text x="320" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">Etileno (C₂H₄): o hormônio gasoso do amadurecimento</text><ellipse cx="110" cy="100" rx="34" ry="40" fill="#5B7553" stroke="#5C4630" stroke-width="1.5"/><path d="M 110 60 q 4 -14 12 -16" fill="none" stroke="#5C4630" stroke-width="2"/><text x="110" y="164" text-anchor="middle" font-size="12" font-weight="600" fill="#3E2F20">verde</text><line x1="160" y1="100" x2="240" y2="100" stroke="#3E2F20" stroke-width="2" marker-end="url(#he1_3E2F20)"/><text x="200" y="88" text-anchor="middle" font-size="11" font-weight="400" font-style="italic" fill="#A8763E">etileno</text><ellipse cx="320" cy="100" rx="34" ry="40" fill="#D9B45A" stroke="#5C4630" stroke-width="1.5"/><path d="M 320 60 q 4 -14 12 -16" fill="none" stroke="#5C4630" stroke-width="2"/><text x="320" y="164" text-anchor="middle" font-size="12" font-weight="600" fill="#3E2F20">amadurecendo</text><line x1="370" y1="100" x2="450" y2="100" stroke="#3E2F20" stroke-width="2" marker-end="url(#he1_3E2F20)"/><text x="410" y="88" text-anchor="middle" font-size="11" font-weight="400" font-style="italic" fill="#A8763E">etileno</text><ellipse cx="530" cy="100" rx="34" ry="40" fill="#A8763E" stroke="#5C4630" stroke-width="1.5"/><path d="M 530 60 q 4 -14 12 -16" fill="none" stroke="#5C4630" stroke-width="2"/><text x="530" y="164" text-anchor="middle" font-size="12" font-weight="600" fill="#3E2F20">maduro</text><rect x="30" y="192" width="180" height="74" rx="10" fill="#F4EEE1" stroke="#C9B18C" stroke-width="1.5"/><text x="120" y="216" text-anchor="middle" font-size="13" font-weight="700" fill="#A8763E">Parede celular</text><text x="120" y="236" text-anchor="middle" font-size="11" font-weight="400" fill="#3E2F20">enzimas degradam celulose</text><text x="120" y="252" text-anchor="middle" font-size="11" font-weight="600" fill="#3E2F20">→ fruto amolece</text><rect x="230" y="192" width="180" height="74" rx="10" fill="#F4EEE1" stroke="#C9B18C" stroke-width="1.5"/><text x="320" y="216" text-anchor="middle" font-size="13" font-weight="700" fill="#A8763E">Amido</text><text x="320" y="236" text-anchor="middle" font-size="11" font-weight="400" fill="#3E2F20">é quebrado em açúcares</text><text x="320" y="252" text-anchor="middle" font-size="11" font-weight="600" fill="#3E2F20">→ fruto mais doce</text><rect x="430" y="192" width="180" height="74" rx="10" fill="#F4EEE1" stroke="#C9B18C" stroke-width="1.5"/><text x="520" y="216" text-anchor="middle" font-size="13" font-weight="700" fill="#A8763E">Clorofila</text><text x="520" y="236" text-anchor="middle" font-size="11" font-weight="400" fill="#3E2F20">é degradada</text><text x="520" y="252" text-anchor="middle" font-size="11" font-weight="600" fill="#3E2F20">→ casca/folha amarela</text><text x="320" y="290" text-anchor="middle" font-size="12" font-weight="600" fill="#A6493A">CO₂ em excesso inibe o etileno → atrasa o amadurecimento</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Por ser um gás, o etileno de um fruto maduro acelera o amadurecimento dos frutos vizinhos.</p>`,
+            },
+            {
+              heading: "Citocininas",
+              body: `• Produzidas principalmente no meristema do ápice da raiz e levadas pelo xilema até o resto da planta.
+
+Funções:
+• Estimulam as regiões meristemáticas, promovendo divisão celular por mitose (citocinese).
+• Estimulam o desenvolvimento das gemas laterais.
+• Retardam o envelhecimento das folhas: é o "hormônio do rejuvenescimento".
+
+🧠 Citocinina → citocinese (divisão da célula). O nome ajuda a lembrar.`,
+              visual: `<svg viewBox="0 0 640 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="hc1_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="hc1_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="hc1_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="hc1_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker></defs>
+<text x="320" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">Citocinina: estimula a divisão celular (mitose)</text><circle cx="90" cy="110" r="22" fill="#8FA383" stroke="#5B7553" stroke-width="1.5"/><circle cx="90" cy="110" r="7.699999999999999" fill="#5B7553"/><text x="90" y="160" text-anchor="middle" font-size="12" font-weight="400" fill="#3E2F20">1 célula</text><line x1="130" y1="110" x2="200" y2="110" stroke="#3E2F20" stroke-width="2" marker-end="url(#hc1_3E2F20)"/><text x="165" y="98" text-anchor="middle" font-size="11" font-weight="400" font-style="italic" fill="#A8763E">mitose</text><circle cx="235" cy="92" r="16" fill="#8FA383" stroke="#5B7553" stroke-width="1.5"/><circle cx="235" cy="92" r="5.6" fill="#5B7553"/><circle cx="235" cy="128" r="16" fill="#8FA383" stroke="#5B7553" stroke-width="1.5"/><circle cx="235" cy="128" r="5.6" fill="#5B7553"/><text x="235" y="170" text-anchor="middle" font-size="12" font-weight="400" fill="#3E2F20">2 células</text><line x1="270" y1="110" x2="340" y2="110" stroke="#3E2F20" stroke-width="2" marker-end="url(#hc1_3E2F20)"/><text x="305" y="98" text-anchor="middle" font-size="11" font-weight="400" font-style="italic" fill="#A8763E">mitose</text><circle cx="372" cy="92" r="16" fill="#8FA383" stroke="#5B7553" stroke-width="1.5"/><circle cx="372" cy="92" r="5.6" fill="#5B7553"/><circle cx="408" cy="92" r="16" fill="#8FA383" stroke="#5B7553" stroke-width="1.5"/><circle cx="408" cy="92" r="5.6" fill="#5B7553"/><circle cx="372" cy="128" r="16" fill="#8FA383" stroke="#5B7553" stroke-width="1.5"/><circle cx="372" cy="128" r="5.6" fill="#5B7553"/><circle cx="408" cy="128" r="16" fill="#8FA383" stroke="#5B7553" stroke-width="1.5"/><circle cx="408" cy="128" r="5.6" fill="#5B7553"/><text x="390" y="170" text-anchor="middle" font-size="12" font-weight="400" fill="#3E2F20">4 células</text><rect x="450" y="60" width="170" height="110" rx="10" fill="#F4EEE1" stroke="#C9B18C" stroke-width="1.5"/><text x="535" y="84" text-anchor="middle" font-size="13" font-weight="700" fill="#A8763E">Efeitos</text><text x="535" y="106" text-anchor="middle" font-size="11" font-weight="400" fill="#3E2F20">meristemas ativos</text><text x="535" y="124" text-anchor="middle" font-size="11" font-weight="400" fill="#3E2F20">brotação de gemas laterais</text><text x="535" y="142" text-anchor="middle" font-size="11" font-weight="400" fill="#3E2F20">retarda o envelhecimento</text><text x="535" y="160" text-anchor="middle" font-size="10" font-weight="400" fill="#5C4630">(hormônio do rejuvenescimento)</text><text x="320" y="204" text-anchor="middle" font-size="12" font-weight="600" fill="#5C4630">Produzida principalmente no ápice da raiz e levada pelo xilema</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Mais divisões celulares = tecidos jovens e ativos. Por isso a citocinina retarda a senescência.</p>`,
+            },
+            {
+              heading: "Ácido abscísico (ABA)",
+              body: `É o hormônio da senescência (envelhecimento) e da "parada" da planta.
+
+• Produzido na folha e na semente.
+• Distribuído pelo xilema e pelo floema.
+
+Funções:
+• Indisponibiliza K⁺ à célula-guarda: o K⁺ sai, a água sai junto e o estômato fecha (impede o estômato de abrir).
+• Estimula a produção de etileno e inibe a auxina.
+• Impede a germinação da semente (dormência).
+• Impede a floração.
+
+🧠 ABA = hormônio do estresse: na seca, fecha os estômatos para economizar água.`,
+              visual: `<svg viewBox="0 0 640 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="ha1_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="ha1_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="ha1_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="ha1_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker></defs>
+<text x="320" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">ABA: o hormônio da senescência e do "freio"</text><text x="160" y="52" text-anchor="middle" font-size="12" font-weight="700" fill="#A8763E">Estômato</text><path d="M 78 70 C 50 70, 50 150, 78 150 C 68 130, 68 90, 78 70 Z" fill="#8FA383" stroke="#5B7553" stroke-width="1.5"/><path d="M 102 70 C 130 70, 130 150, 102 150 C 112 130, 112 90, 102 70 Z" fill="#8FA383" stroke="#5B7553" stroke-width="1.5"/><text x="90" y="176" text-anchor="middle" font-size="12" font-weight="600" fill="#3E2F20">aberto</text><line x1="140" y1="110" x2="196" y2="110" stroke="#A6493A" stroke-width="2" marker-end="url(#ha1_A6493A)"/><text x="168" y="98" text-anchor="middle" font-size="11" font-weight="700" fill="#A6493A">ABA</text><path d="M 239 70 C 200 70, 200 150, 239 150 C 229 130, 229 90, 239 70 Z" fill="#8FA383" stroke="#5B7553" stroke-width="1.5"/><path d="M 241 70 C 280 70, 280 150, 241 150 C 251 130, 251 90, 241 70 Z" fill="#8FA383" stroke="#5B7553" stroke-width="1.5"/><text x="240" y="176" text-anchor="middle" font-size="12" font-weight="600" fill="#3E2F20">fechado</text><text x="165" y="200" text-anchor="middle" font-size="11" font-weight="400" fill="#3E2F20">K⁺ sai da célula-guarda → água sai</text><text x="165" y="216" text-anchor="middle" font-size="11" font-weight="400" fill="#3E2F20">→ célula murcha → estômato fecha</text><rect x="330" y="44" width="290" height="190" rx="12" fill="#F4EEE1" stroke="#C9B18C" stroke-width="1.5"/><text x="475" y="68" text-anchor="middle" font-size="13" font-weight="700" fill="#A8763E">Outros efeitos do ABA</text><text x="345" y="96" text-anchor="start" font-size="12" font-weight="400" fill="#3E2F20">• dormência: impede a germinação</text><text x="345" y="122" text-anchor="start" font-size="12" font-weight="400" fill="#3E2F20">• inibe a floração</text><text x="345" y="148" text-anchor="start" font-size="12" font-weight="400" fill="#3E2F20">• estimula o etileno</text><text x="345" y="174" text-anchor="start" font-size="12" font-weight="400" fill="#3E2F20">• inibe a auxina (crescimento)</text><text x="345" y="200" text-anchor="start" font-size="12" font-weight="400" fill="#3E2F20">• queda de folhas (abscisão)</text><text x="475" y="224" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">produzido na folha e na semente</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Na seca, o ABA fecha os estômatos e a planta perde menos água pela transpiração.</p>`,
+            },
+            {
+              heading: "Fitocromo",
+              body: `O fitocromo é uma proteína (pigmento) que percebe a luz. Ele existe em duas formas:
+
+• Fitocromo R: forma inativa. Absorve luz vermelha (660 nm).
+• Fitocromo F: forma ativa. Absorve luz vermelho-extremo (730 nm).
+
+R → F: com luz vermelha de 660 nm (conversão rápida).
+F → R: com vermelho extremo de 730 nm ou no escuro (conversão lenta).
+
+A forma F (ativa) pode estimular ou inibir processos, como a germinação e a floração.
+
+🧠 Luz do dia → acumula F (ativo). Noite longa → F volta aos poucos para R.`,
+              visual: `<svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="hf1_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="hf1_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="hf1_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="hf1_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker></defs>
+<text x="320" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">Fitocromo: a proteína que "enxerga" a luz</text><rect x="60" y="90" width="170" height="70" rx="14" fill="#E4D9C4" stroke="#5C4630" stroke-width="2"/><text x="145" y="120" text-anchor="middle" font-size="15" font-weight="700" fill="#3E2F20">Fitocromo R</text><text x="145" y="142" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">forma inativa</text><rect x="410" y="90" width="170" height="70" rx="14" fill="#E4D9C4" stroke="#5B7553" stroke-width="2"/><text x="495" y="120" text-anchor="middle" font-size="15" font-weight="700" fill="#5B7553">Fitocromo F</text><text x="495" y="142" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">forma ativa</text><path d="M 230 104 C 290 60, 350 60, 404 100" fill="none" stroke="#A6493A" stroke-width="2.4" marker-end="url(#hf1_A6493A)"/><text x="320" y="58" text-anchor="middle" font-size="12" font-weight="600" fill="#A6493A">luz vermelha 660 nm (rápido)</text><path d="M 410 150 C 350 196, 290 196, 236 154" fill="none" stroke="#A8763E" stroke-width="2.4" marker-end="url(#hf1_A8763E)"/><text x="320" y="214" text-anchor="middle" font-size="12" font-weight="600" fill="#A8763E">vermelho extremo 730 nm ou escuro (lento)</text><text x="495" y="180" text-anchor="middle" font-size="11" font-weight="600" fill="#5B7553">estimula ou inibe</text><text x="495" y="196" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">germinação e floração</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">R absorve o vermelho (660 nm) e vira F; F absorve o vermelho extremo (730 nm), ou volta devagar no escuro, e vira R.</p>`,
+            },
+            {
+              heading: "Fotoblastismo",
+              body: `Fotoblastismo é a capacidade da luz de interferir na germinação da semente, por meio do fitocromo.
+
+• Fotoblástica positiva (+): o fitocromo F estimula a germinação na luz.
+• Fotoblástica negativa (−): o fitocromo F inibe a germinação na luz (a semente germina no escuro).
+
+🧠 Sementes pequenas costumam ser fotoblásticas positivas: só germinam perto da superfície, onde há luz, porque têm poucas reservas.`,
+              visual: `<div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-center">
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3">
+    <p class="font-display text-ochre font-bold mb-1">Fotoblástica positiva (+)</p>
+    <p class="text-espresso text-sm">Luz → fitocromo F <b>estimula</b> a germinação</p>
+    <p class="text-bark text-xs mt-1">germina na luz (ex.: alface, sementes pequenas)</p>
+  </div>
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3">
+    <p class="font-display text-ochre font-bold mb-1">Fotoblástica negativa (−)</p>
+    <p class="text-espresso text-sm">Luz → fitocromo F <b>inibe</b> a germinação</p>
+    <p class="text-bark text-xs mt-1">germina no escuro, enterrada (ex.: abóbora)</p>
+  </div>
+</div>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Fotoblastismo é a resposta da germinação da semente à luz, controlada pelo fitocromo.</p>`,
+            },
+            {
+              heading: "Fotoperiodismo e floração",
+              body: `O fitocromo F atua sobre a giberelina e estimula a floração. Assim, a duração do dia (fotoperíodo) controla quando a planta floresce.
+
+• Plantas de dias longos (PDL): florescem quando recebem luz acima do fotoperíodo crítico (ex.: mais de 13 h de sol).
+• Plantas de dias curtos (PDC): florescem quando recebem luz abaixo do fotoperíodo crítico (ex.: no máximo 10 h de sol).
+
+⚠️ Os valores mudam de espécie para espécie. Cada planta tem o seu fotoperíodo crítico.
+⚠️ Na verdade, o que a planta mede é a duração da noite contínua: uma PDC é, na prática, uma "planta de noite longa". Um flash de luz no meio da noite pode impedir a floração de uma PDC.
+
+Plantas neutras: florescem independentemente do fotoperíodo.`,
+              visual: `<svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="hfl_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="hfl_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="hfl_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="hfl_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker></defs>
+<text x="320" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">Fotoperíodo e floração (exemplos)</text><text x="120" y="68" text-anchor="end" font-size="13" font-weight="700" fill="#5B7553">PDL</text><rect x="130" y="46" width="280" height="34" fill="#D9B45A" stroke="#5C4630" stroke-width="1"/><rect x="410" y="46" width="200" height="34" fill="#34404F" stroke="#5C4630" stroke-width="1"/><text x="270" y="68" text-anchor="middle" font-size="12" font-weight="700" fill="#2B2118">dia 14 h</text><text x="510" y="68" text-anchor="middle" font-size="12" font-weight="700" fill="#F7F3EC">noite 10 h</text><text x="130" y="98" text-anchor="start" font-size="11" font-weight="400" fill="#5C4630">Planta de dia longo: floresce com dias MAIORES que o fotoperíodo crítico (ex.: mais de 13 h)</text><text x="120" y="158" text-anchor="end" font-size="13" font-weight="700" fill="#A6493A">PDC</text><rect x="130" y="136" width="180" height="34" fill="#D9B45A" stroke="#5C4630" stroke-width="1"/><rect x="310" y="136" width="300" height="34" fill="#34404F" stroke="#5C4630" stroke-width="1"/><text x="220" y="158" text-anchor="middle" font-size="12" font-weight="700" fill="#2B2118">dia 9 h</text><text x="460" y="158" text-anchor="middle" font-size="12" font-weight="700" fill="#F7F3EC">noite 15 h</text><text x="130" y="188" text-anchor="start" font-size="11" font-weight="400" fill="#5C4630">Planta de dia curto: floresce com dias MENORES que o fotoperíodo crítico (ex.: até 10 h)</text><text x="320" y="238" text-anchor="middle" font-size="12" font-weight="600" fill="#A8763E">O que a planta mede, na verdade, é a duração da noite contínua.</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Os valores (13 h, 10 h) variam conforme a espécie: cada planta tem o seu fotoperíodo crítico.</p>`,
+            },
           ],
           quiz: [
             { q: "Qual destes NÃO é um hormônio vegetal?", options: ["Auxina","Giberelina","Insulina","Etileno"], correct: 2 },
@@ -1166,6 +1299,36 @@ Atuação:
             { q: "O hormônio ligado ao fechamento dos estômatos e à dormência é o:", options: ["Etileno","Giberelina","Ácido abscísico (ABA)","Auxina"], correct: 2 },
             { q: "As citocininas estimulam principalmente:", options: ["A divisão celular","O amadurecimento dos frutos","A queda das folhas","O fechamento dos estômatos"], correct: 0 },
             { q: "As giberelinas estão ligadas principalmente:", options: ["À germinação e ao alongamento do caule","Ao fechamento dos estômatos","À formação de lignina","Ao transporte de água"], correct: 0 },
+            { q: "O etileno é um hormônio vegetal no estado:", options: ["Gasoso", "Sólido", "Líquido apenas na seiva", "Cristalino"], correct: 0 },
+            { q: "Qual é a principal função do etileno?", options: ["Amadurecimento dos frutos", "Divisão celular nos meristemas", "Fechamento dos estômatos na seca", "Alongamento do caule"], correct: 0 },
+            { q: "Por que o fruto amolece ao amadurecer?", options: ["O etileno ativa enzimas que degradam a celulose da parede celular", "O etileno produz mais celulose", "O fruto absorve muita água do solo", "A clorofila se acumula na casca"], correct: 0 },
+            { q: "Por que a fruta fica mais doce ao amadurecer?", options: ["O amido é convertido em açúcares", "Os açúcares são convertidos em amido", "A celulose vira proteína", "A fruta absorve açúcar do ar"], correct: 0 },
+            { q: "O amarelamento da casca de uma banana madura acontece porque o etileno:", options: ["Degrada a clorofila", "Produz mais clorofila", "Fecha os estômatos", "Estimula a mitose"], correct: 0 },
+            { q: "Qual gás, em alta concentração, inibe a ação do etileno e atrasa o amadurecimento?", options: ["CO₂", "O₂", "N₂", "Vapor de água"], correct: 0 },
+            { q: "Embrulhar uma fruta verde em jornal acelera seu amadurecimento porque:", options: ["O etileno liberado fica concentrado em volta da fruta", "O jornal libera giberelina", "Falta luz e a clorofila aumenta", "O CO₂ acumulado acelera o amadurecimento"], correct: 0 },
+            { q: "As citocininas atuam principalmente estimulando:", options: ["A divisão celular (mitose) nos meristemas", "O amadurecimento dos frutos", "O fechamento dos estômatos", "A dormência das sementes"], correct: 0 },
+            { q: "Por que a citocinina é chamada de \"hormônio do rejuvenescimento\"?", options: ["Porque retarda o envelhecimento (senescência) das folhas", "Porque acelera a queda das folhas", "Porque causa a dormência", "Porque amadurece os frutos"], correct: 0 },
+            { q: "Onde as citocininas são produzidas principalmente?", options: ["No meristema do ápice da raiz", "Nos frutos maduros", "Nas sementes em dormência", "Nas células-guarda"], correct: 0 },
+            { q: "O ácido abscísico (ABA) é conhecido como hormônio:", options: ["Da senescência (envelhecimento)", "Do rejuvenescimento", "Do amadurecimento", "Do crescimento"], correct: 0 },
+            { q: "Como o ABA provoca o fechamento dos estômatos?", options: ["Faz o K⁺ sair da célula-guarda; a água sai junto e a célula murcha", "Faz o K⁺ entrar na célula-guarda; a célula fica túrgida", "Produz clorofila nas células-guarda", "Degrada a celulose das células-guarda"], correct: 0 },
+            { q: "Em um período de seca, qual hormônio se acumula e reduz a perda de água?", options: ["Ácido abscísico (ABA)", "Citocinina", "Giberelina", "Auxina"], correct: 0 },
+            { q: "Qual hormônio impede a germinação da semente, mantendo-a dormente?", options: ["Ácido abscísico (ABA)", "Giberelina", "Citocinina", "Etileno"], correct: 0 },
+            { q: "Sobre a relação do ABA com outros hormônios, é correto afirmar:", options: ["Estimula a produção de etileno e inibe a auxina", "Inibe o etileno e estimula a auxina", "Estimula a auxina e a giberelina", "Não interage com outros hormônios"], correct: 0 },
+            { q: "Por onde o ABA é distribuído na planta?", options: ["Pelo xilema e pelo floema", "Apenas pelo ar", "Apenas pelo floema", "Apenas de célula a célula"], correct: 0 },
+            { q: "Qual hormônio tem efeito contrário ao ABA na germinação, quebrando a dormência?", options: ["Giberelina", "Etileno", "Ácido abscísico", "CO₂"], correct: 0 },
+            { q: "O alongamento do caule é estimulado principalmente pela:", options: ["Giberelina", "Citocinina", "Ácido abscísico", "Etileno"], correct: 0 },
+            { q: "O fitocromo é:", options: ["Uma proteína que percebe a luz", "Um hormônio gasoso", "Um tipo de clorofila", "Um carboidrato de reserva"], correct: 0 },
+            { q: "Qual é a forma ativa do fitocromo?", options: ["Fitocromo F", "Fitocromo R", "As duas formas igualmente", "Nenhuma das formas"], correct: 0 },
+            { q: "O fitocromo R se transforma em F ao absorver luz de:", options: ["660 nm (vermelho)", "730 nm (vermelho extremo)", "450 nm (azul)", "550 nm (verde)"], correct: 0 },
+            { q: "O fitocromo F volta à forma R:", options: ["Com vermelho extremo (730 nm) ou lentamente no escuro", "Com luz vermelha de 660 nm, rapidamente", "Somente com luz azul", "Nunca volta à forma R"], correct: 0 },
+            { q: "Fotoblastismo é:", options: ["A influência da luz na germinação das sementes", "A queda das folhas no outono", "O amadurecimento dos frutos pela luz", "A abertura dos estômatos à noite"], correct: 0 },
+            { q: "Uma semente fotoblástica positiva:", options: ["Tem a germinação estimulada pela luz", "Tem a germinação inibida pela luz", "Só germina no escuro", "Não depende do fitocromo"], correct: 0 },
+            { q: "Uma semente que só germina quando enterrada, no escuro, é:", options: ["Fotoblástica negativa", "Fotoblástica positiva", "Planta de dia longo", "Planta neutra"], correct: 0 },
+            { q: "Uma planta de dia longo (PDL) floresce quando:", options: ["O período de luz é maior que o seu fotoperíodo crítico", "O período de luz é menor que o seu fotoperíodo crítico", "Fica sempre no escuro", "Recebe apenas luz verde"], correct: 0 },
+            { q: "Uma planta de dia curto (PDC) floresce quando:", options: ["O período de luz é menor que o seu fotoperíodo crítico", "O período de luz é maior que o seu fotoperíodo crítico", "Recebe luz 24 horas", "Recebe muito etileno"], correct: 0 },
+            { q: "Na floração, o fitocromo F atua principalmente sobre qual hormônio?", options: ["Giberelina", "Etileno", "Citocinina", "Ácido abscísico"], correct: 0 },
+            { q: "Um flash de luz no meio de uma noite longa impede a floração de uma PDC porque:", options: ["A planta mede, na verdade, a duração da noite contínua", "A luz destrói a giberelina", "A luz fecha os estômatos", "A planta morre com a luz"], correct: 0 },
+            { q: "Uma planta que floresce independentemente da duração do dia é chamada de:", options: ["Planta neutra", "Planta de dia longo", "Planta de dia curto", "Planta fotoblástica"], correct: 0 },
           ],
         },
       ],
