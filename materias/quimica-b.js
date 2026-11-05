@@ -649,6 +649,213 @@ SO₄²⁻ sulfato → SO₃²⁻ sulfito`,
             { q: "Qual par ácido + base produz o nitrato de potássio (KNO₃)?", options: ["HNO₃ + KOH", "HNO₂ + KOH", "HCl + KOH", "H₂SO₄ + KOH"], correct: 0 },
           ],
         },
+        {
+          id: "oxidos",
+          title: "Óxidos",
+          sections: [
+            {
+              heading: "1. O que é um óxido",
+              body: `Óxido é um composto binário (2 elementos) formado por oxigênio + outro elemento, em que o oxigênio é o mais eletronegativo.
+
+O oxigênio é o elemento mais eletronegativo de todos, exceto pelo flúor:
+F > O > N > Cl > Br > I > S > C > P > H > metais
+
+Exemplos: CO₂, Cl₂O, CO, K₂O, CaO, Fe₂O₃
+
+⚠️ OF₂ não é óxido: como o flúor é mais eletronegativo que o oxigênio, ele é chamado de fluoreto de oxigênio.
+
+Os óxidos se dividem em:
+• Moleculares (ligação covalente): oxigênio + ametal
+• Iônicos (ligação iônica): oxigênio + metal`,
+              visual: `<svg viewBox="0 0 640 210" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="qo1_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="qo1_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="qo1_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="qo1_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker></defs>
+<text x="320" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">Escala de eletronegatividade</text><rect x="19" y="56" width="46" height="40" rx="8" fill="#A8763E" stroke="#A8763E" stroke-width="2"/><text x="42" y="81" text-anchor="middle" font-size="15" font-weight="700" fill="#F4EEE1">F</text><rect x="73" y="56" width="46" height="40" rx="8" fill="#A6493A" stroke="#A6493A" stroke-width="2"/><text x="96" y="81" text-anchor="middle" font-size="15" font-weight="700" fill="#F4EEE1">O</text><rect x="127" y="56" width="46" height="40" rx="8" fill="#E4D9C4" stroke="#5C4630" stroke-width="1.5"/><text x="150" y="81" text-anchor="middle" font-size="15" font-weight="700" fill="#3E2F20">N</text><rect x="181" y="56" width="46" height="40" rx="8" fill="#E4D9C4" stroke="#5C4630" stroke-width="1.5"/><text x="204" y="81" text-anchor="middle" font-size="15" font-weight="700" fill="#3E2F20">Cl</text><rect x="235" y="56" width="46" height="40" rx="8" fill="#E4D9C4" stroke="#5C4630" stroke-width="1.5"/><text x="258" y="81" text-anchor="middle" font-size="15" font-weight="700" fill="#3E2F20">Br</text><rect x="289" y="56" width="46" height="40" rx="8" fill="#E4D9C4" stroke="#5C4630" stroke-width="1.5"/><text x="312" y="81" text-anchor="middle" font-size="15" font-weight="700" fill="#3E2F20">I</text><rect x="343" y="56" width="46" height="40" rx="8" fill="#E4D9C4" stroke="#5C4630" stroke-width="1.5"/><text x="366" y="81" text-anchor="middle" font-size="15" font-weight="700" fill="#3E2F20">S</text><rect x="397" y="56" width="46" height="40" rx="8" fill="#E4D9C4" stroke="#5C4630" stroke-width="1.5"/><text x="420" y="81" text-anchor="middle" font-size="15" font-weight="700" fill="#3E2F20">C</text><rect x="451" y="56" width="46" height="40" rx="8" fill="#E4D9C4" stroke="#5C4630" stroke-width="1.5"/><text x="474" y="81" text-anchor="middle" font-size="15" font-weight="700" fill="#3E2F20">P</text><rect x="505" y="56" width="46" height="40" rx="8" fill="#E4D9C4" stroke="#5C4630" stroke-width="1.5"/><text x="528" y="81" text-anchor="middle" font-size="15" font-weight="700" fill="#3E2F20">H</text><rect x="559" y="56" width="46" height="40" rx="8" fill="#E4D9C4" stroke="#5C4630" stroke-width="1.5"/><text x="582" y="81" text-anchor="middle" font-size="10" font-weight="700" fill="#3E2F20">metais</text><line x1="30" y1="120" x2="610" y2="120" stroke="#3E2F20" stroke-width="2" marker-end="url(#qo1_3E2F20)"/><text x="30" y="140" text-anchor="start" font-size="11" font-weight="400" fill="#5C4630">mais eletronegativo</text><text x="610" y="140" text-anchor="end" font-size="11" font-weight="400" fill="#5C4630">menos eletronegativo</text><text x="42" y="172" text-anchor="start" font-size="12" font-weight="600" fill="#A8763E">F: único mais eletronegativo</text><text x="42" y="190" text-anchor="start" font-size="12" font-weight="600" fill="#A8763E">que o O → OF₂ não é óxido</text><text x="380" y="172" text-anchor="middle" font-size="12" font-weight="600" fill="#A6493A">O + qualquer outro elemento</text><text x="380" y="190" text-anchor="middle" font-size="12" font-weight="600" fill="#A6493A">= óxido (O fica com carga negativa)</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Macete da fila: "Fui Ontem No Clube, Briguei, I Saí Correndo Para o Hospital". O oxigênio só perde para o flúor.</p>`,
+            },
+            {
+              heading: "2. Nomenclatura dos óxidos moleculares",
+              body: `Óxidos moleculares (covalentes) = oxigênio + ametal.
+
+Regra:
+(prefixo) + óxido de + (prefixo) + nome do elemento
+
+• Quantidade de oxigênio: mono, di, tri, tetra, pent...
+• Quantidade do elemento: di, tri, tetra, penta... (quando há só 1, não se usa "mono")
+
+Exemplos
+CO₂ → dióxido de carbono
+CO → monóxido de carbono
+N₂O → monóxido de dinitrogênio
+Cl₂O → monóxido de dicloro
+SO₃ → trióxido de enxofre
+N₂O₅ → pentóxido de dinitrogênio
+
+🧠 Leia a fórmula de trás para frente: primeiro conte os O, depois o outro elemento.`,
+              visual: `<div class="overflow-x-auto"><table class="w-full text-sm border-collapse"><thead><tr class="border-b-2 border-sand"><th class="text-left py-2 pr-4 font-display text-ochre">Fórmula</th><th class="text-left py-2 pr-4 font-display text-ochre">Leitura</th><th class="text-left py-2 pr-4 font-display text-ochre">Nome</th></tr></thead><tbody><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">CO₂</td><td class="py-1.5 pr-4 text-espresso">2 O, 1 C</td><td class="py-1.5 pr-4 text-espresso"><b>di</b>óxido de carbono</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">CO</td><td class="py-1.5 pr-4 text-espresso">1 O, 1 C</td><td class="py-1.5 pr-4 text-espresso"><b>mon</b>óxido de carbono</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">N₂O</td><td class="py-1.5 pr-4 text-espresso">1 O, 2 N</td><td class="py-1.5 pr-4 text-espresso"><b>mon</b>óxido de <b>di</b>nitrogênio</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">Cl₂O</td><td class="py-1.5 pr-4 text-espresso">1 O, 2 Cl</td><td class="py-1.5 pr-4 text-espresso"><b>mon</b>óxido de <b>di</b>cloro</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">SO₃</td><td class="py-1.5 pr-4 text-espresso">3 O, 1 S</td><td class="py-1.5 pr-4 text-espresso"><b>tri</b>óxido de enxofre</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">N₂O₅</td><td class="py-1.5 pr-4 text-espresso">5 O, 2 N</td><td class="py-1.5 pr-4 text-espresso"><b>pent</b>óxido de <b>di</b>nitrogênio</td></tr></tbody></table></div>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Prefixo do oxigênio + "óxido de" + prefixo do elemento + elemento. Para 1 átomo do elemento, não se usa "mono".</p>`,
+            },
+            {
+              heading: "3. Nomenclatura dos óxidos iônicos",
+              body: `Óxidos iônicos (metálicos) = oxigênio + metal.
+O oxigênio aparece como íon O²⁻.
+
+Regra:
+óxido de + nome do metal
+
+Exemplos
+Na⁺ e O²⁻ → Na₂O → óxido de sódio
+Ca²⁺ e O²⁻ → CaO → óxido de cálcio
+K⁺ e O²⁻ → K₂O → óxido de potássio
+
+Metais com carga variável (como o ferro) precisam indicar a carga:
+FeO (Fe²⁺) → óxido de ferro (II) ou óxido ferroso
+Fe₂O₃ (Fe³⁺) → óxido de ferro (III) ou óxido férrico
+
+🧠 A fórmula sai cruzando as cargas, como nos sais: Fe³⁺ + O²⁻ → Fe₂O₃.`,
+              visual: `<svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="qo2_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="qo2_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="qo2_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="qo2_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker></defs>
+<rect x="15" y="20" width="190" height="210" rx="14" fill="#F4EEE1" stroke="#C9B18C" stroke-width="1.5"/><circle cx="70" cy="70" r="26" fill="#D8C9A8" stroke="#5C4630" stroke-width="1.5"/><text x="70" y="75" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">Na⁺</text><circle cx="150" cy="70" r="26" fill="#A6493A" stroke="#A6493A" stroke-width="1.5"/><text x="150" y="75" text-anchor="middle" font-size="14" font-weight="700" fill="#F4EEE1">O²⁻</text><text x="70" y="112" text-anchor="middle" font-size="13" font-weight="700" fill="#A8763E">carga 1</text><text x="150" y="112" text-anchor="middle" font-size="13" font-weight="700" fill="#A6493A">carga 2</text><path d="M 77 118 L 137 150" fill="none" stroke="#A8763E" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#qo2_A8763E)"/><path d="M 143 118 L 83 150" fill="none" stroke="#A6493A" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#qo2_A6493A)"/><rect x="35" y="162" width="150" height="36" rx="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="2"/><text x="110" y="186" text-anchor="middle" font-size="16" font-weight="700" fill="#A8763E">Na₂O</text><text x="110" y="218" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">óxido de sódio</text><rect x="225" y="20" width="190" height="210" rx="14" fill="#F4EEE1" stroke="#C9B18C" stroke-width="1.5"/><circle cx="280" cy="70" r="26" fill="#D8C9A8" stroke="#5C4630" stroke-width="1.5"/><text x="280" y="75" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">Ca²⁺</text><circle cx="360" cy="70" r="26" fill="#A6493A" stroke="#A6493A" stroke-width="1.5"/><text x="360" y="75" text-anchor="middle" font-size="14" font-weight="700" fill="#F4EEE1">O²⁻</text><text x="280" y="112" text-anchor="middle" font-size="13" font-weight="700" fill="#A8763E">carga 2</text><text x="360" y="112" text-anchor="middle" font-size="13" font-weight="700" fill="#A6493A">carga 2</text><path d="M 287 118 L 347 150" fill="none" stroke="#A8763E" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#qo2_A8763E)"/><path d="M 353 118 L 293 150" fill="none" stroke="#A6493A" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#qo2_A6493A)"/><rect x="245" y="162" width="150" height="36" rx="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="2"/><text x="320" y="186" text-anchor="middle" font-size="16" font-weight="700" fill="#A8763E">CaO</text><text x="320" y="218" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">óxido de cálcio</text><rect x="435" y="20" width="190" height="210" rx="14" fill="#F4EEE1" stroke="#C9B18C" stroke-width="1.5"/><circle cx="490" cy="70" r="26" fill="#D8C9A8" stroke="#5C4630" stroke-width="1.5"/><text x="490" y="75" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">Fe³⁺</text><circle cx="570" cy="70" r="26" fill="#A6493A" stroke="#A6493A" stroke-width="1.5"/><text x="570" y="75" text-anchor="middle" font-size="14" font-weight="700" fill="#F4EEE1">O²⁻</text><text x="490" y="112" text-anchor="middle" font-size="13" font-weight="700" fill="#A8763E">carga 3</text><text x="570" y="112" text-anchor="middle" font-size="13" font-weight="700" fill="#A6493A">carga 2</text><path d="M 497 118 L 557 150" fill="none" stroke="#A8763E" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#qo2_A8763E)"/><path d="M 563 118 L 503 150" fill="none" stroke="#A6493A" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#qo2_A6493A)"/><rect x="455" y="162" width="150" height="36" rx="8" fill="#E4D9C4" stroke="#A8763E" stroke-width="2"/><text x="530" y="186" text-anchor="middle" font-size="16" font-weight="700" fill="#A8763E">Fe₂O₃</text><text x="530" y="218" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">óxido de ferro (III)</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">No óxido iônico o oxigênio é sempre O²⁻. Cruze as cargas e simplifique: Ca₂O₂ → CaO.</p>`,
+            },
+            {
+              heading: "4. Peróxidos",
+              body: `Peróxidos são compostos que possuem o grupo (O₂)²⁻: dois oxigênios ligados entre si (O–O).
+
+• Cada oxigênio tem carga (nox) −1, e não −2 como nos óxidos comuns.
+• Na fórmula aparece 1 oxigênio a mais que no óxido comum do mesmo elemento: Na₂O → Na₂O₂.
+• Os peróxidos iônicos só existem com metais dos grupos 1 e 2 (e o principal peróxido molecular é o do hidrogênio).
+
+Peróxido molecular (ligação covalente)
+H–O–O–H = H₂O₂ → peróxido de hidrogênio (água oxigenada)
+
+Peróxidos iônicos (ligação iônica)
+Na⁺ e O₂²⁻ → Na₂O₂ → peróxido de sódio
+Ca²⁺ e O₂²⁻ → CaO₂ → peróxido de cálcio`,
+              visual: `<svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="qo3_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="qo3_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="qo3_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="qo3_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker></defs>
+<rect x="20" y="20" width="290" height="210" rx="14" fill="#F4EEE1" stroke="#C9B18C" stroke-width="1.5"/><text x="165" y="46" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">Óxido comum</text><circle cx="165" cy="100" r="30" fill="#A6493A" stroke="#A6493A" stroke-width="1.5"/><text x="165" y="106" text-anchor="middle" font-size="16" font-weight="700" fill="#F4EEE1">O²⁻</text><text x="165" y="156" text-anchor="middle" font-size="12" font-weight="400" fill="#5C4630">um oxigênio, carga 2−</text><text x="165" y="184" text-anchor="middle" font-size="15" font-weight="700" fill="#A8763E">Na₂O</text><text x="165" y="206" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">óxido de sódio</text><rect x="330" y="20" width="290" height="210" rx="14" fill="#F4EEE1" stroke="#C9B18C" stroke-width="1.5"/><text x="475" y="46" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">Peróxido</text><line x1="450" y1="100" x2="500" y2="100" stroke="#3E2F20" stroke-width="4"/><circle cx="440" cy="100" r="26" fill="#A6493A" stroke="#A6493A" stroke-width="1.5"/><text x="440" y="106" text-anchor="middle" font-size="16" font-weight="700" fill="#F4EEE1">O</text><circle cx="510" cy="100" r="26" fill="#A6493A" stroke="#A6493A" stroke-width="1.5"/><text x="510" y="106" text-anchor="middle" font-size="16" font-weight="700" fill="#F4EEE1">O</text><text x="475" y="82" text-anchor="middle" font-size="11" font-weight="700" fill="#3E2F20">O–O</text><text x="548" y="84" text-anchor="middle" font-size="14" font-weight="700" fill="#A6493A">2−</text><text x="475" y="156" text-anchor="middle" font-size="12" font-weight="400" fill="#5C4630">grupo (O₂)²⁻ : cada O vale −1</text><text x="475" y="184" text-anchor="middle" font-size="15" font-weight="700" fill="#A8763E">Na₂O₂  •  CaO₂  •  H₂O₂</text><text x="475" y="206" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">um O a mais que o óxido comum</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">O peróxido tem dois oxigênios ligados entre si (O–O). Ex.: H–O–O–H, a água oxigenada.</p>`,
+            },
+            {
+              heading: "5. Óxidos básicos",
+              body: `Óxidos básicos são óxidos de metais, principalmente dos grupos 1 e 2 (alcalinos e alcalinoterrosos). São iônicos.
+
+Reagem com água formando base:
+óxido básico + água → base
+CaO + H₂O → Ca(OH)₂
+
+Reagem com ácido formando sal e água:
+óxido básico + ácido → sal + água
+CaO + H₂SO₄ → CaSO₄ + H₂O
+
+🧠 Para lembrar: o metal do óxido vira o cátion da base (Ca²⁺ → Ca(OH)₂).
+Aplicação: a cal viva (CaO) é usada para diminuir a acidez do solo.`,
+              visual: `<div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-center">
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3">
+    <p class="font-display text-ochre font-bold mb-1">Com água</p>
+    <p class="text-espresso text-sm font-semibold">óxido básico + H₂O → base</p>
+    <p class="text-bark text-sm mt-1">CaO + H₂O → Ca(OH)₂<br>Na₂O + H₂O → 2 NaOH</p>
+  </div>
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3">
+    <p class="font-display text-ochre font-bold mb-1">Com ácido</p>
+    <p class="text-espresso text-sm font-semibold">óxido básico + ácido → sal + H₂O</p>
+    <p class="text-bark text-sm mt-1">CaO + H₂SO₄ → CaSO₄ + H₂O<br>Na₂O + 2 HCl → 2 NaCl + H₂O</p>
+  </div>
+</div>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Óxido básico se comporta como uma base: com água vira base e neutraliza ácidos.</p>`,
+            },
+            {
+              heading: "6. Óxidos ácidos (anidridos)",
+              body: `Óxidos ácidos são óxidos moleculares, formados por ametais: N, C, B, Cl, S, P...
+Também são chamados de anidridos ("ácido sem água").
+
+Reagem com água formando ácido:
+óxido ácido + água → ácido
+CO₂ + H₂O → H₂CO₃
+
+Reagem com base formando sal e água:
+óxido ácido + base → sal + água
+CO₂ + Ca(OH)₂ → CaCO₃ + H₂O
+
+🧠 Aplicação: chuva ácida. Óxidos de enxofre e de nitrogênio liberados pela queima de combustíveis reagem com a água da chuva formando ácidos (SO₃ + H₂O → H₂SO₄).`,
+              visual: `<div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-center">
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3">
+    <p class="font-display text-ochre font-bold mb-1">Com água</p>
+    <p class="text-espresso text-sm font-semibold">óxido ácido + H₂O → ácido</p>
+    <p class="text-bark text-sm mt-1">CO₂ + H₂O → H₂CO₃<br>SO₃ + H₂O → H₂SO₄</p>
+  </div>
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3">
+    <p class="font-display text-ochre font-bold mb-1">Com base</p>
+    <p class="text-espresso text-sm font-semibold">óxido ácido + base → sal + H₂O</p>
+    <p class="text-bark text-sm mt-1">CO₂ + Ca(OH)₂ → CaCO₃ + H₂O<br>SO₃ + 2 NaOH → Na₂SO₄ + H₂O</p>
+  </div>
+</div>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Óxido ácido (anidrido) se comporta como um ácido: com água vira ácido e neutraliza bases.</p>`,
+            },
+            {
+              heading: "7. Óxidos neutros e resumo",
+              body: `Óxidos neutros são óxidos moleculares que NÃO reagem com água, nem com ácidos, nem com bases.
+
+Os três principais:
+CO (monóxido de carbono)
+NO (monóxido de nitrogênio)
+N₂O (monóxido de dinitrogênio)
+
+⚠️ Pegadinha comum: CO e CO₂ são parecidos, mas o CO₂ é óxido ácido e o CO é neutro.
+
+Resumo
+• Básicos → metais (grupos 1 e 2) → com água formam base.
+• Ácidos → ametais → com água formam ácido.
+• Neutros → CO, NO, N₂O → não reagem.
+• Peróxidos → grupo (O₂)²⁻.`,
+              visual: `<svg viewBox="0 0 640 290" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="qo4_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="qo4_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="qo4_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="qo4_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker></defs>
+<rect x="250" y="16" width="140" height="40" rx="10" fill="#F4EEE1" stroke="#5C4630" stroke-width="1.5"/><text x="320" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#3E2F20">ÓXIDOS</text><line x1="290" y1="56" x2="125" y2="92" stroke="#3E2F20" stroke-width="1.8" marker-end="url(#qo4_3E2F20)"/><line x1="320" y1="56" x2="320" y2="92" stroke="#3E2F20" stroke-width="1.8" marker-end="url(#qo4_3E2F20)"/><line x1="350" y1="56" x2="515" y2="92" stroke="#3E2F20" stroke-width="1.8" marker-end="url(#qo4_3E2F20)"/><rect x="15" y="96" width="190" height="50" rx="10" fill="#E4D9C4" stroke="#5B7553" stroke-width="2"/><text x="110" y="118" text-anchor="middle" font-size="15" font-weight="700" fill="#5B7553">Básicos</text><text x="110" y="136" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">metais (grupos 1 e 2)</text><text x="110" y="178" text-anchor="middle" font-size="12" font-weight="400" fill="#3E2F20">+ água → base</text><text x="110" y="200" text-anchor="middle" font-size="12" font-weight="400" fill="#3E2F20">+ ácido → sal + água</text><text x="110" y="222" text-anchor="middle" font-size="12" font-weight="600" fill="#5C4630">Na₂O, K₂O, CaO</text><rect x="225" y="96" width="190" height="50" rx="10" fill="#E4D9C4" stroke="#A6493A" stroke-width="2"/><text x="320" y="118" text-anchor="middle" font-size="15" font-weight="700" fill="#A6493A">Ácidos</text><text x="320" y="136" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">ametais (N, C, S, P, Cl...)</text><text x="320" y="178" text-anchor="middle" font-size="12" font-weight="400" fill="#3E2F20">+ água → ácido</text><text x="320" y="200" text-anchor="middle" font-size="12" font-weight="400" fill="#3E2F20">+ base → sal + água</text><text x="320" y="222" text-anchor="middle" font-size="12" font-weight="600" fill="#5C4630">CO₂, SO₃, N₂O₅</text><rect x="435" y="96" width="190" height="50" rx="10" fill="#E4D9C4" stroke="#A8763E" stroke-width="2"/><text x="530" y="118" text-anchor="middle" font-size="15" font-weight="700" fill="#A8763E">Neutros</text><text x="530" y="136" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">não reagem assim</text><text x="530" y="178" text-anchor="middle" font-size="12" font-weight="400" fill="#3E2F20">nem com água,</text><text x="530" y="200" text-anchor="middle" font-size="12" font-weight="400" fill="#3E2F20">nem com ácido ou base</text><text x="530" y="222" text-anchor="middle" font-size="12" font-weight="600" fill="#5C4630">CO, NO, N₂O</text><rect x="20" y="244" width="600" height="34" rx="8" fill="#F4EEE1" stroke="#C9B18C" stroke-width="1.5"/><text x="320" y="266" text-anchor="middle" font-size="13" font-weight="600" fill="#3E2F20">Peróxidos: grupo (O₂)²⁻ → H₂O₂, Na₂O₂, CaO₂</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Resumo da classificação dos óxidos e das reações que cada tipo faz.</p>`,
+            },
+          ],
+          quiz: [
+            { q: "O que é um óxido?", options: ["Composto binário formado por oxigênio e outro elemento, sendo o oxigênio o mais eletronegativo", "Qualquer composto que contenha oxigênio", "Composto formado apenas por metais", "Substância que libera H⁺ em água"], correct: 0 },
+            { q: "Qual é o único elemento mais eletronegativo que o oxigênio?", options: ["Flúor", "Nitrogênio", "Cloro", "Hidrogênio"], correct: 0 },
+            { q: "Qual das substâncias abaixo NÃO é um óxido?", options: ["OF₂", "CO₂", "K₂O", "Cl₂O"], correct: 0 },
+            { q: "Qual é a ordem correta de eletronegatividade?", options: ["F > O > N > Cl", "O > F > N > Cl", "Cl > F > O > N", "N > O > F > Cl"], correct: 0 },
+            { q: "Qual é o nome do CO₂?", options: ["Dióxido de carbono", "Monóxido de carbono", "Óxido de carbono (II)", "Dióxido de dicarbono"], correct: 0 },
+            { q: "Qual é o nome do CO?", options: ["Monóxido de carbono", "Dióxido de carbono", "Óxido de dicarbono", "Peróxido de carbono"], correct: 0 },
+            { q: "Qual é o nome do N₂O?", options: ["Monóxido de dinitrogênio", "Dióxido de nitrogênio", "Óxido de nitrogênio (II)", "Monóxido de nitrogênio"], correct: 0 },
+            { q: "Qual é o nome do N₂O₅?", options: ["Pentóxido de dinitrogênio", "Dióxido de pentanitrogênio", "Pentóxido de nitrogênio", "Óxido de nitrogênio (V)"], correct: 0 },
+            { q: "Qual é a fórmula do trióxido de enxofre?", options: ["SO₃", "S₃O", "SO₂", "S₂O₃"], correct: 0 },
+            { q: "Qual é o nome do Cl₂O?", options: ["Monóxido de dicloro", "Dióxido de cloro", "Óxido de cloro", "Peróxido de cloro"], correct: 0 },
+            { q: "Como se nomeia um óxido iônico (metal + oxigênio) de metal com carga fixa?", options: ["Óxido de + nome do metal", "Prefixo + óxido de + prefixo + metal", "Nome do metal + eto", "Ácido + nome do metal + ico"], correct: 0 },
+            { q: "Qual é a fórmula do óxido de sódio?", options: ["Na₂O", "NaO", "NaO₂", "Na₂O₂"], correct: 0 },
+            { q: "Qual é a fórmula do óxido de cálcio?", options: ["CaO", "Ca₂O", "CaO₂", "Ca₂O₂"], correct: 0 },
+            { q: "Qual é o nome correto do Fe₂O₃?", options: ["Óxido de ferro (III) ou óxido férrico", "Óxido de ferro (II) ou óxido ferroso", "Trióxido de ferro", "Peróxido de ferro"], correct: 0 },
+            { q: "Nos óxidos iônicos comuns, o oxigênio está na forma de:", options: ["O²⁻", "O⁻", "O₂²⁻", "O²⁺"], correct: 0 },
+            { q: "Qual grupo caracteriza os peróxidos?", options: ["(O₂)²⁻", "O²⁻", "OH⁻", "O₃"], correct: 0 },
+            { q: "Nos peróxidos, qual é o nox (carga) de cada oxigênio?", options: ["−1", "−2", "+1", "0"], correct: 0 },
+            { q: "Qual é o nome do H₂O₂?", options: ["Peróxido de hidrogênio", "Dióxido de hidrogênio", "Óxido de hidrogênio", "Hidróxido de oxigênio"], correct: 0 },
+            { q: "Qual é a fórmula do peróxido de sódio?", options: ["Na₂O₂", "Na₂O", "NaO", "NaO₂"], correct: 0 },
+            { q: "Qual é a fórmula do peróxido de cálcio?", options: ["CaO₂", "CaO", "Ca₂O₂", "Ca₂O"], correct: 0 },
+            { q: "Peróxidos iônicos são formados com metais de quais grupos?", options: ["Grupos 1 e 2", "Grupos 16 e 17", "Apenas metais de transição", "Apenas gases nobres"], correct: 0 },
+            { q: "Óxidos básicos são, em geral, óxidos de:", options: ["Metais dos grupos 1 e 2", "Ametais como C, N e S", "Gases nobres", "Halogênios"], correct: 0 },
+            { q: "Qual é o produto de CaO + H₂O?", options: ["Ca(OH)₂", "CaCO₃", "H₂CaO₂", "CaO₂"], correct: 0 },
+            { q: "Óxido básico + ácido produz:", options: ["Sal + água", "Base + água", "Apenas ácido", "Óxido ácido"], correct: 0 },
+            { q: "Qual é o sal formado em CaO + H₂SO₄?", options: ["CaSO₄", "CaSO₃", "CaS", "Ca(OH)₂"], correct: 0 },
+            { q: "Qual é o produto de CO₂ + H₂O?", options: ["H₂CO₃", "CH₄", "H₂O₂", "CO"], correct: 0 },
+            { q: "Óxido ácido + base produz:", options: ["Sal + água", "Ácido + água", "Apenas base", "Óxido básico"], correct: 0 },
+            { q: "Qual sal se forma em CO₂ + Ca(OH)₂?", options: ["CaCO₃", "CaO", "Ca(HCO₃)₂", "CaC₂"], correct: 0 },
+            { q: "Óxidos ácidos também são chamados de:", options: ["Anidridos", "Peróxidos", "Hidróxidos", "Hidretos"], correct: 0 },
+            { q: "Qual ácido se forma quando o SO₃ reage com água?", options: ["H₂SO₄", "H₂SO₃", "H₂S", "HSO₄"], correct: 0 },
+            { q: "Qual das alternativas traz apenas óxidos neutros?", options: ["CO, NO e N₂O", "CO₂, SO₃ e N₂O₅", "CaO, Na₂O e K₂O", "H₂O₂, Na₂O₂ e CaO₂"], correct: 0 },
+            { q: "Por que o CO é classificado como óxido neutro?", options: ["Porque não reage com água, ácidos ou bases", "Porque reage com água formando base", "Porque reage com água formando ácido", "Porque possui o grupo (O₂)²⁻"], correct: 0 },
+            { q: "Qual é a classificação do CO₂?", options: ["Óxido ácido", "Óxido neutro", "Óxido básico", "Peróxido"], correct: 0 },
+            { q: "Qual é a classificação do K₂O?", options: ["Óxido básico", "Óxido ácido", "Óxido neutro", "Peróxido"], correct: 0 },
+            { q: "A chuva ácida está ligada principalmente à reação de qual tipo de óxido com a água?", options: ["Óxidos ácidos, como os de enxofre e de nitrogênio", "Óxidos básicos, como o CaO", "Peróxidos, como o H₂O₂", "Óxidos neutros, como o CO"], correct: 0 },
+          ],
+        },
       ],
     },
 );
