@@ -891,6 +891,192 @@ Exemplo: representação do relevo por curvas de nível.`,
           ],
         },
         {
+          id: "agua-doce-no-mundo",
+          title: "Hidrografia: a água doce no mundo",
+          sections: [
+            {
+              heading: "A água no planeta",
+              body: `Quase toda a água da Terra é salgada:
+• Água salgada (oceanos e mares) → 97,5%
+• Água doce → 2,5%
+
+E da água doce:
+• 68,9% está presa em geleiras e calotas polares
+• 30,8% está no subsolo (água subterrânea)
+• Apenas 0,3% está em lagos e rios
+
+Mesmo sendo uma pequena fração, a água doce reposta todo ano sobre os continentes (pelas chuvas) supera muito o que a humanidade precisa.
+
+⚠️ O problema não é a falta de água no planeta: é que a água disponível está distribuída de forma IRREGULAR.`,
+              visual: `<svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="ha1_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="ha1_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="ha1_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="ha1_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="ha1_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker></defs>
+<text x="20" y="30" text-anchor="start" font-size="13" font-weight="700" fill="#3E2F20">Toda a água do planeta</text><rect x="20" y="42" width="585" height="38" fill="#6E8C99" stroke="#5C4630" stroke-width="1"/><rect x="605" y="42" width="15" height="38" fill="#5B7553" stroke="#5C4630" stroke-width="1"/><text x="300" y="66" text-anchor="middle" font-size="13" font-weight="700" fill="#F4EEE1">salgada (oceanos e mares): 97,5%</text><text x="620" y="100" text-anchor="end" font-size="12" font-weight="700" fill="#5B7553">doce: 2,5%</text><path d="M 612 106 C 612 124, 560 130, 520 140" fill="none" stroke="#5B7553" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#ha1_5B7553)"/><text x="20" y="136" text-anchor="start" font-size="13" font-weight="700" fill="#3E2F20">Só a água doce (2,5%)</text><rect x="20" y="148" width="413" height="38" fill="#B9CBD3" stroke="#5C4630" stroke-width="1"/><rect x="433" y="148" width="185" height="38" fill="#C9B18C" stroke="#5C4630" stroke-width="1"/><rect x="618" y="148" width="2" height="38" fill="#5B7553"/><text x="226" y="172" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">geleiras e calotas polares: 68,9%</text><text x="525" y="172" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">subsolo: 30,8%</text><text x="620" y="206" text-anchor="end" font-size="12" font-weight="700" fill="#5B7553">lagos e rios: 0,3% (a mais fácil de usar)</text><text x="20" y="236" text-anchor="start" font-size="10" font-weight="400" font-style="italic" fill="#5C4630">Fonte: UNEP</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">A água doce é só 2,5% do total, e quase toda ela está congelada ou no subsolo. Rios e lagos são uma fração mínima.</p>`,
+            },
+            {
+              heading: "O ciclo hidrológico",
+              body: `O ciclo hidrológico (ciclo da água) é a circulação contínua da água entre o oceano, a atmosfera e os continentes. É ele que renova a água doce.
+
+1. O Sol aquece o oceano.
+2. A água evapora e sobe para o ar como vapor.
+3. O vapor esfria e se condensa em gotículas, formando as nuvens.
+4. Quando muita água se condensa, as gotas ficam pesadas e caem como chuva ou neve (precipitação).
+5. Parte da chuva infiltra no solo (abastecendo a água subterrânea) e o resto escoa pelos rios de volta ao oceano.
+
+As plantas também devolvem água ao ar pela transpiração.`,
+              visual: `<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="hc1_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="hc1_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="hc1_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="hc1_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="hc1_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker></defs>
+<rect x="0" y="0" width="640" height="330" fill="#F4EEE1"/><circle cx="60" cy="50" r="24" fill="#D9B45A" stroke="#A8763E" stroke-width="1.5"/><path d="M 0 210 L 260 210 L 300 240 L 300 330 L 0 330 Z" fill="#B9CBD3" stroke="#6E8C99" stroke-width="1.5"/><text x="110" y="270" text-anchor="middle" font-size="13" font-weight="700" fill="#6E8C99">oceano</text><path d="M 260 210 Q 360 200 420 150 L 470 90 L 520 140 Q 580 180 640 180 L 640 330 L 300 330 L 300 240 Z" fill="#D8C9A8" stroke="#5C4630" stroke-width="1.5"/><path d="M 455 108 L 470 90 L 486 108 Z" fill="#F4EEE1" stroke="#5C4630" stroke-width="1"/><path d="M 330 300 Q 460 280 640 290 L 640 318 Q 460 310 330 322 Z" fill="#B9CBD3" stroke="#6E8C99" stroke-width="1" stroke-dasharray="4 3"/><text x="560" y="312" text-anchor="middle" font-size="11" font-weight="600" fill="#6E8C99">água subterrânea</text><path d="M 470 120 Q 430 190 380 205 Q 320 222 270 214" fill="none" stroke="#6E8C99" stroke-width="4"/><ellipse cx="200" cy="60" rx="56" ry="20" fill="#E4D9C4" stroke="#5C4630" stroke-width="1.2"/><ellipse cx="420" cy="45" rx="66" ry="22" fill="#E4D9C4" stroke="#5C4630" stroke-width="1.2"/><line x1="150" y1="200" x2="150" y2="110" stroke="#6E8C99" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#hc1_6E8C99)"/><line x1="185" y1="200" x2="185" y2="110" stroke="#6E8C99" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#hc1_6E8C99)"/><circle cx="125" cy="160" r="11" fill="#A8763E" stroke="#A8763E" stroke-width="1.5"/><text x="125" y="164" text-anchor="middle" font-size="12" font-weight="700" fill="#F4EEE1">2</text><text x="205" y="160" text-anchor="start" font-size="12" font-weight="600" fill="#3E2F20">evaporação</text><circle cx="30" cy="100" r="11" fill="#A8763E" stroke="#A8763E" stroke-width="1.5"/><text x="30" y="104" text-anchor="middle" font-size="12" font-weight="700" fill="#F4EEE1">1</text><text x="48" y="104" text-anchor="start" font-size="11" font-weight="400" fill="#3E2F20">Sol aquece</text><path d="M 260 60 C 300 50, 330 48, 350 48" fill="none" stroke="#3E2F20" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#hc1_3E2F20)"/><circle cx="200" cy="26" r="11" fill="#A8763E" stroke="#A8763E" stroke-width="1.5"/><text x="200" y="30" text-anchor="middle" font-size="12" font-weight="700" fill="#F4EEE1">3</text><text x="222" y="30" text-anchor="start" font-size="12" font-weight="600" fill="#3E2F20">condensação → nuvens</text><line x1="385" y1="72" x2="377" y2="100" stroke="#6E8C99" stroke-width="2"/><line x1="401" y1="72" x2="393" y2="100" stroke="#6E8C99" stroke-width="2"/><line x1="417" y1="72" x2="409" y2="100" stroke="#6E8C99" stroke-width="2"/><line x1="433" y1="72" x2="425" y2="100" stroke="#6E8C99" stroke-width="2"/><line x1="449" y1="72" x2="441" y2="100" stroke="#6E8C99" stroke-width="2"/><circle cx="500" cy="78" r="11" fill="#A8763E" stroke="#A8763E" stroke-width="1.5"/><text x="500" y="82" text-anchor="middle" font-size="12" font-weight="700" fill="#F4EEE1">4</text><text x="518" y="82" text-anchor="start" font-size="12" font-weight="600" fill="#3E2F20">precipitação</text><text x="518" y="96" text-anchor="start" font-size="10" font-weight="400" fill="#5C4630">(chuva e neve)</text><circle cx="340" cy="238" r="11" fill="#A8763E" stroke="#A8763E" stroke-width="1.5"/><text x="340" y="242" text-anchor="middle" font-size="12" font-weight="700" fill="#F4EEE1">5</text><text x="358" y="242" text-anchor="start" font-size="11" font-weight="600" fill="#3E2F20">escoamento (rios)</text><line x1="540" y1="200" x2="540" y2="278" stroke="#6E8C99" stroke-width="2" marker-end="url(#hc1_6E8C99)"/><text x="552" y="246" text-anchor="start" font-size="11" font-weight="600" fill="#3E2F20">infiltração</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">1 Sol aquece • 2 água evapora • 3 vapor se condensa em nuvens • 4 chove ou neva • 5 parte infiltra no solo e parte volta ao mar pelos rios.</p>`,
+            },
+            {
+              heading: "Distribuição e uso da água",
+              body: `A quantidade de água renovável por habitante é muito desigual entre os países. Canadá, Rússia, Brasil e boa parte da América do Sul têm muita água por pessoa; o norte da África e o Oriente Médio têm muito pouca.
+
+Uso da água no mundo:
+• Agropecuária → 70%
+• Indústria → 22%
+• Uso doméstico → 8%
+
+Fatores que aumentam a demanda por água em um país ou região:
+• o grau de urbanização;
+• a poluição dos rios, lagos e lençóis subterrâneos (que diminui a água utilizável);
+• o uso agrícola, que é mais da metade do gasto mundial.
+
+📌 Em geral, a pressão sobre os recursos hídricos aumenta conforme a RENDA dos habitantes. No século XX, mais do que o crescimento da população, foi o aumento da produção de riquezas que pressionou os recursos hídricos.
+
+Em casa, uma pessoa usa em média cerca de 150 L por dia; descarga e banho são os maiores gastos.`,
+              visual: `<svg viewBox="0 0 640 160" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="hu1_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="hu1_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="hu1_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="hu1_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="hu1_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker></defs>
+<text x="320" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">Uso da água doce no mundo</text><text x="150" y="60" text-anchor="end" font-size="13" font-weight="600" fill="#3E2F20">Agropecuária</text><rect x="160" y="40" width="420" height="30" rx="4" fill="#5B7553"/><text x="590" y="60" text-anchor="start" font-size="13" font-weight="700" fill="#3E2F20">70%</text><text x="150" y="100" text-anchor="end" font-size="13" font-weight="600" fill="#3E2F20">Indústria</text><rect x="160" y="80" width="132" height="30" rx="4" fill="#A8763E"/><text x="302" y="100" text-anchor="start" font-size="13" font-weight="700" fill="#3E2F20">22%</text><text x="150" y="140" text-anchor="end" font-size="13" font-weight="600" fill="#3E2F20">Uso doméstico</text><rect x="160" y="120" width="48" height="30" rx="4" fill="#6E8C99"/><text x="218" y="140" text-anchor="start" font-size="13" font-weight="700" fill="#3E2F20">8%</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">A irrigação e a criação de animais consomem mais da metade (cerca de 70%) da água usada no mundo.</p>`,
+            },
+            {
+              heading: "Água virtual",
+              body: `Para serem produzidas, muitas mercadorias precisam de grandes volumes de água, que nem sempre pode ser reutilizada.
+
+Água virtual é todo o volume de água usado na produção de uma mercadoria, e que precisa ser contado na demanda de recursos hídricos de um país ou região.
+
+A partir desse conceito, existem fluxos de importação e exportação INDIRETA de água pelo comércio exterior:
+• Países exportadores de água virtual → grandes produtores agrícolas, como Brasil, EUA, Argentina e Austrália.
+• Países importadores de água virtual → países com pouca água ou muita população, como os da Europa, o Oriente Médio, a China e o Japão.
+
+🧠 Quando o Brasil exporta soja ou carne, está exportando também a água usada para produzi-las.`,
+              visual: `<div class="overflow-x-auto"><table class="w-full text-sm border-collapse"><thead><tr class="border-b-2 border-sand"><th class="text-left py-2 pr-4 font-display text-ochre">Produto</th><th class="text-left py-2 pr-4 font-display text-ochre">Unidade</th><th class="text-left py-2 pr-4 font-display text-ochre">Litros de água</th></tr></thead><tbody><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">Carne bovina</td><td class="py-1.5 pr-4 text-espresso">1 kg</td><td class="py-1.5 pr-4 text-espresso">15 500</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">Queijo</td><td class="py-1.5 pr-4 text-espresso">1 kg</td><td class="py-1.5 pr-4 text-espresso">5 000</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">Frango</td><td class="py-1.5 pr-4 text-espresso">1 kg</td><td class="py-1.5 pr-4 text-espresso">3 900</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">Algodão</td><td class="py-1.5 pr-4 text-espresso">1 camiseta</td><td class="py-1.5 pr-4 text-espresso">2 700</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">Hambúrguer</td><td class="py-1.5 pr-4 text-espresso">1 unidade</td><td class="py-1.5 pr-4 text-espresso">2 400</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">Soja</td><td class="py-1.5 pr-4 text-espresso">1 kg</td><td class="py-1.5 pr-4 text-espresso">1 800</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">Açúcar</td><td class="py-1.5 pr-4 text-espresso">1 kg</td><td class="py-1.5 pr-4 text-espresso">1 500</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">Trigo</td><td class="py-1.5 pr-4 text-espresso">1 kg</td><td class="py-1.5 pr-4 text-espresso">1 300</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">Leite</td><td class="py-1.5 pr-4 text-espresso">1 litro</td><td class="py-1.5 pr-4 text-espresso">1 000</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">Milho</td><td class="py-1.5 pr-4 text-espresso">1 kg</td><td class="py-1.5 pr-4 text-espresso">900</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">Ovo</td><td class="py-1.5 pr-4 text-espresso">1 unidade</td><td class="py-1.5 pr-4 text-espresso">200</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">Café</td><td class="py-1.5 pr-4 text-espresso">1 xícara</td><td class="py-1.5 pr-4 text-espresso">140</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">Pão</td><td class="py-1.5 pr-4 text-espresso">1 fatia</td><td class="py-1.5 pr-4 text-espresso">40</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">Papel</td><td class="py-1.5 pr-4 text-espresso">1 folha A4</td><td class="py-1.5 pr-4 text-espresso">10</td></tr></tbody></table></div>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Água virtual: a água "escondida" na produção de cada mercadoria. Carnes e derivados animais estão no topo.</p>`,
+            },
+            {
+              heading: "Pegada hídrica: o exemplo do boi",
+              body: `A pegada hídrica é a quantidade total de água usada, direta e indiretamente, para produzir algo.
+
+No caso da carne bovina, entra na conta:
+• a água dos cereais e da pastagem que o boi come;
+• a água que ele bebe;
+• a água usada na higiene do animal.
+
+Como um boi gera em média 200 kg de carne, toda essa água dividida pela carne chega a cerca de 15 a 17 mil litros por quilo.
+
+⚠️ Os valores mudam conforme a fonte: a tabela da aula traz 15 500 L/kg e o infográfico, 17 mil L/kg. O importante é entender que a carne bovina é um dos produtos com maior pegada hídrica.`,
+              visual: `<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3">
+    <p class="font-display text-ochre font-bold mb-1">1. Vida do boi</p>
+    <p class="text-espresso text-sm">Cerca de 3 anos até o abate.</p>
+  </div>
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3">
+    <p class="font-display text-ochre font-bold mb-1">2. Ração</p>
+    <p class="text-espresso text-sm">Consome cerca de 1 300 kg de cereais, que precisaram de água para crescer.</p>
+  </div>
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3">
+    <p class="font-display text-ochre font-bold mb-1">3. Pasto</p>
+    <p class="text-espresso text-sm">Come cerca de 7 200 kg de pastagem, que também precisa de água.</p>
+  </div>
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3">
+    <p class="font-display text-ochre font-bold mb-1">4. Água direta</p>
+    <p class="text-espresso text-sm">Bebe água e é lavado (higiene).</p>
+  </div>
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3">
+    <p class="font-display text-ochre font-bold mb-1">5. Abate</p>
+    <p class="text-espresso text-sm">Gera em média 200 kg de carne.</p>
+  </div>
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3">
+    <p class="font-display text-ochre font-bold mb-1">6. Resultado</p>
+    <p class="text-espresso text-sm">Toda a água do ciclo dividida pela carne ≈ 15 a 17 mil litros por kg.</p>
+  </div>
+</div>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Pegada hídrica: soma de toda a água usada, direta e indiretamente, para produzir algo.</p>`,
+            },
+            {
+              heading: "Aquíferos",
+              body: `Aquíferos são depósitos de grandes volumes de água armazenada no subsolo, dentro dos poros e fraturas das rochas.
+
+• São encontrados geralmente em bacias sedimentares, por causa da porosidade das rochas sedimentares (como o arenito).
+• São abastecidos pela água da chuva que infiltra no solo, nas chamadas áreas de recarga.
+• A água pode ser retirada por poços.
+
+⚠️ A poluição e a impermeabilização das áreas de recarga (asfalto, construções) ameaçam os aquíferos.`,
+              visual: `<svg viewBox="0 0 640 290" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="hq1_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="hq1_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="hq1_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="hq1_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="hq1_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker></defs>
+<rect x="20" y="70" width="600" height="40" fill="#D8C9A8" stroke="#5C4630" stroke-width="1"/><text x="110" y="95" text-anchor="middle" font-size="12" font-weight="600" fill="#3E2F20">solo</text><rect x="20" y="110" width="600" height="90" fill="#B9CBD3" stroke="#5C4630" stroke-width="1"/><circle cx="40" cy="130" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="70" cy="140" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="100" cy="130" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="130" cy="140" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="160" cy="130" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="190" cy="140" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="220" cy="130" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="250" cy="140" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="280" cy="130" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="310" cy="140" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="340" cy="130" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="370" cy="140" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="400" cy="130" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="430" cy="140" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="460" cy="130" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="490" cy="140" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="520" cy="130" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="550" cy="140" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="580" cy="130" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="610" cy="140" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="40" cy="170" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="70" cy="180" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="100" cy="170" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="130" cy="180" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="160" cy="170" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="190" cy="180" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="220" cy="170" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="250" cy="180" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="280" cy="170" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="310" cy="180" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="340" cy="170" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="370" cy="180" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="400" cy="170" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="430" cy="180" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="460" cy="170" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="490" cy="180" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="520" cy="170" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="550" cy="180" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="580" cy="170" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><circle cx="610" cy="180" r="5" fill="#C9B18C" stroke="#5C4630" stroke-width="1.5"/><text x="250" y="160" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">AQUÍFERO: rocha sedimentar porosa encharcada</text><rect x="20" y="200" width="600" height="50" fill="#5C4630" stroke="#5C4630" stroke-width="1"/><text x="250" y="230" text-anchor="middle" font-size="12" font-weight="600" fill="#F4EEE1">rocha impermeável (não deixa a água passar)</text><line x1="60" y1="22" x2="54" y2="52" stroke="#6E8C99" stroke-width="2"/><line x1="78" y1="22" x2="72" y2="52" stroke="#6E8C99" stroke-width="2"/><line x1="96" y1="22" x2="90" y2="52" stroke="#6E8C99" stroke-width="2"/><line x1="114" y1="22" x2="108" y2="52" stroke="#6E8C99" stroke-width="2"/><line x1="80" y1="56" x2="80" y2="128" stroke="#6E8C99" stroke-width="2.2" marker-end="url(#hq1_6E8C99)"/><text x="140" y="44" text-anchor="start" font-size="12" font-weight="600" fill="#6E8C99">chuva infiltra: área de recarga</text><rect x="500" y="40" width="16" height="140" fill="#F4EEE1" stroke="#3E2F20" stroke-width="1.5"/><line x1="508" y1="170" x2="508" y2="30" stroke="#3E2F20" stroke-width="2" marker-end="url(#hq1_3E2F20)"/><text x="530" y="46" text-anchor="start" font-size="12" font-weight="700" fill="#3E2F20">poço</text><text x="320" y="276" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">Aquíferos ficam, em geral, em bacias sedimentares, cujas rochas porosas armazenam água.</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Corte de um aquífero: a água da chuva infiltra e fica guardada nos poros da rocha, acima de uma camada impermeável.</p>`,
+            },
+            {
+              heading: "Aquíferos do Brasil",
+              body: `O Brasil tem algumas das maiores reservas de água subterrânea do mundo.
+
+SAGA (Sistema Aquífero Grande Amazônia)
+• É o maior aquífero do Brasil: cerca de 162 mil km³ de água em 1,3 milhão de km².
+• Inclui o aquífero Alter do Chão.
+
+Aquífero Alter do Chão
+• Fica na região amazônica: partes do Pará, do Amazonas e um pequeno trecho do Amapá.
+• Volume estimado de 86,4 mil km³: mais que o dobro do Guarani.
+• É exclusivamente brasileiro, o que facilita sua gestão.
+
+Aquífero Guarani
+• Cerca de 37 mil km³ de água (o valor varia entre fontes, de 37 a 45 mil km³).
+• Área de cerca de 1,2 milhão de km², sendo 840 mil km² no Brasil.
+• Ultrapassa a fronteira: está no Brasil, na Argentina, no Paraguai e no Uruguai.
+
+🧠 Pegadinha clássica: o Guarani tem área MAIOR, mas o Alter do Chão tem VOLUME maior.`,
+              visual: `<div class="overflow-x-auto"><table class="w-full text-sm border-collapse"><thead><tr class="border-b-2 border-sand"><th class="text-left py-2 pr-4 font-display text-ochre">Aquífero</th><th class="text-left py-2 pr-4 font-display text-ochre">Onde fica</th><th class="text-left py-2 pr-4 font-display text-ochre">Área</th><th class="text-left py-2 pr-4 font-display text-ochre">Volume de água</th></tr></thead><tbody><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">SAGA (Sistema Aquífero Grande Amazônia)</td><td class="py-1.5 pr-4 text-espresso">Amazônia (inclui o Alter do Chão)</td><td class="py-1.5 pr-4 text-espresso">≈ 1,3 milhão km²</td><td class="py-1.5 pr-4 text-espresso">≈ 162 mil km³ (o maior)</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">Alter do Chão</td><td class="py-1.5 pr-4 text-espresso">Pará, Amazonas e Amapá (só no Brasil)</td><td class="py-1.5 pr-4 text-espresso">menor que o Guarani</td><td class="py-1.5 pr-4 text-espresso">≈ 86 mil km³</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">Guarani</td><td class="py-1.5 pr-4 text-espresso">Brasil, Argentina, Paraguai e Uruguai</td><td class="py-1.5 pr-4 text-espresso">≈ 1,2 milhão km² (840 mil no Brasil)</td><td class="py-1.5 pr-4 text-espresso">≈ 37 a 45 mil km³</td></tr></tbody></table></div>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">O Alter do Chão tem MENOR área e MAIOR volume que o Guarani. Os volumes variam conforme a fonte e o estudo.</p>`,
+            },
+          ],
+          quiz: [
+            { q: "Qual é a porcentagem aproximada de água doce no planeta?", options: ["2,5%", "97,5%", "30%", "50%"], correct: 0 },
+            { q: "Onde está a maior parte da água doce do planeta?", options: ["Em geleiras e calotas polares", "Em rios e lagos", "Na atmosfera", "Nos oceanos"], correct: 0 },
+            { q: "Qual parcela da água doce está em lagos e rios?", options: ["Cerca de 0,3%", "Cerca de 30,8%", "Cerca de 68,9%", "Cerca de 97,5%"], correct: 0 },
+            { q: "Cerca de 30,8% da água doce do planeta está:", options: ["No subsolo", "Nas geleiras", "Nos rios", "Na atmosfera"], correct: 0 },
+            { q: "Segundo a aula, o principal problema da água doce no mundo é:", options: ["Sua distribuição irregular", "A falta total de água doce no planeta", "O excesso de água doce nos desertos", "O fim do ciclo hidrológico"], correct: 0 },
+            { q: "No ciclo hidrológico, a passagem do vapor de água para gotículas que formam as nuvens é a:", options: ["Condensação", "Evaporação", "Infiltração", "Precipitação"], correct: 0 },
+            { q: "A chuva e a neve correspondem a qual etapa do ciclo hidrológico?", options: ["Precipitação", "Evaporação", "Condensação", "Transpiração"], correct: 0 },
+            { q: "A água da chuva que penetra no solo e abastece os lençóis subterrâneos sofre:", options: ["Infiltração", "Evaporação", "Condensação", "Sublimação"], correct: 0 },
+            { q: "Qual é a principal fonte de energia que movimenta o ciclo hidrológico?", options: ["O Sol", "O calor interno da Terra", "Os ventos", "A gravidade da Lua"], correct: 0 },
+            { q: "Qual setor mais consome água no mundo?", options: ["Agropecuária", "Indústria", "Uso doméstico", "Geração de energia nuclear"], correct: 0 },
+            { q: "Aproximadamente quanto da água usada no mundo vai para a agropecuária?", options: ["70%", "22%", "8%", "50%"], correct: 0 },
+            { q: "De modo geral, a pressão sobre os recursos hídricos de um território aumenta conforme:", options: ["A renda dos seus habitantes", "A altitude do relevo", "A distância do mar", "A quantidade de rios"], correct: 0 },
+            { q: "No século XX, o que mais impulsionou o aumento da pressão sobre os recursos hídricos?", options: ["A crescente produção de riquezas", "Apenas o crescimento da população", "A diminuição das chuvas", "O derretimento das geleiras"], correct: 0 },
+            { q: "Qual destes NÃO é um fator citado como influente na demanda por água de um país?", options: ["A latitude do país", "O grau de urbanização", "A poluição dos rios e lençóis", "O uso agrícola"], correct: 0 },
+            { q: "Água virtual é:", options: ["Todo o volume de água usado na produção de uma mercadoria", "A água que evapora dos oceanos", "A água armazenada nos aquíferos", "A água presente nas nuvens"], correct: 0 },
+            { q: "O conceito de água virtual permite identificar:", options: ["Fluxos indiretos de importação e exportação de água pelo comércio", "O volume de água dos oceanos", "A velocidade dos rios", "A profundidade dos aquíferos"], correct: 0 },
+            { q: "Ao exportar grandes quantidades de soja e carne, o Brasil é considerado:", options: ["Exportador de água virtual", "Importador de água virtual", "Neutro em água virtual", "Importador de água subterrânea"], correct: 0 },
+            { q: "Segundo a tabela de água virtual, qual destes produtos exige mais água por quilo?", options: ["Carne bovina", "Milho", "Açúcar", "Trigo"], correct: 0 },
+            { q: "Por que a carne bovina tem uma pegada hídrica tão alta?", options: ["Porque conta a água dos cereais e pastos consumidos, além da água que o boi bebe", "Porque o boi vive em rios", "Porque a carne é lavada muitas vezes no mercado", "Porque o boi transpira muita água"], correct: 0 },
+            { q: "Aquíferos são:", options: ["Depósitos de grandes volumes de água no subsolo", "Rios que correm na superfície", "Lagos formados por geleiras", "Nuvens carregadas de chuva"], correct: 0 },
+            { q: "Por que os aquíferos costumam ocorrer em bacias sedimentares?", options: ["Porque as rochas sedimentares são porosas e armazenam água", "Porque são áreas com vulcões ativos", "Porque são formadas por rochas impermeáveis", "Porque ficam sempre no litoral"], correct: 0 },
+            { q: "Qual é o maior aquífero brasileiro?", options: ["SAGA (Sistema Aquífero Grande Amazônia)", "Aquífero Guarani", "Aquífero Serra Geral", "Aquífero Bauru"], correct: 0 },
+            { q: "O aquífero Alter do Chão está localizado em partes dos estados de:", options: ["Pará, Amazonas e Amapá", "São Paulo, Paraná e Santa Catarina", "Bahia, Piauí e Ceará", "Mato Grosso, Goiás e Tocantins"], correct: 0 },
+            { q: "Comparando os aquíferos Alter do Chão e Guarani, é correto afirmar:", options: ["O Alter do Chão tem maior volume de água, mas menor área", "O Guarani tem maior volume e maior área", "Os dois têm o mesmo volume", "O Alter do Chão está em quatro países"], correct: 0 },
+            { q: "Além do Brasil, o aquífero Guarani se estende por:", options: ["Argentina, Paraguai e Uruguai", "Peru, Bolívia e Colômbia", "Venezuela e Guiana", "Chile e Equador"], correct: 0 },
+            { q: "Por que a gestão do aquífero Alter do Chão é considerada mais fácil que a do Guarani?", options: ["Porque ele é exclusivamente brasileiro", "Porque ele é menor em volume", "Porque está no litoral", "Porque não recebe água da chuva"], correct: 0 },
+            { q: "As áreas onde a água da chuva infiltra e abastece um aquífero são chamadas de:", options: ["Áreas de recarga", "Áreas de descarga fluvial", "Interflúvios", "Talvegues"], correct: 0 },
+          ],
+        },
+        {
           id: "hidrografia",
           title: "Hidrografia: conceitos gerais",
           sections: [
@@ -925,7 +1111,12 @@ Como os rios se formam:
               heading: "Tipos de foz",
               body: `A foz pode ser:
 • Delta → vários canais (o rio se ramifica ao depositar sedimentos)
-• Estuário → um só canal, largo`,
+• Estuário → um só canal, largo
+• Mista ou complexa → combina delta e estuário. Ex.: rio Amazonas.
+
+Exemplos:
+• Rio Nilo (Egito) → foz em delta. Os gregos chamaram de "delta" porque a região tem forma de triângulo, como a letra grega Δ.
+• Rio da Prata (Argentina e Uruguai) → um dos maiores estuários do mundo. Sua cor barrenta vem dos sedimentos, o que é normal nesse rio.`,
               visual: `<svg viewBox="0 0 640 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
 <defs><marker id="hg4_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="hg4_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="hg4_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="hg4_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="hg4_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker><marker id="hg4_5C4630" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5C4630"/></marker></defs><rect width="640" height="220" rx="12" fill="#F4EEE1"/>
 <rect x="12" y="14" width="300" height="192" rx="10" fill="none" stroke="#C9B18C"/><text x="162" y="34" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">DELTA</text><text x="162" y="196" text-anchor="middle" font-size="10.5" font-style="italic" fill="#5C4630">vários canais, com depósito de sedimentos</text><rect x="24" y="44" width="276" height="130" fill="#D8C9A8"/><rect x="200" y="44" width="100" height="130" fill="#B9CBD3"/><polygon points="140,110 230,56 250,110 230,164" fill="#D8C9A8" stroke="#A8763E"/><path d="M30,110 L140,110 Q190,80 236,50" fill="none" stroke="#6E8C99" stroke-width="4"/><path d="M30,110 L140,110 Q190,82 244,54" fill="none" stroke="#6E8C99" stroke-width="4"/><path d="M30,110 L140,110 Q190,110 236,110" fill="none" stroke="#6E8C99" stroke-width="4"/><path d="M30,110 L140,110 Q190,138 244,166" fill="none" stroke="#6E8C99" stroke-width="4"/><path d="M30,110 L140,110 Q190,140 236,170" fill="none" stroke="#6E8C99" stroke-width="4"/><rect x="328" y="14" width="300" height="192" rx="10" fill="none" stroke="#C9B18C"/><text x="478" y="34" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">ESTUÁRIO</text><text x="478" y="196" text-anchor="middle" font-size="10.5" font-style="italic" fill="#5C4630">um só canal, largo, em forma de funil</text><rect x="340" y="44" width="276" height="130" fill="#D8C9A8"/><rect x="520" y="44" width="96" height="130" fill="#B9CBD3"/><path d="M340,104 L440,104 Q500,104 520,60 L520,158 Q500,116 440,116 L340,116 Z" fill="#B9CBD3" stroke="#6E8C99" stroke-width="2"/>
@@ -938,7 +1129,9 @@ Como os rios se formam:
 • Meandrantes → muitas curvas e sinuosidades (meandros).
 • Anastomosados → ramificações sucessivas que depois se reencontram, separando ilhas assimétricas de barras arenosas. Há grande carga de sedimentos, formando bancos de areia.
 
-Perfil longitudinal → mostra a extensão do rio desde a nascente até a foz (o "desnível" ao longo do caminho).`,
+Perfil longitudinal → mostra a extensão do rio desde a nascente até a foz (o "desnível" ao longo do caminho).
+
+Perfil transversal → corte do vale de uma margem à outra. Perto da nascente, o vale é estreito e em forma de V (o rio escava); perto da foz, é largo e plano (o rio deposita sedimentos).`,
               visual: `<svg viewBox="0 0 640 230" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
 <defs><marker id="hg2_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="hg2_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="hg2_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="hg2_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="hg2_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker><marker id="hg2_5C4630" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5C4630"/></marker></defs><rect width="640" height="230" rx="12" fill="#F4EEE1"/>
 <rect x="12" y="14" width="196" height="202" rx="10" fill="none" stroke="#C9B18C"/><rect x="20" y="22" width="180" height="130" rx="6" fill="#D8C9A8"/><path d="M32,140 L188,34" fill="none" stroke="#6E8C99" stroke-width="9" stroke-linecap="round"/><path d="M32,140 L188,34" fill="none" stroke="#B9CBD3" stroke-width="5" stroke-linecap="round"/><text x="110" y="176" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">RETILÍNEO</text><text x="110" y="194" text-anchor="middle" font-size="10" font-style="italic" fill="#5C4630">quase em linha reta</text><rect x="222" y="14" width="196" height="202" rx="10" fill="none" stroke="#C9B18C"/><rect x="230" y="22" width="180" height="130" rx="6" fill="#D8C9A8"/><path d="M238,140 C292,140 242,90 292,86 C342,82 342,120 372,104 C412,84 342,40 398,34" fill="none" stroke="#6E8C99" stroke-width="9" stroke-linecap="round"/><path d="M238,140 C292,140 242,90 292,86 C342,82 342,120 372,104 C412,84 342,40 398,34" fill="none" stroke="#B9CBD3" stroke-width="5" stroke-linecap="round"/><path d="M334,50 a16,10 0 1,0 32,0 a16,10 0 1,0 -32,0" fill="none" stroke="#6E8C99" stroke-width="3"/><text x="320" y="176" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">MEANDRANTE</text><text x="320" y="194" text-anchor="middle" font-size="10" font-style="italic" fill="#5C4630">muitas curvas (meandros)</text><rect x="432" y="14" width="196" height="202" rx="10" fill="none" stroke="#C9B18C"/><rect x="440" y="22" width="180" height="130" rx="6" fill="#D8C9A8"/><rect x="446" y="58" width="168" height="54" rx="6" fill="#B9CBD3"/><ellipse cx="472" cy="74" rx="18" ry="6" fill="#F4EEE1" stroke="#A8763E" stroke-width="1.2"/><ellipse cx="516" cy="92" rx="18" ry="6" fill="#F4EEE1" stroke="#A8763E" stroke-width="1.2"/><ellipse cx="552" cy="70" rx="18" ry="6" fill="#F4EEE1" stroke="#A8763E" stroke-width="1.2"/><ellipse cx="582" cy="94" rx="18" ry="6" fill="#F4EEE1" stroke="#A8763E" stroke-width="1.2"/><ellipse cx="492" cy="98" rx="18" ry="6" fill="#F4EEE1" stroke="#A8763E" stroke-width="1.2"/><text x="530" y="176" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">ANASTOMOSADO</text><text x="530" y="194" text-anchor="middle" font-size="10" font-style="italic" fill="#5C4630">canais que se dividem e se reencontram</text>
@@ -963,7 +1156,8 @@ Perfil longitudinal → mostra a extensão do rio desde a nascente até a foz (o
 • Divisor de águas ou interflúvio
 • Vertentes (as encostas)
 • Leito maior (ou de inundação) → ocupado nas cheias
-• Leito menor (ou de estiagem, vazante) → ocupado na seca
+• Leito normal → por onde o rio corre na maior parte do ano
+• Leito menor (ou de estiagem, vazante) → ocupado na seca (em algumas regiões o rio chega a secar)
 • Talvegue → o ponto mais profundo do rio`,
               visual: `<svg viewBox="0 0 640 280" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
 <defs><marker id="hg3_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="hg3_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="hg3_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="hg3_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="hg3_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker><marker id="hg3_5C4630" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5C4630"/></marker></defs><rect width="640" height="280" rx="12" fill="#F4EEE1"/>
@@ -1017,6 +1211,11 @@ Regime fluvial → variação do nível das águas de um rio ao longo de um ano.
             { q: "O regime predominante nos rios brasileiros é o:", options: ["Glacial","Nival","Pluvial","Criptorreico"], correct: 2 },
             { q: "O regime pluvial equatorial caracteriza-se por:", options: ["Cheias prolongadas e vazante curta","Rios que secam no inverno","Dependência do degelo","Ausência de chuvas"], correct: 0 },
             { q: "Os rios intermitentes do sertão nordestino têm regime:", options: ["Pluvial equatorial","Pluvial semiárido (intermitente)","Glacial","Nival"], correct: 1 },
+            { q: "A foz do rio Amazonas é classificada como:", options: ["Mista ou complexa (delta e estuário)", "Apenas delta", "Apenas estuário", "Endorreica"], correct: 0 },
+            { q: "O nome \"delta\" para a foz com vários canais vem:", options: ["Da letra grega Δ, pela forma triangular da foz do rio Nilo", "Do nome de um rio da Grécia", "Do nome de um navegador português", "Da palavra latina para \"sedimento\""], correct: 0 },
+            { q: "O rio da Prata, entre Argentina e Uruguai, é um exemplo de foz em:", options: ["Estuário", "Delta", "Foz mista", "Drenagem arreica"], correct: 0 },
+            { q: "O leito normal de um rio é:", options: ["Por onde ele corre na maior parte do ano", "Ocupado apenas nas grandes cheias", "O ponto mais profundo do rio", "A parte mais alta do vale"], correct: 0 },
+            { q: "No perfil transversal, como é o vale perto da nascente de um rio?", options: ["Estreito e em forma de V", "Largo e plano", "Sempre seco", "Em forma de U por causa do mar"], correct: 0 },
           ],
         },
       ],
