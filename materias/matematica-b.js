@@ -493,6 +493,45 @@ A = 12 · 5 = 60 m²
 • Diagonal do quadrado = l√2 → l = 6 cm
 • A = 6² = 36 cm²`,
             },
+            {
+              heading: "Losango e trapézio",
+              body: `Losango
+A = (D · d) / 2
+onde D é a diagonal maior e d é a diagonal menor.
+As diagonais do losango são perpendiculares e se cortam no meio.
+
+Trapézio
+A = (B + b) · h / 2
+onde B é a base maior, b é a base menor e h é a altura (distância entre as bases).
+
+Exemplos:
+• Losango com diagonais 10 cm e 6 cm → A = 60 / 2 = 30 cm²
+• Trapézio com bases 12 m e 8 m e altura 5 m → A = (12 + 8) · 5 / 2 = 50 m²`,
+              visual: `<svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="mq1_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="mq1_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="mq1_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="mq1_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="mq1_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker></defs>
+<text x="150" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#A8763E">Losango</text><polygon points="50,130 150,60 250,130 150,200" fill="#E4D9C4" stroke="#3E2F20" stroke-width="2"/><line x1="50" y1="130" x2="250" y2="130" stroke="#A6493A" stroke-width="2" stroke-dasharray="6 4"/><line x1="150" y1="60" x2="150" y2="200" stroke="#5B7553" stroke-width="2" stroke-dasharray="6 4"/><text x="205" y="124" text-anchor="middle" font-size="15" font-weight="700" fill="#A6493A">D</text><text x="162" y="175" text-anchor="middle" font-size="15" font-weight="700" fill="#5B7553">d</text><text x="150" y="236" text-anchor="middle" font-size="15" font-weight="700" fill="#3E2F20">A = (D · d) / 2</text><text x="470" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#A8763E">Trapézio</text><polygon points="350,190 610,190 540,80 420,80" fill="#E4D9C4" stroke="#3E2F20" stroke-width="2"/><line x1="420" y1="80" x2="420" y2="190" stroke="#5B7553" stroke-width="2" stroke-dasharray="6 4"/><path d="M 430 190 L 430 180 L 420 180" fill="none" stroke="#3E2F20" stroke-width="1.2"/><text x="480" y="70" text-anchor="middle" font-size="13" font-weight="700" fill="#A6493A">b (base menor)</text><text x="480" y="210" text-anchor="middle" font-size="13" font-weight="700" fill="#A6493A">B (base maior)</text><text x="408" y="140" text-anchor="end" font-size="15" font-weight="700" fill="#5B7553">h</text><text x="480" y="236" text-anchor="middle" font-size="15" font-weight="700" fill="#3E2F20">A = (B + b) · h / 2</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">No losango usam-se as duas diagonais; no trapézio, a média das bases vezes a altura.</p>`,
+            },
+            {
+              heading: "Quadrado a partir da diagonal",
+              body: `Exemplo da aula: um quadrado tem diagonal 6. Qual é a sua área?
+
+A diagonal divide o quadrado em dois triângulos retângulos. Pelo Teorema de Pitágoras:
+6² = l² + l²
+36 = 2 · l²
+
+Como a área é A = l²:
+36 = 2 · A
+A = 18
+
+Atalho: A = d² / 2`,
+              visual: `<svg viewBox="0 0 640 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="mq2_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="mq2_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="mq2_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="mq2_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="mq2_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker></defs>
+<polygon points="60,40 200,40 200,180 60,180" fill="#E4D9C4" stroke="#3E2F20" stroke-width="2"/><line x1="60" y1="180" x2="200" y2="40" stroke="#A6493A" stroke-width="2.4"/><text x="108" y="98" text-anchor="middle" font-size="14" font-weight="700" fill="#A6493A">d = 6</text><text x="130" y="196" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">l</text><text x="212" y="114" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">l</text><text x="260" y="60" text-anchor="start" font-size="13" font-weight="600" fill="#3E2F20">Pitágoras na metade do quadrado:</text><text x="260" y="88" text-anchor="start" font-size="14" font-weight="400" fill="#3E2F20">d² = l² + l²  →  6² = 2l²</text><text x="260" y="116" text-anchor="start" font-size="14" font-weight="400" fill="#3E2F20">36 = 2l²  e, como A = l²:  36 = 2A</text><text x="260" y="148" text-anchor="start" font-size="18" font-weight="700" fill="#A8763E">A = 18</text><text x="260" y="176" text-anchor="start" font-size="13" font-weight="600" fill="#5B7553">Atalho: A = d² / 2</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Quando só a diagonal é dada, não precisa achar o lado: A = d²/2.</p>`,
+            },
           ],
           quiz: [
             { q: "Qual é a área de um quadrado de lado 7 cm?", options: ["14 cm²","28 cm²","49 cm²","56 cm²"], correct: 2 },
@@ -506,6 +545,237 @@ A = 12 · 5 = 60 m²
             { q: "Um terreno retangular mede 20 m por 15 m. Se o piso custa R$ 30,00 por m², o custo para cobrir o terreno é:", options: ["R$ 1.050,00","R$ 9.000,00","R$ 6.000,00","R$ 10.500,00"], correct: 1 },
             { q: "Se o lado de um quadrado dobra, sua área:", options: ["Dobra","Triplica","Quadruplica","Não muda"], correct: 2 },
             { q: "Um retângulo tem perímetro de 30 cm e base de 10 cm. Sua área é:", options: ["50 cm²","100 cm²","150 cm²","300 cm²"], correct: 0 },
+            { q: "Qual é a área de um losango cujas diagonais medem 10 cm e 6 cm?", options: ["30 cm²", "60 cm²", "16 cm²", "15 cm²"], correct: 0 },
+            { q: "Uma pipa tem a forma de um losango com diagonais de 80 cm e 50 cm. Quanto papel, no mínimo, cobre a pipa?", options: ["2 000 cm²", "4 000 cm²", "1 300 cm²", "130 cm²"], correct: 0 },
+            { q: "Um losango tem lado 5 cm e diagonal maior de 8 cm. Sua área é:", options: ["24 cm²", "40 cm²", "20 cm²", "48 cm²"], correct: 0 },
+            { q: "Qual é a área de um trapézio com bases 12 cm e 8 cm e altura 5 cm?", options: ["50 cm²", "100 cm²", "60 cm²", "40 cm²"], correct: 0 },
+            { q: "Um terreno tem a forma de um trapézio com bases de 30 m e 20 m e altura de 10 m. Sua área é:", options: ["250 m²", "500 m²", "600 m²", "300 m²"], correct: 0 },
+            { q: "Um trapézio isósceles tem bases 10 cm e 4 cm e lados não paralelos de 5 cm. Sua área é:", options: ["28 cm²", "35 cm²", "56 cm²", "20 cm²"], correct: 0 },
+            { q: "Um quadrado tem diagonal de 6 cm. Sua área é:", options: ["18 cm²", "36 cm²", "12 cm²", "9 cm²"], correct: 0 },
+          ],
+        },
+        {
+          id: "arco-circulo-e-setor",
+          title: "Comprimento de arco, área do círculo e setor circular",
+          sections: [
+            {
+              heading: "Comprimento da circunferência e do arco",
+              body: `Uma volta completa na circunferência:
+comprimento 2πR ↔ ângulo 360° (ou 2π rad)
+
+Arco de circunferência: é um "pedaço" do contorno, correspondente a um ângulo central θ.
+Monte a regra de três:
+
+comprimento | ângulo
+2πR | 360°
+l | θ
+
+l = 2πR · θ / 360°
+
+Se o ângulo estiver em radianos, fica mais simples:
+l = θ · R
+
+Exemplo: arco de 60° em uma circunferência de raio 9 cm
+l = 2π · 9 · 60 / 360 = 18π / 6 = 3π cm`,
+              visual: `<svg viewBox="0 0 640 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="ma1_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="ma1_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="ma1_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="ma1_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="ma1_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker></defs>
+<circle cx="160" cy="140" r="100" fill="#F4EEE1" stroke="#5C4630" stroke-width="1.5"/><path d="M 160 140 L 260 140 A 100 100 0 0 0 194.2 46 Z" fill="#E4D9C4" stroke="#3E2F20" stroke-width="1.8"/><path d="M 260 140 A 100 100 0 0 0 194.2 46" fill="none" stroke="#A6493A" stroke-width="5"/><text x="190" y="128" text-anchor="middle" font-size="16" font-weight="700" fill="#A8763E">θ</text><text x="210" y="158" text-anchor="middle" font-size="15" font-weight="700" fill="#3E2F20">R</text><text x="264" y="70" text-anchor="middle" font-size="18" font-weight="700" fill="#A6493A">l</text><circle cx="160" cy="140" r="3" fill="#3E2F20" stroke="#3E2F20" stroke-width="1.5"/><rect x="330" y="40" width="280" height="110" rx="10" fill="#F4EEE1" stroke="#C9B18C" stroke-width="1.5"/><text x="400" y="66" text-anchor="middle" font-size="13" font-weight="700" fill="#A8763E">comprimento</text><text x="540" y="66" text-anchor="middle" font-size="13" font-weight="700" fill="#A8763E">ângulo</text><line x1="470" y1="50" x2="470" y2="140" stroke="#C9B18C" stroke-width="1.5"/><line x1="340" y1="76" x2="600" y2="76" stroke="#C9B18C" stroke-width="1.5"/><text x="400" y="100" text-anchor="middle" font-size="16" font-weight="700" fill="#3E2F20">2πR</text><text x="540" y="100" text-anchor="middle" font-size="16" font-weight="700" fill="#3E2F20">360°</text><text x="400" y="130" text-anchor="middle" font-size="16" font-weight="700" fill="#A6493A">l</text><text x="540" y="130" text-anchor="middle" font-size="16" font-weight="700" fill="#A8763E">θ</text><text x="470" y="186" text-anchor="middle" font-size="17" font-weight="700" fill="#3E2F20">l = 2πR · θ / 360°</text><text x="470" y="216" text-anchor="middle" font-size="13" font-weight="600" fill="#5B7553">em radianos: l = θ · R</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">O arco é uma "fatia" do contorno: regra de três entre a volta inteira (2πR ↔ 360°) e o arco (l ↔ θ).</p>`,
+            },
+            {
+              heading: "Área do círculo",
+              body: `A área do círculo depende apenas do raio:
+
+A = π · R²
+
+Exemplos:
+• R = 5 cm → A = 25π cm²
+• Diâmetro 10 m → R = 5 m → A = 25π m²
+
+⚠️ Cuidado: se o enunciado der o DIÂMETRO, divida por 2 antes.
+
+Obs.: o π só é trocado por um número (3 ou 3,14) se o enunciado fornecer o valor ou pedir um resultado aproximado. Caso contrário, deixe a resposta com π.
+
+🧠 Se o raio dobra, a área quadruplica (2² = 4). Se o raio triplica, a área fica 9 vezes maior.`,
+            },
+            {
+              heading: "Setor circular (fatia de pizza)",
+              body: `Setor circular é a região do círculo limitada por dois raios e um arco: uma fatia de pizza.
+
+• Setor de 60° → 1/6 do círculo → A = πR² / 6
+• Setor de 90° → 1/4 do círculo → A = πR² / 4
+• Setor de 120° → 1/3 do círculo → A = πR² / 3
+
+Generalizando:
+A_setor = (θ / 360°) · πR²
+
+Exemplo: setor de 144° com R = 12
+A = (144 / 360) · π · 12²
+A = (2/5) · 144π
+A = 288π / 5`,
+              visual: `<svg viewBox="0 0 640 230" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="ms1_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="ms1_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="ms1_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="ms1_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="ms1_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker></defs>
+<circle cx="110" cy="100" r="70" fill="#F4EEE1" stroke="#5C4630" stroke-width="1.5"/><path d="M 110 100 L 180 100 A 70 70 0 0 0 145 39.4 Z" fill="#A8763E" stroke="#3E2F20" stroke-width="1.8"/><text x="110" y="196" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">60° = 1/6 da pizza</text><text x="110" y="218" text-anchor="middle" font-size="13" font-weight="400" fill="#5C4630">A = πR²/6</text><circle cx="320" cy="100" r="70" fill="#F4EEE1" stroke="#5C4630" stroke-width="1.5"/><path d="M 320 100 L 390 100 A 70 70 0 0 0 320 30 Z" fill="#A8763E" stroke="#3E2F20" stroke-width="1.8"/><text x="320" y="196" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">90° = 1/4 da pizza</text><text x="320" y="218" text-anchor="middle" font-size="13" font-weight="400" fill="#5C4630">A = πR²/4</text><circle cx="530" cy="100" r="70" fill="#F4EEE1" stroke="#5C4630" stroke-width="1.5"/><path d="M 530 100 L 600 100 A 70 70 0 0 0 495 39.4 Z" fill="#A8763E" stroke="#3E2F20" stroke-width="1.8"/><text x="530" y="196" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">120° = 1/3 da pizza</text><text x="530" y="218" text-anchor="middle" font-size="13" font-weight="400" fill="#5C4630">A = πR²/3</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Setor circular é uma fatia de pizza: A_setor = (θ / 360°) · πR².</p>`,
+            },
+            {
+              heading: "Áreas de regiões sombreadas",
+              body: `Questão clássica de prova: calcular a área de uma região sombreada.
+
+Estratégia: área da figura maior − áreas das partes que NÃO estão sombreadas.
+
+Exemplo: triângulo equilátero de lado 8 cm com um setor de 60° em cada vértice. Cada setor tem raio 4 (metade do lado), e a região central é sombreada.
+
+A_sombreada = A_triângulo equilátero − 3 · A_setor(60°)
+A = 8²√3 / 4 − 3 · π · 4² / 6
+A = 16√3 − 8π
+A = 8(2√3 − π) cm²
+
+Outro modelo comum: quadrado de lado 4 com um quarto de círculo de raio 4 desenhado a partir de um vértice.
+A_sombreada = 4² − π · 4² / 4 = 16 − 4π
+
+🧠 Os 3 setores de 60° juntos formam meio círculo (3 · 60° = 180°).`,
+              visual: `<svg viewBox="0 0 640 290" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="mr1_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="mr1_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="mr1_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="mr1_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="mr1_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker></defs>
+<polygon points="160,260 400,260 280,52.2" fill="#A6493A" stroke="#3E2F20" stroke-width="2"/><path d="M 160 260 L 280 260 A 120 120 0 0 0 220 156.1 Z" fill="#F4EEE1" stroke="#3E2F20" stroke-width="1.8"/><path d="M 400 260 L 340 156.1 A 120 120 0 0 0 280 260 Z" fill="#F4EEE1" stroke="#3E2F20" stroke-width="1.8"/><path d="M 280 52.2 L 220 156.1 A 120 120 0 0 0 340 156.1 Z" fill="#F4EEE1" stroke="#3E2F20" stroke-width="1.8"/><polygon points="160,260 400,260 280,52.2" fill="none" stroke="#3E2F20" stroke-width="2"/><text x="280" y="282" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">8</text><text x="205" y="150" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">8</text><text x="355" y="150" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">8</text><text x="215" y="252" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">60°</text><text x="345" y="252" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">60°</text><text x="280" y="86" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">60°</text><text x="530" y="40" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">Área sombreada =</text><text x="530" y="64" text-anchor="middle" font-size="12" font-weight="400" fill="#5C4630">triângulo − 3 setores de 60°</text><text x="530" y="104" text-anchor="middle" font-size="14" font-weight="400" fill="#3E2F20">8²√3/4 − 3 · π·4²/6</text><text x="530" y="136" text-anchor="middle" font-size="14" font-weight="400" fill="#3E2F20">= 16√3 − 8π</text><text x="530" y="176" text-anchor="middle" font-size="16" font-weight="700" fill="#A8763E">= 8(2√3 − π) cm²</text><text x="530" y="212" text-anchor="middle" font-size="12" font-weight="400" fill="#5B7553">raio de cada setor = 4</text><text x="530" y="230" text-anchor="middle" font-size="12" font-weight="400" fill="#5B7553">(metade do lado)</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Estratégia: área da figura grande menos as partes que não estão sombreadas.</p>`,
+            },
+          ],
+          quiz: [
+            { q: "Em uma circunferência de raio 9 cm, qual é o comprimento de um arco de 60°?", options: ["3π cm", "6π cm", "9π cm", "18π cm"], correct: 0 },
+            { q: "O ponteiro dos minutos de um relógio mede 12 cm. Quanto a sua ponta percorre em 20 minutos?", options: ["8π cm", "4π cm", "12π cm", "24π cm"], correct: 0 },
+            { q: "Um atleta dá 3 voltas em uma pista circular de raio 50 m. Qual é a distância percorrida? (use π = 3,14)", options: ["942 m", "471 m", "314 m", "1 884 m"], correct: 0 },
+            { q: "A roda de uma bicicleta tem 60 cm de diâmetro. Após 1 000 voltas completas, a distância percorrida é: (use π = 3,14)", options: ["1,884 km", "0,942 km", "3,768 km", "18,84 km"], correct: 0 },
+            { q: "Em uma circunferência de raio 5, um arco correspondente a um ângulo de 2 rad mede:", options: ["10", "5", "2,5", "20"], correct: 0 },
+            { q: "Qual é a área de um círculo de raio 5 cm?", options: ["25π cm²", "10π cm²", "5π cm²", "50π cm²"], correct: 0 },
+            { q: "Uma pizza grande tem 40 cm de diâmetro e uma média, 30 cm. A área da grande é quantas vezes a área da média?", options: ["16/9", "4/3", "2", "3/2"], correct: 0 },
+            { q: "Se o raio de um círculo dobra, sua área:", options: ["Fica 4 vezes maior", "Dobra", "Fica 8 vezes maior", "Não muda"], correct: 0 },
+            { q: "Um pivô central de irrigação gira um braço de 500 m em torno de um ponto fixo. A área irrigada é aproximadamente: (use π = 3,14)", options: ["785 000 m²", "1 570 000 m²", "314 000 m²", "250 000 m²"], correct: 0 },
+            { q: "Qual é a área de um setor circular de 90° em um círculo de raio 8 cm?", options: ["16π cm²", "64π cm²", "32π cm²", "8π cm²"], correct: 0 },
+            { q: "Qual é a área de um setor de 120° em um círculo de raio 6 cm?", options: ["12π cm²", "36π cm²", "18π cm²", "6π cm²"], correct: 0 },
+            { q: "Qual é a área de um setor de 144° em um círculo de raio 12?", options: ["288π/5", "144π/5", "72π", "48π"], correct: 0 },
+            { q: "Um setor circular de um círculo de raio 6 tem área 6π. Qual é o ângulo central desse setor?", options: ["60°", "30°", "90°", "120°"], correct: 0 },
+            { q: "Um triângulo equilátero de lado 8 cm tem um setor de 60° e raio 4 cm em cada vértice. A área da região do triângulo fora dos setores é:", options: ["8(2√3 − π) cm²", "16√3 cm²", "16√3 − 4π cm²", "8π cm²"], correct: 0 },
+            { q: "Um quadrado de lado 4 tem um quarto de círculo de raio 4 desenhado a partir de um vértice. A área do quadrado fora desse quarto de círculo é:", options: ["16 − 4π", "16 − 16π", "4π", "16 − 2π"], correct: 0 },
+            { q: "Um círculo está inscrito em um quadrado de lado 10 cm. A área do quadrado que fica fora do círculo é:", options: ["100 − 25π cm²", "100 − 100π cm²", "25π cm²", "100 − 50π cm²"], correct: 0 },
+            { q: "Uma coroa circular é limitada por circunferências de raios 5 cm e 3 cm. Sua área é:", options: ["16π cm²", "4π cm²", "34π cm²", "2π cm²"], correct: 0 },
+          ],
+        },
+        {
+          id: "areas-de-triangulos",
+          title: "Áreas de triângulos",
+          sections: [
+            {
+              heading: "Qual fórmula usar?",
+              body: `A fórmula escolhida depende do que o enunciado fornece!
+
+• Base e altura → A = b · h / 2
+• Dois lados e o ângulo entre eles → A = ½ · a · b · sen θ
+• Triângulo equilátero (só o lado) → A = l²√3 / 4
+• Triângulo retângulo (os catetos) → A = b · c / 2
+• Só os três lados → descubra a altura com Pitágoras (ou use a fórmula de Heron)`,
+            },
+            {
+              heading: "Base e altura relativa",
+              body: `A = b · h / 2
+
+A altura relativa a uma base é o segmento que sai do vértice oposto e cai perpendicularmente sobre essa base.
+
+⚠️ Qualquer lado pode ser a base: basta usar a altura relativa a ele.
+⚠️ No triângulo obtuso, a altura pode cair FORA do triângulo, no prolongamento da base. A fórmula continua a mesma.
+
+Exemplo: base 10 cm e altura 6 cm → A = 10 · 6 / 2 = 30 cm²`,
+              visual: `<svg viewBox="0 0 640 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="mt1_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="mt1_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="mt1_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="mt1_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="mt1_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker></defs>
+<text x="150" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#A8763E">Altura dentro</text><polygon points="40,190 260,190 170,60" fill="#E4D9C4" stroke="#3E2F20" stroke-width="2"/><line x1="170" y1="60" x2="170" y2="190" stroke="#5B7553" stroke-width="2" stroke-dasharray="6 4"/><path d="M 180 190 L 180 180 L 170 180" fill="none" stroke="#3E2F20" stroke-width="1.2"/><text x="150" y="212" text-anchor="middle" font-size="15" font-weight="700" fill="#A6493A">b</text><text x="180" y="130" text-anchor="start" font-size="15" font-weight="700" fill="#5B7553">h</text><text x="470" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#A8763E">Triângulo obtuso: altura fora</text><polygon points="340,190 480,190 580,60" fill="#E4D9C4" stroke="#3E2F20" stroke-width="2"/><line x1="480" y1="190" x2="580" y2="190" stroke="#3E2F20" stroke-width="1.5" stroke-dasharray="3 4"/><line x1="580" y1="60" x2="580" y2="190" stroke="#5B7553" stroke-width="2" stroke-dasharray="6 4"/><path d="M 570 190 L 570 180 L 580 180" fill="none" stroke="#3E2F20" stroke-width="1.2"/><text x="410" y="212" text-anchor="middle" font-size="15" font-weight="700" fill="#A6493A">b</text><text x="592" y="130" text-anchor="start" font-size="15" font-weight="700" fill="#5B7553">h</text><text x="530" y="212" text-anchor="middle" font-size="10" font-weight="400" fill="#5C4630">prolongamento da base</text><text x="320" y="234" text-anchor="middle" font-size="15" font-weight="700" fill="#3E2F20">A = b · h / 2</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">A altura relativa é sempre perpendicular à base (ou ao seu prolongamento), saindo do vértice oposto.</p>`,
+            },
+            {
+              heading: "Dois lados e o ângulo entre eles",
+              body: `A = ½ · a · b · sen θ
+
+θ é o ângulo formado pelos lados a e b.
+
+Por quê? A altura relativa ao lado a é h = b · sen θ. Substituindo em A = a · h / 2, chegamos à fórmula.
+
+Exemplo: lados 8 cm e 10 cm formando 30°
+A = ½ · 8 · 10 · sen 30° = ½ · 80 · ½ = 20 cm²
+
+🧠 sen 30° = 1/2, sen 45° = √2/2, sen 60° = √3/2, sen 90° = 1 e sen 150° = sen 30° = 1/2.`,
+              visual: `<svg viewBox="0 0 640 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="mt2_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="mt2_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="mt2_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="mt2_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="mt2_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker></defs>
+<polygon points="70,200 320,200 230.9,65" fill="#E4D9C4" stroke="#3E2F20" stroke-width="2"/><line x1="230.9" y1="65" x2="230.9" y2="200" stroke="#5B7553" stroke-width="2" stroke-dasharray="6 4"/><path d="M 220.9 200 L 220.9 190 L 230.9 190" fill="none" stroke="#3E2F20" stroke-width="1.2"/><path d="M 110 200 A 40 40 0 0 0 100.6 174.3" fill="none" stroke="#A8763E" stroke-width="2"/><text x="122" y="190" text-anchor="middle" font-size="15" font-weight="700" fill="#A8763E">θ</text><text x="195" y="222" text-anchor="middle" font-size="15" font-weight="700" fill="#A6493A">a</text><text x="118" y="130" text-anchor="middle" font-size="15" font-weight="700" fill="#A6493A">b</text><text x="240.9" y="160" text-anchor="start" font-size="15" font-weight="700" fill="#5B7553">h</text><text x="370" y="70" text-anchor="start" font-size="14" font-weight="400" fill="#3E2F20">sen θ = h / b  →  h = b · sen θ</text><text x="370" y="110" text-anchor="start" font-size="14" font-weight="400" fill="#3E2F20">A = a · h / 2</text><text x="370" y="150" text-anchor="start" font-size="17" font-weight="700" fill="#A8763E">A = ½ · a · b · sen θ</text><text x="370" y="186" text-anchor="start" font-size="12" font-weight="400" fill="#5C4630">θ = ângulo ENTRE os lados a e b</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Quando o enunciado dá dois lados e o ângulo entre eles, a altura sai do seno.</p>`,
+            },
+            {
+              heading: "Triângulo equilátero e triângulo retângulo",
+              body: `Triângulo equilátero (lado l)
+A = l²√3 / 4
+Vem de A = b · h / 2 com altura h = l√3 / 2.
+Ex.: l = 6 → A = 36√3 / 4 = 9√3
+
+Triângulo retângulo (catetos b e c, hipotenusa a)
+A = b · c / 2
+Um cateto é a base e o outro é a altura.
+Ex.: catetos 6 e 8 → A = 48 / 2 = 24
+
+⚠️ Se o enunciado der a hipotenusa e um cateto, ache o outro cateto com Pitágoras antes.`,
+            },
+            {
+              heading: "Desafio: só os três lados",
+              body: `Calcular a área do triângulo de lados 5, 7 e base 10.
+
+A altura h divide a base em dois pedaços: x (do lado de 7) e 10 − x (do lado de 5). Aplicando Pitágoras nos dois triângulos retângulos:
+
+5² = h² + (10 − x)²
+7² = h² + x² → h² = 49 − x²
+
+Substituindo h² na primeira:
+25 = 49 − x² + (10 − x)²
+25 = 49 − x² + 100 − 20x + x²
+25 = 149 − 20x
+20x = 124
+x = 6,2
+
+h² = 49 − (6,2)² = 49 − 38,44 = 10,56
+h ≈ 3,25
+
+Área:
+A = 10 · 3,25 / 2 ≈ 16,25
+
+💡 Dica extra: fórmula de Heron (só com os lados)
+p = (a + b + c) / 2
+A = √[p(p − a)(p − b)(p − c)]
+Aqui: p = 11 → A = √(11 · 6 · 4 · 1) = √264 = 2√66 ≈ 16,25 ✔`,
+              visual: `<svg viewBox="0 0 640 270" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="mt3_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="mt3_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="mt3_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="mt3_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="mt3_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker></defs>
+<polygon points="40,220 440,220 192,90" fill="#E4D9C4" stroke="#3E2F20" stroke-width="2"/><line x1="192" y1="90" x2="192" y2="220" stroke="#5B7553" stroke-width="2" stroke-dasharray="6 4"/><path d="M 202 220 L 202 210 L 192 210" fill="none" stroke="#3E2F20" stroke-width="1.2"/><text x="100" y="146" text-anchor="middle" font-size="16" font-weight="700" fill="#A6493A">5</text><text x="330" y="146" text-anchor="middle" font-size="16" font-weight="700" fill="#A6493A">7</text><text x="204" y="160" text-anchor="start" font-size="16" font-weight="700" fill="#5B7553">h</text><text x="116" y="242" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">10 − x</text><text x="316" y="242" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">x</text><text x="240" y="264" text-anchor="middle" font-size="12" font-weight="400" fill="#5C4630">base = 10</text><text x="470" y="60" text-anchor="start" font-size="12" font-weight="600" fill="#3E2F20">Pitágoras nos dois</text><text x="470" y="78" text-anchor="start" font-size="12" font-weight="600" fill="#3E2F20">triângulos retângulos:</text><text x="470" y="108" text-anchor="start" font-size="13" font-weight="400" fill="#3E2F20">5² = h² + (10 − x)²</text><text x="470" y="132" text-anchor="start" font-size="13" font-weight="400" fill="#3E2F20">7² = h² + x²</text><text x="470" y="166" text-anchor="start" font-size="14" font-weight="700" fill="#A8763E">x = 6,2</text><text x="470" y="190" text-anchor="start" font-size="14" font-weight="700" fill="#A8763E">h ≈ 3,25</text><text x="470" y="220" text-anchor="start" font-size="16" font-weight="700" fill="#A8763E">A ≈ 16,25</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Sem altura no enunciado: a altura divide a base em x e 10 − x, e o Pitágoras duplo encontra h.</p>`,
+            },
+          ],
+          quiz: [
+            { q: "Qual é a área de um triângulo de base 10 cm e altura 6 cm?", options: ["30 cm²", "60 cm²", "16 cm²", "15 cm²"], correct: 0 },
+            { q: "Dois lados de um triângulo medem 8 cm e 10 cm e formam um ângulo de 30°. A área é: (sen 30° = 1/2)", options: ["20 cm²", "40 cm²", "80 cm²", "10 cm²"], correct: 0 },
+            { q: "Dois lados de um triângulo medem 6 e 8 e formam um ângulo de 60°. Sua área é:", options: ["12√3", "24√3", "24", "12"], correct: 0 },
+            { q: "Dois lados de um triângulo medem 4 e 5 e formam um ângulo de 150°. Sua área é:", options: ["5", "10", "5√3", "10√3"], correct: 0 },
+            { q: "Um terreno triangular tem dois lados de 20 m e 30 m que formam um ângulo de 60°. Sua área é aproximadamente: (√3 ≈ 1,7)", options: ["255 m²", "300 m²", "510 m²", "150 m²"], correct: 0 },
+            { q: "Qual é a área de um triângulo equilátero de lado 6?", options: ["9√3", "18√3", "36√3", "6√3"], correct: 0 },
+            { q: "Qual é a área de um triângulo equilátero de lado 4 cm?", options: ["4√3 cm²", "8√3 cm²", "16√3 cm²", "2√3 cm²"], correct: 0 },
+            { q: "Um triângulo equilátero tem área 16√3 cm². Quanto mede seu lado?", options: ["8 cm", "4 cm", "16 cm", "4√3 cm"], correct: 0 },
+            { q: "Um triângulo retângulo tem catetos de 6 cm e 8 cm. Sua área é:", options: ["24 cm²", "48 cm²", "14 cm²", "30 cm²"], correct: 0 },
+            { q: "Um triângulo retângulo tem hipotenusa 10 cm e um cateto de 6 cm. Sua área é:", options: ["24 cm²", "30 cm²", "48 cm²", "60 cm²"], correct: 0 },
+            { q: "Um triângulo isósceles tem lados iguais de 5 cm e base de 6 cm. Sua área é:", options: ["12 cm²", "15 cm²", "24 cm²", "30 cm²"], correct: 0 },
+            { q: "Em um triângulo obtuso, a altura relativa a um dos lados menores:", options: ["Pode cair fora do triângulo, no prolongamento da base", "Nunca existe", "É sempre igual ao lado", "Cai sempre no ponto médio da base"], correct: 0 },
+            { q: "Se o enunciado dá dois lados e o ângulo entre eles, a fórmula mais direta para a área é:", options: ["A = ½ · a · b · sen θ", "A = b · h", "A = l²√3 / 4", "A = πR²"], correct: 0 },
+            { q: "No triângulo de lados 5, 7 e base 10, a altura divide a base em x (lado do 7) e 10 − x. Quanto vale x?", options: ["6,2", "3,8", "5", "7"], correct: 0 },
+            { q: "Qual é a área aproximada do triângulo de lados 5, 7 e 10?", options: ["16,25", "32,5", "17,5", "35"], correct: 0 },
+            { q: "Pela fórmula de Heron, qual é a área do triângulo de lados 13, 14 e 15?", options: ["84", "91", "105", "42"], correct: 0 },
           ],
         },
       ],
