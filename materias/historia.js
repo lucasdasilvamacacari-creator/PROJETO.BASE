@@ -1200,6 +1200,294 @@ Tratado de Paris (1783)
             { q: "A independência dos EUA foi consolidada pelo:", options: ["Tratado de Tordesilhas","Tratado de Paris (1783)","Tratado de Versalhes","Congresso de Viena"], correct: 1 },
           ],
         },
+        {
+          id: "revolucao-francesa",
+          title: "Revolução Francesa",
+          sections: [
+            {
+              heading: "Introdução: o que é uma revolução",
+              body: `A partir do século XVIII, a palavra "revolução" passou a significar uma profunda transformação político-social.
+
+Características das revoluções desse período:
+• Destruição de antigos privilégios da nobreza e dos monopólios das corporações de ofício.
+• Favorecimento das sociedades capitalistas modernas.
+• Criação de Constituições que garantissem os direitos naturais inalienáveis.
+• No século XIX surgem termos como comunismo, liberalismo e feminismo.
+• Estruturação das sociedades contemporâneas.`,
+            },
+            {
+              heading: "Revolução Francesa (1789): antecedentes",
+              body: `• Marco inicial da Idade Contemporânea.
+• Processo proposto como UNIVERSAL: seus ideais deveriam valer para além da França.
+
+Antecedentes:
+• Monarquia absolutista: rei Luís XVI (dinastia Bourbon).
+• Sociedade estamental, baseada em privilégios de nascimento.
+• A França tinha a maior população da Europa (cerca de 20% dos europeus):
+  – 5% eram do Clero e da Nobreza (1º e 2º Estados), que tinham privilégios e não pagavam impostos;
+  – 95% formavam o 3º Estado: camponeses, trabalhadores urbanos e burguesia.
+
+Problemas econômicos:
+• Grande dívida pública.
+• Gastos com o luxo da corte.
+• Baixo desenvolvimento industrial.
+• Guerras: dos Sete Anos (1756–1763) e apoio à Independência dos EUA (1776–1783).
+• Problemas climáticos que causaram más colheitas e fome.
+
+• Influência das ideias iluministas.`,
+              visual: `<svg viewBox="0 0 640 290" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="rf1_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="rf1_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="rf1_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="rf1_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="rf1_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker></defs>
+<polygon points="320,20 400,100 240,100" fill="#A8763E" stroke="#3E2F20" stroke-width="1.5"/><text x="320" y="82" text-anchor="middle" font-size="12" font-weight="700" fill="#F4EEE1">1º Estado</text><polygon points="240,100 400,100 450,150 190,150" fill="#C9B18C" stroke="#3E2F20" stroke-width="1.5"/><text x="320" y="130" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">2º Estado</text><polygon points="190,150 450,150 590,270 50,270" fill="#E4D9C4" stroke="#3E2F20" stroke-width="1.5"/><text x="320" y="200" text-anchor="middle" font-size="16" font-weight="700" fill="#3E2F20">3º Estado</text><text x="320" y="222" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">camponeses, operários (sans-culottes) e burguesia</text><text x="320" y="244" text-anchor="middle" font-size="12" font-weight="600" fill="#A6493A">≈ 95% da população • pagava os impostos</text><text x="470" y="60" text-anchor="start" font-size="12" font-weight="600" fill="#3E2F20">Clero</text><text x="470" y="76" text-anchor="start" font-size="10" font-weight="400" fill="#5C4630">privilégios, isento de impostos</text><text x="470" y="120" text-anchor="start" font-size="12" font-weight="600" fill="#3E2F20">Nobreza</text><text x="470" y="136" text-anchor="start" font-size="10" font-weight="400" fill="#5C4630">privilégios, isenta de impostos</text><text x="150" y="92" text-anchor="end" font-size="12" font-weight="600" fill="#A8763E">≈ 5% da</text><text x="150" y="108" text-anchor="end" font-size="12" font-weight="600" fill="#A8763E">população</text><line x1="156" y1="100" x2="236" y2="100" stroke="#A8763E" stroke-width="1.2" stroke-dasharray="3 3"/>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Sociedade estamental: a posição de cada um era definida pelo nascimento, e não pelo dinheiro.</p>`,
+            },
+            {
+              heading: "1ª fase: Monarquia Constitucional (1789–1792)",
+              body: `• Assembleia dos Notáveis (1787): só o 1º e o 2º Estados. Recusaram as reformas e o fim dos privilégios.
+
+• Assembleia dos Estados Gerais (maio/1789): representantes dos 3 Estados.
+  – 291 do 1º Estado, 327 do 2º e 610 do 3º (voto censitário).
+  – Regra: voto por Estado (cada Estado = 1 voto), o que dava vitória certa ao clero e à nobreza.
+  – O 3º Estado exige o voto por cabeça e forma a Assembleia Nacional Constituinte, para criar uma Constituição.
+
+Radicalização política:
+• Inflação no preço dos alimentos.
+• A população toma o Palácio dos Inválidos e a Bastilha (14 de julho de 1789).
+• Confisco dos bens da Igreja.`,
+              visual: `<svg viewBox="0 0 640 230" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="rf3_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="rf3_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="rf3_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="rf3_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="rf3_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker></defs>
+<text x="160" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#A8763E">Voto por Estado</text><rect x="30" y="44" width="80" height="50" rx="8" fill="#C9B18C" stroke="#3E2F20" stroke-width="1.5"/><text x="70" y="66" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">1º</text><text x="70" y="84" text-anchor="middle" font-size="11" font-weight="400" fill="#3E2F20">1 voto</text><rect x="120" y="44" width="80" height="50" rx="8" fill="#C9B18C" stroke="#3E2F20" stroke-width="1.5"/><text x="160" y="66" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">2º</text><text x="160" y="84" text-anchor="middle" font-size="11" font-weight="400" fill="#3E2F20">1 voto</text><rect x="210" y="44" width="80" height="50" rx="8" fill="#E4D9C4" stroke="#3E2F20" stroke-width="1.5"/><text x="250" y="66" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">3º</text><text x="250" y="84" text-anchor="middle" font-size="11" font-weight="400" fill="#3E2F20">1 voto</text><text x="160" y="124" text-anchor="middle" font-size="12" font-weight="700" fill="#A6493A">2 × 1: clero e nobreza sempre vencem</text><text x="480" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#A8763E">Voto por cabeça (exigência do 3º)</text><rect x="340" y="50" width="72.75" height="34" fill="#A8763E"/><rect x="412.75" y="50" width="81.75" height="34" fill="#C9B18C"/><text x="345" y="72" text-anchor="start" font-size="12" font-weight="700" fill="#F4EEE1">1º + 2º: 618</text><rect x="340" y="94" width="152.5" height="34" fill="#5B7553"/><text x="345" y="116" text-anchor="start" font-size="12" font-weight="700" fill="#F4EEE1">3º: 610</text><text x="480" y="150" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">cada deputado = 1 voto; o 3º Estado precisava</text><text x="480" y="166" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">só de alguns votos do baixo clero para vencer</text><text x="320" y="210" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">Impasse → o 3º Estado forma a Assembleia Nacional Constituinte</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Representantes: 291 do clero, 327 da nobreza e 610 do Terceiro Estado (números da aula; as fontes variam um pouco).</p>`,
+            },
+            {
+              heading: "Declaração dos Direitos e Constituição de 1791",
+              body: `Declaração dos Direitos do Homem e do Cidadão (agosto/1789)
+• Inspiração iluminista: direitos naturais (liberdade, propriedade, segurança).
+• Soberania do conjunto dos cidadãos (e não do rei).
+• Limite: excluía mulheres e pobres da cidadania plena.
+
+• Constituição Civil do Clero (1790): o clero passa a ser subordinado ao Estado.
+• Constituição de 1791: estabelece a Monarquia Constitucional.
+
+Configuração política:
+• Direita (Girondinos): favoráveis à Monarquia Constitucional; alta burguesia.
+• Esquerda (Montanha/Jacobinos): queriam neutralizar o poder do rei ou instalar uma República; baixa burguesia, apoiada pelos sans-culottes.
+• Centro (Pântano/Planície): sem programa político definido.
+
+• Luís XVI tenta fugir, mas é preso com a família → fim da Monarquia Constitucional.`,
+              visual: `<svg viewBox="0 0 640 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="rf4_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="rf4_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="rf4_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="rf4_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="rf4_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker></defs>
+<path d="M 120 190 A 200 160 0 0 1 220 52 L 270 120 A 80 70 0 0 0 240 190 Z" fill="#C9B18C" stroke="#3E2F20" stroke-width="1.5"/><path d="M 220 52 A 200 160 0 0 1 420 52 L 370 120 A 80 70 0 0 0 270 120 Z" fill="#E4D9C4" stroke="#3E2F20" stroke-width="1.5"/><path d="M 420 52 A 200 160 0 0 1 520 190 L 400 190 A 80 70 0 0 0 370 120 Z" fill="#A6493A" stroke="#3E2F20" stroke-width="1.5"/><text x="320" y="20" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">Na Assembleia, os lugares viraram nomes políticos</text><text x="170" y="212" text-anchor="middle" font-size="13" font-weight="700" fill="#5C4630">DIREITA</text><text x="170" y="230" text-anchor="middle" font-size="12" font-weight="600" fill="#3E2F20">Girondinos</text><text x="170" y="248" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">alta burguesia</text><text x="320" y="80" text-anchor="middle" font-size="12" font-weight="700" fill="#3E2F20">CENTRO</text><text x="320" y="96" text-anchor="middle" font-size="11" font-weight="400" fill="#3E2F20">Pântano / Planície</text><text x="470" y="212" text-anchor="middle" font-size="13" font-weight="700" fill="#A6493A">ESQUERDA</text><text x="470" y="230" text-anchor="middle" font-size="12" font-weight="600" fill="#3E2F20">Montanha / Jacobinos</text><text x="470" y="248" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">baixa burguesia</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Os termos "direita" e "esquerda" nascem da posição dos grupos na Assembleia revolucionária.</p>`,
+            },
+            {
+              heading: "2ª fase: Convenção Nacional ou República Jacobina (1792–1795)",
+              body: `• Assembleia em que a esquerda jacobina era maioria.
+• Criação de um novo calendário (revolucionário).
+• Condenação e execução de Luís XVI (janeiro/1793) → nações estrangeiras declaram guerra à França: início da Guerra Revolucionária.
+
+Constituição de 1793 (ou do Ano I):
+• Voto universal masculino e direto.
+• Educação universal.
+• Propriedade sujeita ao interesse público.
+• Lei do máximo (teto para preços e salários).
+• Reforma agrária.
+• Abolição da escravidão nas colônias.
+
+• Perseguições políticas: período do Terror (uso da guilhotina contra opositores).
+• Reação Termidoriana (julho/1794): golpe de Estado que pôs fim ao poder jacobino.`,
+              visual: `<div class="overflow-x-auto"><table class="w-full text-sm border-collapse"><thead><tr class="border-b-2 border-sand"><th class="text-left py-2 pr-4 font-display text-ochre">Constituição</th><th class="text-left py-2 pr-4 font-display text-ochre">Fase</th><th class="text-left py-2 pr-4 font-display text-ochre">Principais pontos</th></tr></thead><tbody><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">1791</td><td class="py-1.5 pr-4 text-espresso">Monarquia Constitucional</td><td class="py-1.5 pr-4 text-espresso">rei com poder limitado; voto censitário</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">1793 (Ano I)</td><td class="py-1.5 pr-4 text-espresso">Convenção / Jacobinos</td><td class="py-1.5 pr-4 text-espresso">voto universal masculino e direto; educação universal; lei do máximo; reforma agrária; abolição da escravidão nas colônias</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">1795</td><td class="py-1.5 pr-4 text-espresso">Diretório</td><td class="py-1.5 pr-4 text-espresso">volta do voto censitário; bicameralismo; Executivo com 5 diretores; separação entre Igreja e Estado</td></tr></tbody></table></div>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Compare: a de 1793 é a mais popular; a de 1795 devolve o poder à alta burguesia.</p>`,
+            },
+            {
+              heading: "3ª fase: Diretório (1795–1799)",
+              body: `• Perseguição aos jacobinos e às suas reformas.
+
+Constituição de 1795:
+• Voto censitário.
+• Bicameralismo (duas câmaras legislativas).
+• Executivo formado por 5 diretores com amplo poder.
+• Separação entre Igreja e Estado.
+
+• Grandes vitórias militares, com destaque para o jovem general Napoleão Bonaparte.
+• Inflação e guerras internas e externas.
+
+Golpe do 18 de Brumário (novembro/1799)
+• Feito pelo Exército para centralizar o poder, com apoio da alta burguesia.
+• Início do Consulado (Napoleão no poder) e fim da Revolução.`,
+              visual: `<svg viewBox="0 0 640 230" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="rf2_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="rf2_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="rf2_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="rf2_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="rf2_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker></defs>
+<rect x="20" y="60" width="190" height="90" rx="10" fill="#E4D9C4" stroke="#A8763E" stroke-width="2"/><text x="115" y="84" text-anchor="middle" font-size="13" font-weight="700" fill="#A8763E">1789–1792</text><text x="115" y="110" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">Monarquia Constitucional</text><text x="115" y="132" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">Assembleia Nacional</text><rect x="220" y="60" width="190" height="90" rx="10" fill="#E4D9C4" stroke="#A6493A" stroke-width="2"/><text x="315" y="84" text-anchor="middle" font-size="13" font-weight="700" fill="#A6493A">1792–1795</text><text x="315" y="110" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">Convenção Nacional</text><text x="315" y="132" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">República Jacobina</text><rect x="420" y="60" width="190" height="90" rx="10" fill="#E4D9C4" stroke="#5B7553" stroke-width="2"/><text x="515" y="84" text-anchor="middle" font-size="13" font-weight="700" fill="#5B7553">1795–1799</text><text x="515" y="110" text-anchor="middle" font-size="13" font-weight="700" fill="#3E2F20">Diretório</text><text x="515" y="132" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">alta burguesia no poder</text><line x1="20" y1="180" x2="620" y2="180" stroke="#3E2F20" stroke-width="2"/><circle cx="30" cy="180" r="5" fill="#3E2F20" stroke="#3E2F20" stroke-width="1.5"/><text x="30" y="202" text-anchor="middle" font-size="10" font-weight="700" fill="#3E2F20">jul/1789</text><text x="30" y="218" text-anchor="middle" font-size="10" font-weight="400" fill="#5C4630">Bastilha</text><circle cx="140" cy="180" r="5" fill="#3E2F20" stroke="#3E2F20" stroke-width="1.5"/><text x="140" y="202" text-anchor="middle" font-size="10" font-weight="700" fill="#3E2F20">ago/1789</text><text x="140" y="218" text-anchor="middle" font-size="10" font-weight="400" fill="#5C4630">Declaração</text><circle cx="255" cy="180" r="5" fill="#3E2F20" stroke="#3E2F20" stroke-width="1.5"/><text x="255" y="202" text-anchor="middle" font-size="10" font-weight="700" fill="#3E2F20">jan/1793</text><text x="255" y="218" text-anchor="middle" font-size="10" font-weight="400" fill="#5C4630">Luís XVI executado</text><circle cx="400" cy="180" r="5" fill="#3E2F20" stroke="#3E2F20" stroke-width="1.5"/><text x="400" y="202" text-anchor="middle" font-size="10" font-weight="700" fill="#3E2F20">jul/1794</text><text x="400" y="218" text-anchor="middle" font-size="10" font-weight="400" fill="#5C4630">Golpe do Termidor</text><circle cx="580" cy="180" r="5" fill="#3E2F20" stroke="#3E2F20" stroke-width="1.5"/><text x="580" y="202" text-anchor="middle" font-size="10" font-weight="700" fill="#3E2F20">nov/1799</text><text x="580" y="218" text-anchor="middle" font-size="10" font-weight="400" fill="#5C4630">18 de Brumário</text><text x="320" y="30" text-anchor="middle" font-size="14" font-weight="700" fill="#3E2F20">As três fases da Revolução Francesa</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">O 18 de Brumário (1799) encerra a Revolução e inicia o Consulado de Napoleão.</p>`,
+            },
+          ],
+          quiz: [
+            { q: "A partir do século XVIII, a palavra \"revolução\" passou a significar:", options: ["Uma profunda transformação político-social", "Apenas uma revolta camponesa", "O retorno ao absolutismo", "Uma guerra entre países"], correct: 0 },
+            { q: "Qual destas NÃO é uma característica das revoluções do século XVIII?", options: ["Fortalecimento dos privilégios da nobreza", "Destruição de monopólios das corporações de ofício", "Criação de Constituições", "Favorecimento das sociedades capitalistas"], correct: 0 },
+            { q: "A Revolução Francesa é considerada o marco inicial da:", options: ["Idade Contemporânea", "Idade Moderna", "Idade Média", "Antiguidade Clássica"], correct: 0 },
+            { q: "Por que a Revolução Francesa é chamada de \"universal\"?", options: ["Seus ideais deveriam valer para além do território francês", "Envolveu todos os países do mundo ao mesmo tempo", "Foi liderada pela Igreja Católica", "Aconteceu em todos os continentes"], correct: 0 },
+            { q: "Quem era o rei da França no início da Revolução?", options: ["Luís XVI", "Luís XIV", "Napoleão Bonaparte", "Henrique IV"], correct: 0 },
+            { q: "A sociedade francesa do Antigo Regime era estamental, ou seja:", options: ["Baseada em privilégios de nascimento", "Baseada apenas na riqueza", "Sem nenhuma divisão social", "Organizada em castas religiosas indianas"], correct: 0 },
+            { q: "Quem formava o 3º Estado?", options: ["Camponeses, trabalhadores urbanos e burguesia", "Clero e nobreza", "Apenas o rei e sua família", "Somente os soldados"], correct: 0 },
+            { q: "Aproximadamente qual porcentagem da população francesa pertencia ao 3º Estado?", options: ["95%", "5%", "50%", "20%"], correct: 0 },
+            { q: "Qual destes NÃO foi um problema econômico da França antes de 1789?", options: ["Grande desenvolvimento industrial", "Grande dívida pública", "Gastos com o luxo da corte", "Fome causada por problemas climáticos"], correct: 0 },
+            { q: "Quais guerras ajudaram a endividar a França antes da Revolução?", options: ["Guerra dos Sete Anos e Independência dos EUA", "Guerras Napoleônicas e Primeira Guerra Mundial", "Guerra dos Cem Anos e Cruzadas", "Guerra do Paraguai e Guerra Civil Americana"], correct: 0 },
+            { q: "A Assembleia dos Notáveis (1787) reunia:", options: ["Apenas o 1º e o 2º Estados", "Apenas o 3º Estado", "Os três Estados", "Somente os burgueses"], correct: 0 },
+            { q: "Nos Estados Gerais de 1789, a regra do voto por Estado:", options: ["Garantia a vitória do clero e da nobreza (2 votos contra 1)", "Garantia a vitória do 3º Estado", "Dava um voto para cada deputado", "Excluía o clero da votação"], correct: 0 },
+            { q: "O que o 3º Estado exigia nos Estados Gerais?", options: ["Voto por cabeça e uma Constituição", "Voto por Estado e mais impostos", "A volta do absolutismo", "O fim da Assembleia"], correct: 0 },
+            { q: "Ao romper com os Estados Gerais, o 3º Estado formou a:", options: ["Assembleia Nacional Constituinte", "Convenção Nacional", "Assembleia dos Notáveis", "Diretório"], correct: 0 },
+            { q: "A Tomada da Bastilha ocorreu em:", options: ["Julho de 1789", "Janeiro de 1793", "Novembro de 1799", "Agosto de 1792"], correct: 0 },
+            { q: "A Declaração dos Direitos do Homem e do Cidadão (1789) tinha inspiração:", options: ["Iluminista", "Absolutista", "Mercantilista", "Feudal"], correct: 0 },
+            { q: "Qual era um limite da Declaração dos Direitos do Homem e do Cidadão?", options: ["Excluía mulheres e pobres da cidadania plena", "Proibia a propriedade privada", "Dava todo o poder ao rei", "Mantinha os privilégios da nobreza"], correct: 0 },
+            { q: "A Constituição de 1791 estabeleceu na França:", options: ["Uma Monarquia Constitucional", "Uma República Jacobina", "O Diretório", "O Consulado"], correct: 0 },
+            { q: "Na Assembleia, os Girondinos eram:", options: ["A direita, ligada à alta burguesia", "A esquerda, ligada à baixa burguesia", "O centro, sem programa definido", "Os defensores do absolutismo"], correct: 0 },
+            { q: "Os Jacobinos (Montanha) eram:", options: ["A esquerda, ligada à baixa burguesia e aos sans-culottes", "A direita, ligada à alta burguesia", "O centro (Pântano)", "Representantes da nobreza"], correct: 0 },
+            { q: "O grupo do centro, sem programa político definido, era chamado de:", options: ["Pântano ou Planície", "Montanha", "Gironda", "Diretório"], correct: 0 },
+            { q: "O que pôs fim à Monarquia Constitucional?", options: ["A tentativa de fuga e a prisão de Luís XVI", "O golpe do 18 de Brumário", "A Reação Termidoriana", "A Assembleia dos Notáveis"], correct: 0 },
+            { q: "Durante a Convenção Nacional, Luís XVI foi:", options: ["Condenado e executado (janeiro/1793)", "Coroado imperador", "Exilado na Inglaterra", "Mantido como rei constitucional"], correct: 0 },
+            { q: "Qual medida fez parte da Constituição de 1793 (Ano I)?", options: ["Voto universal masculino e abolição da escravidão nas colônias", "Voto censitário e Executivo de 5 diretores", "Monarquia Constitucional", "Volta dos privilégios do clero"], correct: 0 },
+            { q: "A \"lei do máximo\" dos jacobinos:", options: ["Fixava um teto para preços e salários", "Aumentava os impostos da nobreza ao máximo", "Limitava o número de deputados", "Definia a idade máxima para votar"], correct: 0 },
+            { q: "O período de perseguições políticas durante o governo jacobino ficou conhecido como:", options: ["Terror", "Diretório", "Consulado", "Termidor"], correct: 0 },
+            { q: "A Reação Termidoriana (julho/1794) foi:", options: ["O golpe que pôs fim ao poder jacobino", "A tomada da Bastilha", "A fuga do rei", "O início dos Estados Gerais"], correct: 0 },
+            { q: "Qual característica pertence à Constituição de 1795, do Diretório?", options: ["Voto censitário e Executivo formado por 5 diretores", "Voto universal masculino e reforma agrária", "Poder absoluto do rei", "Abolição da propriedade privada"], correct: 0 },
+            { q: "Que general se destacou nas vitórias militares durante o Diretório?", options: ["Napoleão Bonaparte", "Robespierre", "Luís XVI", "Danton"], correct: 0 },
+            { q: "O golpe do 18 de Brumário (1799):", options: ["Foi feito pelo Exército, com apoio da alta burguesia, e iniciou o Consulado", "Instalou a República Jacobina", "Devolveu o trono a Luís XVI", "Criou os Estados Gerais"], correct: 0 },
+          ],
+        },
+        {
+          id: "revolucao-industrial",
+          title: "Revolução Industrial",
+          sections: [
+            {
+              heading: "O que foi a Revolução Industrial",
+              body: `Conjunto de transformações iniciadas na Inglaterra, no século XVIII, que mudaram a forma de produzir:
+
+• Desenvolvimento das tecnologias de produção ligadas às fábricas.
+• Substituição da força e da fadiga humanas por máquinas.
+• Substituição da força animal por fontes mecânicas de energia (máquina a vapor).
+• Uso de matérias-primas novas e abundantes: substâncias animais e vegetais trocadas por minerais (carvão e ferro).
+
+Artesanato e manufatura × maquinofatura
+O trabalhador deixa de ser dono das ferramentas e passa a vender seu trabalho ao dono da fábrica.`,
+              visual: `<div class="overflow-x-auto"><table class="w-full text-sm border-collapse"><thead><tr class="border-b-2 border-sand"><th class="text-left py-2 pr-4 font-display text-ochre">Artesanato / Manufatura</th><th class="text-left py-2 pr-4 font-display text-ochre">Maquinofatura (indústria)</th></tr></thead><tbody><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">Meios de produção pertencem ao trabalhador</td><td class="py-1.5 pr-4 text-espresso">Meios de produção pertencem ao capitalista (burguês)</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">Trabalhador controla todas as etapas</td><td class="py-1.5 pr-4 text-espresso">Grande divisão do trabalho: cada um faz uma tarefa</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">Produção doméstica</td><td class="py-1.5 pr-4 text-espresso">Produção na fábrica, longe da família</td></tr><tr class="border-b border-sand/60"><td class="py-1.5 pr-4 text-espresso font-semibold">Sem uso de máquinas</td><td class="py-1.5 pr-4 text-espresso">Grande uso de máquinas</td></tr></tbody></table></div>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">A passagem da manufatura para a maquinofatura é o centro da Revolução Industrial.</p>`,
+            },
+            {
+              heading: "O pioneirismo inglês",
+              body: `Por que a Revolução Industrial começou na Inglaterra?
+
+• Transformações políticas no século XVII: Revoluções Puritana (1640) e Gloriosa (1688).
+• Ascensão da burguesia ao poder por meio do parlamentarismo.
+• Política colonial e comercial agressiva e sucessos militares.
+• Mercado interno grande e unificado, com poucos monopólios e muita concorrência.
+• Política de Cercamentos (cercamento das terras comunais): expulsou camponeses e provocou êxodo rural, gerando mão de obra barata nas cidades.
+• Protecionismo econômico e facilidade de crédito.
+• Indústria têxtil, motor a vapor, carvão mineral e ferro.
+• Novos transportes: barco a vapor e trem a vapor (locomotiva de 1814).`,
+              visual: `<div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3">
+    <p class="font-display text-ochre font-bold mb-1">Política</p>
+    <p class="text-espresso text-sm">Revoluções Puritana (1640) e Gloriosa (1688): a burguesia chega ao poder pelo Parlamento.</p>
+  </div>
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3">
+    <p class="font-display text-ochre font-bold mb-1">Mercados e colônias</p>
+    <p class="text-espresso text-sm">Política colonial e comercial agressiva, sucessos militares e mercado interno grande e unificado.</p>
+  </div>
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3">
+    <p class="font-display text-ochre font-bold mb-1">Mão de obra</p>
+    <p class="text-espresso text-sm">Cercamentos expulsam camponeses: êxodo rural e trabalhadores baratos nas cidades.</p>
+  </div>
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3">
+    <p class="font-display text-ochre font-bold mb-1">Capital</p>
+    <p class="text-espresso text-sm">Protecionismo econômico e crédito fácil para investir.</p>
+  </div>
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3">
+    <p class="font-display text-ochre font-bold mb-1">Recursos</p>
+    <p class="text-espresso text-sm">Muito carvão mineral e ferro no próprio território.</p>
+  </div>
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3">
+    <p class="font-display text-ochre font-bold mb-1">Tecnologia</p>
+    <p class="text-espresso text-sm">Indústria têxtil, motor a vapor, barco a vapor e trem a vapor.</p>
+  </div>
+</div>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Por que a Inglaterra foi pioneira: vários fatores ao mesmo tempo.</p>`,
+            },
+            {
+              heading: "A sociedade industrial",
+              body: `• Burguesia: dona dos meios de produção.
+• Proletariado: os que vendem sua força de trabalho como uma mercadoria para a burguesia.
+
+Ambiente industrial:
+• Disciplina rígida, controlada pelo relógio, que substituiu o "tempo da natureza" (o ritmo do dia e das estações no campo).
+
+Condições dos trabalhadores:
+• Grande desemprego, causado pela substituição de pessoas por máquinas.
+• "Exército industrial de reserva": massa de desempregados que pressiona os salários para baixo.
+• Jornadas extenuantes, de até 16 horas.
+• Trabalho infantil.
+• Locais de trabalho escuros, sujos e perigosos.`,
+              visual: `<svg viewBox="0 0 640 230" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;" font-family="Inter, sans-serif">
+<defs><marker id="ri1_3E2F20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#3E2F20"/></marker><marker id="ri1_A6493A" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A6493A"/></marker><marker id="ri1_5B7553" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#5B7553"/></marker><marker id="ri1_A8763E" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#A8763E"/></marker><marker id="ri1_6E8C99" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#6E8C99"/></marker></defs>
+<rect x="20" y="30" width="280" height="170" rx="12" fill="#E4D9C4" stroke="#A8763E" stroke-width="2"/><text x="160" y="58" text-anchor="middle" font-size="16" font-weight="700" fill="#A8763E">Burguesia</text><text x="160" y="86" text-anchor="middle" font-size="12" font-weight="400" fill="#3E2F20">dona dos meios de produção</text><text x="160" y="106" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">(fábricas, máquinas, matéria-prima)</text><text x="160" y="146" text-anchor="middle" font-size="13" font-weight="600" fill="#3E2F20">fica com o lucro</text><rect x="340" y="30" width="280" height="170" rx="12" fill="#E4D9C4" stroke="#A6493A" stroke-width="2"/><text x="480" y="58" text-anchor="middle" font-size="16" font-weight="700" fill="#A6493A">Proletariado</text><text x="480" y="86" text-anchor="middle" font-size="12" font-weight="400" fill="#3E2F20">vende a força de trabalho</text><text x="480" y="106" text-anchor="middle" font-size="11" font-weight="400" fill="#5C4630">como uma mercadoria</text><text x="480" y="136" text-anchor="middle" font-size="11" font-weight="400" fill="#3E2F20">jornadas de até 16 h, trabalho</text><text x="480" y="152" text-anchor="middle" font-size="11" font-weight="400" fill="#3E2F20">infantil, fábricas perigosas,</text><text x="480" y="168" text-anchor="middle" font-size="11" font-weight="400" fill="#3E2F20">desemprego (exército de reserva)</text><text x="320" y="222" text-anchor="middle" font-size="12" font-weight="600" fill="#3E2F20">salário ⇄ trabalho, sob a disciplina do relógio da fábrica</text>
+</svg>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">As duas classes da sociedade industrial e as condições de trabalho do proletariado.</p>`,
+            },
+            {
+              heading: "Movimentos operários",
+              body: `Ludismo (1811)
+• Movimento operário de quebra das máquinas industriais.
+• Os trabalhadores viam as máquinas como culpadas pelo desemprego.
+
+Cartismo (década de 1830)
+• Baseado na Carta do Povo, enviada ao Parlamento inglês.
+• Reivindicava voto universal masculino e participação política dos trabalhadores.
+• Junto com ele, o movimento operário lutava por sindicatos (Trade Unions), salário mínimo, férias e fins de semana remunerados, direito de greve e jornada de 8 horas.
+
+🧠 Diferença: o ludismo atacava as máquinas; o cartismo buscava mudanças pela via política.`,
+              visual: `<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3">
+    <p class="font-display text-ochre font-bold mb-1">Ludismo (1811)</p>
+    <p class="text-espresso text-sm">Movimento operário que quebrava as máquinas, vistas como culpadas pelo desemprego e pelos baixos salários.</p>
+  </div>
+  <div class="rounded-xl bg-cream border border-sand px-3 py-3">
+    <p class="font-display text-ochre font-bold mb-1">Cartismo (década de 1830)</p>
+    <p class="text-espresso text-sm">Baseado na Carta do Povo, enviada ao Parlamento: voto universal masculino e direitos políticos para os trabalhadores. O movimento operário da época também lutava por sindicatos (Trade Unions), salário mínimo, descanso remunerado, direito de greve e jornada de 8 horas.</p>
+  </div>
+</div>
+<p style="text-align:center;font-size:0.78rem;color:#5C4630;margin-top:8px;">Do ataque às máquinas (ludismo) à luta política organizada (cartismo e sindicatos).</p>`,
+            },
+          ],
+          quiz: [
+            { q: "A Revolução Industrial começou em qual país?", options: ["Inglaterra", "França", "Estados Unidos", "Alemanha"], correct: 0 },
+            { q: "Qual destas mudanças é característica da Revolução Industrial?", options: ["Substituição da força humana e animal por máquinas", "Volta à produção artesanal doméstica", "Abandono do carvão mineral", "Fim da divisão do trabalho"], correct: 0 },
+            { q: "Na Revolução Industrial, as matérias-primas animais e vegetais foram trocadas principalmente por:", options: ["Minerais, como carvão e ferro", "Madeira e lã", "Petróleo e plástico", "Algodão e seda"], correct: 0 },
+            { q: "No artesanato, os meios de produção pertencem:", options: ["Ao próprio trabalhador", "Ao capitalista", "Ao Estado", "À Igreja"], correct: 0 },
+            { q: "Na maquinofatura, os meios de produção pertencem:", options: ["Ao capitalista (burguês)", "Ao trabalhador", "Aos camponeses", "Às corporações de ofício"], correct: 0 },
+            { q: "Uma característica da maquinofatura é:", options: ["Grande divisão do trabalho, com cada operário em uma tarefa", "Controle de todas as etapas pelo trabalhador", "Produção dentro de casa", "Ausência de máquinas"], correct: 0 },
+            { q: "Quais revoluções do século XVII levaram a burguesia inglesa ao poder?", options: ["Puritana (1640) e Gloriosa (1688)", "Francesa e Russa", "Industrial e Comercial", "Americana e Haitiana"], correct: 0 },
+            { q: "Como a burguesia inglesa chegou ao poder político?", options: ["Pelo parlamentarismo", "Pelo absolutismo", "Por uma ditadura militar", "Pela Igreja Anglicana"], correct: 0 },
+            { q: "Os Cercamentos contribuíram para a Revolução Industrial porque:", options: ["Expulsaram camponeses, gerando êxodo rural e mão de obra barata", "Aumentaram o número de pequenas propriedades", "Proibiram a criação de ovelhas", "Fecharam as fábricas"], correct: 0 },
+            { q: "Qual destes NÃO é um fator do pioneirismo inglês?", options: ["Mercado interno pequeno e cheio de monopólios", "Política colonial e comercial agressiva", "Carvão mineral e ferro", "Facilidade de crédito"], correct: 0 },
+            { q: "Qual foi o primeiro setor a se industrializar na Inglaterra?", options: ["Têxtil", "Automobilístico", "Eletrônico", "Petroquímico"], correct: 0 },
+            { q: "Qual fonte de energia movimentava as máquinas da Primeira Revolução Industrial?", options: ["Vapor (queima de carvão)", "Eletricidade", "Petróleo", "Energia nuclear"], correct: 0 },
+            { q: "Quais meios de transporte surgiram com a Revolução Industrial?", options: ["Barco a vapor e trem a vapor", "Avião e automóvel", "Caravela e carruagem", "Metrô elétrico e ônibus"], correct: 0 },
+            { q: "A burguesia industrial é definida como a classe que:", options: ["É dona dos meios de produção", "Vende sua força de trabalho", "Vive da terra como servos", "Pertence ao clero"], correct: 0 },
+            { q: "O proletariado é formado por aqueles que:", options: ["Vendem sua força de trabalho para a burguesia", "São donos das fábricas", "Vivem dos impostos", "Controlam os bancos"], correct: 0 },
+            { q: "O que significa dizer que o relógio substituiu o \"tempo da natureza\"?", options: ["O trabalho passou a seguir horários rígidos da fábrica, e não o ritmo do dia e das estações", "Os trabalhadores deixaram de usar relógios", "As fábricas só funcionavam durante o dia", "O campo passou a ter mais trabalho"], correct: 0 },
+            { q: "O \"exército industrial de reserva\" era:", options: ["A massa de desempregados que pressionava os salários para baixo", "O exército que protegia as fábricas", "Um grupo de engenheiros", "A reserva de carvão das indústrias"], correct: 0 },
+            { q: "Qual destas era uma condição de trabalho comum nas fábricas inglesas?", options: ["Jornadas de até 16 horas e trabalho infantil", "Jornada de 8 horas e férias remuneradas", "Salário mínimo garantido por lei", "Ambientes seguros e bem iluminados"], correct: 0 },
+            { q: "O Ludismo (1811) foi um movimento que:", options: ["Quebrava as máquinas industriais", "Pedia voto universal pela Carta do Povo", "Defendia a volta da monarquia absoluta", "Organizava as primeiras fábricas"], correct: 0 },
+            { q: "Por que os luditas atacavam as máquinas?", options: ["Viam as máquinas como culpadas pelo desemprego", "Queriam vender as peças", "Eram contratados pelos burgueses", "As máquinas eram proibidas por lei"], correct: 0 },
+            { q: "O Cartismo tinha como base:", options: ["A Carta do Povo, enviada ao Parlamento", "A Declaração dos Direitos do Homem", "A Bíblia", "O Manifesto Comunista de 1917"], correct: 0 },
+            { q: "Qual reivindicação política central do Cartismo?", options: ["Voto universal masculino", "Volta do absolutismo", "Fim do Parlamento", "Voto apenas para proprietários"], correct: 0 },
+            { q: "Além do voto, o movimento operário da época lutava por:", options: ["Sindicatos, salário mínimo, direito de greve e jornada de 8 horas", "Jornadas maiores e fim dos sindicatos", "Trabalho infantil e salários menores", "Fim das fábricas e volta ao campo"], correct: 0 },
+            { q: "A principal diferença entre Ludismo e Cartismo é que:", options: ["O Ludismo atacava as máquinas e o Cartismo buscava mudanças pela via política", "Os dois defendiam a quebra de máquinas", "O Cartismo era a favor dos patrões", "O Ludismo pedia voto universal"], correct: 0 },
+            { q: "As Trade Unions eram:", options: ["Sindicatos de trabalhadores", "Companhias de comércio colonial", "Bancos ingleses", "Fábricas têxteis"], correct: 0 },
+          ],
+        },
       ],
     },
 );
